@@ -4,16 +4,14 @@ The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
-A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/conclusion.aux
-A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 I found no \citation commands---while reading file dissertation.aux
 Database file #1: references.bib
 You've used 0 entries,
             2229 wiz_defined-function locations,
-            518 strings with 4130 characters,
+            516 strings with 4087 characters,
 and the built_in function-call counts, 17 in all, are:
 = -- 0
 > -- 0

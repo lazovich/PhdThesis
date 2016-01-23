@@ -8,33 +8,20 @@
 \contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}The ATLAS Detector}{4}{section.2.2}
-\contentsline {chapter}{\numberline {3}Object reconstruction in ATLAS}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Lepton reconstruction}{6}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Electron reconstruction}{6}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Muon reconstruction}{6}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Jet reconstruction and b-tagging}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Jet reconstruction}{6}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}b-tagging}{6}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Missing transverse energy}{6}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Calorimeter-based}{6}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Track-based}{6}{subsection.3.3.2}
-\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ with the ATLAS detector in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{7}{part.2}
-\contentsline {chapter}{\numberline {4}$H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ Analysis Strategy}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}Production and decay modes}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Main backgrounds}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}Signal and control region definitions}{8}{section.4.3}
-\contentsline {section}{\numberline {4.4}Measuring parameters of interest}{8}{section.4.4}
-\contentsline {chapter}{\numberline {5}The role of $WW$ in the Higgs discovery}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6}Background reduction and estimation in the same-flavor final state}{10}{chapter.6}
-\contentsline {chapter}{\numberline {7}Evidence for VBF production}{11}{chapter.7}
-\contentsline {chapter}{\numberline {8}Final Run 1 results}{12}{chapter.8}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{13}{part.3}
-\contentsline {chapter}{\numberline {9}Run 2 detector upgrades}{14}{chapter.9}
-\contentsline {section}{\numberline {9.1}IBL and improved b-tagging performance}{14}{section.9.1}
-\contentsline {chapter}{\numberline {10}Resolved channel}{15}{chapter.10}
-\contentsline {chapter}{\numberline {11}Boosted Channel}{16}{chapter.11}
-\contentsline {chapter}{\numberline {12}Results with 2015 dataset}{17}{chapter.12}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{18}{part.4}
-\contentsline {chapter}{\numberline {13}Conclusion}{19}{chapter.13}
-\contentsline {chapter}{Appendix \numberline {A}ATLAS New Small Wheel Upgrade}{20}{Appendix.1.A}
-\contentsline {chapter}{References}{21}{chapter*.4}
+\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ with the ATLAS detector in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{5}{part.2}
+\contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ Analysis Strategy}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal and background topologies}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}Object definitions}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Signal region cuts}{6}{section.3.3}
+\contentsline {section}{\numberline {3.4}Statistical treatment}{6}{section.3.4}
+\contentsline {chapter}{\numberline {4}Measurement of gluon fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{8}{chapter.5}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$results}{9}{chapter.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{10}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{11}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{12}{chapter.8}
+\contentsline {chapter}{\numberline {9}Search for Higgs pair production in resolved final states}{13}{chapter.9}
+\contentsline {chapter}{\numberline {10}Combined results with Run 2 2015 dataset}{14}{chapter.10}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{15}{part.4}
+\contentsline {chapter}{\numberline {11}Conclusion}{16}{chapter.11}
+\contentsline {chapter}{References}{17}{chapter*.4}

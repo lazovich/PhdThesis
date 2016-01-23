@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 NOV 2015 17:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 JAN 2016 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,8 +1052,8 @@ Package color Info: Redefining color chaptergrey on input line 131.
 Package hyperref Info: Option `colorlinks' set `true' on input line 139.
 )
 (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/conclusion.aux)
-(./chapters/appendixA.aux) (./endmatter/colophon.aux))
+(./chapters/chapter2.aux) (./chapters/conclusion.aux) (./endmatter/colophon.aux
+))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1076,8 +1076,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 6.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -1186,43 +1185,37 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 (Font)              scaled to size 14.4pt on input line 2.
 
-Overfull \hbox (10.50116pt too wide) in paragraph at lines 21--21
+Overfull \hbox (10.50116pt too wide) in paragraph at lines 11--11
 [][] [][]\EU1/EBGaramond(2)/bx/n/14.4 II Observation and measurement of Higgs b
 oson decays to $[][]\OMS/cmsy/m/n/14.4 ^^C$ \EU1/EBGaramond(2)/bx/n/14.4 with 
  []
 
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/sc' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 22.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 12.
 
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 22.
+(Font)              scaled to size 10.25006pt on input line 12.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/sc' will be
-(Font)              scaled to size 10.25006pt on input line 22.
+(Font)              scaled to size 10.25006pt on input line 12.
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 22.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 12.
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 22.
+(Font)              scaled to size 8.0pt on input line 12.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 6.0pt on input line 22.
+(Font)              scaled to size 6.0pt on input line 12.
 
-Overfull \hbox (0.61201pt too wide) in paragraph at lines 28--28
- [][] [][][]\EU1/EBGaramond(2)/m/sc/12 Background reduction and estimation in t
-he same-flavor final state[][] []  
- []
-
-[4
-
-]
-Overfull \hbox (21.56825pt too wide) in paragraph at lines 31--31
+Overfull \hbox (21.56825pt too wide) in paragraph at lines 20--20
 [][] [][]\EU1/EBGaramond(2)/bx/n/14.4 III Search for Higgs pair production in t
 he $[][] \OMS/cmsy/m/n/14.4 ! [][][][]$ \EU1/EBGaramond(2)/bx/n/14.4 channel in
  LHC 
  []
 
-)
+[4
+
+])
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
@@ -1274,32 +1267,6 @@ Chapter 2.
 
 
 ]
-\openout2 = `chapters/chapter3.aux'.
-
- (./chapters/chapter3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
-Chapter 3.
-) [5
-
-
-
-] [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 31.
@@ -1320,11 +1287,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 31.
 
-[7
+[5
 
 
 ]
-Chapter 4.
+Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 33.
@@ -1359,22 +1326,137 @@ LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
 (Font)              scaled to size 21.25179pt on input line 33.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 33.
-[8
+[6
+
+]
+Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 40.
+
+[7
 
 ]
 Chapter 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 40.
+(hyperref)                removing `math shift' on input line 42.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 40.
+(hyperref)                removing `\rightarrow' on input line 42.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 42.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 42.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 42.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 42.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 42.
+
+[8
+
+]
+Chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ell' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 44.
 
 [9
 
 ]
-Chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 47.
+
 [10
 
 ]
@@ -1386,80 +1468,28 @@ Chapter 8.
 [12
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathaccent' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathaccent' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 49.
-
+Chapter 9.
 [13
 
 ]
-Chapter 9.
+Chapter 10.
 [14
 
-]
-Chapter 10.
-[15
-
-]
-Chapter 11.
-[16
-
-]
-Chapter 12.
-[17
-
-] [18
+] [15
 
 ]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
-Chapter 13.
-) [19
-
-
-]
-\openout2 = `chapters/appendixA.aux'.
-
- (./chapters/appendixA.tex
-Appendix A.
-) [20
-
+Chapter 11.
+) [16
 
 
 ] (./dissertation.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [21
+) [17
 
 
 
@@ -1548,30 +1578,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 \EU1/EBGaramond(2)/bx/n/10.95 or from its lead author, Jordan Suchow, at
  []
 
-) [22
+) [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./dissertation.aux (./chapters/introduction.aux)
-(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
-(./chapters/conclusion.aux) (./chapters/appendixA.aux)
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/conclusion.aux)
 (./endmatter/colophon.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 24594 strings out of 493706
- 452940 string characters out of 6145769
- 506197 words of memory out of 5000000
- 27578 multiletter control sequences out of 15000+600000
+ 24570 strings out of 493706
+ 452494 string characters out of 6145769
+ 505406 words of memory out of 5000000
+ 27568 multiletter control sequences out of 15000+600000
  19662 words of font info for 139 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,11n,104p,10481b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,104p,10481b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (30 pages).
+Output written on dissertation.pdf (26 pages).

@@ -8,27 +8,20 @@
 \BOOKMARK [0][-]{chapter.2}{The\040ATLAS\040detector\040and\040the\040Large\040Hadron\040Collider}{part.1}% 8
 \BOOKMARK [1][-]{section.2.1}{The\040Large\040Hadron\040Collider}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{The\040ATLAS\040Detector}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Object\040reconstruction\040in\040ATLAS}{part.1}% 11
-\BOOKMARK [1][-]{section.3.1}{Lepton\040reconstruction}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{Jet\040reconstruction\040and\040b-tagging}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{Missing\040transverse\040energy}{chapter.3}% 14
-\BOOKMARK [-1][-]{part.2}{II\040Observation\040and\040measurement\040of\040Higgs\040boson\040decays\040to\040WW*\040with\040the\040ATLAS\040detector\040in\040LHC\040Run\0401\040at\040s\040=\0407\040and\0408\040TeV}{}% 15
-\BOOKMARK [0][-]{chapter.4}{HWW*"ν"ν Analysis Strategy}{part.2}% 16
-\BOOKMARK [1][-]{section.4.1}{Production\040and\040decay\040modes}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Main\040backgrounds}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.3}{Signal\040and\040control\040region\040definitions}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.4}{Measuring\040parameters\040of\040interest}{chapter.4}% 20
-\BOOKMARK [0][-]{chapter.5}{The\040role\040of\040WW\040in\040the\040Higgs\040discovery}{part.2}% 21
-\BOOKMARK [0][-]{chapter.6}{Background\040reduction\040and\040estimation\040in\040the\040same-flavor\040final\040state}{part.2}% 22
-\BOOKMARK [0][-]{chapter.7}{Evidence\040for\040VBF\040production}{part.2}% 23
-\BOOKMARK [0][-]{chapter.8}{Final\040Run\0401\040results}{part.2}% 24
-\BOOKMARK [-1][-]{part.3}{III\040Search\040for\040Higgs\040pair\040production\040in\040the\040HHb"7016bb"7016b\040channel\040in\040LHC\040Run\0402\040at\040s\040=\04013\040TeV}{}% 25
-\BOOKMARK [0][-]{chapter.9}{Run\0402\040detector\040upgrades}{part.3}% 26
-\BOOKMARK [1][-]{section.9.1}{IBL\040and\040improved\040b-tagging\040performance}{chapter.9}% 27
-\BOOKMARK [0][-]{chapter.10}{Resolved\040channel}{part.3}% 28
-\BOOKMARK [0][-]{chapter.11}{Boosted\040Channel}{part.3}% 29
-\BOOKMARK [0][-]{chapter.12}{Results\040with\0402015\040dataset}{part.3}% 30
-\BOOKMARK [-1][-]{part.4}{IV\040Looking\040ahead}{}% 31
-\BOOKMARK [0][-]{chapter.13}{Conclusion}{part.4}% 32
-\BOOKMARK [0][-]{Appendix.1.A}{Appendix\040ATLAS\040New\040Small\040Wheel\040Upgrade}{part.4}% 33
-\BOOKMARK [0][-]{chapter*.4}{References}{part.4}% 34
+\BOOKMARK [-1][-]{part.2}{II\040Observation\040and\040measurement\040of\040Higgs\040boson\040decays\040to\040WW*\040with\040the\040ATLAS\040detector\040in\040LHC\040Run\0401\040at\040s\040=\0407\040and\0408\040TeV}{}% 11
+\BOOKMARK [0][-]{chapter.3}{HWW*"ν"ν Analysis Strategy}{part.2}% 12
+\BOOKMARK [1][-]{section.3.1}{Signal\040and\040background\040topologies}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Object\040definitions}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{Signal\040region\040cuts}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.4}{Statistical\040treatment}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Measurement of gluon fusion production of HWW*"ν"ν}{part.2}% 17
+\BOOKMARK [0][-]{chapter.5}{Observation of Vector Boson Fusion production of HWW*"ν"ν}{part.2}% 18
+\BOOKMARK [0][-]{chapter.6}{Combined Run 1 HWW*"ν"νresults}{part.2}% 19
+\BOOKMARK [-1][-]{part.3}{III\040Search\040for\040Higgs\040pair\040production\040in\040the\040HHb"7016bb"7016b\040channel\040in\040LHC\040Run\0402\040at\040s\040=\04013\040TeV}{}% 20
+\BOOKMARK [0][-]{chapter.7}{Search\040overview}{part.3}% 21
+\BOOKMARK [0][-]{chapter.8}{Search\040for\040Higgs\040pair\040production\040in\040boosted\040final\040states}{part.3}% 22
+\BOOKMARK [0][-]{chapter.9}{Search\040for\040Higgs\040pair\040production\040in\040resolved\040final\040states}{part.3}% 23
+\BOOKMARK [0][-]{chapter.10}{Combined\040results\040with\040Run\0402\0402015\040dataset}{part.3}% 24
+\BOOKMARK [-1][-]{part.4}{IV\040Looking\040ahead}{}% 25
+\BOOKMARK [0][-]{chapter.11}{Conclusion}{part.4}% 26
+\BOOKMARK [0][-]{chapter*.4}{References}{part.4}% 27
