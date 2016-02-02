@@ -1,0 +1,760 @@
+%
+% Conventions
+% ===========
+%   . Definition order matters!
+%   . Know the difference between \rm, \textrm, and \mathrm
+%   . Use consistent notation
+%   . Use \newcommand (\def is not allowed in RevTex)
+%   . Use small space \, instead of big space \
+%   . "vp" prefix denotes momentum vector
+%
+% Table of contents
+% =================
+% - Commands with arguments
+%
+% - Math
+%   . Standard
+%   . Bent arrow
+%
+% - Units, etc.
+%   . Units
+%   . Known particle mass symbols
+%   . MC generators
+%
+% - Analysis specific
+%   . Njet
+%   . Decay channels
+%   . Backgrounds
+%   . Yields
+%   . Sequential decays
+%
+% - Variables
+%   . Standard
+%   . MET
+%   . Lepton
+%   . Higgs topo 
+%   . VBF
+%
+% - Documentation
+%   . Horizontal lines
+%   . Margin comments
+%   . Hyphenation
+%
+
+% -----------------------------------------------------------------------------
+% Commands with arguments
+
+\newcommand\ABS  [1]{|\,{#1}\,|}            % absolute value
+\newcommand\CEN  [1]{C_{#1}}                % centrality
+\newcommand\MBF  [1]{\hbox{\boldmath $#1$}} % boldface lower-case Greek
+\newcommand\SPACE[1]{\,{#1}\,}              % small space around
+\newcommand\MBFr[1]{\multicolumn{1}{r}{\MBF{#1}}}
+\newcommand\MCOL[2]{\multicolumn{#1}{l}{#2}}
+\newcommand\MCOLc[2]{\multicolumn{#1}{c}{#2}}
+\newcommand\MROW[2]{\multirow{#1}{*}{#2}}
+%
+\newcommand\mcolz{\multicolumn{2}{c}{~-}}
+
+% -----------------------------------------------------------------------------
+% Math
+
+% Derivative is upright
+\newcommand\D      {{\rm d}}
+
+% Standard symbols
+\newcommand\TO     {\SPACE{\rightarrow}}
+\newcommand\MINUS  {\SPACE{-}}
+\newcommand\PLUS   {\SPACE{+}}
+\newcommand\OTIMES {\SPACE{\otimes}}
+\newcommand\CDOT   {\SPACE{\cdot}}
+\newcommand\CAP    {\SPACE{\cap}}
+\newcommand\CUP    {\SPACE{\cup}}
+\newcommand\PM     {\SPACE{\pm}}
+\newcommand\EQUIV  {\SPACE{\equiv}}
+\newcommand\EQ     {\SPACE{=}}
+\newcommand\APPROX {\SPACE{\approx}}
+\newcommand\GT     {\SPACE{>}}
+\newcommand\LT     {\SPACE{<}}
+\newcommand\GE     {\SPACE{\ge}}
+\newcommand\LE     {\SPACE{\le}}
+\newcommand\GG     {\SPACE{\gg}}
+\newcommand\LL     {\SPACE{\mathchar"321C}}
+\newcommand\GTRSIM {\SPACE{\gtrsim}}
+\newcommand\TIMES  {\SPACE{\times}}
+\newcommand\data   {\rm data}
+%	\newcommand\RTO    {\,{\raisebox{7px}{\rotatebox{180}{$\Lsh$}}}\,} % angled right arrow
+
+% Arrows
+%   The original macro was written by Chris Quigg -> modified by tmhong.
+%   This creates bent arrows to write sequential decays 
+%   1 --> 2 3
+%         | |--> 4
+%         |--> 5
+\newcommand\bentarrow{\mbox{$\:\raisebox{1.4ex}{\rlap{$\big\vert$}}\!\rightarrow\,$}}
+\newcommand\bothdk[5]{
+  \begin{array}{r c l}
+    #1 & \!\rightarrow\! & #2 #3 \\
+    & & \:\raisebox{1.4ex}{\rlap{$\big\vert$}}\raisebox{-0.5ex}{$\big\vert$}%
+    \! \phantom{#2}\!\bentarrow #4 \\
+    & & \:\raisebox{1.4ex}{\rlap{$\big\vert$}}\!\rightarrow #5
+  \end{array}
+}
+
+% -----------------------------------------------------------------------------
+% Units, etc.
+
+% Letters
+%\newcommand\myphi  {\protect\raisebox{0.5px}{\ensuremath{\phi}}}
+\newcommand\myphi  {\phi}
+\newcommand\myeta  {\protect\raisebox{0.5px}{\ensuremath{\eta}}}
+\newcommand\myy    {\protect\raisebox{0.5px}{\ensuremath{y}}}
+\newcommand\mynu   {\protect\raisebox{0.5px}{\ensuremath{\nu}}}
+\newcommand\myk    {\mbox{k}}
+
+% Units
+\newcommand\rad    {\mbox{\,rad}}
+\newcommand\cm     {\mbox{\,cm}}
+\newcommand\mm     {\mbox{\,mm}}
+\newcommand\ns     {\mbox{\,ns}}
+\newcommand\seconds{\mbox{\,s}}
+\newcommand\mb     {\mbox{\,mb}}
+\newcommand\pb     {\mbox{\,pb}}
+\newcommand\fb     {\mbox{\,fb}}
+\newcommand\iab    {\mbox{\,ab$^{-1}$}}
+\newcommand\ifb    {\mbox{\,fb$^{-1}$}}
+\newcommand\inb    {\mbox{\,nb$^{-1}$}}
+\newcommand\Tesla  {\mbox{\,T}}
+\newcommand\Teslam {\mbox{\,T${\CDOT}$m}}
+\newcommand\Hz     {\ifmmode{\,\mathrm{Hz}}\else
+                      \,\textrm{Hz}\fi}%
+\newcommand\TeV    {\ifmmode{\,\mathrm{Te\kern -0.1em V}}\else
+                      \,\textrm{Te\kern -0.1em V}\fi}%
+\newcommand\GeV    {\ifmmode{\,\mathrm{Ge\kern -0.1em V}}\else
+                      \,\textrm{Ge\kern -0.1em V}\fi}%
+\newcommand\MeV    {\ifmmode{\,\mathrm{Me\kern -0.1em V}}\else
+                      \,\textrm{Me\kern -0.1em V}\fi}%
+
+% Stat
+\newcommand\RMS          {r.m.s{.}}
+\newcommand\CLs          {\mathrm{CL}_{\tiny S}}
+\newcommand\likelihood   {\mathcal{L}}
+\newcommand\Lmax         {\likelihood_\mathrm{max}}
+\newcommand\BF           {\mathcal{B}}
+\newcommand\Acc          {\mathcal{A}}
+\newcommand\Cor          {\mathcal{C}}
+\newcommand\Lint         {\mbox{\raisebox{2pt}{\footnotesize$\int$}} L\,{\rm{d}}t}
+\newcommand\sigmu        {\upmu}
+\newcommand\sigmuH       {\sigmu_{\scH}}
+\newcommand\qmu          {q_\sigmu}
+\newcommand\qzero        {q_{\mbox{\tiny $0$}}}
+\newcommand\pzero        {p_{\mbox{\tiny $0$}}}
+% \newcommand\qzero        {q_0}
+% \newcommand\pzero        {p_0}
+\newcommand\hatsigmu     {\hat{\sigmu}}
+\newcommand\responsefn   {\mynu}
+\newcommand\nuipar       {\theta}
+\newcommand\nuipars      {\MBF{\nuipar}}
+\newcommand\hatnuipars   {\hat{\nuipars}}
+\newcommand\hatnuipar    {\hat{\nuipar}}
+\newcommand\hatnuiparsmu {\hat{\nuipars}_\sigmu}
+\newcommand\Nuipar       {\vartheta}
+\newcommand\Nuipars      {\MBF{\Nuipar}}
+\newcommand\kF           {\kappa_{\mbox{\tiny $F$}}}
+\newcommand\kV           {\kappa_{\mbox{\tiny $V$}}}
+
+% MC generators
+\newcommand\JETVHETO     {{\sc JetVHeto}}
+\newcommand\PROPHECY     {{\sc prophecy}}
+\newcommand\MCFM         {{\sc mcfm}}
+\newcommand\HAWK         {{\sc hawk}}
+\newcommand\POWHEG       {{\sc powheg}}
+\newcommand\PYTHIA       {{\sc pythia}}
+\newcommand\MINLO        {{\sc minlo}}
+\newcommand\VBFATNLO     {{\sc vbf@nlo}}
+\newcommand\VBFATNNLO    {{\sc vbf@nnlo}}
+\newcommand\HERWIG       {{\sc herwig}}
+\newcommand\ALPGEN       {{\sc alpgen}}
+\newcommand\MADGRAPH     {{\sc madgraph}}
+\newcommand\MCATNLO      {{\sc mc@nlo}}
+\newcommand\aMCATNLO     {a{\sc mc@nlo}}
+\newcommand\GGTOWW       {{\sc gg2ww}}
+\newcommand\GGTOVV       {{\sc gg2vv}}
+\newcommand\DYNNLO       {{\sc dynnlo}}
+\newcommand\SHERPA       {{\sc sherpa}}
+\newcommand\ACERMC       {{\sc acermc}}
+\newcommand\JIMMY        {{\sc jimmy}}
+\newcommand\HDECAY       {{\sc hdecay}}
+\newcommand\GEANT        {{\sc geant}}
+\newcommand\HRES         {{\sc hres}}
+\newcommand\TOPPP        {{\sc top\raisebox{1pt}{\small$++$}}}
+\newcommand\CT           {{\sc ct}}
+\newcommand\CTEQ         {{\sc cteq}}
+\newcommand\MSTW         {{\sc mstw}}
+\newcommand\MRST         {{\sc mrst}}
+\newcommand\NNPDF        {{\sc nnpdf}}
+
+% Known particle mass symbols
+\newcommand\mH           {\Mass_H}
+\newcommand\mW           {\Mass_W}
+\newcommand\mZ           {\Mass_Z}
+\newcommand\mZwindow     {\ABS{\mll{\MINUS}\mZ}{\LT}}
+\newcommand\mE           {\Mass_e}
+\newcommand\alphaS       {\alpha_{\tiny\textrm{S}}}
+\newcommand\bjet         {\mbox{$b$-jet}}
+
+% -----------------------------------------------------------------------------
+% HWW analysis specific
+
+% Decay channels
+\newcommand\pp           {pp}
+\newcommand\emu          {e\mu}
+\newcommand\mue          {\mu e}
+\newcommand\evmv         {e\nu_e \mu\nu_\mu}
+\newcommand\mvev         {\mu\nu_\mu e\nu_e}
+\newcommand\mvmv         {\mu^-\nu_\mu\mu^+\bar\nu_\mu}
+\newcommand\evev         {e^-\nu_e e^+\bar\nu_e}
+\newcommand\llprime      {\ell\ell^{\prime}}
+\newcommand\lprimelprime {\ell^{\prime}\ell^{\prime}}
+\renewcommand\ll         {\ell\ell} % special
+\newcommand\ellj           {\ell j}
+\newcommand\llj          {\ell\ellj}
+\newcommand\lljj         {\ll jj}
+
+% Derived names
+\newcommand\DFchan       {\emu}
+\newcommand\SFchan       {ee/\mu\mu}
+
+% Standard backgrounds
+\newcommand\piz          {\pi^0}
+\newcommand\pipm         {\pi^\pm}
+\newcommand\Kpm          {K^\pm}
+\newcommand\Ups          {\mit\Upsilon}
+\newcommand\Jpsi         {J/\psi}
+\newcommand\WW           {WW}
+\newcommand\WWs          {WW^\ast}
+\newcommand\ZZs          {ZZ^\ast}
+\newcommand\WWsmaybe     {WW^{(\ast)}}
+\newcommand\VV           {VV}
+\newcommand\Wj           {W\!j}
+\newcommand\Zj           {Z\!j}
+\newcommand\jj           {jj}
+\newcommand\qq           {q\bar{q}}
+\newcommand\Wg           {W\gamma}
+\newcommand\Zg           {Z\gamma}
+\newcommand\Zgs          {Z\gstar}
+\newcommand\gstar        {\gamma^{\ast}}
+\newcommand\Wgs          {W\gstar}
+\newcommand\Wgsmaybe     {W\gamma^{(\ast)}}
+\newcommand\ZDY          {Z/\gstar}
+\newcommand\ttbar        {t\bar{t}}
+\newcommand\tautau       {\tau\tau}
+\newcommand\Zmaybe       {Z^{(\ast)}}
+\newcommand\gmaybe       {g^{(\ast)}}
+\newcommand\WZ           {W\!Z}
+\newcommand\ZZ           {ZZ}
+%	\newcommand\ZZs          {ZZ^\ast}
+\newcommand\WZmaybe      {WZ^{(\ast)}}
+
+% Non-conventional backgrounds
+\newcommand\nonDY        {{\rm non\textrm{-}DY}}
+\newcommand\nonWj        {{\rm non\textrm{-}}\Wj}
+\newcommand\DY           {{\rm DY}}
+\newcommand\scMC         {{\textsc{\scriptsize mc}}}
+\newcommand\scggF        {{\tiny\rm gg}{\textsc{\scriptsize f}}}
+\newcommand\scVBF        {{\textsc{\scriptsize vbf}}}
+\newcommand\scVX         {{\textsc{\scriptsize vbf}}}%+vh}}}
+\newcommand\scVBFVH   {{\textsc{\scriptsize vbf+vh}}}
+\newcommand\scVH         {{\textsc{\scriptsize vh}}}
+\newcommand\ggF          {{\rm ggF}}
+\newcommand\VBF          {{\rm VBF}}
+\newcommand\VH           {{\rm VH}}
+\newcommand\WH           {{\rm WH}}
+\newcommand\VX           {{\rm VBF}}%+VH}}
+\newcommand\ttH          {{\rm ttH}}
+\newcommand\all          {{\rm all}}
+\newcommand\obs          {{\rm obs}}
+\renewcommand\exp        {{\rm exp}}
+\newcommand\stat         {{\rm stat}}
+\newcommand\syst         {{\rm syst}}
+\newcommand\total        {{\rm total}}
+\newcommand\fiducial     {{\rm fid}}
+\newcommand\contam       {{\rm contam}}
+\newcommand\hypo         {{\rm hypo}}
+\newcommand\est          {{\rm est}}
+\newcommand\estalpha     {\est,\,\alpha}
+\renewcommand\top        {{\rm top}}
+\newcommand\fakes        {{\rm misid}}
+\newcommand\nontop       {{\rm non\textrm{-}top}} % need textrm for hyphen
+\newcommand\nonWW        {{{\rm non\textrm{-}}\scWW}} % need textrm for hyphen
+\newcommand\rest         {{\rm rest}}
+\newcommand\btag         {b{\textrm{\tiny -}{\rm tag}}}
+
+% Abbreviation
+\newcommand\Fakes        {{\rm Misid{.}}}
+\newcommand\Wjets        {\ensuremath{W}{+}{\rm jets}}
+\newcommand\Zjets        {\ensuremath{Z}{+}{\rm jets}}
+\newcommand\Multijet     {{\rm multijet}}
+
+% Small caps for sub/superscripts
+
+\newcommand\scnonWW      {{{\rm non\textrm{\tiny -}}\scWW}} % need textrm for hyphen
+\newcommand\scnonDY      {\rm non\textrm{\footnotesize -}{\textsc{\footnotesize dy}}}
+\newcommand\scDY         {{\textsc{\footnotesize dy}}}
+\newcommand\altscnonDY   {\rm non\textrm{\tiny -}{\textsc{\tiny dy}}}
+\newcommand\altscDY      {{\textsc{\tiny dy}}}
+\newcommand\scS          {\mbox{\tiny{$S$}}}
+\newcommand\scB          {\mbox{\tiny{$B$}}}
+\newcommand\scH          {\mbox{\tiny{$H$}}}
+\newcommand\scWW         {\mbox{\tiny{$WW$}}}
+\newcommand\scWj         {\mbox{\tiny{$W\!j$}}}
+
+% N_x
+\newcommand\Ntrk         {n_{\rm trk}}
+\newcommand\Ncal         {n_{\rm cal}}
+\newcommand\Nlep         {n_\ell}
+\newcommand\Njet         {n_j}
+\newcommand\hatNjet      {\hat{n}_{j}}
+\newcommand\hatNextrajet {\hat{n}_{{\rm extra\textrm{\footnotesize -}}j}} % need textrm for hyphen
+\newcommand\Nextrajet    {n_{{\rm extra\textrm{\footnotesize -}}j}} % need textrm for hyphen
+\newcommand\Nbjet        {n_b}
+\newcommand\NbjetEQzero  {n_b{\EQ}0}
+\newcommand\NbjetEQone   {n_b{\EQ}1}
+\newcommand\NbjetEQtwo   {n_b{\EQ}2}
+\newcommand\NbjetGEone   {n_b{\GE}1}
+\newcommand\NjetEQzero   {n_j{\EQ}0}
+\newcommand\NjetEQone    {n_j{\EQ}1}
+\newcommand\NjetEQtwo    {n_j{\EQ}2}
+\newcommand\NjetGEtwo    {n_j{\GE}2}
+\newcommand\NjetGEthree  {n_j{\GE}3}
+\newcommand\NjetGTtwo    {n_j{\GT}2}
+\newcommand\NjetLEone    {n_j{\LE}1}
+\newcommand\NjetLEtwo    {n_j{\LE}2}
+\newcommand\NjetGEone    {n_j{\GE}1}
+\newcommand\NjetGEzero   {n_j{\GE}0}
+\newcommand\NjetEQzeroone{\NjetEQzero{\rm\ and\ }\NjetEQone}
+\newcommand\NjetEQonetwo {\NjetEQone {\rm\ and\ }{\GE}\NjetEQtwo}
+\newcommand\NjetAll      {\NjetEQzero, 1, {\rm\ and }{\GE}2}
+
+% Yields - total
+\newcommand\Nexp         {N_{\rm exp}}
+\newcommand\Nobs         {N_{\rm obs}}
+\newcommand\Nbkg         {N_{\rm bkg}}
+\newcommand\Nsig         {N_{\rm sig}}
+
+% Yields - backgro
+\newcommand\NHiggs       {N_{\rm Higgs}^{125}}
+\newcommand\Nother       {N_{\rm other}}
+\newcommand\NggF         {N_{\rm ggF}}
+\newcommand\NVBF         {N_{\rm VBF}}
+\newcommand\NVH          {N_{\rm VH}}
+\newcommand\NVBFVH       {N_{\rm VBF}}
+\newcommand\NWW          {N_{\WW}}
+\newcommand\NDY          {N_{\scDY}}
+\newcommand\NVV          {N_{\VV}}
+\newcommand\NWj          {N_{\Wj}}
+\newcommand\Njj          {N_{\jj}}
+\newcommand\Nttbar       {N_{\ttbar}}
+%\newcommand\Nst          {N_{\rm st}}
+\newcommand\Nt           {N_{t}}
+\newcommand\Nll          {N_{\SFchan}}
+\newcommand\Ntautau      {N_{\tautau}}
+\newcommand\NZtt         {N_{Z\tautau}}
+
+\newcommand\Ndiboson     {N_{\rm diboson}}
+\newcommand\Ntop         {N_{\rm top}}
+\newcommand\Nfakes       {N_{\rm misid}}
+\newcommand\Ndy          {N_{\rm DY}}
+\newcommand\Ndrellyan    {N_{\rm Drell\textrm{\footnotesize -}Yan}}
+\newcommand\Nrest        {N_{\rm rest}}
+\newcommand\NWWqcd       {\NWW^\textrm{\tiny QCD}} % need textrm here
+\newcommand\NWWew        {\NWW^\textrm{\tiny EW}} % need textrm here
+\newcommand\Ntautauqcd   {\Ntautau^\textrm{\tiny QCD}} % need textrm here
+\newcommand\Ntautauew    {\Ntautau^\textrm{\tiny EW}} % need textrm here
+\newcommand\Nllqcd       {\Nll^\textrm{\tiny QCD}} % need textrm here
+\newcommand\Nllew        {\Nll^\textrm{\tiny EW}} % need textrm here
+\newcommand\Ndibosonqcd  {\Ndiboson^\textrm{\tiny QCD}} % need textrm here
+\newcommand\Ndibosonew   {\Ndiboson^\textrm{\tiny EW}} % need textrm here
+
+% Regions
+\newcommand\aux          {'}%{\textrm{\footnotesize -}{\rm aux}}
+\newcommand\SR           {\textrm{\footnotesize\sc sr}}
+\newcommand\CR           {\textrm{\footnotesize\sc cr}}
+\newcommand\MC           {\textrm{\footnotesize\sc mc}}
+\newcommand\pass         {{\rm pass}}
+\newcommand\fail         {{\rm fail}}
+
+\newcommand\CRmc         {\textsc{mc}}
+\newcommand\CRnorm       {\textsc{NR}}
+\newcommand\CRdata       {\textsc{data}}
+
+% NCR, NSR
+\newcommand\NMC          {N_{\MC}}
+\newcommand\BSR          {B_{\SR}}
+\newcommand\BCR          {B_{\CR}}
+\newcommand\NSR          {N_{\SR}}
+\newcommand\NCR          {N_{\CR}}
+\newcommand\ZCR          {Z\CR}
+%\newcommand\NallB        {N_{\all''}}
+\newcommand\hatB         {\hat{B}}
+\newcommand\hatN         {\hat{N}}
+\newcommand\hatBSR       {\hatB_{\SR}}
+\newcommand\hatBCR       {\hatB_{\CR}}
+\newcommand\hatNSR       {\hatN_{\SR}}
+\newcommand\hatNCR       {\hatN_{\CR}}
+\newcommand\Bpass          {B_{\pass}}
+\newcommand\Bfail          {B_{\fail}}
+\newcommand\Npass          {N_{\pass}}
+\newcommand\Nfail          {N_{\fail}}
+\newcommand\hatBpass       {\hatB_{\pass}}
+\newcommand\hatBfail       {\hatB_{\fail}}
+\newcommand\hatNpass       {\hatN_{\pass}}
+\newcommand\hatNfail       {\hatN_{\fail}}
+
+% Sequential decays
+\newcommand\jet          {{\rm jet}}
+\newcommand\ellprime     {\ell'}
+\newcommand\nuprime      {\nu'}
+\newcommand\lvlv         {\ell\nu\ell\nu}
+\newcommand\tvtv         {\tau\nu_\tau\tau\nu_\tau}
+\newcommand\Wlv          {W{\TO}\ell\nu}
+\newcommand\tlvv         {\tau{\TO}\ell\nu\bar{\nu}}
+\newcommand\WWlvlv       {\WWs{\TO}\lvlv}
+\newcommand\WWtvtv       {\WWs{\TO}\tvtv}
+\newcommand\WWll         {\WW{\TO}\ell\ellprime\nu\textrm{s}}
+\newcommand\Htt          {H{\TO}\tautau}
+\newcommand\Hff          {H{\TO}f\bar{f}}
+\newcommand\Hgg          {H{\TO} gg}
+\newcommand\Hgamgam      {H{\TO} \gamma\gamma}
+\newcommand\HVV          {H{\TO} VV}
+\newcommand\HWW          {H{\TO}\WWs}
+\newcommand\HZZ          {H{\TO}\ZZs}
+\newcommand\HWWtvtv      {H{\TO}\WWtvtv}
+\newcommand\HWWlvlv      {H{\TO}\WWlvlv}
+\newcommand\HWWleadsubl  {H{\TO}\WWs{\TO}\ell_1\nu_1\ell_2\nu_2}
+\newcommand\WWevmv       {\WWs{\TO}{e\nu\mu\nu}}
+\newcommand\HWWevmv      {H{\TO}\WWevmv}
+\newcommand\Zll          {Z{\TO}ee,\,\mu\mu}
+\newcommand\Zmumug       {Z{\TO}\mu\mu\gamma}
+\newcommand\ZDYll        {\ZDY{\TO}ee,\,\mu\mu}
+\newcommand\ZDYtt        {\ZDY{\TO}\tau\tau}
+\newcommand\ZDYllprime   {\ZDY{\TO}\ell\ellprime}
+\newcommand\ZDYttllprime {\ZDY{\TO}\tau\tau{\TO}\ell\ellprime\nu\textrm{s}}
+\newcommand\ZDYttemu     {\ZDY{\TO}\tau\tau{\TO}e\mu\nu\textrm{s}}
+\newcommand\ZDYttemuvvvv {\ZDY{\TO}\tau\tau{\TO}e\mu(+\nu's)}
+\newcommand\Zttemu       {Z{\TO}\tau\tau{\TO}e\mu\nu\textrm{s}}
+\newcommand\ZDYttevvmuvv {\ZDY{\TO}\tau\tau{\TO}e\nu\nu{\PLUS}\mu\nu\nu}
+\newcommand\Ztt          {\ZDYtt}
+
+% -----------------------------------------------------------------------------
+% Variables
+
+% Super/subscripts
+\newcommand\Mass            {m}
+\newcommand\E            {\MBF{E}} % for vectors
+\renewcommand\P          {\MBF{p}} % for vectors
+\newcommand\p            {\MBF{p}} % for vectors
+\newcommand\Trans            {\textrm{\footnotesize\sc t}}
+\newcommand\Trel         {{\Trans},{\rm rel}}
+\newcommand\tot          {\rm sum}
+\newcommand\miss         {\rm miss}
+\newcommand\missnojet    {\rm miss\,(trk)}%{{\rm miss, non}\textrm{\tiny-}j}
+
+% Standard
+\newcommand\eT           {E_{\Trans}}
+\newcommand\pT           {p_{\Trans}}
+\newcommand\pt           {\pT} % redundant
+\newcommand\vpT          {\P_{\Trans}}
+\newcommand\veT          {\E_{\Trans}}
+
+% Special
+\newcommand\DR           {{\Delta}R}
+\newcommand\DeltaR       {\DR}
+\newcommand\dOmega       {{\rm d}\Omega}
+\newcommand\dPacman      {{\rm d}\phi}
+\newcommand\AvgMu        {\langle\mu\rangle}
+\newcommand\scPV         {{\textsc{\footnotesize pv}}}
+\newcommand\Npv          {n_\scPV}
+\newcommand\bdt          {O_{\rm BDT}}
+
+% Fractions
+\newcommand\fcontam      {f_{\rm contam}}
+\newcommand\fbkg         {f_{\rm bkg}}
+\newcommand\frecoil      {f_{\rm recoil}}
+\newcommand\jvf          {\mbox{\sc jvf}}
+
+% Efficiencies
+\newcommand\fBvarsignif  {\zeta}
+\newcommand\fBsignif     {\xi}
+\newcommand\fSyst        {\nuipar}
+\newcommand\fAlpha       {\alpha}
+\newcommand\fNorm        {\beta}
+\newcommand\fbtag        {\gamma}
+\newcommand\fEff         {\varepsilon} 
+\newcommand\hatfNorm     {\hat\fNorm}
+\newcommand\hatfAlpha    {\hat\fAlpha}
+\newcommand\hatfEff      {\hat\fEff}
+\newcommand\fnonDY       {\hat\fEff^{\prime\prime}_{\scnonDY}}
+
+\newcommand\fcor	       {\gamma_{1j}}
+\newcommand\effbest	     {\epsilon_{1j}^{\rm est}}
+\newcommand\effbonej	   {\epsilon_{1j}}
+\newcommand\effbtwoj	   {\epsilon_{2j}}
+\newcommand\effbtwojdata {\epsilon_{2j}^{\rm data}}
+\newcommand\effrest	{\epsilon_{\rm rest}}
+
+% MET
+\newcommand\met          {\textrm{missing transverse momentum}} % need textrm here
+\newcommand\Met          {\textrm{Missing transverse momentum}} % need textrm here
+\newcommand\METsc        {\textrm{\sc met}} % need textrm here
+\newcommand\scMET        {\METsc}
+\newcommand\calMet       {E}
+\newcommand\trkMet       {p}
+\newcommand\vcalMet      {\E}
+\newcommand\vtrkMet      {\P}
+\newcommand\MET          {\calMet_{\Trans}^{\miss}}
+\newcommand\MPT          {\trkMet_{\Trans}^{\missnojet}}
+\newcommand\MPTj         {\trkMet_{\Trans}^{\miss}}
+\newcommand\METrel       {\calMet_{\Trel}^{\miss}}
+\newcommand\MPTrel       {\trkMet_{\Trel}^{\missnojet}}
+\newcommand\MPTjrel      {\trkMet_{\Trel}^{\miss}}
+\newcommand\vMET         {\vcalMet_{\Trans}^{\miss}}
+\newcommand\vMPT         {\vtrkMet_{\Trans}^{\missnojet}}
+\newcommand\vMPTj        {\vtrkMet_{\Trans}^{\miss}}
+\newcommand\vMETrel      {\vcalMet_{\Trel}^{\miss}}
+\newcommand\vMPTrel      {\vtrkMet_{\Trel}^{\missnojet}}
+\newcommand\vMPTjrel     {\vtrkMet_{\Trel}^{\miss}}
+
+
+% Single lepton/jet
+\newcommand\jextra       {j_{\rm extra}}
+\newcommand\eTiso        {E_{\Trans}^{\rm iso}}
+\newcommand\mTlep        {\Mass_{\Trans}^{\ell}}
+\newcommand\mTl          {\mTlep}
+\newcommand\mTlepi     {\M_{\Trans}^{\ell_{i}}}
+\newcommand\mTlead       {\Mass_{\Trans}^{\ell1}}
+\newcommand\mTsublead    {\Mass_{\Trans}^{\ell2}}
+\newcommand\philead      {\myphi_{\ell1}}
+\newcommand\phisublead   {\myphi_{\ell2}}
+\newcommand\eTlep        {E_{\Trans}^{\ell}}
+\newcommand\eTlead       {E_{\Trans}^{\ell1}}
+\newcommand\eTsublead    {E_{\Trans}^{\ell2}}
+\newcommand\pTnu         {p_{\Trans}^{\,\nu\nu}}
+\newcommand\pTlep        {p_{\Trans}^{\,\ell}}
+\newcommand\pTlepi        {p_{\Trans}^{\,\ell_{i}}}
+\newcommand\pTlead       {p_{\Trans}^{\,\ell1}}
+\newcommand\pTsublead    {p_{\Trans}^{\,\ell2}}
+\newcommand\vpleadnu     {\p_{\nu1}}
+\newcommand\vpsubleadnu  {\p_{\nu2}}
+\newcommand\vplead       {\p_{\,\ell1}}
+\newcommand\vpsublead    {\p_{\,\ell2}}
+\newcommand\vpTlead      {\p_{\Trans}^{\,\ell1}}
+\newcommand\vpTsublead   {\p_{\Trans}^{\,\ell2}}
+\newcommand\vpTnu        {\p_{\Trans}^{\,\nu\nu}}
+\newcommand\etalep       {\myeta_{\ell}}
+\newcommand\etalead   {\myeta_{\ell1}}
+\newcommand\etasublead {\myeta_{\ell2}}
+\newcommand\eTjet        {E_{\Trans}^{\,j}}
+\newcommand\vpTjet       {\p_{\Trans}^{\,j}}
+\newcommand\pTjet        {p_{\Trans}^{\,j}}
+\newcommand\vpTj         {\vpTjet}
+\newcommand\pTj          {\pTjet}
+\newcommand\vpTleadjet   {\p_{\Trans}^{\,j1}}
+\newcommand\vpTsubleadjet{\p_{\Trans}^{\,j2}}
+\newcommand\pTleadjet    {p_{\Trans}^{\,j1}}
+\newcommand\pTsubleadjet {p_{\Trans}^{\,j2}}
+\newcommand\pTthirdjet   {p_{\Trans}^{\,j3}}
+\newcommand\etajet       {\myeta_{j}}
+\newcommand\etabjet      {\myeta_{b}}
+\newcommand\yleadjet     {y_{j1}}
+\newcommand\ysubleadjet  {y_{j2}}
+\newcommand\etaleadjet   {\myeta_{j1}}
+\newcommand\etasubleadjet{\myeta_{j2}}
+\newcommand\etathirdjet       {\myeta_{j3}}
+\newcommand\pTextramu    {p_{\Trans}^{\textrm{extra-}\mu}} % need textrm for hyphen
+\newcommand\sumeT        {\Sigma\,\eT}
+\newcommand\sumpT        {\Sigma\,\pT}
+\newcommand\sumpTsq      {\Sigma\,(\pT)^2}
+
+% Dilepton/jet
+\newcommand\eTll         {E_{\Trans}^{\,\ll}}
+\newcommand\pTll         {p_{\Trans}^{\,\ll}}
+\newcommand\pTllj        {p_{\Trans}^{\,\llj}}
+\newcommand\pTlljj       {p_{\Trans}^{\,\lljj}}
+\newcommand\pTZDY        {p_{\Trans}^{\ZDY}}
+\newcommand\pTtot        {p_{\Trans}^{\,\tot}}
+\newcommand\vpTll        {\p_{\Trans}^{\,\ll}}
+\newcommand\vpTjj        {\p_{\Trans}^{\,\jj}}
+\newcommand\vpTllj       {\p_{\Trans}^{\,\llj}}
+\newcommand\vpTlljj      {\p_{\Trans}^{\,\lljj}}
+\newcommand\vpTZDY       {\p_{\Trans}^{\ZDY}}
+\newcommand\vpTtot       {\p_{\Trans}^{\,\tot}}
+
+% mT Higgs
+\newcommand\mTH          {\Mass_{\Trans}}
+\newcommand\mT           {\mTH}
+\newcommand\mTtwo        {\Mass_{\Trans2}}
+\newcommand\eTH          {E_{\Trans}^{H}}
+\newcommand\pTH          {p_{\Trans}^{H}}
+\newcommand\vpTH         {\p_{\Trans}^{H}}
+\newcommand\mTprime      {\Mass_{\Trans2}}
+\newcommand\mTHcut       {\frac{3}{4}\,\mH{\LT}\mTH{\LT}\mH}
+\newcommand\mTop         {\Mass_{t}}
+\newcommand\mBottom      {\Mass_{b}}
+
+% Higgs topo & delta phi
+\newcommand\sigmaEff     {\sigma_{\rm eff}}
+\newcommand\sigmaH       {\sigma_{\scH}}
+\providecommand{\mtt}    {\Mass_{\tau\tau}} % Otherwise IEEE shows up!
+\renewcommand\mtt        {\Mass_{\tau\tau}} % Otherwise IEEE shows up!
+\newcommand\mll          {\Mass_{\ell\ell}}
+\newcommand\dphi         {\Delta\myphi}
+\newcommand\deta         {\Delta\myeta}
+\newcommand\dy           {\Delta\myy}
+
+\newcommand\dphill       {\dphi_{\ell\ell}}
+\newcommand\detall       {\deta_{\ell\ell}}
+
+\newcommand\dphilMET     {\dphi_{\ell\textrm{\footnotesize -\sc met}}}
+\newcommand\dphillMET    {\Delta{\myphi_{\ell\ell, \textrm{\footnotesize \sc met}}}}
+\newcommand\dphiNear     {\dphi_{\rm near}}
+
+% Jet, VBF
+\newcommand\cjv          {\CEN{j3}}
+\newcommand\olv          {\CEN{\ell}}
+\newcommand\olvlead      {\CEN{\ell1}}
+\newcommand\olvsublead   {\CEN{\ell2}}
+\newcommand\contolv      {\Sigma\,\CEN{\ell}}
+\newcommand\mlj          {\Sigma\,\Mass_{\ellj}}
+\newcommand\mjj          {\Mass_{\jj}}
+\newcommand\detajj       {\Delta\myeta_{jj}}
+\newcommand\sumyjj       {\Sigma\,y_{jj}}
+\newcommand\sumetajj     {\Sigma\,\myeta_{jj}}
+\newcommand\avgetajj     {\sumetajj/2}
+\newcommand\dyjj         {\dy_{jj}}
+
+% -----------------------------------------------------------------------------
+% Colors
+
+%\definecolor{myWW}{rgb}{0,0,255}
+%\definecolor{myVV}{rgb}{305,69,94}
+%\definecolor{myMisid}{rgb}{180,81,92}
+%\definecolor{myDY}{rgb}{120,89,72}
+%\definecolor{myTop}{rgb}{60,70,92}
+%
+%\definecolor{myr}{rgb}{0.584, 0, 0.102}
+%\definecolor{myb}{rgb}{0.004, 0.145, 0.431}
+%\newcommand\myb{\color{myb}}
+%\newcommand\myr{\color{myr}}
+
+% -----------------------------------------------------------------------------
+% Piechart
+
+\newcommand{\slice}[6]{
+  \pgfmathparse{0.5*#1+0.5*#2}
+  \let\midangle\pgfmathresult
+
+  % slice
+  \ifthenelse{\equal{#2}{0}}{}{
+    \draw[fill=#6] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;}
+
+  % outer label
+  \node[label=\midangle:#5] at (\midangle:0.95) {};
+
+  % inner label
+  \ifthenelse{#3 < 5}{}{
+    \pgfmathparse{min((#2-#1-20)/110*(-0.3),0)}
+    \let\temp\pgfmathresult
+    \pgfmathparse{max(\temp,-0.4) + 0.8}
+    \let\innerpos\pgfmathresult
+      \node at (\midangle:\innerpos){
+        \ifthenelse{\equal{blue}{#6}}{\color{white} #4}{
+          \ifthenelse{\equal{magenta}{#6}}{\color{white} #4}{
+            \ifthenelse{\equal{cyan}{#6}}{\color{white} #4}{
+              \ifthenelse{\equal{black}{#6}}{\color{white} #4}{
+                #4
+              }
+            }
+          }
+        }
+      };
+  }
+}
+
+% -----------------------------------------------------------------------------
+% Documentation
+
+% Clear two-column page
+\makeatletter
+\newcommand*{\balancecolsandclearpage}{%
+  \close@column@grid
+  \clearpage
+  \twocolumngrid
+}
+\makeatother
+
+% Repeating comments
+\newcommand\HwwTableUpdate{\centering{\color{red}\large THIS TABLE WILL BE UPDATED}\\ }
+\newcommand\HwwPlotUpdate{\centering{\color{red}\large FIGURE STYLE WILL BE UPDATED}\\ }
+\newcommand\HwwPlotDetail[1]{#1 Fig.~\ref{fig:MET} for plotting details}
+\newcommand\HwwPlotSelectionDetail[1]{#1 Figs.~\ref{fig:MET} and~\ref{fig:0j} for plotting details}
+\newcommand\HwwPlotFitDetail[1]{#1 Figs.~\ref{fig:MET} and~\ref{fig:mT_fitDF} for details of plotting and normalizations}
+\newcommand\HwwPlotFitDetailShort[1]{#1 Figs.~\ref{fig:MET} and~\ref{fig:mT_fitDF} for plotting details}
+\newcommand\paper        {paper}
+\newcommand\Paper        {Paper}
+
+% Spacing
+\newcommand\no           {\!\!}
+\newcommand\np           {\no\no}
+\newcommand\nq           {\np\np}
+\newcommand\nqq          {\nq\nq\nq}
+\newcommand\nqqq         {\nq\nq\nq\nq}
+\newcommand\nr           {\phantom{i}\nq}
+\newcommand\zz           {\phantom{..}}
+\newcommand\z            {\phantom{0}}
+\newcommand\Z            {\phantom{.0}}
+\newcommand\QUAD         {~\,}
+
+% Collaborations
+%\newcommand\CDF          {T.~Aaltonen \etal\ (CDF Collaboration)}
+%\newcommand\DZ           {V.~M.~Abazov \etal\ (D0 Collaboration)}
+%\newcommand\CDFDZ        {T.~Aaltonen \etal\ (CDF and D0 Collaborations)}
+%\newcommand\ATLAS        {ATLAS Collaboration}
+%\newcommand\CMS          {CMS Collaboration}
+%\newcommand\ATLASCMS     {ATLAS and CMS Collaborations}
+%\newcommand\LEP          {ALEPH, DELPHI, L3, OPAL, and SLD Collaborations; LEP Electroweak Working Group; SLD Electroweak and Heavy Flavor Groups} 
+
+% Journals
+\newcommand\Note[2]      {Report No.\ #2, \href{#1}{#1}}
+\newcommand\CPC[1]       {Comput.~Phys.~Commun.~{\bf #1}}
+\newcommand\EPJC[1]      {Eur.~Phys.~J.~C {\bf #1}}
+\newcommand\JHEP[1]      {J.~High Energy Phys.~#1}
+\newcommand\JINST[1]     {JINST {\bf #1}}
+\newcommand\JPHYSG[1]    {J.~Phys.~{\bf G~#1}}
+\newcommand\NIMA         {Nucl.~Instrum.~Methods~Phys.~Res.,~Sect.~A~}
+\newcommand\NPhys[1]     {Nucl.~Phys.\ {\bf #1}}
+\newcommand\PLB[1]       {Phys.~Lett.~B {\bf #1}}
+\newcommand\PLett[1]     {Phys.~Lett.\ {\bf #1}}
+\newcommand\PRep[1]      {Phys.~Rep.\ {\bf #1}}
+\newcommand\PRev[1]      {Phys.~Rev.\ {\bf #1}}
+\newcommand\PRD[1]       {Phys.~Rev.~D {\bf #1}}
+\newcommand\PRL[1]       {Phys.~Rev.~Lett.\ {\bf #1}}
+\newcommand\ZPC[1]       {Z.~Phys.~C {\bf #1}}
+\newcommand\arxiv[1]     {\href{http://arxiv.org/abs/#1}{arXiv:#1}}
+\newcommand\hepex[1]     {\href{http://arxiv.org/abs/hep-ex/#1}{hep-ex/#1}}
+\newcommand\hepph[1]     {\href{http://arxiv.org/abs/hep-ph/#1}{hep-ph/#1}}
+
+% Latin
+\newcommand\ie           {i.\,e{.}}
+\newcommand\eg           {e.\,g{.}}
+\newcommand\etal         {{\it et al{.}}}
+\newcommand\ibid         {{\it ibid{.}}}
+\newcommand\insitu       {{\it in situ}}
+\newcommand\cf           {cf{.}}
+
+% Horizontal lines (double line, single line)
+\newcommand\dbline{\noalign{\vskip 0.10truecm\hrule\vskip 0.05truecm\hrule\vskip 0.10truecm}}
+\newcommand\sgline{\noalign{\vskip 0.10truecm\hrule\vskip 0.10truecm}}
+\newcommand\clineskip{\noalign{\vskip 0.10truecm}}
+
+% Hyphenation
+\hyphenation{ATLAS}

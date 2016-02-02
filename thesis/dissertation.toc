@@ -10,18 +10,21 @@
 \contentsline {section}{\numberline {2.2}The ATLAS Detector}{4}{section.2.2}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ with the ATLAS detector in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{5}{part.2}
 \contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ Analysis Strategy}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal and background topologies}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Object definitions}{6}{section.3.2}
-\contentsline {section}{\numberline {3.3}Signal region cuts}{6}{section.3.3}
-\contentsline {section}{\numberline {3.4}Statistical treatment}{6}{section.3.4}
-\contentsline {chapter}{\numberline {4}Measurement of gluon fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{8}{chapter.5}
-\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$results}{9}{chapter.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{10}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{11}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{12}{chapter.8}
-\contentsline {chapter}{\numberline {9}Search for Higgs pair production in resolved final states}{13}{chapter.9}
-\contentsline {chapter}{\numberline {10}Combined results with Run 2 2015 dataset}{14}{chapter.10}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{15}{part.4}
-\contentsline {chapter}{\numberline {11}Conclusion}{16}{chapter.11}
-\contentsline {chapter}{References}{17}{chapter*.4}
+\contentsline {section}{\numberline {3.1}Introduction}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}Signal topology}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Background processes}{8}{section.3.3}
+\contentsline {section}{\numberline {3.4}Object definitions}{8}{section.3.4}
+\contentsline {section}{\numberline {3.5}Isolating an $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ signal}{8}{section.3.5}
+\contentsline {section}{\numberline {3.6}Background reduction in same-flavor final states}{8}{section.3.6}
+\contentsline {section}{\numberline {3.7}Parameters of interest and statistical treatment}{8}{section.3.7}
+\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ channel}{9}{chapter.4}
+\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{10}{chapter.5}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$results}{11}{chapter.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{12}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{13}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{14}{chapter.8}
+\contentsline {chapter}{\numberline {9}Search for Higgs pair production in resolved final states}{15}{chapter.9}
+\contentsline {chapter}{\numberline {10}Combined results with Run 2 2015 dataset}{16}{chapter.10}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{17}{part.4}
+\contentsline {chapter}{\numberline {11}Conclusion}{18}{chapter.11}
+\contentsline {chapter}{References}{19}{chapter*.5}

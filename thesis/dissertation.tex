@@ -7,6 +7,7 @@
 
 % the front matter
 \input{frontmatter/personalize}
+\input{nomenclature}
 \maketitle
 \copyrightpage
 
@@ -20,24 +21,21 @@
 
 \doublespacing
 
+\newcommand\HWWfull          {$H\rightarrow WW^{*}\rightarrow \ell\nu\ell\nu$ }
+
+
 % include each chapter...
 \setcounter{chapter}{-1}  % start chapter numbering at 0
 \include{chapters/introduction}
 \part{Preliminaries}
 \include{chapters/chapter1}
 \include{chapters/chapter2}
-%\include{chapters/chapter3}
 \part{Observation and measurement of Higgs boson decays to $WW*$ with
   the ATLAS detector in LHC Run 1 at $\sqrt{s} = 7$ and 8 TeV}
 
-\chapter{$H\rightarrow WW^{*}\rightarrow \ell\nu\ell\nu$ Analysis Strategy}
+\include{chapters/chapter3}
 
-\section{Signal and background topologies}
-\section{Object definitions}
-\section{Signal region cuts}
-\section{Statistical treatment}
-
-\chapter{Measurement of gluon fusion production of $H\rightarrow WW^{*}\rightarrow \ell\nu\ell\nu$}
+\chapter{The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell\nu\ell\nu$ channel}
 
 \chapter{Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell\nu\ell\nu$}
 
