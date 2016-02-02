@@ -13,18 +13,22 @@
 \contentsline {section}{\numberline {3.1}Introduction}{6}{section.3.1}
 \contentsline {section}{\numberline {3.2}Signal topology}{7}{section.3.2}
 \contentsline {section}{\numberline {3.3}Background processes}{8}{section.3.3}
-\contentsline {section}{\numberline {3.4}Object definitions}{8}{section.3.4}
-\contentsline {section}{\numberline {3.5}Isolating an $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ signal}{8}{section.3.5}
-\contentsline {section}{\numberline {3.6}Background reduction in same-flavor final states}{8}{section.3.6}
-\contentsline {section}{\numberline {3.7}Parameters of interest and statistical treatment}{8}{section.3.7}
-\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ channel}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{10}{chapter.5}
-\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$results}{11}{chapter.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{12}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{13}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{14}{chapter.8}
-\contentsline {chapter}{\numberline {9}Search for Higgs pair production in resolved final states}{15}{chapter.9}
-\contentsline {chapter}{\numberline {10}Combined results with Run 2 2015 dataset}{16}{chapter.10}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{17}{part.4}
-\contentsline {chapter}{\numberline {11}Conclusion}{18}{chapter.11}
-\contentsline {chapter}{References}{19}{chapter*.5}
+\contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Top quark production}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}$W$+jets background}{9}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}$Z$+jets background}{10}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Object definitions}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}Isolating an $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ signal}{11}{section.3.5}
+\contentsline {section}{\numberline {3.6}Background reduction in same-flavor final states}{11}{section.3.6}
+\contentsline {section}{\numberline {3.7}Parameters of interest and statistical treatment}{11}{section.3.7}
+\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ channel}{12}{chapter.4}
+\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{13}{chapter.5}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$results}{14}{chapter.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{15}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{16}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{17}{chapter.8}
+\contentsline {chapter}{\numberline {9}Search for Higgs pair production in resolved final states}{18}{chapter.9}
+\contentsline {chapter}{\numberline {10}Combined results with Run 2 2015 dataset}{19}{chapter.10}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{20}{part.4}
+\contentsline {chapter}{\numberline {11}Conclusion}{21}{chapter.11}
+\contentsline {chapter}{References}{22}{chapter*.9}
