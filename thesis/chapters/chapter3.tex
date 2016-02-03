@@ -172,7 +172,7 @@ As presented in section~\ref{sec:sigtopology}, there are many different combinat
 
 \subsection{Event pre-selection}
 
-Before being sorted into the distinct signal regions, basic cuts are applied on the reconstructed objects in the event to select Higgs-like event candidates. First, two oppositely charged leptons are required. The $\pt$ threshold on the leptons is a particularly important consideration for this signal. Because the second $W$ produced in the decay can be off-shell, it tends to produce lower momentum leptons. Thus, being able to lower the $\pt$ threshold while still maintaining a low background rate is critical. Figure~\ref{fig:leptonpt} shows an example of the subleading lepton $\pt$ for a VBF $\HWW$ signal compared to the corresponding $t\bar{t}$ background. 
+Before being sorted into the distinct signal regions, basic cuts are applied on the reconstructed objects in the event to select Higgs-like event candidates. First, two oppositely charged leptons are required. The $\pt$ threshold on the leptons is a particularly important consideration for this signal. Because the second $W$ produced in the decay can be off-shell, it tends to produce lower momentum leptons. Thus, being able to lower the $\pt$ threshold while still maintaining a low background rate is critical. Figure~\ref{fig:leptonpt} shows an example of the subleading lepton $\pt$ for a VBF $\HWW$ signal compared to the corresponding $t\bar{t}$ background. Note that the lepton $\pt$ spectrum is considerably softer in the signal sample. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -185,7 +185,33 @@ Before being sorted into the distinct signal regions, basic cuts are applied on 
   \label{fig:leptonpt}
 \end{figure}
 
-Once the leptons are selected, additional pre-selection requirements can be made. 
+Once the leptons are selected, the last requirement for event pre-selection is the presence of neutrinos. As neutrinos cannot be detected directly in ATLAS, $\MET$ can be used as a proxy for the combined neutrino momentum in the transverse plane. In general, it is expected that the signal should have a harder $\MET$ spectrum than backgrounds, especially if those backgrounds did not contain neutrinos. One additional consideration when using $\MET$ is the fact that mis-measurements of objects in the detector can lead to imbalances in the transverse plane that are not due to real particles escaping the detector. One indicator that this is the case is that the $\MET$ vector in the transverse plane will be pointing in the same direction as the mis-measured object. Therefore, a new variable, $\METrel$, is used in the pre-selection. $\METrel$ is defined in equation~\ref{eqn:METrel}. 
+
+\begin{equation}
+  \begin{array}{ll}
+  \multirow{2}{*}{$\METrel$ =\ \bigg\{ }
+    &\!\!\!\!\MET\ \sin\dphiNear\quad\textrm{if $\dphiNear<\pi/2$}\\
+    &\!\!\!\!\MET\ \phantom{\sin\dphiNear}\quad\textrm{otherwise,}
+  \end{array}
+\label{eqn:METrel}
+\end{equation}
+
+If the closest object to the $\MET$ vector is within $\pi/2$ radians in the transverse plane, the $\MET$ is projected away from this object. Otherwise, the normal $\MET$ vector is used. Figure~\ref{fig:METrel} shows a graphical illustration of this concept. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/METrel_cartoon}
+  \caption{A graphical illustration of the $\METrel$ calculation}
+  \label{fig:METrel}
+\end{figure}
+
+Once both the lepton and $\MET$ pre-selections are made, the analysis can be divided into different regions according to jet multiplicity.
+
+\subsection{Jet multiplicity}
 
 
 

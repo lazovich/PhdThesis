@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  3 FEB 2016 15:18
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  3 FEB 2016 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1464,7 +1464,9 @@ File: figures/lepton_pt.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [11] [12]
+[11] [12]
+File: figures/METrel_cartoon.png Graphic file (type QTm)
+ <use  "figures/METrel_cartoon.png" >) [13]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1494,7 +1496,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 41.
 
-[13
+[14
 
 
 ]
@@ -1527,7 +1529,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 43.
 
-[14
+[15
 
 ]
 Chapter 6.
@@ -1559,7 +1561,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 45.
 
-[15
+[16
 
 ]
 
@@ -1594,34 +1596,34 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 48.
 
-[16
-
-]
-Chapter 7.
 [17
 
 ]
-Chapter 8.
+Chapter 7.
 [18
 
 ]
-Chapter 9.
+Chapter 8.
 [19
 
-] [20
+]
+Chapter 9.
+[20
+
+] [21
 
 ]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 10.
-) [21
+) [22
 
 
 ] (./dissertation.bbl
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 7.
-) [22
+) [23
 
 
 
@@ -1707,7 +1709,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 \EU1/EBGaramond(2)/bx/n/10.95 or from its lead author, Jordan Suchow, at
  []
 
-) [23
+) [24
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
@@ -1724,12 +1726,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 25228 strings out of 493706
- 458616 string characters out of 6145769
- 513361 words of memory out of 5000000
- 28171 multiletter control sequences out of 15000+600000
+ 25232 strings out of 493706
+ 458684 string characters out of 6145769
+ 514494 words of memory out of 5000000
+ 28174 multiletter control sequences out of 15000+600000
  20443 words of font info for 159 fonts, out of 8000000 for 9000
  1329 hyphenation exceptions out of 8191
  60i,14n,104p,10481b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (32 pages).
+Output written on dissertation.pdf (33 pages).
