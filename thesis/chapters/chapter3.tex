@@ -8,14 +8,17 @@ Basic research is what I am doing when I don't know what I am doing.
 \section{Introduction}
 
 This chapter will present an overview of the strategy for searching for a Higgs boson in the 
-\HWWfull decay topology. First, details of the signal final state and corresponding backgrounds are
-presented. Then, the definitions of all of the objects used to reconstruct these final states 
-are shown. Next, an overview of the variables used to reduce the backgrounds and enhance the
-signal is given. Finally, the parameters of interest in the search and measurement will be defined, 
-and a brief overview of the statistical treatment of the final Higgs candidates is given.
+\HWWfull decay topology. Its purpose is to present in broad terms how the search and measurement are undertaken, before going into details on the specific sub-categories within the broader analysis. 
+
+First, the topology of the signal final state and corresponding backgrounds are
+presented. Next, an overview of the variables used to reduce the backgrounds and enhance the
+signal is given. These will be described in general, while specific values of selection cuts and background estimation will be provided in subsequent chapters. Finally, the parameters of interest in the search and measurement will be defined, 
+and a brief overview of the statistical treatment of the final Higgs candidates is shown.
 
 
 \section{Signal topology}
+
+\label{sec:sigtopology}
 
 The analysis presented here and in subsequent chapters is the study of the Higgs boson in the $WW$ final state,
 where each $W$ boson subsequently decays into a charged lepton and a neutrino. In its simplest form, the final state will then consist of two neutrinos and two charged leptons, each of which can be either an electron or a muon. If one or both of the $W$s decay to $\tau$ leptons, only leptonic decays of the $\tau$ are considered, leading to additional neutrinos in the final state but still giving two charged leptons as before. Neutrinos are not detected in ATLAS, so the final state ultimately consists of two reconstructed leptons and \met (denoted as $\MET$). Final states where both of the charged leptons are electrons or muons are referred to as the ``same flavor" final states, while those with one electron and one muon are referred to as ``different flavor".
@@ -38,7 +41,7 @@ While the basic final state consists of two leptons and $\MET$, there can be add
 
 \section{Background processes}
 
-Many processes from the Standard Model can also produce a final state with two leptons and \met. This section lists the dominant backgrounds to Higgs production. It gives general descriptions of how the backgrounds mimic Higgs production and how they can be reduced. The details of background estimation and specific cuts are left for later sections. 
+Many processes from the Standard Model can also produce a final state with two leptons and \met. This section lists the dominant backgrounds to Higgs production. It gives general descriptions of how the backgrounds mimic Higgs production and how they can be reduced. The details of background estimation and specific cuts are left for later sections. Table\ref{tab:bkgtable} summarizes the different processes. 
 
 \subsection{Standard Model WW production}
 
@@ -92,9 +95,9 @@ Single $W$ boson production, in association with jets, is a unique background. T
   \label{fig:Wdiagram}
 \end{figure}
 
-\subsection{$Z$+jets background}
+\subsection{$Z/\gamma^{*}$+jets background}
 
-Production of a $Z$ boson in association with jets is also a background to Higgs production. In particular, the same flavor final states have a large $Z$+jets background, as the $Z$ decays into two leptons of the same flavor. (This background also enters the different flavor final state through the leptonic decays of $Z\TO\tau\tau$). Figure~\ref{fig:Zdiagram} shows the production of a $Z$ in association with one jet. Because there are no neutrinos in this final state, variables like $\MET$ can be used to reduce the background. 
+Production of a $Z/\gamma^{*}$  in association with jets (also known as Drell-Yan) is also a background to Higgs production. In particular, the same flavor final states have a large $Z$+jets background, as the $Z$ decays into two leptons of the same flavor. (This background also enters the different flavor final state through the leptonic decays of $Z\TO\tau\tau$). Figure~\ref{fig:Zdiagram} shows the production of a $Z$ in association with one jet. Because there are no neutrinos in this final state, variables like $\MET$ can be used to reduce the background. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -107,7 +110,84 @@ Production of a $Z$ boson in association with jets is also a background to Higgs
   \label{fig:Zdiagram}
 \end{figure}
 
-\section{Object definitions}
+\subsection{Other (subdominant) backgrounds}
+
+THere are additional processes which contrinute to the background composition but are not produced as frequently as those listed already. The first of these are referred to as $VV$ or ``Other diboson" processes and include multiple Standard Model diboson processes, including $WZ$, $ZZ$, $W\gamma$, $W\gamma^{*}$, and $Z\gamma$ production. Additionally, there is background from QCD multijet production, where two jets are misidentified as leptons. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+{\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|c|c|c|}
+\hline
+Category & Process & Description \\ \hline
+SM $WW$ & $WW\TO\ell\nu\ell\nu$ & Real leptons and neutrinos \\ \hline
+\multirow{3}{*}{Top quark production} & $t\bar{t}\TO WbW\bar{b}\TO\ell\nu b \ell\nu \bar{b}$ & Real leptons, untagged $b$s \\ 
+ & $tW \TO WbW \TO \ell\nu\ell\nu b $ & Real leptons, untagged $b$ \\ 
+ & $t\bar{b}$, $tq\bar{b}$ & Untagged $b$, jet misidentified as lepton \\ \hline
+
+ \multirow{2}{*}{Drell-Yan} & $\ZDY\TO ee, \mu\mu$ & ``Fake" $\MET$ \\ 
+  & $\ZDY\TO \tau\tau \TO \ell\nu\nu \ell\nu\nu $& Real leptons and neutrinos \\ \hline
+
+  \multirow{3}{*}{Other dibosons} & $ZZ \to \ell\ell \nu\nu$ & Real leptons and neutrinos \\ 
+   & $W\gamma^{*}, WZ \TO \ell\nu\ell\ell, ZZ \to \ell\ell\ell\ell$ & Unreconstructed leptons \\ 
+   & $W\gamma, Z\gamma$ & $\gamma$ reconstructed as $e$, unreconstructed lepton \\ \hline
+
+   $W$+jets & $Wj \TO \ell\nu j$ & Jet reconstructed as lepton \\ \hline
+   QCD multijet & $jj$ & Jets reconstructed as leptons \\ \hline
+ 
+ \hline
+\end{tabular}
+}
+%\end{tabular*}
+\caption{
+  A summary of backgrounds to the \HWWfull signal 
+}
+\label{tab:bkgtable}
+\end{table}
+
+
+%\section{Object definitions}
+
+%Selecting objects for the analysis is the first step towards rejecting background while maintaining signal acceptance. Details of the object reconstruction algorithms are defined in Chapter 2. This section presents the selections applied for reconstructed electrons, muons, jets, and \met in the final Run 1 \HWWfull analysis in order to 
+
+
 \section{Isolating an $H\rightarrow WW^{*}\rightarrow \ell\nu\ell\nu$ signal}
+
+As presented in section~\ref{sec:sigtopology}, there are many different combinations of objects that can define a \HWWfull final state. The multiplicity of jets and the flavor combinations of the leptons both lead to a combinatorically large number of potential signal regions. Additionally, signal regions can be optimized separately to be sensitive to the distinct production modes of the Higgs. Gluon fusion, vector boson fusion, and associated production of a Higgs all lead to unique final state topologies. Figure~\ref{fig:analysisregions} delineates the different signal regions used in the gluon fusion and vector boson fusion $\HWW$ analyses. While there are different optimizations possible in each signal region, there are also some commonly shared selections that will be described here.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/analysis_regions}
+  \caption{An illustration of the unique analysis signal regions\cite{WW2015}}
+  \label{fig:analysisregions}
+\end{figure}
+
+\subsection{Event pre-selection}
+
+Before being sorted into the distinct signal regions, basic cuts are applied on the reconstructed objects in the event to select Higgs-like event candidates. First, two oppositely charged leptons are required. The $\pt$ threshold on the leptons is a particularly important consideration for this signal. Because the second $W$ produced in the decay can be off-shell, it tends to produce lower momentum leptons. Thus, being able to lower the $\pt$ threshold while still maintaining a low background rate is critical. Figure~\ref{fig:leptonpt} shows an example of the subleading lepton $\pt$ for a VBF $\HWW$ signal compared to the corresponding $t\bar{t}$ background. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/lepton_pt}
+  \caption{A comparison of the subleading lepton $\pt$ spectrum between VBF $\HWW$ production and $t\bar{t}$ background}
+  \label{fig:leptonpt}
+\end{figure}
+
+Once the leptons are selected, additional pre-selection requirements can be made. 
+
+
+
 \section{Background reduction in same-flavor final states}
 \section{Parameters of interest and statistical treatment}
