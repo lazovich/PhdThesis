@@ -212,7 +212,7 @@ If the closest object to the $\MET$ vector is within $\pi/2$ radians in the tran
 Once both the lepton and $\MET$ pre-selections are made, the analysis can be divided into different regions according to jet multiplicity.
 
 \subsection{Jet multiplicity}
-
+\label{sec:jetmult}
 Jet multiplicity, denoted as $\Njet$, is used to sub-divide the analysis into its distinct signal regions. The reason for this is twofold. First, different jet multiplicity bins will be more or less sensitive to different Higgs production modes. For example, the $\Njet \geq 2$ region is more sensitive to VBF production because of the two hard jets produced at matrix element level. For gluon fusion production to enter this bin, two initial state radiation jets must be emitted. Second, background composition varies greatly in different bins of $\Njet$. Figure~\ref{fig:njet} shows the jet multiplicity in both the different flavor and same flavor regions. It also shows the background composition in the bins of $\Nbjet$. There are a few clear trends from this distribution. The first is that the Drell-Yan background dominates in the same flavor channels for $\Njet \leq 1$. Second, the top background becomes a clear contributor to the total background for $\Njet \geq 1$. Lastly, the SM WW production dominates in the $\Njet = 0$ bin, as it is an irreducible background to $\HWW$ production. Because of these distinct features, each jet multiplicity bin is treated separately.
 
 \begin{figure}[h!]
@@ -227,4 +227,38 @@ Jet multiplicity, denoted as $\Njet$, is used to sub-divide the analysis into it
 \end{figure}
 
 \section{Background reduction in same-flavor final states}
+
+As described in section~\ref{sec:jetmult}, the background composition of the same flavor final states is unique to that of the different flavor states. In particular, Drell Yan processes play a much larger role because the $Z/\gamma^{*}$ decays to same flavor leptons. Because real neutrinos are absent in the $\ZDY$ decays to $ee$ and $\mu\mu$, a cut on $\MET$ should largely reduce the background. However, as this section will demonstrate, with increasing pileup conditions the resolution of the calorimeter-based $\MET$ degrades greatly. Therefore, two new variables for $\ZDY$ background reduction are constructed and described in this section.
+
+\subsection{Pileup and $\MET$ resolution}
+
+Secondary interactions of protons in the colliding bunches of the LHC (known as pileup interactions, described in detail in Chapter 2) deposit energy into the ATLAS calorimeter on top of the energy that comes from the hard scatter process that is being searched for or analyzed. The calculation of $\MET$ is fundamentally Poissonian, as summing up all of the energy deposits in individual calorimeter cells or clusters is similar to a counting experiment. Thus, the energy resolution scales as $\sqrt{E}$, just as the error on a mean of $N$ in a Poisson distribution is $\sqrt{N}$. As more energy is deposited in the calorimter, the $\MET$ resolution degrades, meaning that the $\MET$ resolution is particularly sensitive to LHC instantaneous luminosity conditions. 
+
+Figure~\ref{fig:Zjetseventdisplay} shows an event display of a $\ZDY$ + jets event candidate with the twenty-five reconstructed primary vertices. This display illustrates that while the interaction of interest only has tracks coming from the hardest primary vertex, all of the secondary interactions will deposit energy in the calorimeter as well.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/Zjets_EventDisplay}
+  \caption{An event display of a $\ZDY$ + jets event illustrating the effect of pileup interactions}
+  \label{fig:Zjetseventdisplay}
+\end{figure}
+
+Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO\mu\mu$ events (where there are no real neutrinos) as a function of the number of the average number of interactions. Under 2011 LHC conditions, this RMS was approximately 9 \GeV, while under 2012 running conditions the resolution worsened to 12 \GeV. This worsening dilutes the efficacy of a cut on $\MET$ to reduce the $\ZDY$ background. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/METResolution}
+  \caption{The RMS of different missing transverse momentum definitions as a function of the average number of interactions per bunch crossing}
+  \label{fig:METResolution}
+\end{figure}
+
+
 \section{Parameters of interest and statistical treatment}
