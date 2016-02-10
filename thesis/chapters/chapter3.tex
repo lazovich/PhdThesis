@@ -260,5 +260,49 @@ Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO
   \label{fig:METResolution}
 \end{figure}
 
+\subsection{Track-based definitions of missing transverse momentum}
+
+Because the increasing number of secondary proton-proton interactions degrades calorimeter-based $\MET$ resolution, a new variable using only contributions from the primary interaction vertex is necessary to further reduce the $\ZDY$ background. While it is not possible to associate calorimeter energy deposits with a particular vertex, individual charged particle tracks in the Inner Detector are associated to unique vertices. Thus, two track-based definitions of \met, using only tracks coming from the primary vertex in the event, are used in the analysis. The simplest variable, $\MPT$, is the vectorial sum of the $\pt$ of all of the tracks in the event and the selected leptons (excluding the tracks associated with the selected leptons to avoid double counting). This is defined in equation~\ref{eqn:MPT}.
+
+\begin{equation}
+\vMPT = -\raisebox{-3.0pt}{\bigg(}%
+     \displaystyle
+     \sum_{\substack{\rm selected \\ \rm leptons}}\,\vpT
+   + \sum_{\substack{\rm other \\ \rm tracks}}\,\vpT
+   \raisebox{-3.0pt}{\bigg)},
+\label{eqn:MPT}
+\end{equation} 
+
+In events with hard jets, a better resolution on the \met is obtained by including the calorimeter based measurement of the hard jets rather than the track based measurements. Thus, another variable, $\MPTj$, is defined, using the nominal measurements of $\pT$ for the selected leptons and jets and using tracks rather than calorimeter clusters for the soft component of the \met. This is defined in equation~\ref{eqn:MPTj}.
+
+\begin{equation}
+\vMPTj = -\raisebox{-3.0pt}{\bigg(}%
+     \displaystyle
+     \sum_{\substack{\rm selected \\ \rm leptons}}\,\vpT
+   + \sum_{\substack{\rm selected \\ \rm jets}}\,\vpT
+   + \sum_{\substack{\rm other \\ \rm tracks}}\,\vpT
+   \raisebox{-3.0pt}{\bigg)},
+\label{eqn:MPTj}
+\end{equation} 
+
+Figure~\ref{fig:METResolution} illustrates that these two new variables accomplish their intended purpose. The resolution as a function of mean number of interactions for both $\MPT$ and $\MPTj$ is much flatter compared to the dependence for $\MET$. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/METResolution2}
+  \caption{The difference between the true and reconstructed values of the \met (a) and $\mT$ (b) in a gluon fusion signal sample}
+  \label{fig:METResolution2}
+\end{figure}
+
+Figure~\ref{fig:METResolution2}a shows the difference between the true and reconstructed values of \met using both the track-based $\MPTj$ and calorimeter based $\MET$. The RMS of the distribution improves by 3.5 \GeV when using $\MPTj$.
+
+\subsection{Distinguishing $\ZDY$ and $\HWW$ topologies}
+
+The track-based definitions of \met were constructed to mitigate degrading performance as a function of pileup. However, an additional variable can be constructed to exploit kinematic and topological differences between the $\ZDY$ background and $\HWW$ signal. 
+
 
 \section{Parameters of interest and statistical treatment}
