@@ -300,9 +300,31 @@ Figure~\ref{fig:METResolution} illustrates that these two new variables accompli
 
 Figure~\ref{fig:METResolution2}a shows the difference between the true and reconstructed values of \met using both the track-based $\MPTj$ and calorimeter based $\MET$. The RMS of the distribution improves by 3.5 \GeV when using $\MPTj$.
 
-\subsection{Distinguishing $\ZDY$ and $\HWW$ topologies}
+\subsection{Distinguishing $\ZDY$ +jets and $\HWW$ topologies}
 
-The track-based definitions of \met were constructed to mitigate degrading performance as a function of pileup. However, an additional variable can be constructed to exploit kinematic and topological differences between the $\ZDY$ background and $\HWW$ signal. 
+The track-based definitions of \met were constructed to mitigate degrading performance as a function of pileup. However, an additional variable can be constructed to exploit kinematic and topological differences between the $\ZDY$ background and $\HWW$ signal. Because there are no real neutrinos in the final state (in the case of $Z/\gamma^{*} \TO ee,\mu\mu$ decays), the dilepton system of a $\ZDY$ will be balanced with the jets produced in the hard scatter. A new variable, $\frecoil$, is constructed to estimate the balance between the dilepton system and the jets in the quadrant opposite the dilepton vector in the transverse plane. It is defined in equation~\ref{eqn:frecoil}. The numerator of $\frecoil$ is the magnitude of the vectorial sum of the $\pt$ of jets in the quadrant opposite the dilepton system, weighted by each jet's Jet Vertex Fraction (JVF, described in chapter 2). The denominator is the magnitude of the dilepton $\pt$. 
+
+\begin{equation}
+\frecoil = \raisebox{-3pt}{\bigg|} \sum_{{\rm jets\,}j{\rm\,in\,}\wedge}
+           \no\jvf_{\,j}\cdot\vpTjet
+           ~\raisebox{-3pt}{\bigg|}
+           ~\raisebox{-3pt}{\bigg/} \pTll.
+\label{eqn:frecoil}
+\end{equation}
+
+Figure~\ref{fig:frecoil} shows a shape comparison of the distribution of $\frecoil$ in a simulated $\ZDY$ + jets sample, a $\HWW$ signal sample, and other backgrounds that contain real neutrinos. The $\ZDY$ + jets events tend to be more balanced between the dilepton system and recoiling jets, while the processes containing real neutrinos are less balanced in the transverse plane. Thus, a cut on $\frecoil$ will also reduce the $\ZDY$ + jets background while maintaining a good signal efficiency. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/frecoil}
+  \caption{Comparison of $\frecoil$ distributions for $\ZDY$+jets, $\HWW$, and other backgrounds with real neutrinos.}
+  \label{fig:frecoil}
+\end{figure}
+
 
 
 \section{Parameters of interest and statistical treatment}
