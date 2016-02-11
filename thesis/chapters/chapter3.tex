@@ -342,7 +342,7 @@ The cuts on $\MPT$ and $\frecoil$ used to reduce the Z+jets background must be o
 
 
 \section{Parameters of interest and statistical treatment}
-
+vents 
 As with any search or measurement, there are particular parameters of the Higgs that the $\HWW$ analysis is interested in measuring. In this case, the parameters of interest are the mass of the Higgs boson and its production cross section. Because the \HWWfull process does not have a closed final state, it is not possible to measure the full invariant mass of the particle that may have produced the final state. However, a proxy for the invariant mass using transverse plane information can be defined. This is described in more detail in section~\ref{sec:mt}. The second parameter of interest is the ratio of the measured cross section to that expected from the Standard Model Higgs, which is denoted a $\mu$. This is defined in equation~\ref{eqn:mu}.
 
 \begin{equation}
@@ -353,4 +353,34 @@ As with any search or measurement, there are particular parameters of the Higgs 
 All of the likelihoods used in the statistical analysis of the final signal region events are paramaterized as a function of $\mu$. $\mu$ is a natural variable for hypothesis testing, as $\mu = 0$ corresponds to a background only hypothesis and $\mu = 1$ corresponds exactly to a Standard Model Higgs. 
 
 \subsection{Transverse mass}
+\label{sec:mt}
+Because the longitudinal information about the neutrinos is not attainable, the \HWWfull analysis uses a mass variable, the transverse mass, that exploits information in the transverse plane as a proxy for the full invariant mass. The transverse mass is defined in equation~\ref{eqn:mt}.
 
+\begin{equation}
+  \mTH = \sqrt{\left(\eTll + \MPTj\right)^2 - \left|\,\vpTll + \vMPTj\,\right|^2},
+\label{eqn:mt}
+\end{equation}
+
+Here the $\eTll$ and $\pTll$ are the transverse energy and momentum of the dilepton system, while $\MPTj$ is a proxy for the transverse momentum of the di-neutrino system. The track-based $\MPTj$ is used in the $\mTH$ rather than the calorimeter based $\MET$ because it has a better resolution on the true transverse mass. Figure~\ref{fig:METResolution2}b shows the improvement in the RMS of the difference between the true and reconstructed transverse mass in a ggF signal sample. The RMS improves by 4.7 \GeV using $\MPTj$ in the $\mTH$ calculation.
+
+\subsection[title]{Statistical treatment\footnote{Many thanks to Aaron Armbruster, whose thesis\cite{ArmbrusterThesis} inspired parts of this section.}} 
+
+The statistical analysis of final event candidates is framed as a hypothesis test, where the null hypothesis is background-only (no Standard Model Higgs). The first step in the analysis is to form a likelihood function for the data. In its simplest form, this likelihood is the probability of observing the number of events seen in the final signal region given knowledge of the signal strength. Because observation of events is fundamentally a Poisson counting experiment, this simple likelihood can be expressed as a Poisson probability of observing $N$ events given a total number of predicted signal and background events. This basic likelihood is shown in equation~\ref{eqn:simplepoisson}.
+
+\begin{equation}
+\likelihood(\mu) = P\left(N | \mu S + B\right)
+\label{eqn:simplepoisson}
+\end{equation}
+
+Here, $P$ is the Poisson probability density function, $N$ is the total number of observed events, $\mu$ is the signal strength, $S$ is the predicted number of signal events, and $B$ is the predicted number of background events. 
+
+In particle physics, certain background estimates are commonly normalized in so-called ``control" regions and those predictions are scaled by the same normalization factor in the signal region. This leads to a slightly more complicated likelihood, which is a function of both the signal strength and the background normalization. This is shown in equation~\ref{eqn:mediumpoisson}.
+
+\begin{equation}
+\likelihood(\mu, \theta) = P\left(N | \mu S + \theta B\right)P\left(N_{\rm CR} | \theta B_{\rm CR}\right)
+\label{eqn:mediumpoisson}
+\end{equation}
+
+Here, $\theta$ is a so-called ``nuisance parameter", a parameter that is not a primary parameter of interest but still enters the likelihood. The second Poisson term adds an extra term to the likelihood, enforcing the fact that the background normalization must be consistent with the number of observed events in data in the control region, $N_{\rm CR}$.
+
+So far, these two formulations of likelihoods have assumed a single signal region and do not take into account any shape information of potential discriminating variables. Also, no systematic uncertainties are included in the current likelihood. As mentioned in section~\ref{sec:mt}, the transverse mass is used as the primary discriminating variable in many of the $\HWW$ sub-analyses. Therefore, 

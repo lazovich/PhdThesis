@@ -9,9 +9,10 @@ A level-1 auxiliary file: chapters/conclusion.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
+Warning--I didn't find a database entry for "ArmbrusterThesis"
 You've used 1 entry,
             2229 wiz_defined-function locations,
-            525 strings with 4243 characters,
+            527 strings with 4275 characters,
 and the built_in function-call counts, 296 in all, are:
 = -- 27
 > -- 7
@@ -50,3 +51,4 @@ warning$ -- 0
 while$ -- 2
 width$ -- 0
 write$ -- 15
+(There was 1 warning)
