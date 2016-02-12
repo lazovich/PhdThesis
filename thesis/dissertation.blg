@@ -9,46 +9,44 @@ A level-1 auxiliary file: chapters/conclusion.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
-Warning--I didn't find a database entry for "ArmbrusterThesis"
-You've used 1 entry,
+You've used 3 entries,
             2229 wiz_defined-function locations,
-            527 strings with 4275 characters,
-and the built_in function-call counts, 296 in all, are:
-= -- 27
-> -- 7
-< -- 1
-+ -- 2
-- -- 2
-* -- 21
-:= -- 60
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 13
-empty$ -- 22
-format.name$ -- 3
-if$ -- 54
+            539 strings with 4529 characters,
+and the built_in function-call counts, 884 in all, are:
+= -- 84
+> -- 21
+< -- 3
++ -- 6
+- -- 6
+* -- 62
+:= -- 170
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 18
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 40
+empty$ -- 68
+format.name$ -- 9
+if$ -- 167
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 18
 quote$ -- 0
-skip$ -- 13
+skip$ -- 35
 stack$ -- 0
-substring$ -- 12
-swap$ -- 1
+substring$ -- 48
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 18
 warning$ -- 0
-while$ -- 2
+while$ -- 7
 width$ -- 0
-write$ -- 15
-(There was 1 warning)
+write$ -- 40

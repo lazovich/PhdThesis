@@ -9,33 +9,35 @@
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}The ATLAS Detector}{4}{section.2.2}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ with the ATLAS detector in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{5}{part.2}
-\contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ Analysis Strategy}{6}{chapter.3}
+\contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{6}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{6}{section.3.1}
 \contentsline {section}{\numberline {3.2}Signal topology}{7}{section.3.2}
 \contentsline {section}{\numberline {3.3}Background processes}{8}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{8}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Top quark production}{9}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}$W$+jets background}{9}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}$Z/{"γ}^{*}$+jets background}{10}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}$Z/\gamma ^{*}$+jets background}{10}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Other (subdominant) backgrounds}{10}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Isolating an $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ signal}{10}{section.3.4}
+\contentsline {section}{\numberline {3.4}Isolating an $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ signal}{10}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{11}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{13}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Background reduction in same-flavor final states}{14}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{15}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{15}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/{"γ}^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{17}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{17}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction cuts}{19}{subsection.3.5.4}
 \contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{19}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Transverse mass}{20}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}title}{21}{subsection.3.6.2}
-\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ channel}{23}{chapter.4}
-\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$}{24}{chapter.5}
-\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell {"ν}\ell {"ν}$ results}{25}{chapter.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{26}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{27}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{28}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{29}{chapter.9}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{30}{part.4}
-\contentsline {chapter}{\numberline {10}Conclusion}{31}{chapter.10}
-\contentsline {chapter}{References}{32}{chapter*.20}
+\contentsline {subsubsection}{Likelihood function}{21}{subsection.3.6.2}
+\contentsline {subsubsection}{Test statistic}{23}{equation.3.6.10}
+\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ channel}{25}{chapter.4}
+\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $}{26}{chapter.5}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{27}{chapter.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{28}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{29}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{30}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{31}{chapter.9}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{32}{part.4}
+\contentsline {chapter}{\numberline {10}Conclusion}{33}{chapter.10}
+\contentsline {chapter}{References}{34}{chapter*.20}

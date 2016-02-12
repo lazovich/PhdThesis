@@ -112,7 +112,7 @@ Production of a $Z/\gamma^{*}$  in association with jets (also known as Drell-Ya
 
 \subsection{Other (subdominant) backgrounds}
 
-THere are additional processes which contrinute to the background composition but are not produced as frequently as those listed already. The first of these are referred to as $VV$ or ``Other diboson" processes and include multiple Standard Model diboson processes, including $WZ$, $ZZ$, $W\gamma$, $W\gamma^{*}$, and $Z\gamma$ production. Additionally, there is background from QCD multijet production, where two jets are misidentified as leptons. 
+There are additional processes which contrinute to the background composition but are not produced as frequently as those listed already. The first of these are referred to as $VV$ or ``Other diboson" processes and include multiple Standard Model diboson processes, including $WZ$, $ZZ$, $W\gamma$, $W\gamma^{*}$, and $Z\gamma$ production. Additionally, there is background from QCD multijet production, where two jets are misidentified as leptons. 
 
 \begin{table}[h!]
 \centering
@@ -262,7 +262,7 @@ Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO
 
 \subsection{Track-based definitions of missing transverse momentum}
 
-Because the increasing number of secondary proton-proton interactions degrades calorimeter-based $\MET$ resolution, a new variable using only contributions from the primary interaction vertex is necessary to further reduce the $\ZDY$ background. While it is not possible to associate calorimeter energy deposits with a particular vertex, individual charged particle tracks in the Inner Detector are associated to unique vertices. Thus, two track-based definitions of \met, using only tracks coming from the primary vertex in the event, are used in the analysis. The simplest variable, $\MPT$, is the vectorial sum of the $\pt$ of all of the tracks in the event and the selected leptons (excluding the tracks associated with the selected leptons to avoid double counting). This is defined in equation~\ref{eqn:MPT}.
+Because the increasing number of secondary proton-proton interactions degrades calorimeter-based $\MET$ resolution, a new variable using only contributions from the primary interaction vertex is necessary to further reduce the $\ZDY$ background. While it is not possible to associate calorimeter energy deposits with a particular vertex, individual charged particle tracks in the Inner Detector are associated to unique vertices. Thus, two track-based definitions of \met, using only tracks coming from the primary vertex in the event, are used in the analysis. The simplest variable, $\MPT$, is the vectorial sum of the $\pt$ of all of the tracks from the primary vertex and the selected leptons (excluding the tracks associated with the selected leptons to avoid double counting). This is defined in equation~\ref{eqn:MPT}.
 
 \begin{equation}
 \vMPT = -\raisebox{-3.0pt}{\bigg(}%
@@ -342,7 +342,7 @@ The cuts on $\MPT$ and $\frecoil$ used to reduce the Z+jets background must be o
 
 
 \section{Parameters of interest and statistical treatment}
-vents 
+ 
 As with any search or measurement, there are particular parameters of the Higgs that the $\HWW$ analysis is interested in measuring. In this case, the parameters of interest are the mass of the Higgs boson and its production cross section. Because the \HWWfull process does not have a closed final state, it is not possible to measure the full invariant mass of the particle that may have produced the final state. However, a proxy for the invariant mass using transverse plane information can be defined. This is described in more detail in section~\ref{sec:mt}. The second parameter of interest is the ratio of the measured cross section to that expected from the Standard Model Higgs, which is denoted a $\mu$. This is defined in equation~\ref{eqn:mu}.
 
 \begin{equation}
@@ -365,6 +365,8 @@ Here the $\eTll$ and $\pTll$ are the transverse energy and momentum of the dilep
 
 \subsection[title]{Statistical treatment\footnote{Many thanks to Aaron Armbruster, whose thesis\cite{ArmbrusterThesis} inspired parts of this section.}} 
 
+\subsubsection{Likelihood function}
+
 The statistical analysis of final event candidates is framed as a hypothesis test, where the null hypothesis is background-only (no Standard Model Higgs). The first step in the analysis is to form a likelihood function for the data. In its simplest form, this likelihood is the probability of observing the number of events seen in the final signal region given knowledge of the signal strength. Because observation of events is fundamentally a Poisson counting experiment, this simple likelihood can be expressed as a Poisson probability of observing $N$ events given a total number of predicted signal and background events. This basic likelihood is shown in equation~\ref{eqn:simplepoisson}.
 
 \begin{equation}
@@ -383,4 +385,66 @@ In particle physics, certain background estimates are commonly normalized in so-
 
 Here, $\theta$ is a so-called ``nuisance parameter", a parameter that is not a primary parameter of interest but still enters the likelihood. The second Poisson term adds an extra term to the likelihood, enforcing the fact that the background normalization must be consistent with the number of observed events in data in the control region, $N_{\rm CR}$.
 
-So far, these two formulations of likelihoods have assumed a single signal region and do not take into account any shape information of potential discriminating variables. Also, no systematic uncertainties are included in the current likelihood. As mentioned in section~\ref{sec:mt}, the transverse mass is used as the primary discriminating variable in many of the $\HWW$ sub-analyses. Therefore, 
+So far, these two formulations of likelihoods have assumed a single signal region and do not take into account any shape information of potential discriminating variables. The $\HWW$ analysis is divided into many different categories, and we can perform the same counting experiment described above in each individual category. As mentioned in section~\ref{sec:mt}, the transverse mass is used as the primary discriminating variable in many of the $\HWW$ sub-analyses, so additionally we can perform the same counting experiment in each bin of the $\mTH$ distribution to incorporate some shape information. Thus, the total likelihood becomes a product over signal regions and bins of the $\mTH$ distribution. Finally, there are usually many backgrounds that are normalized in control regions, so the new formulation of the likelihood takes this into account as well by including a product over control regions in the second Poisson term. All of these modifications are shown in equation~\ref{eqn:binnedpoisson}. 
+
+\begin{equation}
+\likelihood\left(\mu, \MBF{\theta}\right) = \prod_{\substack{\rm{SRs }\, i \\ \rm{bins }\, b}} P\left(N_{ib} \Bigg| \mu S_{ib} + \sum_{\rm{bkg }\, k}\theta_{k} B_{kib}\right)
+ \prod_{\substack{\rm{CRs} \, l}} P\left(N_{l} \Bigg| \sum_{\rm{bkg }\, k}\theta_{k} B_{kl}\right)
+\label{eqn:binnedpoisson}
+\end{equation}
+
+The final step to get the full likelihood used in the analysis is to add nuisance parameters for the systematic uncertainties. In cases where the uncertainty does not affect the shape of $\mTH$ bin-by-bin, each systematic uncertainty $\epsilon$ is allowed to affect the expected event yields through a linear response function of the nuisance parameter, namely $\nu(\theta) = (1 + \epsilon)^\theta$. If instead the uncertainty does affect the shape, the effect is instead parameterized by $\nu_b(\theta) = 1 + \epsilon_{b}\theta$. The value of the nuisance parameters for the systematic uncertainty are constrained with a Gaussian term that is added to the likelihood as well. This is of the form $g(\delta | \theta) = e^{-(\delta - \theta)^2/2}/\sqrt{2\pi}$, where $\delta$ is the central value and $\theta$ is a nuisance parameter. Finally, a last term is added to account for the statistical uncertainty in the Monte Carlo samples used, which adds an additional poisson term. The full likelihood used in the final statistical analysis is defined in equation~\ref{eqn:fullpoisson}.
+
+\begin{equation}
+\begin{aligned}
+\likelihood\left(\mu, \MBF{\theta}\right) = & \prod_{\substack{\rm{SRs }\, i \\ \rm{bins }\, b}} P\left(N_{ib} \Bigg| \mu S_{ib} \cdot \prod_{\substack{\rm{sig.} \\ \rm{syst.} \\ r}} \nu_{br}(\theta_{r})
+ + \sum_{\rm{bkg }\, k}\theta_{k} B_{kib} \cdot \prod_{\substack{\rm{bkg.} \\ \rm{syst.} \\ s}} \nu_{bs}(\theta_{s}) \right)
+ \\ & \cdot \prod_{\substack{\rm{CRs} \, l}} P\left(N_{l} \Bigg| \sum_{\rm{bkg }\, k}\theta_{k} B_{kl}\right)
+ \\ & \cdot \prod_{\substack{\rm syst \\ t}} g\left(\delta_{t} | \theta_{t}\right)
+ \cdot \prod_{\substack{\rm bkg \, k}} P\left(\xi_k | \zeta_{k} \theta_{k}\right)
+\end{aligned}
+\label{eqn:fullpoisson}
+\end{equation}
+
+In the fourth term of the equation, quantifying uncertainty due to finite Monte Carlo sample size, $\xi$ represents the central value of the background prediction, $\theta$ is the associated nuisance parameter, $\zeta = (B/\delta B)^2$, where $\delta B$ is the statistical uncertainty of $B$.
+
+The best fit value of the signal strength $\mu$ is determined by finding the values of $\mu$ and $\boldsymbol{\theta}$ that maximize the likelihood, while setting $\delta = 0$ and $\xi = \zeta$.
+
+Once the likelihood is defined, a test statistic must be built for use in hypothesis testing.
+
+\subsubsection{Test statistic}
+
+To distinguish whether the data match a background only or background and signal hypothesis, a test statistic must be used. The $\HWW$ analysis used the profile likelihood technique\cite{Cowan:2010st}. The first step in formulating this test statistic is to define the profile likelihood ratio, shown in equation~\ref{eqn:proflikelihood}.
+
+\begin{equation}
+\lambda(\mu) = \frac{\likelihood\left(\mu, \hat{\theta}_\mu\right)}{\likelihood\left(\hat{\mu}, \hat{\theta}\right)}
+\label{eqn:proflikelihood}
+\end{equation}
+
+Here $\hat{\theta}_\mu$ is the value of $\theta$ that maximizes the likelihood for the choice of $\mu$ being tested. Additionally, $\hat{\theta}$ and $\hat{\mu}$ represent the values of $\theta$ and $\mu$ that gives the overall maximum value of the likelihood. 
+
+Once this is defined, a test statistic $q_\mu$ is constructed. This is shown in equation~\ref{eqn:qmu}.
+
+\begin{equation}
+q_\mu = -2 \ln \lambda(\mu)
+\label{eqn:qmu}
+\end{equation}
+
+A higher value of $q_\mu$ means that the data are more incompatible with the hypothesized value of $\mu$, and $q_0$ then corresponds to the value of the test statistic for the background only hypothesis. A $p_0$ value is then defined to quantify the compatibility between the data and the null hypothesis. The $p_0$ value is the probability of obtaining a value of $q_0$ larger than the observed value, and this is shown in equation~\ref{eqn:pzero}.
+
+\begin{equation}
+p_0 = \int_{q_0^{\rm obs}}^{\infty} f(q_\mu | \mu = 0) d q_\mu
+\label{eqn:pzero}
+\end{equation}
+
+Here $f(q_\mu)$ is the probability distribution function of the test statistic. Finally, the $p_0$ value can be converted into a signal significance, using the formula in equation\ref{eqn:zscore}, or the one-sided tail of the Gaussian distribution. 
+
+\begin{equation}
+Z_0 = \sqrt{2} \text{erf}^{-1} (1-2p_0)
+\label{eqn:zscore}
+\end{equation}
+
+The threshold for discovery used in particle physics is $Z_0 \geq 5$, more commonly known as a value of $5\sigma$.
+
+
+
