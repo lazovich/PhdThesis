@@ -1,15 +1,27 @@
 \begin{thebibliography}{}
 
-\bibitem[Armbruster, 2013]{ArmbrusterThesis}
-Armbruster, A.~J. (2013).
-\newblock Discovery of a higgs boson with the atlas detector.
-\newblock {\em CERN-THESIS-2013-047}.
+\bibitem[Muo, 2014]{MuonTrigger2012}
+ (2014).
+\newblock {Performance of the ATLAS muon trigger in pp collisions at
+  $\sqrt{s}=$8 TeV}.
+\newblock {\em Eur. Phys. J. C}, (arXiv:1408.3179. CERN-PH-EP-2014-154), 75. 19
+  p.
 
-\bibitem[Collaboration, 2015]{WW2015}
-Collaboration, A. (2015).
+\bibitem[Ele, 2015]{ElectronTrigger2012}
+ (2015).
+\newblock {Electron trigger performance in 2012 ATLAS data}.
+\newblock ATLAS-COM-DAQ-2015-091.
+
+\bibitem[WW2, 2015]{WW2015}
+ (2015).
 \newblock Observation and measurement of higgs boson decays to ww* with the
   atlas detector.
 \newblock {\em Phys. Rev. D}, 92(012006).
+
+\bibitem[Armbruster, 2013]{ArmbrusterThesis}
+Armbruster, A.~J. (2013).
+\newblock Discovery of a higgs boson with the atlas detector.
+\newblock CERN-THESIS-2013-047.
 
 \bibitem[{G. Cowan, K. Cranmer, E. Gross, and O. Vitells}, 2011]{Cowan:2010st}
 {G. Cowan, K. Cranmer, E. Gross, and O. Vitells} (2011).
