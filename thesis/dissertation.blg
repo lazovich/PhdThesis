@@ -17,45 +17,47 @@ Warning--empty author in MuonTrigger2012
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty author in WW2015
 Warning--empty journal in ArmbrusterThesis
-You've used 5 entries,
+Warning--empty journal in acermc
+Warning--empty journal in gg2vv
+You've used 18 entries,
             2229 wiz_defined-function locations,
-            550 strings with 4809 characters,
-and the built_in function-call counts, 1368 in all, are:
-= -- 130
-> -- 14
-< -- 2
-+ -- 4
-- -- 4
-* -- 116
-:= -- 230
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 27
-chr.to.int$ -- 5
-cite$ -- 15
-duplicate$ -- 64
-empty$ -- 123
-format.name$ -- 6
-if$ -- 265
+            625 strings with 6351 characters,
+and the built_in function-call counts, 6052 in all, are:
+= -- 572
+> -- 214
+< -- 10
++ -- 70
+- -- 70
+* -- 507
+:= -- 1087
+add.period$ -- 52
+call.type$ -- 18
+change.case$ -- 121
+chr.to.int$ -- 18
+cite$ -- 30
+duplicate$ -- 244
+empty$ -- 448
+format.name$ -- 91
+if$ -- 1162
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 28
-num.names$ -- 6
-pop$ -- 22
+missing$ -- 17
+newline$ -- 91
+num.names$ -- 45
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 121
 quote$ -- 0
-skip$ -- 47
+skip$ -- 189
 stack$ -- 0
-substring$ -- 99
-swap$ -- 3
+substring$ -- 384
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 7
-while$ -- 6
+type$ -- 108
+warning$ -- 9
+while$ -- 43
 width$ -- 0
-write$ -- 62
-(There were 7 warnings)
+write$ -- 225
+(There were 9 warnings)

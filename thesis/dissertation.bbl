@@ -23,9 +23,78 @@ Armbruster, A.~J. (2013).
 \newblock Discovery of a higgs boson with the atlas detector.
 \newblock CERN-THESIS-2013-047.
 
+\bibitem[{B.~P.~Kersevan and E.~Richter-Was}, 2004]{acermc}
+{B.~P.~Kersevan and E.~Richter-Was} (2004).
+\newblock {The Monte Carlo event generator AcerMC version 2.0 with interfaces
+  to PYTHIA 6.2 and HERWIG 6.5}.
+
+\bibitem[Butterworth et~al., 1996]{jimmy}
+Butterworth, J.~M., Forshaw, J.~R., \& Seymour, M.~H. (1996).
+\newblock {Multiparton interactions in photoproduction at HERA}.
+\newblock {\em Z. Phys.}, C 72, 637.
+
+\bibitem[Corcella et~al., 2001]{herwig}
+Corcella, G. et~al. (2001).
+\newblock {HERWIG 6: An event generator for hadron emission reactions with
+  interfering gluons (including super-symmetric processes) }.
+\newblock {\em JHEP}, 01, 010.
+
 \bibitem[{G. Cowan, K. Cranmer, E. Gross, and O. Vitells}, 2011]{Cowan:2010st}
 {G. Cowan, K. Cranmer, E. Gross, and O. Vitells} (2011).
 \newblock Asymptotic formulae for likelihood-based tests of new physics.
 \newblock {\em Eur. Phys. J.}, C 71, 1554.
+
+\bibitem[Gao et~al., 2014]{ct10}
+Gao, J., Guzzi, M., Huston, J., Lai, H.-L., Li, Z., et~al. (2014).
+\newblock {The CT10 NNLO Global Analysis of QCD}.
+\newblock {\em Phys.Rev.}, D89, 033009.
+
+\bibitem[Gleisberg et~al., 2009]{sherpa}
+Gleisberg, T., Hoeche, S., Krauss, F., Schonherr, M., Schumann, S., et~al.
+  (2009).
+\newblock {Event generation with SHERPA 1.1}.
+\newblock {\em JHEP}, 0902, 007.
+
+\bibitem[Kauer \& Passarino, 2012]{gg2vv}
+Kauer, N. \& Passarino, G. (2012).
+\newblock {Inadequacy of zero-width approximation for a light Higgs boson
+  signal}.
+
+\bibitem[Mangano et~al., 2003]{alpgen}
+Mangano, M.~L. et~al. (2003).
+\newblock {ALPGEN, a generator for hard multiparton processes in hadronic
+  collisions}.
+\newblock {\em JHEP}, 0307, 001.
+
+\bibitem[Nason, 2004]{powheg1}
+Nason, P. (2004).
+\newblock {A new method for combining NLO QCD with shower Monte Carlo
+  algorithms}.
+\newblock {\em JHEP}, 11, 040.
+
+\bibitem[{P.~M.~Nadolsky}, 2008]{cteq}
+{P.~M.~Nadolsky} (2008).
+\newblock {Implications of CTEQ global analysis for collider observables}.
+\newblock {\em Phys. Rev.}, D 78, 013004.
+
+\bibitem[{S.~Agostinelli et al.}, 2003]{geant4}
+{S.~Agostinelli et al.} (2003).
+\newblock {\sc Geant4}, a simulation toolkit.
+\newblock {\em Nucl. Instrum. Meth.}, A 506, 250.
+
+\bibitem[Sherstnev \& Thorne, 2009]{mrst}
+Sherstnev, A. \& Thorne, R.~S. (2009).
+\newblock {Parton distributions for the LHC}.
+\newblock {\em Eur. Phys. J}, C 55, 553.
+
+\bibitem[Sjostrand et~al., 2006]{pythia6}
+Sjostrand, T., Mrenna, S., \& Skands, P.~Z. (2006).
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock {\em JHEP}, 0605, 026.
+
+\bibitem[Sjostrand et~al., 2008]{pythia8}
+Sjostrand, T., Mrenna, S., \& Skands, P.~Z. (2008).
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput.Phys.Commun.}, 178, 852--867.
 
 \end{thebibliography}

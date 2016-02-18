@@ -109,13 +109,78 @@ Trigger efficiency for signal events and relative gain of adding a dilepton trig
 \subsection{Monte Carlo samples}
 \label{sec:HWWMC}
 
-Modeling of signal and background processes in the signal region, in particular for the $\mTH$ distribution, is an important consideration for the final interpretation of the analysis. Therefore, careful consideration must be paid to 
+Modeling of signal and background processes in the signal region, in particular for the $\mTH$ distribution, is an important consideration for the final interpretation of the analysis. Therefore, careful consideration must be paid to which Monte Carlo (MC) generators are used for specific processes. With the exception of the $W$+jet and multijet backgrounds, the $\mTH$ shape used as the final discriminant is taken from simulation. (Many backgrounds are normalized from data, as described in section~\ref{sec:HWWbkg}).
+
+Table~\ref{tab:HWW-MC} shows the MC generators used for the signal and background processes, as well as their cross sections. In order to include corrections up to next-to-leading order (NLO) in the QCD coupling constant $\alpha_{s}$, the \POWHEG\cite{powheg1} generator is often used. In some cases, only leading order generators like \ACERMC\cite{acermc} and \GGTOVV\cite{gg2vv} are available for the process in question. If the process requires good modeling for very high parton multiplicities, the \SHERPA\cite{sherpa} and \ALPGEN\cite{alpgen} generators are used to provide merged calculations for five or fewer additional partons. These matrix element level calculations must then be additionally matched to models of the underlying event, hadronization, and parton shower. There are four possible generators for this: \SHERPA, \PYTHIA6\cite{pythia6}, \PYTHIA8\cite{pythia8}, or \HERWIG\cite{herwig} + \JIMMY\cite{jimmy}. The simulation additionally requires an input parton distribution function (PDF). The \CT10\cite{ct10} PDFs are used for \SHERPA and \POWHEG simulated samples, while \CTEQ6L1\cite{cteq} is used for \ALPGEN+\HERWIG and \ACERMC simulations. The Drell-Yan samples are reweighted to the \MRST\cite{mrst} PDFs, as these are found to give the best agreement between data and simulation. 
+
+\begin{table}[t!]
+\centering
+\captionsetup{justification=centering}
+\begin{tabular*}{0.75\textwidth}{
+    lll p{0.25\textwidth} c
+}
+\dbline
+\multicolumn{3}{l}{\multirow{2}{*}{Process}}
+& \multicolumn{1}{l}{\multirow{2}{*}{MC generator$\nq$}}
+& \multicolumn{1}{r}{$\sigma{\CDOT}\mathcal{B}$~~}
+\\
+&
+&
+&
+& \multicolumn{1}{r}{(pb)~~}
+\\
+\sgline
+\multicolumn{2}{l}{Signal }& & \\
+\quad ggF    &$\HWW$                                                             && \POWHEG+\PYTHIA8      & 0.435 \\
+\quad VBF    &$\HWW$                                                             && \POWHEG+\PYTHIA8      & 0.0356 \\
+\quad $\VH$  &$\HWW$                                                             && \PYTHIA8              & 0.0253 \\
+\sgline
+\multicolumn{3}{l}{$\WW$ }& & \\
+\multicolumn{3}{l}{\quad $\qq{\TO}\WW$ and $qg{\TO}\WW$                          }& \POWHEG+\PYTHIA6      & 5.68 \\ 
+\multicolumn{3}{l}{\quad $gg{\TO}\WW$                                            }& \GGTOVV+\HERWIG       & 0.196 \\
+\multicolumn{3}{l}{\quad $(\qq{\TO}W){\PLUS}(\qq{\TO}W)$                         }& \PYTHIA8              & 0.480 \\
+\multicolumn{3}{l}{\quad $\qq{\TO}\WW$                                           }& \SHERPA               & 5.68 \\
+\multicolumn{3}{l}{\quad VBS $\WW{+\,}2\,\textrm{jets}$                          }& \SHERPA               & 0.0397 \\
+\sgline
+\multicolumn{3}{l}{Top quarks }& & \\
+\multicolumn{3}{l}{\quad $\ttbar$                                                }& \POWHEG+\PYTHIA6      & 26.6 \\
+\multicolumn{3}{l}{\quad $Wt$                                                    }& \POWHEG+\PYTHIA6      & 2.35 \\
+\multicolumn{3}{l}{\quad $tq\bar{b}$                                             }& \ACERMC+\PYTHIA6      & 28.4 \\
+\multicolumn{3}{l}{\quad $t\bar{b}$                                              }& \POWHEG+\PYTHIA6      & 1.82 \\
+\sgline
+\multicolumn{3}{l}{Other dibosons ($VV$)}& & \\
+\multicolumn{1}{l}{\quad $\Wg$  } &\multicolumn{2}{l}{($\pT^{\gamma}{\GT}8\GeV$) }& \ALPGEN+\HERWIG       & 369 \\
+\multicolumn{1}{l}{\quad $\Wgs$ } &\multicolumn{2}{l}{($\mll{\LE}7\GeV$)         }& \SHERPA               & 12.2 \\ 
+\multicolumn{1}{l}{\quad $\WZ$  } &\multicolumn{2}{l}{($\mll{\GT}7\GeV$)         }& \POWHEG+\PYTHIA8      & 12.7 \\ 
+%\multicolumn{2}{l}{\quad $\WZ{\PLUS}2\,\textrm{jets}$, ${\cal{O}}(\alpha_s^0)$} &($\mll{\GT}7\GeV$) & \SHERPA  & 0.013 \\
+\multicolumn{3}{l}{\quad VBS $\WZ{\PLUS}2\,\textrm{jets}$                        }& \SHERPA               & 0.0126 \\
+\multicolumn{1}{l}{\quad        } & ($\mll{\GT}7\GeV$)                            &                       & \\
+\multicolumn{1}{l}{\quad $\Zg$  } &\multicolumn{2}{l}{($\pT^{\gamma}{\GT}8\GeV$) }& \SHERPA               & 163 \\
+\multicolumn{1}{l}{\quad $\Zgs$ } &\multicolumn{2}{l}{(min.\ $\mll{\LE}4\GeV$)   }& \SHERPA               & 7.31 \\
+\multicolumn{1}{l}{\quad $\ZZ$  } &\multicolumn{2}{l}{($\mll{\GT}4\GeV$)         }& \POWHEG+\PYTHIA8      & 0.733 \\
+\multicolumn{3}{l}{\quad $\ZZ{\TO}\ell\ell\,\nu\nu$ ($\mll{\GT}4\GeV$)           }& \POWHEG+\PYTHIA8      & 0.504 \\
+\sgline
+\multicolumn{3}{l}{Drell-Yan }& & \\
+\multicolumn{1}{l}{\quad $Z$   } &\multicolumn{2}{l}{($\mll{\GT}10\GeV$)         }& \ALPGEN+\HERWIG  $\np$& 16500 \\
+\multicolumn{3}{l}{\quad VBF $Z{\PLUS}2\,\textrm{jets}$                          }& \SHERPA               & 5.36 \\
+\multicolumn{1}{l}{\quad        } & ($\mll{\GT}7\GeV$)                            &                       & \\
+\dbline
+\end{tabular*}
+\caption{
+  Monte Carlo samples used to model the signal and background processes\cite{WW2015}.
+}
+\label{tab:HWW-MC}
+\end{table}
+
+
+Once the basic hard scattering process is simulated, it must be passed through a detector simulation and additional pile-up events must be overlaid. The pile-up events are modeled with \PYTHIA8, and the ATLAS detector is simulated with \GEANT4\cite{geant4}. Because of the unique phase space of the $\HWW$ analysis, events are sometimes filtered at generator level to allow for more efficient generation of relevant events. 
 
 \section{Object selection}
 
 \section{Analysis selection}
 
 \section{Background estimation}
+\label{sec:HWWbkg}
 
 \section{Systematic uncertainties}
 
