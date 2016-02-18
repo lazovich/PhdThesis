@@ -5,13 +5,14 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
 You've used 3 entries,
             2229 wiz_defined-function locations,
-            539 strings with 4529 characters,
+            540 strings with 4550 characters,
 and the built_in function-call counts, 884 in all, are:
 = -- 84
 > -- 21
