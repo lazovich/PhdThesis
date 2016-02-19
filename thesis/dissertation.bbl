@@ -1,22 +1,22 @@
 \begin{thebibliography}{}
 
-\bibitem[Muo, 2014]{MuonTrigger2012}
+\bibitem[GSF, 2012]{GSF}
+ (2012).
+\newblock {\em {Improved electron reconstruction in ATLAS using the Gaussian
+  Sum Filter-based model for bremsstrahlung}}.
+\newblock Technical Report ATLAS-CONF-2012-047, CERN, Geneva.
+
+\bibitem[Ele, 2014]{ElectronReco}
  (2014).
-\newblock {Performance of the ATLAS muon trigger in pp collisions at
-  $\sqrt{s}=$8 TeV}.
-\newblock {\em Eur. Phys. J. C}, (arXiv:1408.3179. CERN-PH-EP-2014-154), 75. 19
-  p.
+\newblock {\em {Electron efficiency measurements with the ATLAS detector using
+  the 2012 LHC proton-proton collision data}}.
+\newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva.
 
-\bibitem[Ele, 2015]{ElectronTrigger2012}
- (2015).
-\newblock {Electron trigger performance in 2012 ATLAS data}.
-\newblock ATLAS-COM-DAQ-2015-091.
-
-\bibitem[WW2, 2015]{WW2015}
- (2015).
-\newblock Observation and measurement of higgs boson decays to ww* with the
-  atlas detector.
-\newblock {\em Phys. Rev. D}, 92(012006).
+\bibitem[Aad et~al., 2014]{MuonReco}
+Aad, G. et~al. (2014).
+\newblock {Measurement of the muon reconstruction performance of the ATLAS
+  detector using 2011 and 2012 LHC proton–proton collision data}.
+\newblock {\em Eur. Phys. J.}, C74(11), 3130.
 
 \bibitem[Armbruster, 2013]{ArmbrusterThesis}
 Armbruster, A.~J. (2013).
@@ -32,6 +32,24 @@ Armbruster, A.~J. (2013).
 Butterworth, J.~M., Forshaw, J.~R., \& Seymour, M.~H. (1996).
 \newblock {Multiparton interactions in photoproduction at HERA}.
 \newblock {\em Z. Phys.}, C 72, 637.
+
+\bibitem[Collaboration, 2014]{MuonTrigger2012}
+Collaboration, A. (2014).
+\newblock {Performance of the ATLAS muon trigger in pp collisions at
+  $\sqrt{s}=$8 TeV}.
+\newblock {\em Eur. Phys. J. C}, (arXiv:1408.3179. CERN-PH-EP-2014-154), 75. 19
+  p.
+
+\bibitem[collaboration, 2015]{ElectronTrigger2012}
+collaboration, A. (2015).
+\newblock {Electron trigger performance in 2012 ATLAS data}.
+\newblock ATLAS-COM-DAQ-2015-091.
+
+\bibitem[Collaboration, 2015]{WW2015}
+Collaboration, A. (2015).
+\newblock Observation and measurement of higgs boson decays to ww* with the
+  atlas detector.
+\newblock {\em Phys. Rev. D}, 92(012006).
 
 \bibitem[Corcella et~al., 2001]{herwig}
 Corcella, G. et~al. (2001).

@@ -31,7 +31,7 @@ The results presented here are with 20.3 \ifb taken at $\sqrt{s} = 8 \TeV$ and 4
 \subsection{Triggers}
 \label{sec:HWWtrigger}
 
-The analysis uses a combination of single lepton and dilepton triggers to allow lowering of the $\pT$ thresholds and increased signal acceptance. As discussed in Chapter 2, there are multiple levels in the ATLAS trigger system, and there are different $\pT$ thresholds imposed for the leptons at each level. Additionally, some triggers have a loose selection on the isolation of the lepton (looser than that applied offline in the analysis object selection). Table~\ref{tab:single-lepton-trig} shows the thresholds used for single lepton triggers, while table~\ref{tab:dilepton-trig} shows the thresholds coming from di-lepton triggers. The single lepton trigger efficiency for muons that pass the analysis object selection is 70\% for muons in the barrel region ($|\eta| < 1.05$) and 90\% in the endcap region. The electron trigger efficiency increases with electron $\pT$ but the average is approximately 90\%. These efficiencies are measured by combined performance and trigger signature groups\cite{ElectronTrigger2012,MuonTrigger2012}.
+The analysis uses a combination of single lepton and dilepton triggers to allow lowering of the $\pT$ thresholds and increased signal acceptance. As discussed in Chapter 2, there are multiple levels in the ATLAS trigger system, and there are different $\pT$ thresholds imposed for the leptons at each level. Additionally, some triggers have a loose selection on the isolation of the lepton (looser than that applied offline in the analysis object selection). Table~\ref{tab:single-lepton-trig} shows the thresholds used for single lepton triggers, while table~\ref{tab:dilepton-trig} shows the thresholds coming from di-lepton triggers. The single lepton trigger efficiency for muons that pass the analysis object selection is 70\% for muons in the barrel region ($|\eta| < 1.05$) and 90\% in the endcap region. The electron trigger efficiency increases with electron $\pT$ but the average is approximately 90\%. These efficiencies are measured by combined performance and trigger signature groups\cite{MuonTrigger2012,ElectronTrigger2012}.
 
 
 
@@ -173,9 +173,77 @@ Table~\ref{tab:HWW-MC} shows the MC generators used for the signal and backgroun
 \end{table}
 
 
-Once the basic hard scattering process is simulated, it must be passed through a detector simulation and additional pile-up events must be overlaid. The pile-up events are modeled with \PYTHIA8, and the ATLAS detector is simulated with \GEANT4\cite{geant4}. Because of the unique phase space of the $\HWW$ analysis, events are sometimes filtered at generator level to allow for more efficient generation of relevant events. 
+Once the basic hard scattering process is simulated, it must be passed through a detector simulation and additional pile-up events must be overlaid. The pile-up events are modeled with \PYTHIA8, and the ATLAS detector is simulated with \GEANT4\cite{geant4}. Because of the unique phase space of the $\HWW$ analysis, events are sometimes filtered at generator level to allow for more efficient generation of relevant events. The efficiency of the trigger in MC simulation does not always match the measured efficiency in data, so trigger scale factors are applied to correct the MC efficiency to the data. These are derived by the combined performance groups\cite{MuonTrigger2012,ElectronTrigger2012}.
 
 \section{Object selection}
+
+In order to define the signal region, the analysis must first select the objects to be considered. The details of the object reconstruction algorithms are discussed in Chapter 2, while this section gives specific selection cuts used in the $\HWW$ analysis. 
+
+The first step in this process is to select a primary vertex candidates. The event's primary vertex is the vertex with the largest sum of $\pT^2$ for associated tracks and is required to have at least three tracks with $\pT > 450$ \MeV. Many of the object selection cuts are then made relative to this chosen primary vertex.
+
+\subsection{Muons}
+
+The analysis uses combined muon candidates, where a track in the Inner Detector has been matched to a standalone track in the Muon Spectrometer. The track parameters are combined statistically in the muon reconstruction algorithm\cite{MuonReco}. The muons are required to be within $|\eta| < 2.5$ and have a $\pT > 10 \GeV$. To reduce backgrounds coming from mis-reconstructed leptons, there are requirements on the impact parameter of the muon relative to the primary vertex. The transverse impact parameter $d_0$ is required to be small relative to its estimated uncertainty, the exact cut value being $d_0/\sigma_{d_0} < 3$. The longitudinal impact parameter $z_0$ must satisfy $\left|z_0\sin\theta\right| < 1$ mm. 
+
+As discussed previously, the muons must also be isolated. There are two types of lepton isolations that are calculated: track-based and calorimeter-based. For muons, the track-based isolation is defined using the scalar sum  $\sum \pT$ for tracks with $\pT > 1 \GeV$ (excluding the muon's track) within a cone of  $\Delta R = 0.3$ ($0.4$) for muon with $\pT > 15 \GeV$ ($10 < \pT < 15 \GeV$). The final isolation requirement is made my requiring that this scalar sum be no more than a certain fraction of the muon's $\pT$. This requirement varies with muon $\pT$ and the exact cuts are defined in table~\ref{tab:muonisocuts}.
+
+The calorimeter-based muon isolation is defined using as a $\sum E_{T}$ calculated from calorimeter cells using the same cone size as the track-based isolation but excluding cells with $\Delta R < 0.05$ around the muon. This requirement is also definedas a cut on the ratio of the sum to the muon $\pT$ and varies with muon $\pT$. The cut values are also given in table~\ref{tab:muonisocuts}.
+
+The isolation requirements loosen as a function of $\pT$ to allow for larger signal acceptance. At low $\pT$, the isolation is tightened to reduce the $W$+jets background which arises from a misidentified lepton. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|}
+\hline
+$p_T$ range (GeV) & Calorimeter isolation & Track isolation\\ \hline \hline
+$10-15$ & $0.06$ & $0.06$ \\ \hline
+$15-20$ & $0.12$ & $0.08$ \\ \hline
+$20-25$ & $0.18$ & $0.12$ \\ \hline
+$> 25$ & $0.30$ & $0.12$ \\ \hline
+\end{tabular}
+
+\caption{
+$\pT$ dependent isolation requirements for muons. Muons are required to have the amount of calorimeter or track based cone sums be less than this fraction of their $\pT$.
+}
+\label{tab:muonisocuts}
+\end{table}
+
+\subsection{Electrons}
+
+Electrons are identified by matching reconstructed clusters in the electromagnetic calorimeter with tracks in the inner detector. The electrons are identified using a likehood based method\cite{ElectronReco,GSF} which takes into account the shower shapes in the calorimeter, the matching of tracks to clusters, and the amount of transition radiation in the TRT. The electrons are required to have $|\eta| < 2.47$, and candidates in the transition region between the barrel and endcap ($1.37 < |\eta| < 1.52$) are excluded. As the muons, the electrons are required to have transverse impact parameter significance $ < 3$, while in the longitudinal direction they must have $|z_0 \sin \theta| < 0.4$ mm. Some electron requirements also vary with electron $E_{T}$, and these requirements are summarized in table~\ref{tab:elecselec}.
+
+The isolation for electrons are defined similarly to the muons but with unique cuts on the objects included. The track-based isolation is defined using tracks with $\pT > 400 \MeV$ with cone sizes as defined previously. The calorimeter-based isolation also uses the same cone size as the muon, but here the cells within a $0.125 \times 0.175$ area in $\eta \times \phi$ around the electron cluster's barycenter are excluded. The other difference with respect to muons is that the denominator of the isolation ratio is the electron's $E_{T}$ rather than $\pT$. The isolation cuts very with electron $E_{T}$and are defined in table~\ref{tab:elecselec}. 
+
+The electron is also required to not be consistent with a vertex coming from a photon conversion. 
+
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$p_T$ range (GeV) & Quality cut & Calorimeter isolation & Track isolation\\ \hline \hline
+$10-15$ & Very tight LH & $0.20$ & $0.06$ \\ \hline
+$15-20$ & Very tight LH & $0.24$ & $0.08$ \\ \hline
+$20-25$ & Very tight LH & $0.28$ & $0.10$ \\ \hline
+$> 25$ & Medium & $0.28$ & $0.10$ \\ \hline
+\end{tabular}
+
+\caption{
+$\pT$ dependent requirements for electrons. Electrons are required to have the amount of calorimeter or track based cone sums be less than this fraction of their $E_{T}$.
+}
+\label{tab:elecselec}
+\end{table}
+
+
+
 
 \section{Analysis selection}
 

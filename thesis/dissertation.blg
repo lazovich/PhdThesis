@@ -10,54 +10,53 @@ A level-1 auxiliary file: chapters/conclusion.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
-Warning--to sort, need author or key in WW2015
-Warning--to sort, need author or key in ElectronTrigger2012
-Warning--to sort, need author or key in MuonTrigger2012
-Warning--empty author in MuonTrigger2012
-Warning--there's a number but no volume in MuonTrigger2012
-Warning--empty author in WW2015
+Warning--to sort, need author or key in ElectronReco
+Warning--to sort, need author or key in GSF
+Warning--empty author in GSF
+Warning--empty author in ElectronReco
 Warning--empty journal in ArmbrusterThesis
 Warning--empty journal in acermc
+Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in gg2vv
-You've used 18 entries,
+You've used 21 entries,
             2229 wiz_defined-function locations,
-            625 strings with 6351 characters,
-and the built_in function-call counts, 6052 in all, are:
-= -- 572
-> -- 214
-< -- 10
-+ -- 70
-- -- 70
-* -- 507
-:= -- 1087
-add.period$ -- 52
-call.type$ -- 18
-change.case$ -- 121
-chr.to.int$ -- 18
-cite$ -- 30
-duplicate$ -- 244
-empty$ -- 448
-format.name$ -- 91
-if$ -- 1162
+            643 strings with 6852 characters,
+and the built_in function-call counts, 7006 in all, are:
+= -- 668
+> -- 248
+< -- 16
++ -- 80
+- -- 80
+* -- 580
+:= -- 1276
+add.period$ -- 61
+call.type$ -- 21
+change.case$ -- 138
+chr.to.int$ -- 21
+cite$ -- 31
+duplicate$ -- 284
+empty$ -- 508
+format.name$ -- 106
+if$ -- 1341
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 91
-num.names$ -- 45
-pop$ -- 90
+missing$ -- 18
+newline$ -- 106
+num.names$ -- 57
+pop$ -- 98
 preamble$ -- 1
-purify$ -- 121
+purify$ -- 140
 quote$ -- 0
-skip$ -- 189
+skip$ -- 221
 stack$ -- 0
-substring$ -- 384
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 431
+swap$ -- 19
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 9
-while$ -- 43
+type$ -- 126
+warning$ -- 8
+while$ -- 52
 width$ -- 0
-write$ -- 225
-(There were 9 warnings)
+write$ -- 267
+(There were 8 warnings)
