@@ -242,7 +242,17 @@ $\pT$ dependent requirements for electrons. Electrons are required to have the a
 \label{tab:elecselec}
 \end{table}
 
+\subsection{Jets}
 
+Jets are clustered with the anti-$k_T$ reconstruction algorithm using a radius parameter of $R=0.4$. They are required to have a jet vertex fraction (\jvf) of at least 50\%, meaning that half of the tracks associated with the jet originated from the primary vertex. Jets with no tracks associated (i.e. those outside the acceptance of the ID) do not have this requirement applied. Jets are required to have $p_{T} > 25 \GeV$ if they are within the tracking acceptance ($|\eta| < 2.4$). Jets with $2.4 < |eta| < 4.5$ are required to have $\pT > 30 \GeV$. This tighter requirement reduces jets from pileup in the region where \jvf requirements cannot be applied. The two highest $\pT$ jets in the event are referred to as the ``VBF" jets and used to compute various analysis selections later. 
+
+Identification of $b$-jets is done using the MV1 algorithm and is limited to the acceptance of the ID ($|\eta| < 2.5$). The operating point of MV1 that is used is the one that is 85\% efficient for identifying true $b$-jets. This operating point has a 10.3\% of mis-tagging a light quark jet as a $b$-jet. In order to improve the rejection of $b$-jets, a lower threshold than the nominal $\pT$ threshold described above is used. For the purposes of counting the number of $b$-jets, jets with $\pT$ down to 20 \GeV are used. 
+
+\subsection{Overlap removal}
+
+There are some cases where certain reconstructed objects will overlap and one will have to be chosen (for example, an electron and a jet in the calorimeter). First, the case of lepton overlap is dealt with. If an electron candidate extends into the muon spectrometer, it is removed. If a muon or electron have a $\Delta R < 0.1$, the electron is removed and the muon is kept. If two electron candidates overlap within the same radius, then the higher $E_{T}$ electron is kept. Next, the overlap between leptons and jets is considered. If an electron and jet are within $\Delta R < 0.3$ of one another, the electron is kept and the jet is removed. However, if a muon and jet overlap within $\Delta R < 0.3$, the jet is kept (as it is likely that the muon is the result of a semileptonic decay inside the jet). 
+
+Once the overlap removal is complete, the final set of objects used in the analysis is defined. 
 
 
 \section{Analysis selection}
