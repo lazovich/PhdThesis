@@ -322,7 +322,7 @@ The cut-based analysis uses $\mTH$ as the final discriminating variable as in th
 
 Table~\ref{tab:vbf_cutflow} shows the data and estimated signal and background yields from simulation as each cut described above is made. The table shows how each cut reduces specific backgrounds and how the overall signal to background ratio grows through the cutflow. 
 
-\begin{sidewaystable}[h!]
+\begin{sidewaystable}[ht!]
 \caption{
   Event selection for the $\NjetGEtwo$ VBF analysis in
   the $8\TeV$ cut-based analysis\cite{WW2015}.
@@ -395,6 +395,7 @@ $\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2
 
 The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score as the final discriminant. The BDT is trained with the VBF $\HWW$ simulation as the signal samples and all other processes as background, including ggF $\HWW$ production. 
 
+\subsubsection{Pre-training selection and BDT inputs}
 Before training, the common preselection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to do the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations, shown in equation~\ref{eqn:mlj}.
 
 \begin{equation}
@@ -427,9 +428,17 @@ Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for th
   \label{fig:vbf_bdt_vbftopo}
 \end{figure}
 
+\subsubsection{BDT output}
 
+After training, the BDT outputs a score ($\bdt$) which is in the range $[-1, 1]$, where $-1$ corresponds to background-like events and $+1$ corresponds to signal-like events. Figure~\ref{fig:bdtscore} shows the output BDT distribution in both the different flavor and same flavor channels. For the final discriminant analysis, the $\bdt$ distribution is divided into four bins, with boundaries at $[-1, -0.48, -0.3, 0.78, 1]$. The bins are numbered from $0,1,2,3$ respectively. Because bin $0$ is predominantly background, it is excluded from the likelihood analysis. 
 
-
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.6\textwidth]{figures/BDT_score}
+  \caption{Distributions of $\bdt$ for the VBF signal and associated backgrounds after the VBF pre-training selection\cite{WW2015}.}
+  \label{fig:bdtscore}
+\end{figure}
 
 
 
