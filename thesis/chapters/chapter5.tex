@@ -262,7 +262,7 @@ The VBF analysis uses two distinct selections. The first is a looser selection t
 One important note is that because this analysis is dedicated to the measurement of the VBF production mode of the Higs, events coming from gluon fusion production with the Higgs decaying via \HWWfull are treated as background events. This will be seen throughout the vargious cutflow tables and yields shown. 
 
 \subsection{Common pre-selection}
-
+\label{sec:vbf_presel}
 Both the BDT and cut-based analyses have a common pre-selection that is applied before their main cuts. The cuts on leptons are common to all $\Njet$ bins. The analysis requires two oppositely charged leptons, with the leading lepton required to have $\pT > 22$ \GeV while the subleading lepton must have $\pT > 10$ \GeV. Next, to cut out low mass $\ZDY$ events, a cut on the dilepton mass $\mll > 10$ (12) \GeV is applied in the different (same) flavor channel. In the same flavor channels, there is an additional veto placed on the region around the Z peak, requiring that $|\mll - \mZ| > 15$ \GeV. 
 
 There are also requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, as in the different flavor channels $\ttbar$ is the dominant background in $\Njet \geq 2$. The BDT analysis requires $\MPTj > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must cut tighter on these variables to have maximal sensitivity and thus requires $\MPTj > 50 \GeV$ and $\MET > 55 \GeV$. 
@@ -289,7 +289,7 @@ The first cut after pre-selection in the cut-based analysis requires $\pTtot < 1
 In the different flavor channels, a cut is made to reduce the contamination from $Z\to\tau\tau$ decays. The di-$\tau$ invariant mass, $\mtt$. is constructed by assuming that the neutrinos from the $\tau$ decays were collinear with the leptons\cite{collinear}. The analysis requires that this mass not be consistent with a $Z$ by requiring $\mtt < m_Z - 25$ \GeV. 
 
 \subsubsection{VBF topological cuts}
-
+\label{sec:vbf_topocuts}
 After the cuts mentioned above, the analysis applies specific cuts to take advantage of the unique VBF topology, collectively referred to as the ``VBF topological cuts". First, a requirement on the dijet invariant mass of the VBF jets, $\mjj$, is placed, requiring $\mjj > 600 \GeV$. Next, the event is required to have a large gap in rapidity between the two VBF jets, or $\dyjj > 3.6$. Both of these cuts put tight requirements on the presence of two forward, high $\pT$ jets moving in opposite directions in the longitudinal plane. 
 
 Beyond requiring the presence of the two forward VBF jets, the analysis also vetoes on the presence of any additional jets that fall between the two VBF jets. This cut is referred to as the central jet veto, or CJV. Any events with a third jet with $\pT > 20 \GeV$ whose rapidity is between the region defined by the two VBF jets are vetoed. This can be expressed in terms of a variable called the jet centrality, defined in equation~\ref{eqn:cjv}.
@@ -322,7 +322,7 @@ The cut-based analysis uses $\mTH$ as the final discriminating variable as in th
 
 Table~\ref{tab:vbf_cutflow} shows the data and estimated signal and background yields from simulation as each cut described above is made. The table shows how each cut reduces specific backgrounds and how the overall signal to background ratio grows through the cutflow. 
 
-\begin{sidewaystable}[bt!]
+\begin{sidewaystable}[h!]
 \caption{
   Event selection for the $\NjetGEtwo$ VBF analysis in
   the $8\TeV$ cut-based analysis\cite{WW2015}.
@@ -391,10 +391,41 @@ $\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2
 \end{sidewaystable}                                                                                       
 
 
-
 \subsection{BDT based selection}
 
-The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score as the final discriminant.  
+The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score as the final discriminant. The BDT is trained with the VBF $\HWW$ simulation as the signal samples and all other processes as background, including ggF $\HWW$ production. 
+
+Before training, the common preselection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to do the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations, shown in equation~\ref{eqn:mlj}.
+
+\begin{equation}
+\mlj = m_{\ell1, j1} + m_{\ell1, j2} + m_{\ell2,j1} + m_{\ell2,j2}
+\label{eqn:mlj}
+\end{equation}
+
+Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for the $\mlj$ variable, as well as showing its discriminating power. Figure~\ref{fig:vbf_bdt_htopo} shows the distributions of the Higgs topological variables used as BDT inputs for VBF signal and corresponding backgrounds. Figure~\ref{fig:vbf_bdt_vbftopo} shows the distributions of the VBF topological variables used as BDT inputs. In both cases, the VBF yield has been scaled by a factor of 50 to better show the shape difference compared to the backgrounds. 
+
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_mll}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_dphill}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_mT}
+
+  \caption{Distributions of $\mll$ (top left), $\dphill$ (top right), and $\mTH$ (bottom) for the VBF BDT analysis. These are plotted after all of the BDT pre-training selection cuts\cite{WW2015}.}
+  \label{fig:vbf_bdt_htopo}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_mjj}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_dyjj}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_olv}
+  \includegraphics[width=0.45\textwidth]{figures/BDT_mlj}
+  \caption{Distributions of $\mjj$ (top left), $\dyjj$ (top right), $\sum\olv$ (bottom left), and $\mlj$ (bottom right) for the VBF BDT analysis. These are plotted after all of the BDT pre-training selection cuts\cite{WW2015}.}
+  \label{fig:vbf_bdt_vbftopo}
+\end{figure}
 
 
 

@@ -50,14 +50,14 @@
 \contentsline {subsubsection}{VBF topological cuts}{36}{equation.5.5.1}
 \contentsline {subsubsection}{Higgs topological cuts}{38}{figure.caption.27}
 \contentsline {subsection}{\numberline {5.5.3}BDT based selection}{38}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Background estimation}{38}{section.5.6}
-\contentsline {section}{\numberline {5.7}Systematic uncertainties}{38}{section.5.7}
-\contentsline {section}{\numberline {5.8}Results}{38}{section.5.8}
-\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{40}{chapter.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{41}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{42}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{43}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{44}{chapter.9}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{45}{part.4}
-\contentsline {chapter}{\numberline {10}Conclusion}{46}{chapter.10}
-\contentsline {chapter}{References}{48}{chapter*.29}
+\contentsline {section}{\numberline {5.6}Background estimation}{40}{section.5.6}
+\contentsline {section}{\numberline {5.7}Systematic uncertainties}{40}{section.5.7}
+\contentsline {section}{\numberline {5.8}Results}{40}{section.5.8}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{42}{chapter.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{43}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{44}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{45}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{46}{chapter.9}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{47}{part.4}
+\contentsline {chapter}{\numberline {10}Conclusion}{48}{chapter.10}
+\contentsline {chapter}{References}{50}{chapter*.31}
