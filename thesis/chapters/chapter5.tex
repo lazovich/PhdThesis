@@ -244,7 +244,7 @@ $\pT$ dependent requirements for electrons. Electrons are required to have the a
 
 \subsection{Jets}
 
-Jets are clustered with the anti-$k_T$ reconstruction algorithm using a radius parameter of $R=0.4$. They are required to have a jet vertex fraction (\jvf) of at least 50\%, meaning that half of the tracks associated with the jet originated from the primary vertex. Jets with no tracks associated (i.e. those outside the acceptance of the ID) do not have this requirement applied. Jets are required to have $p_{T} > 25 \GeV$ if they are within the tracking acceptance ($|\eta| < 2.4$). Jets with $2.4 < |eta| < 4.5$ are required to have $\pT > 30 \GeV$. This tighter requirement reduces jets from pileup in the region where \jvf requirements cannot be applied. The two highest $\pT$ jets in the event are referred to as the ``VBF" jets and used to compute various analysis selections later. 
+Jets are clustered with the anti-$k_T$ reconstruction algorithm using a radius parameter of $R=0.4$. They are required to have a jet vertex fraction (\jvf) of at least 50\%, meaning that half of the tracks associated with the jet originated from the primary vertex. Jets with no tracks associated (i.e. those outside the acceptance of the ID) do not have this requirement applied. Jets are required to have $p_{T} > 25 \GeV$ if they are within the tracking acceptance ($|\eta| < 2.4$). Jets with $2.4 < |\eta| < 4.5$ are required to have $\pT > 30 \GeV$. This tighter requirement reduces jets from pileup in the region where \jvf requirements cannot be applied. The two highest $\pT$ jets in the event are referred to as the ``VBF" jets and used to compute various analysis selections later. 
 
 Identification of $b$-jets is done using the MV1 algorithm and is limited to the acceptance of the ID ($|\eta| < 2.5$). The operating point of MV1 that is used is the one that is 85\% efficient for identifying true $b$-jets. This operating point has a 10.3\% of mis-tagging a light quark jet as a $b$-jet. In order to improve the rejection of $b$-jets, a lower threshold than the nominal $\pT$ threshold described above is used. For the purposes of counting the number of $b$-jets, jets with $\pT$ down to 20 \GeV are used. 
 
@@ -256,6 +256,24 @@ Once the overlap removal is complete, the final set of objects used in the analy
 
 
 \section{Analysis selection}
+
+The VBF analysis uses two distinct selections. The first is a looser selection that uses a Boosted Decision Tree (BDT) score as the final discriminator in order to take advantage of the detailed correlations between the VBF variables. The second is a more standard selection, referred to as ``cut-based", that applies cuts on the VBF variables and uses $\mTH$ as the final discriminating variable. While the BDT analysis is ultimately more sensitive, the cut-based serves as an important component of the analysis. First, the cut-based allows for confirming the modeling and validity of many variables used as input to the BDT. Second, because this is the first use of such an MVA technique in the $\HWW$ analysis, the cut-based selection allows confirmation of the final BDT result with a more traditional analysis. Both analyses will be discussed here. 
+
+One important note is that because this analysis is dedicated to the measurement of the VBF production mode of the Higs, events coming from gluon fusion production with the Higgs decaying via \HWWfull are treated as background events. This will be seen throughout the vargious cutflow tables and yields shown. 
+
+\subsection{Common pre-selection}
+
+Both the BDT and cut-based analyses have a common pre-selection that is applied before their main cuts. The cuts on leptons are common to all $\Njet$ bins. The analysis requires two oppositely charged leptons, with the leading lepton required to have $\pT > 22$ \GeV while the subleading lepton must have $\pT > 10$ \GeV. Next, to cut out low mass $\ZDY$ events, a cut on the dilepton mass $\mll > 10$ (12) \GeV is applied in the different (same) flavor channel. In the same flavor channels, there is an additional veto placed on the region around the Z peak, requiring that $|\mll - \mZ| > 15$ \GeV. 
+
+Finally, there are requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, as in the different flavor channels $\ttbar$ is the dominant background in $\Njet \geq 2$. The BDT analysis requires $\MPT > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must cut tighter on these variables to have maximal sensitivity and thus requires $\MPT > 50 \GeV$ and $\MET > 55 \GeV$. 
+
+
+%In the different flavor channels, a similar cut is made to reduce the contamination from $Z\to\tau\tau$ decays. The di-$\tau$ invariant mass, $\mtt$. is constructed by assuming that the neutrinos from the $\tau$ decays were collinear with the leptons\cite{collinear}. The analysis requires that this mass not be consistent with a $Z$ by requiring $\mtt < mZ - 25$ \GeV. Finally, because this analysis is focused on VBF, a requirement on the jet multiplicity is placed, with $\Njet \geq 2$.
+
+\subsection{Cut-based selection}
+
+The cut-based selection places sequential requirements on variables reconstructed from the VBF jets in order to increase the signal to background ratio.  
+
 
 \section{Background estimation}
 \label{sec:HWWbkg}
