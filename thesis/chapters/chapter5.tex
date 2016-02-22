@@ -265,14 +265,71 @@ One important note is that because this analysis is dedicated to the measurement
 
 Both the BDT and cut-based analyses have a common pre-selection that is applied before their main cuts. The cuts on leptons are common to all $\Njet$ bins. The analysis requires two oppositely charged leptons, with the leading lepton required to have $\pT > 22$ \GeV while the subleading lepton must have $\pT > 10$ \GeV. Next, to cut out low mass $\ZDY$ events, a cut on the dilepton mass $\mll > 10$ (12) \GeV is applied in the different (same) flavor channel. In the same flavor channels, there is an additional veto placed on the region around the Z peak, requiring that $|\mll - \mZ| > 15$ \GeV. 
 
-Finally, there are requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, as in the different flavor channels $\ttbar$ is the dominant background in $\Njet \geq 2$. The BDT analysis requires $\MPT > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must cut tighter on these variables to have maximal sensitivity and thus requires $\MPT > 50 \GeV$ and $\MET > 55 \GeV$. 
+There are also requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, as in the different flavor channels $\ttbar$ is the dominant background in $\Njet \geq 2$. The BDT analysis requires $\MPTj > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must cut tighter on these variables to have maximal sensitivity and thus requires $\MPTj > 50 \GeV$ and $\MET > 55 \GeV$. 
+
+Finally, because this analysis is focused on VBF, a requirement on the jet multiplicity is placed, with $\Njet \geq 2$. Additionally, the analysis requires that there are no jets identified as b-quarks in the event, or $\Nbjet = 0$. 
 
 
-%In the different flavor channels, a similar cut is made to reduce the contamination from $Z\to\tau\tau$ decays. The di-$\tau$ invariant mass, $\mtt$. is constructed by assuming that the neutrinos from the $\tau$ decays were collinear with the leptons\cite{collinear}. The analysis requires that this mass not be consistent with a $Z$ by requiring $\mtt < mZ - 25$ \GeV. Finally, because this analysis is focused on VBF, a requirement on the jet multiplicity is placed, with $\Njet \geq 2$.
 
 \subsection{Cut-based selection}
 
-The cut-based selection places sequential requirements on variables reconstructed from the VBF jets in order to increase the signal to background ratio.  
+The cut-based selection places sequential requirements on variables reconstructed from the VBF jets in order to increase the signal to background ratio.
+
+\subsubsection{General background reduction}
+
+Top pair production is the primary background in the $\Njet \geq 2$ bin. Even though $\Nbjet = 0$ is required, an additional variable is constructed to further suppress the top background. There is often additional QCD radiation that accompanies the $\ttbar$ system when it is produced. Therefore, a variable which tests for the presence of this additional radiation, $\pTtot$, is constructed. It is defined in equation~\ref{eqn:pttot}.
+
+\begin{equation}
+\vpTtot = \vpTll + \vMPTj + \sum \vpTjet
+\label{eqn:pttot}
+\end{equation} 
+
+The first cut after pre-selection in the cut-based analysis requires $\pTtot < 15 \GeV$ to further suppress $\ttbar$ production.  
+
+In the different flavor channels, a cut is made to reduce the contamination from $Z\to\tau\tau$ decays. The di-$\tau$ invariant mass, $\mtt$. is constructed by assuming that the neutrinos from the $\tau$ decays were collinear with the leptons\cite{collinear}. The analysis requires that this mass not be consistent with a $Z$ by requiring $\mtt < m_Z - 25$ \GeV. 
+
+\subsubsection{VBF topological cuts}
+
+After the cuts mentioned above, the analysis applies specific cuts to take advantage of the unique VBF topology, collectively referred to as the ``VBF topological cuts". First, a requirement on the dijet invariant mass of the VBF jets, $\mjj$, is placed, requiring $\mjj > 600 \GeV$. Next, the event is required to have a large gap in rapidity between the two VBF jets, or $\dyjj > 3.6$. Both of these cuts put tight requirements on the presence of two forward, high $\pT$ jets moving in opposite directions in the longitudinal plane. 
+
+Beyond requiring the presence of the two forward VBF jets, the analysis also vetoes on the presence of any additional jets that fall between the two VBF jets. This cut is referred to as the central jet veto, or CJV. Any events with a third jet with $\pT > 20 \GeV$ whose rapidity is between the region defined by the two VBF jets are vetoed. This can be expressed in terms of a variable called the jet centrality, defined in equation~\ref{eqn:cjv}.
+
+\begin{equation}
+\cjv = \bigg|\, \etathirdjet - \frac{\eta_{j1} + \eta_{j2}}{2} \,\bigg|\ \Big/\ \frac{\left|\eta_{j1} - \eta_{j2}\right|}{2},
+\label{eqn:cjv}
+\end{equation}
+
+Here, $\eta_{j1}$ and $\eta_{j2}$ are the pseudorapidities of the leading and subleading jets, respectively, while $\eta_{j3}$ is the pseudorapidity of the extra jet in the event (if one exists). Intuitively, $\cjv$ is zero when $\eta_{j3}$ is directly centered between the two jets and unity when $\eta_{j3}$ is aligned with either of the VBF jets. Thus, the CJV can be expressed as a requirement that $\cjv > 1$. 
+
+The decay products of the Higgs tend to be central as well. Thus, the analysis also requires that both leptons in the analysis fall within the rapidity gap defined by the jets. This cut is referred to as the outside lepton veto, or OLV. A quantitative way to define the cut is to require that the centrality of each lepton (defined analogously to that of the third jet in equation~\ref{eqn:cjv}) correspond to the lepton being within the jet rapidity gap, or $\olv < 1$ for both leptons. 
+
+Figure~\ref{fig:vbfvars}a-c shows the $\mjj$, $\dyjj$, and $\olvlead$ variables at the stage where all previous cuts in the sequence have been made. The agreement between data and Monte Carlo is good, and the bottom panels show their power in discriminating the VBF signal from the background processes. 
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=\textwidth]{figures/VBF_vars}
+  \caption{Distributions of (a) $\mjj$, (b) $\dyjj$, (c) $\olvlead$, and (d) $\mlj$, for the VBF analysis. The top panels compare simulation and data, while the bottom panels show normalized distributions for all background processes and signal.}
+  \label{fig:vbfvars}
+\end{figure}
+
+
+\subsubsection{Higgs topological cuts}
+
+The analysis also places additional requirements on the final state leptons, as discussed in general in section~\ref{sec:sigtopology}. The leptons coming from the Higgs decay should be close in the transverse plane due to the spin-0 nature of the Higgs. As a result, two requirements on dilepton kinematics are made that are common with lower multiplicity jet bins as well. The angle between leptons in the transverse plane, $\dphill$, is required to be less than 1.8 radians. Additionally, the dilepton mass $\mll$ is required to be less than $50 \GeV$. 
+
+The cut-based analysis uses $\mTH$ as the final discriminating variable as in the ggF focused analysis. The optimal number of bins in $\mTH$ was found to be three bins, with the bin boundaries at 80 and 130 \GeV. 
+
+
+
+\subsection{BDT based selection}
+
+The BDT based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the 
+
+
+
+
+
 
 
 \section{Background estimation}

@@ -10,6 +10,7 @@ A level-1 auxiliary file: chapters/conclusion.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
+Warning--I didn't find a database entry for "collinear"
 Warning--to sort, need author or key in ElectronReco
 Warning--to sort, need author or key in GSF
 Warning--empty author in GSF
@@ -20,7 +21,7 @@ Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in gg2vv
 You've used 21 entries,
             2229 wiz_defined-function locations,
-            643 strings with 6852 characters,
+            644 strings with 6861 characters,
 and the built_in function-call counts, 7006 in all, are:
 = -- 668
 > -- 248
@@ -59,4 +60,4 @@ warning$ -- 8
 while$ -- 52
 width$ -- 0
 write$ -- 267
-(There were 8 warnings)
+(There were 9 warnings)
