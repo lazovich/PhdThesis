@@ -309,7 +309,7 @@ Figure~\ref{fig:vbfvars}a-c shows the $\mjj$, $\dyjj$, and $\olvlead$ variables 
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=\textwidth]{figures/VBF_vars}
-  \caption{Distributions of (a) $\mjj$, (b) $\dyjj$, (c) $\olvlead$, and (d) $\mlj$, for the VBF analysis. The top panels compare simulation and data, while the bottom panels show normalized distributions for all background processes and signal.}
+  \caption{Distributions of (a) $\mjj$, (b) $\dyjj$, (c) $\olvlead$, and (d) $\mlj$, for the VBF analysis. The top panels compare simulation and data, while the bottom panels show normalized distributions for all background processes and signal\cite{WW2015}.}
   \label{fig:vbfvars}
 \end{figure}
 
@@ -320,11 +320,81 @@ The analysis also places additional requirements on the final state leptons, as 
 
 The cut-based analysis uses $\mTH$ as the final discriminating variable as in the ggF focused analysis. The optimal number of bins in $\mTH$ was found to be three bins, with the bin boundaries at 80 and 130 \GeV. 
 
+Table~\ref{tab:vbf_cutflow} shows the data and estimated signal and background yields from simulation as each cut described above is made. The table shows how each cut reduces specific backgrounds and how the overall signal to background ratio grows through the cutflow. 
+
+\begin{sidewaystable}[bt!]
+\caption{
+  Event selection for the $\NjetGEtwo$ VBF analysis in
+  the $8\TeV$ cut-based analysis\cite{WW2015}.
+}
+\label{tab:vbf_cutflow}
+{\small
+  \centering%
+%--------------------------------------------------------------------------------
+%\begin{tabular*}{1\textwidth}{ l r@{$\PM$}l d{0}d{0}d{0}d{1}d{1} p{0.001\textwidth} d{0}d{0}d{0}d{0}d{0}d{0} d{1}d{1}d{0} d{2}d{1}d{1} }
+\begin{tabular*}{1\textwidth}{ l r@{$\PM$}l ccccc p{0.001\textwidth} cccccc ccc ccc }
+\dbline
+&\multicolumn{7}{c}{Summary}
+&&\multicolumn{10}{c}{Composition of $\Nbkg$}
+\\
+\clineskip\cline{2-8}\cline{10-19}\clineskip
+\multicolumn{1}{p{0.165\textwidth}}{Selection}
+& \multicolumn{2}{p{0.050\textwidth}}{$\Nobs/\Nbkg\nq$}
+& \multicolumn{1}{p{0.040\textwidth}}{$\Nobs\nq\no$}
+& \multicolumn{1}{p{0.040\textwidth}}{$\Nbkg\np$}
+& \multicolumn{3}{p{0.125\textwidth}}{~~~~~~$N_{\rm signal}$}
+&
+& \multicolumn{2}{l}{~~~~~$\NWW$}
+& \multicolumn{2}{l}{~~~~~$\Ntop$}
+& \multicolumn{2}{l}{~\,$\Nfakes$}
+& \multicolumn{1}{l}{$\NVV$}
+& \multicolumn{3}{l}{~~~~~~~$\Ndrellyan$}
+\\
+\multicolumn{2}{l}{}
+& 
+& 
+& 
+& \multicolumn{1}{l}{$\NggF\no$}
+& \multicolumn{1}{l}{$\NVBF\no$}
+& \multicolumn{1}{l}{$\NVH\no$}
+&
+& \multicolumn{1}{p{0.020\textwidth}}{$\NWWqcd\np$}
+& \multicolumn{1}{p{0.030\textwidth}}{$\NWWew$}
+& \multicolumn{1}{p{0.020\textwidth}}{~~$\Nttbar\nq$}
+& \multicolumn{1}{p{0.015\textwidth}}{$\Nt\nq$}
+& \multicolumn{1}{p{0.020\textwidth}}{$\NWj\nq$}
+& \multicolumn{1}{p{0.020\textwidth}}{$\Njj\np$}
+& %\multicolumn{1}{p{0.020\textwidth}}{$~\,\NVV\nq$}
+& \multicolumn{1}{p{0.020\textwidth}}{$\!\Nll\nq$}
+& \multicolumn{1}{p{0.020\textwidth}}{$~\,\Ntautauqcd\nq$}
+& \multicolumn{1}{p{0.020\textwidth}}{$~\,\Ntautauew\nq$}
+\\
+\sgline
+$\DFchan$ sample                           &1.00 &0.00 &61434 &61180   &85   &32   &26   &&1350   &68   &51810   &2970   &847   &308   &380       & 51   &3260   &46   \\
+$\quad\Nbjet{\EQ}0$                        &1.02 &0.01 & 7818 & 7700   &63   &26   &16   && 993   &43   & 3000   & 367   &313   &193   &273       & 35   &2400   &29   \\
+$\quad\pTtot{\LT}15$                       &1.03 &0.01 & 5787 & 5630   &46   &23   &13   && 781   &38   & 1910   & 270   &216   &107   &201       & 27   &2010   &23   \\
+$\quad\mtt{\LT}\mZ{\MINUS}25\nq$           &1.05 &0.02 & 3129 & 2970   &40   &20   & 9.9 && 484   &22   & 1270   & 177   &141   & 66   &132       &  7.6 & 627   & 5.8 \\
+$\quad\mjj{\GT}600$                        &1.31 &0.12 &  131 &  100   & 2.3 & 8.2 & $-$ &&  18   & 8.9 &   40   &   5.3 &  1.8 &  2.4 &  5.1     &  0.1 &  15   & 1.0 \\
+$\quad\dyjj{\GT}3.6$                       &1.33 &0.13 &  107 &   80   & 2.1 & 7.9 & $-$ &&  11.7 & 6.9 &   35   &   5.0 &  1.6 &  2.3 &  3.3     &  $-$ &  11.6 & 0.8 \\
+$\quad\cjv{\GT}1$                          &1.36 &0.18 &   58 &   43   & 1.3 & 6.6 & $-$ &&   6.9 & 5.6 &   14   &   3.0 &  1.3 &  1.3 &  2.0     &  $-$ &   6.8 & 0.6 \\
+$\quad\olvlead{\LT}1$, $\olvsublead{\LT}1$ &1.42 &0.20 &   51 &   36   & 1.2 & 6.4 & $-$ &&   5.9 & 5.2 &   10.8 &   2.5 &  1.3 &  1.3 &  1.6     &  $-$ &   5.7 & 0.6 \\
+$\quad{\mll, \dphill, \mTH}$               &2.53 &0.71 &   14 &    5.5 & 0.8 & 4.7 & $-$ &&   1.0 & 0.5 &    1.1 &   0.3 &  0.3 &  0.3 &  0.6     &  $-$ &   0.5 & 0.2 \\
+\sgline                                                                                                 
+$\SFchan$ sample                           &0.99 &0.01 &26949 &27190   &31   &14   &10.1 && 594   &37   &23440   &1320   &230   &  8.6 &{\rm~137} &690   & 679   &16   \\
+$\quad\Nbjet, \pTtot, \mtt\nq$             &1.03 &0.03 & 1344 & 1310   &13   & 8.0 & 4.0 && 229   &12.0 &  633   &  86   & 26   &  0.9 & 45       &187   &  76   & 1.5 \\
+$\quad\mjj, \dyjj, \cjv, \olv$             &1.39 &0.28 &   26 &   19   & 0.4 & 2.9 & 0.0 &&   3.1 & 3.1 &    5.5 &   1.0 &  0.2 &  0.0 &  0.7     &  3.8 &   0.7 & 0.1 \\
+$\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2.2 & 0.0 &&   0.4 & 0.2 &    0.6 &   0.2 &  0.2 &  0.0 &  0.1     &  1.5 &   0.3 & 0.1 \\
+\dbline                                                                                                 
+\end{tabular*}%                                                                                    
+%--------------------------------------------------------------------------                        
+}                                                                                                  
+\end{sidewaystable}                                                                                       
+
 
 
 \subsection{BDT based selection}
 
-The BDT based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the 
+The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score as the final discriminant.  
 
 
 

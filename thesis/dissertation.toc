@@ -53,11 +53,11 @@
 \contentsline {section}{\numberline {5.6}Background estimation}{38}{section.5.6}
 \contentsline {section}{\numberline {5.7}Systematic uncertainties}{38}{section.5.7}
 \contentsline {section}{\numberline {5.8}Results}{38}{section.5.8}
-\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{39}{chapter.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{40}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{41}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{42}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{43}{chapter.9}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{44}{part.4}
-\contentsline {chapter}{\numberline {10}Conclusion}{45}{chapter.10}
-\contentsline {chapter}{References}{47}{chapter*.28}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{40}{chapter.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{41}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{42}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{43}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{44}{chapter.9}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{45}{part.4}
+\contentsline {chapter}{\numberline {10}Conclusion}{46}{chapter.10}
+\contentsline {chapter}{References}{48}{chapter*.29}
