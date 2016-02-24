@@ -313,6 +313,8 @@ Figure~\ref{fig:vbfvars}a-c shows the $\mjj$, $\dyjj$, and $\olvlead$ variables 
   \label{fig:vbfvars}
 \end{figure}
 
+The final signal region is also split into two bins of $\mjj$, with the first bin corresponding to $600 \GeV < \mjj < 1 \TeV$ and the second bin corresponding to $\mjj > 1 \TeV$. The first bin has more statistics but also a larger contribution from background, while the second bin has lower statistics but a ~1:1 signal to background ratio. 
+
 
 \subsubsection{Higgs topological cuts}
 
@@ -405,6 +407,7 @@ Before training, the common preselection cuts described in section~\ref{sec:vbf_
 
 Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for the $\mlj$ variable, as well as showing its discriminating power. Figure~\ref{fig:vbf_bdt_htopo} shows the distributions of the Higgs topological variables used as BDT inputs for VBF signal and corresponding backgrounds. Figure~\ref{fig:vbf_bdt_vbftopo} shows the distributions of the VBF topological variables used as BDT inputs. In both cases, the VBF yield has been scaled by a factor of 50 to better show the shape difference compared to the backgrounds. 
 
+Table~\ref{tab:vbfcuts} summarizes the cuts applied for the BDT and cut-based analyses, as well as which variables are used as input to the BDT. 
 
 \begin{figure}[h!]
   \centering
@@ -428,6 +431,21 @@ Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for th
   \label{fig:vbf_bdt_vbftopo}
 \end{figure}
 
+%\begin{table}[h!]
+
+%\begin{tabular}{|c|c|c|c|}
+%\hline
+% & Selection & Cut-based & BDT \\ \hline
+%\multirow{7}{*}{Shared cuts} & Lepton & \multicolumn{2}{c|}{Two opposite charge leptons with $p_{T} > 22 (10) \GeV$} \\ \cline{2-4} 
+%& $\mll$ & $> 10 (12) \GeV$ for $e\mu$ ($ee + \mu\mu$) \\ \cline{2-4}
+
+
+%\hline
+%\end{tabular}
+%\caption{Summary of VBF selections for cut-based and BDT analyses}
+%\label{tab:vbfcuts}
+%\end{table}
+
 \subsubsection{BDT output}
 
 After training, the BDT outputs a score ($\bdt$) which is in the range $[-1, 1]$, where $-1$ corresponds to background-like events and $+1$ corresponds to signal-like events. Figure~\ref{fig:bdtscore} shows the output BDT distribution in both the different flavor and same flavor channels. For the final discriminant analysis, the $\bdt$ distribution is divided into four bins, with boundaries at $[-1, -0.48, -0.3, 0.78, 1]$. The bins are numbered from $0,1,2,3$ respectively. Because bin $0$ is predominantly background, it is excluded from the likelihood analysis. 
@@ -444,6 +462,33 @@ After training, the BDT outputs a score ($\bdt$) which is in the range $[-1, 1]$
 
 \section{Background estimation}
 \label{sec:HWWbkg}
+
+This section describes the procedures used to estimate backgrounds for the VBF analysis in both the cut-based and BDT analyses. 
+
+\subsection{General strategy}
+
+Most of the backgrounds in the VBf analysis have shapes estimated from Monte Carlo simulation but normalizations derived from control regions in data. In essence, a normalization factor (denoted with $\beta$) is derived by scaling the MC yield in the control region to the corresponding yield in data. Once this factor is derived, it can be used to scale the MC estimate of the background in the signal region. This is illustrated in equation~\ref{eqn:nf}.
+
+\begin{equation}
+B_{\rm SR}^{\rm est} = B_{\rm SR} \times \frac{N_{\rm CR}}{B_{\rm CR}} \equiv B_{\rm SR} \times \beta
+\label{eqn:nf}
+\end{equation}
+
+Here, $B$ denotes the MC yield prediction in the denoted region, while $N$ denotes the observed number of events in data in the denoted region. 
+
+Another way of writing the same equation, in terms of an extrapolation factor $\alpha$ rather than a normalization factor $\beta$. The overall calculation is exactly the same. However, when phrased in this way, it shows hwo the uncertainty on the background estimation can be reduced. This is shown in equation~\ref{eqn:nf2}.
+
+\begin{equation}
+B_{\rm SR}^{\rm est} = N_{\rm CR} \times \frac{B_{\rm SR}}{B_{\rm CR}} \equiv N_{\rm CR} \times \alpha
+\label{eqn:nf2}
+\end{equation}
+
+Phrased this way, the equation shows that with enough statistics in the control region, a large theoretical uncertainty on the overall background yield in the signal region can be replaced by a small statistical uncertainty coming from the number of data events in the CR and a smaller theoretical uncertainty on the extrapolation from the control region to the signal region. 
+
+\subsection{Top background}
+
+The normalization factor $\beta_{t}$ for the top background in the VBF analysis is derived in a region required to have one b-tagged jet, or $\Nbjet = 1$. 
+
 
 \section{Systematic uncertainties}
 
