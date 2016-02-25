@@ -593,6 +593,62 @@ $\mjj > 1 \TeV$ & $1.18 \pm 0.13$ \\ \hline
 \label{tab:vbf_cb_zttnf}
 \end{table}
 
+\subsection{$\ZDY \to \ell\ell$ background}
+
+In the same flavor channels, the $\ZDY \to \ell\ell$ background is dominant and thus must be estimated correctly. In both the BDT and cut-based analyses, the background is estimated using the so-called ``ABCD" method. The ABCD method creates four different regions by defining cuts on two variables. One of the regions (A) is the signal region, while the other regions are defined by inverting one of both of the cuts. in this case, the two variables used are $\mll$ and $\MET$, because inverting either of the SR cuts on these variables will give regions rich in the $\ZDY\to\ell\ell$ background. Figure~\ref{fig:ABCDcuts} illustrates the general strategy for each region. 
+
+
+%\begin{table}[h!]
+%\centering
+%\captionsetup{justification=centering}
+%\begin{tabular}{|c|c|}
+%\specialcell{$\rm \mathbf{Region A (SR)}$ \\ High $\MET$ \\ Low $\mll$} & \specialcell{\textbf{Region C} \\ High $\MET$ \\ Z peak} \\ \hline
+%\specialcell{\textbf{Region B} \\ Low $\MET$ \\ Low $\mll$} & \specialcell{\textbf{Region D} \\ Low $\MET$ \\ Z peak} \\ \hline
+%\end{tabular}
+%\caption{Illustration of the ABCD regions for $\ZDY \to\ell\ell$ background estimation.}
+%\label{tab:ABCDcuts}
+%\end{table}
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.4\textwidth]{figures/ABCD}
+  \caption{General illustration of the ABCD region definitions for $\ZDY\to\ell\ell$ background estimation.}
+  \label{fig:ABCDcuts}
+\end{figure}
+
+In both of the BDT and cut-based analyses, the Z peak region is defined with $|\mll - m_Z| < 15 \GeV$. In the BDT analysis, low $\mll$ corresponds to $\mll < 75 \GeV$ while in the cut-based it is $\mll < 50 \GeV$ (as this defines the cut-based SR). The BDT low $\MET$ region is between $25$ and $45 \GeV$, while the high $\MET$ region is $\MET > 45 \GeV$. In the cut-based, high and low $\MET$ are defined as opposite ends of the $55 \GeV$ cut applied for the signal region definition.
+
+Once the regions are defined, the final signal region background estimate is done by taking the estimate in region B and extrapolating it to the signal region (A) by multiplying it by the ratio of regions C and D. Effectively, the $Z$ peak region is used to estimate the efficiency of the $\MET$ cut in data, and then this efficiency is applied in the low $\mll$ region. An additional correction is also applied for the non-closure of the method in MC. This is summarized in equations~\ref{eqn:abcd} and~\ref{eqn:nonclosure}.
+
+\begin{equation}
+N^{\rm SR}_{\ZDY\to\ell\ell} = N^{\rm B}_{\ZDY\to\ell\ell}  \times \frac{N^{\rm C}_{\ZDY\to\ell\ell}}{N^{\rm D}_{\ZDY\to\ell\ell} } \times f_{\rm corr}
+\label{eqn:abcd}
+\end{equation}
+
+\begin{equation}
+f_{\rm corr} = \frac{B_{\rm MC}^{\rm A}/B_{\rm MC}^{\rm B}}{B_{\rm MC}^{\rm C}/B_{\rm MC}^{\rm D}}
+\label{eqn:nonclosure}
+\end{equation}
+
+Here, the $N$ refer to data yields in each region with the non $\ZDY$ backgrounds subtracted, while $B$ refer to the $\ZDY$ yields in MC in each region.
+
+A normalization factor $\beta_{\ell\ell}$ is computed for each analysis as the ratio of the predicted data yield to the MC yield in the SR. The shape of the BDT distribution is taken from data region B, while the shape of the $\mTH$ distribution in the cut-based analysis is taken from $\ZDY$ MC in the SR. The values of the $\beta_{\ell\ell}$ in the BDT and cut-based analyses from this method are summarized in table~\ref{tab:vbf_sf_nf}. In the cut-based analysis, the same cut efficiency correction factors shown in table~\ref{tab:vbf_cb_zttnf} are also applied (in product with the $\beta_{\ell\ell}$) in the same flavor channels to this background, as they were derived in the $Z$ peak region. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+\begin{tabular}{|c|c|}
+\hline
+& $\beta_t$ \\ \hline
+$\rm BDT\,Bin\,1$ & $1.01 \pm 0.15$ \\ \hline
+$\rm BDT\,Bin\,2$ & $0.89 \pm 0.28$ \\ \hline
+$\rm Cut$-$\rm based$ & $0.81 \pm 0.21$ \\ \hline
+\end{tabular}
+\caption{$\ZDY \to \ell\ell$ normalization factors for cut-based and BDT analyses. Uncertainties are statistical only.}
+\label{tab:vbf_sf_nf}
+\end{table}
+
 
 \section{Systematic uncertainties}
 
