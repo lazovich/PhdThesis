@@ -548,6 +548,52 @@ Figure~\ref{fig:vbf_top_cr} shows the $\mjj$ and $\bdt$ distributions in the top
 \end{figure}
 
 While these normalization factors can be computed and applied to the expected background yields listed in tables like table~\ref{tab:vbf_cutflow}, in the end the normalization of the top background is profiled (meaning there is a dedicated Poisson constraint) and allowed to float in the final statistical fit. 
+
+\subsection{$\ZDY \to \tau\tau$ background}
+
+In the different flavor channels, the $\ZDY \to \tau\tau$ background is an important one. Di-tau production can produce an $e\mu$ final state if each $\tau$ lepton decays to a different flavor lepton. 
+
+In the BDT analysis, a single normalization factor for the background is derived. A control region is defined using the pre-training selection cuts, except requiring that $|\mtt - m_Z| < 25 \GeV$ so that the region is enriched in $\ZDY \to \tau\tau$ background. Additional requirements of $\mll < 80 (75) \GeV$ in the different (same) flavor channel, as well as $\bdt > -0.48$ are applied to increase the purity of the region. The final $\beta_{\ZDY \to \tau\tau}$ is calculated to be $0.9 \pm 0.3$ (statistical uncertainty only). Because of the small contribution of this background in the BDT analysis and the large statistical uncertainty, no additional systematics are calculated. The final SR estimate is scaled by this $\beta$ and not allowed to float in the fit. 
+
+The cut-based corrections are a bit more involved because they need to be applied cut by cut through the cutflow, as well as in the final signal region for the fit. The region is defined including all SR cuts up to the $\ZDY \to \tau\tau$ veto, which is instead made into a Z mass peak requirement as for the BDT region. The $\mll$ cut from the BDT region is included as well. The cut-based approach aims to correct the normalization of the $\ZDY \to\tau\tau$ background in two ways. First, an overall normalization factor is computed from the control region. However, the VBF topological cuts are not included in this region, and applying them as is done in the top CR is not feasible due to limited statistics. So, instead, correction factors (CF) to the cut efficiencies of the VBF cuts are derived in a same flavor $Z\to\ell\ell$ control region, which has significantly more statistics. The CF is simply the ratio of the cut efficiencies in data and MC derived in this region. In the end, the overall background estimate is given by equation~\ref{eqn:zttest}.
+
+\begin{equation}
+N^{\rm est}_{\ZDY \to \tau\tau} = B^{\rm SR}_{\ZDY \to \tau\tau} \times \beta_{\tau\tau} \times \frac{\epsilon_{\rm VBF\,cuts}^{\rm data}}{\epsilon_{\rm VBF\,cuts}^{\rm MC}} 
+\label{eqn:zttest}
+\end{equation}
+
+The hypothesis is that while the normalization correction must be derived in a dedicated region, the efficiency of the VBF cuts should not be sensitive to the type of $\ZDY$ process and thus the larger control region can be exploited to derive the CF. Figure~\ref{fig:vbf_ztt_comp} shows a shape comparison for the $\mjj$ variable in $Z\to\tau\tau$ events in the signal region and $Z\to\ell\ell$ events in the control region. The figure shows that the shapes are indeed comparable and thus any CF derived in the same flavor control region can reliably be applied in the signal region. 
+
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.6\textwidth]{figures/VBF_DYtt_shape_comp}
+  \caption{Comparison of $\mjj$ shape in a same flavor $Z\to\ell\ell$ control region and the VBF cut-based signal region.}
+  \label{fig:vbf_ztt_comp}
+\end{figure}
+
+Table~\ref{tab:vbf_cb_zttnf} shows the overall normalization factor $\beta_{\tau\tau}$ and the efficiency correction factors for the various VBF topological cuts. In general, the statistical uncertainties on the cut efficiency corrections are quite good, and the MC tends to underestimate the efficiency of the VBF cuts for the $\ZDY\to\tau\tau$ background. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+\begin{tabular}{|c|c|}
+\hline
+$\beta_{\tau\tau}$ & $0.97 \pm 0.04$ \\ \hline\hline
+ Cut & Correction factors \\ \hline
+$\mjj > 600 \GeV$ & $1.09 \pm 0.01$ \\ \hline
+$\dyjj > 3.6 $ & $1.14 \pm 0.02$ \\ \hline
+$\rm CJV$ & $1.20 \pm 0.02$ \\ \hline
+$\rm OLV$ & $1.17 \pm 0.03$ \\ \hline
+$\mjj < 1 \TeV$ & $1.17 \pm 0.06$ \\ \hline
+$\mjj > 1 \TeV$ & $1.18 \pm 0.13$ \\ \hline 
+\end{tabular}
+\caption{$\ZDY \to\tau\tau$ correction factors for the VBF cut-based analysis. Uncertainties are statistical only.}
+\label{tab:vbf_cb_zttnf}
+\end{table}
+
+
 \section{Systematic uncertainties}
 
 \section{Results}
