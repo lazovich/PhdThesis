@@ -649,6 +649,43 @@ $\rm Cut$-$\rm based$ & $0.81 \pm 0.21$ \\ \hline
 \label{tab:vbf_sf_nf}
 \end{table}
 
+\subsection{$WW$ and other diboson backgrounds}
+
+The $WW$ and other diboson backgrounds have both their shape and normalization taken from MC simulation. They are validated in dedicated control regions and found to agree with data well.
+
+As $WW$ is the largest of these backgrounds and is irreducible, validating the estimate is of particular importance. The validation region is constructed by requiring the pre-selection cuts on leptons and $\mll$, $\Nbjet = 0$, and $\mTH > 100 \GeV$. The $\mTtwo$ variable\cite{mt2} is an additional discriminant that will isolate the $WW$ background, and a requirement of $\mTtwo > 160 \GeV$ is placed to define the $WW$ validation region. This cut gives a 60\% purity for the validation region. The derived normalization factor in the region is $1.15 \pm 0.19$ and is thus consistent with unity. Figure~\ref{fig:mt2} shows the $\mTtwo$ distribution and how it distinguishes the $WW$ background.
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.5\textwidth]{figures/VBF_mT2}
+  \caption{Distribution of $\mTtwo$ in the $WW$ validation region of the VBF analysis\cite{WW2015}.}
+  \label{fig:mt2}
+\end{figure}
+
+\subsection{Backgrounds with misidentified leptons}
+
+As discussed previously, the $W+$jets and QCD multijet backgrounds are deried with fully data-driven methods. These backgrounds do not make a large contribution to the final VBF signal region but their estimation methods are discussed briefly here.
+
+\subsubsection{$W$+jets background}
+
+The $W$+jets background enters the signal region by having one of the jets mis-reconstructed as a lepton. The background is estimated by constructing a control sample with two leptons, where one lepton passes the usual lepton quality cuts but the second lepton fails one of those cuts (also knows as the ``anti-identified" lepton). This control region is rich in the $W$+jets contribution because if a second lepton is reconstructed in a $W$+jets event it is likely to be poor quality. The purity of this $W$+jets control sample is 85\% to 90\% depending on the exact configuration of leptons in the final state.
+
+The signal region estimate of $W$+jets is estimated by extrapolation from the control sample to the signal region using extrapolation factors derived in a $Z$+jets control sample in data. The extrapolation factor is the ratio of the number of lepton candidates satisfying all quality criteria to the number of lepton candidates anti-identified. This ratio is measured in bins of $\pT$ and $\eta$. Thus, the final signal region estimate (binned as the extrapolation factor is binned) is simply the number of events in the anti-identified lepton control sample multiplied by the extrapolation factor derived from the $Z$+jets control sample. Figure~\ref{fig:VBF_extrap_Wjets} shows the extrapolation factors derived for electrons and muons. 
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.5\textwidth]{figures/VBF_Wjets_extrap}
+  \caption{Extrapolation factors for the $W$+jets estimate derived for muons (a) and electrons (b) as a function of lepton~$\pT$\cite{WW2015}.}
+  \label{fig:VBF_extrap_Wjets}
+\end{figure}
+
+\subsubection{QCD multijet background}
+
+
+
+
 
 \section{Systematic uncertainties}
 
