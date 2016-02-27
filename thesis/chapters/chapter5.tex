@@ -767,6 +767,59 @@ For illustration, figures~\ref{fig:vbf_tt_pdf} and~\ref{fig:vbf_tt_qcd} show the
   \label{fig:vbf_tt_qcd}
 \end{figure}
 
+\subsection{Experimental uncertainties}
+
+In this analysis, the theoretical uncertainties end up being the most dominant, but there are some experimental uncertainties that make a contribution as well. The first is the uncertainty on the measured integrated luminosity, which affects backgrounds whose normalization is taken from MC and is measured to be 2.8\% in the 8 \TeV dataset~\cite{luminosity-paper}. The dominant sources of uncertainty overall are uncertainties on the jet energy scale and resolution and the $b$-tagging efficiency. Additional sources include lepton uncertainties on identification, resolution, and trigger efficiency, as well as uncertainties on the \met. 
+
+The jet energy scale uncertainty is split into several independent components, including jet-flavor dependent calorimeter response uncertainties, uncertainties on modeling of pile-up interactions, uncertainties on extrapolation from the central to forward detector regions, and MC non-closure~\cite{atlas_jets}. The uncertainty on energy scale for jets used in this analysis ranges from $1\%$ to $7\%$ depending on the jet $\pT$ and $\eta$. The jet energy resolution varies from $5\%$ to $20\%$, with uncertainties ranging from $2\%$ to $40\%$ (the largest uncertainties occuring at the selection threshold).
+
+The b-tagging efficiency is independently measured in data samples enriched in dileptonic decays of $\ttbar$ events or in events where a muon is reconstructed in the vicinity of a jet\cite{btag-calib,btag-muons}. The efficiencies and their uncertainties are binned in $\pT$ and decomposed into uncorrelated components using an eigenvector method\cite{ATLAS-CONF-2014-004}. Uncertainties on the effiency range from $1\%$ to $7.8\%$. The uncertainty on the rate of misidentification of $c$-jets as $b$-jets ranges from $6$-$14$\%, while the uncertainty on the rate of light jet mis-tagging ranges from $9$-$19\%$ depending on $\pT$ and $\eta$.
+
+The total experimental uncertainties on different signal and background components are summarized in table~\ref{tab:vbf_totsyst}. They are compared to the level of other statistical and systematic uncertainties as well. OVerall, the experimental uncertainties are sub-dominant compared to the statistical and theoretical uncertainties.
+
+\begin{table}[t!]
+\centering
+{\small
+  \centering
+\begin{tabular*}{0.8\textwidth}{
+    p{0.18\textwidth} 
+    c
+    c
+    c
+    c
+}
+\dbline
+\multicolumn{1}{l}{Sample} & 
+\multicolumn{1}{p{0.100\textwidth}}{~~~~Total} &
+\multicolumn{1}{p{0.100\textwidth}}{~~~~Stat.$\nq$} & 
+\multicolumn{1}{p{0.100\textwidth}}{~~~~~~~~Expt.} & 
+\multicolumn{1}{p{0.100\textwidth}}{~~~~~~~~Theo.} \\
+&
+\multicolumn{1}{l}{~~~~error}  &
+\multicolumn{1}{l}{~~~~error}  &
+\multicolumn{1}{l}{~~~~syst.\,err.$\np$}  &
+\multicolumn{1}{l}{~~~~syst.\,err.$\np$} \\
+\multicolumn{3}{l}{$\NjetGEtwo$ VBF-enriched} \\
+\quad $\Nsig$                   & 13  & \multicolumn{1}{r}{-~~~} & 6.8 & 12  \\
+\quad $\Nbkg$                   & 9.2 & 4.7                      & 6.4 & 4.5 \\
+\qquad $\NWW$                   & 32  & \multicolumn{1}{r}{-~~~} & 14  & 28  \\
+\qquad $\Ntop$                  & 15  & 9.6                      & 7.6 & 8.5 \\
+\qquad $\Nfakes$                & 22  & \multicolumn{1}{r}{-~~~} & 12  & 19  \\
+\qquad $\NVV$                   & 20  & \multicolumn{1}{r}{-~~~} & 12  & 15  \\
+\qquad $\Ntautau$\,(DY)$\nqq$   & 40  & 25 & 31  & 2.9 \\
+\qquad $\Nll$\,(DY)$\nqq$       & 19  & 11   & 15  & \multicolumn{1}{r}{-~~~}\\
+\dbline
+\end{tabular*}
+}
+\caption{
+  Composition of the post-fit uncertainties (in $\%$) on the total signal ($\Nsig$),
+  total background ($\Nbkg$), and individual background yields in the VBF analysis\cite{WW2015}.
+}
+\label{tab:vbf_totsyst}
+\end{table}
+%eof
+
+
 
 
 \section{Results}

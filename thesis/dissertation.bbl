@@ -1,10 +1,22 @@
 \begin{thebibliography}{}
 
+\bibitem[bta, 2011]{btag-calib}
+ (2011).
+\newblock Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of
+  data with the atlas detector.
+\newblock {\em ATLAS-CONF-2011-089}.
+
 \bibitem[GSF, 2012]{GSF}
  (2012).
 \newblock {\em {Improved electron reconstruction in ATLAS using the Gaussian
   Sum Filter-based model for bremsstrahlung}}.
 \newblock Technical Report ATLAS-CONF-2012-047, CERN, Geneva.
+
+\bibitem[atl, 2013]{atlas_jets}
+ (2013).
+\newblock Jet energy scale and its systematic uncertainty in proton-proton
+  collisions at $\sqrt{s}=7$~tev with atlas 2011 data.
+\newblock {\em ATLAS-CONF-2013-004}.
 
 \bibitem[Ele, 2014]{ElectronReco}
  (2014).
@@ -22,6 +34,18 @@ Aad, G. et~al. (2014).
 Armbruster, A.~J. (2013).
 \newblock {Discovery of a Higgs Boson with the ATLAS detector}.
 \newblock CERN-THESIS-2013-047.
+
+\bibitem[{ATLAS Collaboration}, 2011]{luminosity-paper}
+{ATLAS Collaboration} (2011).
+\newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
+  Using the ATLAS Detector at the LHC}.
+\newblock {\em Eur.~Phys.~J.}, C 71, 1630.
+
+\bibitem[{ATLAS Collaboration}, 2012]{btag-muons}
+{ATLAS Collaboration} (2012).
+\newblock {Measurement of the $b$-tag Efficiency in a Sample of Jets Containing
+  Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
+\newblock {\em ATLAS-CONF-2012-043}.
 
 \bibitem[{B.~P.~Kersevan and E.~Richter-Was}, 2004]{acermc}
 {B.~P.~Kersevan and E.~Richter-Was} (2004).
