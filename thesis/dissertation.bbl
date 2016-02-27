@@ -115,4 +115,10 @@ Sjostrand, T., Mrenna, S., \& Skands, P.~Z. (2008).
 \newblock {A Brief Introduction to PYTHIA 8.1}.
 \newblock {\em Comput.Phys.Commun.}, 178, 852--867.
 
+\bibitem[Stewart \& Tackmann, 2012]{ST}
+Stewart, I. \& Tackmann, F. (2012).
+\newblock {Theory uncertainties for Higgs mass and other searches using jet
+  bins}.
+\newblock {\em Phys. Rev.}, D 85, 034011.
+
 \end{thebibliography}

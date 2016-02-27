@@ -680,7 +680,7 @@ The signal region estimate of $W$+jets is estimated by extrapolation from the co
 \begin{figure}[h!]
   \centering
   \captionsetup{justification=centering}
-  \includegraphics[width=0.5\textwidth]{figures/VBF_Wjets_extrap}
+  \includegraphics[width=0.55\textwidth]{figures/VBF_Wjets_extrap}
   \caption{Extrapolation factors for the $W$+jets estimate derived for muons (a) and electrons (b) as a function of lepton~$\pT$\cite{WW2015}.}
   \label{fig:VBF_extrap_Wjets}
 \end{figure}
@@ -708,7 +708,7 @@ There are two main types of systematic uncertainties that are assessed for the a
 
 \subsection{Theoretical uncertainties}
 
-There are four main components to theoretical uncertainties assigned to signal and background processes taken from Monte Carlo. Each one is a different source of variation in the overall acceptance for that process. The first involves variation of the QCD renormalization and factorization scales used in the calculation. This usually involves varying the scales independently and simultaneously by factors of two high or low and quantifying the resulting variation in normalization and shape for the process.  This approximates the correction to the cross section that would come from including the next order of the QCD calculation (referred to as scale uncertainty). Next, there is an uncertainty associated with the PDF set used in generating the events. The uncertainty eigenvectors for the given PDF set are studied, and the envelope of maximal variation is taken as an uncertainty. Finally, there are two uncertainties associated with the choice of MC software (referred to as PDF uncertainty). An uncertainty associated with the generator chosen for the hard scattering process is evaluated by keeping the parton showering software constant but varying the matrix element generator and taking the maximal variation as an uncertainty (referred to as the generator uncertainty). The converse variation can also be done, where the matrix element generator remains constant and the generator used for the underlying event/parton shower modeling is varied (referred to as the UE/PS uncertainty).  
+There are four main components to theoretical uncertainties assigned to signal and background processes taken from Monte Carlo. Each one is a different source of variation in the overall acceptance for that process. The first involves variation of the QCD renormalization and factorization scales used in the calculation. In this case, the two scales are varied independently and simultaneously by factors of two high or low and quantifying the resulting variation in normalization and shape for the process.  This approximates the correction to the cross section that would come from including the next order of the QCD calculation (referred to as scale uncertainty). Next, there is an uncertainty associated with the PDF set used in generating the events. The uncertainty eigenvectors for the given PDF set are studied, and the envelope of maximal variation is taken as an uncertainty. Finally, there are two uncertainties associated with the choice of MC software (referred to as PDF uncertainty). An uncertainty associated with the generator chosen for the hard scattering process is evaluated by keeping the parton showering software constant but varying the matrix element generator and taking the maximal variation as an uncertainty (referred to as the generator uncertainty). The converse variation can also be done, where the matrix element generator remains constant and the generator used for the underlying event/parton shower modeling is varied (referred to as the UE/PS uncertainty). In cases where the background is normalized in a control region, the systematic uncertainty arises from variations of the extrapolation factor $\alpha$ between the CR and the SR, which can affect the normalization of the background in the SR. 
 
 \begin{table}[h!]
 \centering
@@ -727,5 +727,46 @@ UE/PS & $14$ & $15$ & - & $2$ \\ \hline
 \caption{Systematic uncertainties for various processes in the BDT analysis, given in units of \% change in yield. Values are given for the most sensitive BDT bin (bin 3), except where noted with a *, in which case the uncertainty affect the normalization in all BDT bins. Empty entries indicate that the uncertainty is negligible or not applicable to this background.}
 \label{tab:vbf_bdt_theosys}
 \end{table}
+
+There are two additional uncertainties that are applied to the Higgs processes as well. First, there are uncertainties assigned to the Higgs total production cross section. Then, there are uncertainties assigned based on the fact that the analysis is done in exclusive jet bins and it is possible for signal events to migrate from one bin to the next depending on the presence or absense of jets. These are assigned using the Jet Veto Efficiency (JVE) procedure\cite{JVE} for ggF events and the Stewart-Tackmann (ST) method\cite{ST} for VBF production. 
+
+Table~\ref{tab:vbf_bdt_theosys} shows how the different theory uncertainty components contribute to variation in the yields of dominant background processes and signal in the BDT analysis. Table~\ref{tab:vbf_cb_theosys} shows the total theory uncertainties on the backgrounds in the cut-based analysis. The $\ZDY \to\tau\tau$ background is included here because it plays a larger role while in the BDT analysis it is negligible. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+\begin{tabular}{|c|c|}
+\hline
+Process & Theory syst. (\%)  \\ \hline
+ggF $H$ & $48$ \\ \hline
+Top & $26$ \\ \hline
+QCD $WW$ & $37$ \\ \hline
+$\ZDY \to \tau\tau$ & $6.1$ \\ \hline
+\end{tabular}
+\caption{Systematic uncertainties for various processes in the cut-based VBF analysis, given in units of \% change in yield. Values are given for the low $\mjj$ signal region.}
+\label{tab:vbf_cb_theosys}
+\end{table}
+
+While the estimate for the same-flavor $\ZDY\to\ell\ell$ background is data-driven, there is still a systematic uncertainty taken for the non-closure of the method in Monte Carlo. This is taken as the maximum of the deviation of the non-closure factor $f_{\rm corr}$ from unity and its uncertainty, or $\textrm{max}(|1 - f_{\rm corr}|, \delta f_{\rm corr})$. For the BDT analysis, this uncertainty is 17\%, while for the cut-based analysis it is 23\%.
+
+For illustration, figures~\ref{fig:vbf_tt_pdf} and~\ref{fig:vbf_tt_qcd} show the variations in the extrapolation factor from the PDF and QCD uncertainties on the top background estimate, binned in $\mTH$, for the cut-based analysis. In both cases, there was no significant shape uncertainty but normalization uncertainties were assigned according to the maximal variation. 
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{figures/VBF_cb_tt_pdf}
+  \caption{Variations in the top background extrapolation factor in the cut-based analysis due to PDF uncertainties, binned in $\mTH$.}
+  \label{fig:vbf_tt_pdf}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.7\textwidth]{figures/VBF_cb_tt_qcd}
+  \caption{Variations in the top background extrapolation factor in the cut-based analysis due to QCD scale uncertainties, binned in $\mTH$.}
+  \label{fig:vbf_tt_qcd}
+\end{figure}
+
+
 
 \section{Results}
