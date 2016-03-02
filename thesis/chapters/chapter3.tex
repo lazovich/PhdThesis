@@ -8,21 +8,44 @@ Basic research is what I am doing when I don't know what I am doing.
 
 \section{Introduction}
 
-This chapter will present an overview of the strategy for searching for a Higgs boson in the 
-\HWWfull decay topology. Its purpose is to present in broad terms how the search and measurement are undertaken, before going into details on the specific sub-categories within the broader analysis. 
-
-First, the topology of the signal final state and corresponding backgrounds are
-presented. Next, an overview of the variables used to reduce the backgrounds and enhance the
-signal is given. These will be described in general, while specific values of selection cuts and background estimation will be provided in subsequent chapters. Finally, the parameters of interest in the search and measurement will be defined, 
-and a brief overview of the statistical treatment of the final Higgs candidates is shown.
+This chapter presents an overview of the strategy for searching for a Higgs boson in the 
+\HWWfull decay topology. Its purpose is to define in broad terms how the search and measurement are undertaken, before going into details on the specific sub-categories within the larger analysis. First, the properties of the Higgs signal are discussed and the associated backgrounds are
+presented. Next, the observables used to enhance the signal to background ratio are defined. 
+Finally, the parameters of interest in the search and measurement will be shown, 
+along with a brief overview of the statistical treatment of the final Higgs candidates.
 
 
-\section{Signal topology}
+Following this chapter, the results of three different studies within the \HWWfull channel are shown. Chapter 4 presents a search for Higgs boson production in gluon fusion mode and the role of the $\HWW$ channel in its discovery. Chapter 5 shows the search and first observation in ATLAS of the Vector Boson Fusion (VBF) production mode of the Higgs in the $\HWW$ decay channel. Finally, chapter 6 shows the combined Run 1 $\HWW$ results for the measurement of the Higgs cross section and relative coupling strengths to other SM particles. 
+
+\section{The \HWWfull signal in ATLAS}
 
 \label{sec:sigtopology}
 
-The analysis presented here and in subsequent chapters is the study of the Higgs boson in the $WW$ final state,
-where each $W$ boson subsequently decays into a charged lepton and a neutrino. In its simplest form, the final state will then consist of two neutrinos and two charged leptons, each of which can be either an electron or a muon. If one or both of the $W$s decay to $\tau$ leptons, only leptonic decays of the $\tau$ are considered, leading to additional neutrinos in the final state but still giving two charged leptons as before. Neutrinos are not detected in ATLAS, so the final state ultimately consists of two reconstructed leptons and \met (denoted as $\MET$). Final states where both of the charged leptons are electrons or muons are referred to as the ``same flavor" final states, while those with one electron and one muon are referred to as ``different flavor".
+The signal studied in this and subsequent chapters is the Higgs boson in the $WW^*$ final state,
+where each $W$ boson subsequently decays into a charged lepton and a neutrino. In its simplest decay path, the final state consists of two neutrinos and two charged leptons, each of which can be either an electron or a muon. If one or both of the $W$s decay to $\tau$ leptons, only leptonic decays of the $\tau$ are considered. This decay path produces additional neutrinos in the final state but still gives two charged leptons as before. Neutrinos are not detected in ATLAS, so the final state ultimately consists of two reconstructed leptons and \met (denoted as $\MET$). Final states where both of the charged leptons are electrons or muons are referred to as the ``same flavor" ($ee/\mu\mu$) final states, while those with one electron and one muon are referred to as ``different flavor" ($e\mu$ or $\mu e$).
+
+While the basic final state consists of two leptons and $\MET$, there can be additional objects depending on the production mode of the Higgs. As described in detail in Chapter 1, if the Higgs is produced via vector boson fusion production, there will be two additional forward jets in the event. Even in gluon fusion, one or more jets can be produced through initial state radiation from the incoming gluons. Because of the varying background composition as a function of jet multiplicity, each the bin in this variable has its own dedicated requirements applied in the search and measurement.
+
+Figure~\ref{fig:WWBR} shows the relative branching fractions for the $\HWW$ process, calculated from the Particle Data Group values for the $W$ and $\tau$ branching ratios\cite{pdg}. The largest branching ratio is both $W$ bosons decaying to quark pairs at 45.44\%. The next largest is one $W$ decaying leptonically and the other decaying to quarks, a branching ratio of 34.18\%. In all cases, $\ell$ denotes either an electron or muon, and the leptonic branching ratios of the $\tau$ are included. For example, the $\ell\nu qq$ final state includes one $W$ decaying to $e\nu$, $\mu \nu$, or $\tau \nu$. In the case of the $W\to\tau\nu$ decay, the $\tau$ lepton then decays to an electron or muon via $\tau \to \nu_\tau \ell \nu_\ell$. Final states with a $\tau_h$ refer to hadronic decays of the $\tau$. The branching ratio to the $\ell\nu\ell\nu$ final state is 6.43\%. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+  %\vspace{-20pt}
+  %\hspace*{-32pt}
+  \includegraphics[width=0.8\textwidth]{figures/WWBR}
+  %\vspace{-20pt}
+  \caption{Branching ratios for a $WW$ system. $q$ refers to quarks. $\ell$ can be either an electron or muon, and the leptonic branching ratios of the $\tau$ are included. For example, the $\ell\nu qq$ final state includes one $W$ decaying to $e\nu$, $\mu \nu$, or $\tau \nu$. $\tau_h$ refer to hadronic decays of the $\tau$.}
+  \label{fig:WWBR}
+\end{figure}
+
+
+\subsection{Lepton correlations in \HWWfull}
+
+
+The final state leptons will exhibit unique correlations due to the fact that they are arising from the decay of a spin zero resonance. In particular, the spins of the final state leptons and neutrinos must all cancel, as shown in figure~\ref{fig:HWWdiagram}. Because the neutrino has a left handed
+chirality and the anti-neutrino has a right handed chirality (in the massless neutrino approximation), the spin and momentum of the particles will be anti-aligned and aligned, respectively. In the transverse plane, the momenta of all four final state objects must cancel as well. With the constraint of having both the momenta and the spin alignments cancel, the final state kinematics strongly prefer having a small angle between the leptons in the transverse plane (low $\dphill$). This angular correlation will also lead to low values of the di-lepton invariant mass $\mll$. These unique signal final state kinematic correlations will be exploited to define the ultimate signal region. 
 
 \begin{figure}
   \vspace{20pt}
@@ -32,12 +55,6 @@ where each $W$ boson subsequently decays into a charged lepton and a neutrino. I
   \caption{A cartoon of the WW final state. Momenta are represented with thin arrows, spins with thick arrows. \cite{WW2015}}
   \label{fig:HWWdiagram}
 \end{figure}
-
-
-The final state leptons will also exhibit unique correlations due to the fact that they are arising from the decay of a spin zero resonance. In particular, the spins of the final state leptons and neutrinos must all cancel, as shown in figure~\ref{fig:HWWdiagram}. Because the neutrino has a left handed
-helicity and the anti-neutrino has a right handed helicity, the spin and momentum of the particles will be anti-aligned and aligned, respectively. In the transverse plane, the momenta of all four final state objects must cancel as well. With the constraint of having both the momenta and the spin alignments cancel, the final state kinematics strongly prefer having a small angle between the leptons in the transverse plane (low $\dphill$). This angular correlation will also lead to low values of the di-lepton invariant mass $\mll$. These unique signal final state kinematic correlations will be exploited to define the ultimate signal region. 
-
-While the basic final state consists of two leptons and $\MET$, there can be additional objects as well depending on the production mode of the Higgs. As described in detail in Chapter 1, if the Higgs is produced via vector boson fusion production, there will be two additional forward jets in the event. Even in gluon fusion, one or more jets can be produced through initial state radiation from the incoming gluons. The analysis is separated into different signal regions depending on the number of hard jets reconstructed in the final state as well.
 
 
 \section{Background processes}
