@@ -178,7 +178,7 @@ As presented in section~\ref{sec:sigtopology}, there are many different combinat
 
 \subsection{Event pre-selection}
 
-Before being sorted into the distinct signal regions, basic cuts are applied on the reconstructed objects in the event to select Higgs-like event candidates. First, two oppositely charged leptons are required. 
+Before being sorted into the distinct signal regions, basic requirements are applied on the reconstructed objects in the event to select Higgs-like event candidates. First, two oppositely charged leptons are required. 
 
 Once the leptons are selected, the last requirement for event pre-selection is the presence of neutrinos. As neutrinos cannot be detected directly in ATLAS, $\MET$ can be used as a proxy for the combined neutrino momentum in the transverse plane. In general, it is expected that the signal should have a harder $\MET$ spectrum than backgrounds, especially if those backgrounds did not contain neutrinos. One additional consideration when using $\MET$ is the fact that mis-measurements of objects in the detector can lead to imbalances in the transverse plane that are not due to real particles escaping the detector. One indicator that this is the case is that the $\MET$ vector in the transverse plane will be pointing in the same direction as the mis-measured object. Therefore, a new variable, $\METrel$, is used in the pre-selection. $\METrel$ is defined in equation~\ref{eqn:METrel}. 
 
@@ -223,7 +223,7 @@ Jet multiplicity, denoted as $\Njet$, is used to sub-divide the analysis into it
 
 \section{Background reduction in same-flavor final states}
 
-As described in section~\ref{sec:jetmult}, the background composition of the same flavor final states is unique to that of the different flavor states. In particular, Drell Yan processes play a much larger role because the $Z/\gamma^{*}$ decays to same flavor leptons. Because real neutrinos are absent in the $\ZDY$ decays to $ee$ and $\mu\mu$, a cut on $\MET$ should largely reduce the background. However, as this section will demonstrate, with increasing pileup conditions the resolution of the calorimeter-based $\MET$ degrades greatly. Therefore, two new variables for $\ZDY$ background reduction are constructed and described in this section.
+As described in section~\ref{sec:jetmult}, the background composition of the same flavor final states is unique to that of the different flavor states. In particular, Drell Yan processes play a much larger role because the $Z/\gamma^{*}$ decays to same flavor leptons. Because real neutrinos are absent in the $\ZDY$ decays to $ee$ and $\mu\mu$, a requirement on $\MET$ should largely reduce the background. However, as this section will demonstrate, with increasing pileup conditions the resolution of the calorimeter-based $\MET$ degrades greatly. Therefore, two new variables for $\ZDY$ background reduction are constructed and described in this section.
 
 \subsection{Pileup and $\MET$ resolution}
 
@@ -242,7 +242,7 @@ Figure~\ref{fig:Zjetseventdisplay} shows an event display of a $\ZDY$ + jets eve
   \label{fig:Zjetseventdisplay}
 \end{figure}
 
-Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO\mu\mu$ events (where there are no real neutrinos) as a function of the number of the average number of interactions. Under 2011 LHC conditions, this RMS was approximately 9 \GeV, while under 2012 running conditions the resolution worsened to 12 \GeV. This worsening dilutes the efficacy of a cut on $\MET$ to reduce the $\ZDY$ background. 
+Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO\mu\mu$ events (where there are no real neutrinos) as a function of the number of the average number of interactions. Under 2011 LHC conditions, this RMS was approximately 9 \GeV, while under 2012 running conditions the resolution worsened to 12 \GeV. This worsening dilutes the $\MET$ variable's ability to reduce the $\ZDY$ background. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -307,7 +307,7 @@ The track-based definitions of \met were constructed to mitigate degrading perfo
 \label{eqn:frecoil}
 \end{equation}
 
-Figure~\ref{fig:frecoil} shows a shape comparison of the distribution of $\frecoil$ in a simulated $\ZDY$ + jets sample, a $\HWW$ signal sample, and other backgrounds that contain real neutrinos. The $\ZDY$ + jets events tend to be more balanced between the dilepton system and recoiling jets, while the processes containing real neutrinos are less balanced in the transverse plane. Thus, a cut on $\frecoil$ will also reduce the $\ZDY$ + jets background while maintaining a good signal efficiency. 
+Figure~\ref{fig:frecoil} shows a shape comparison of the distribution of $\frecoil$ in a simulated $\ZDY$ + jets sample, a $\HWW$ signal sample, and other backgrounds that contain real neutrinos. The $\ZDY$ + jets events tend to be more balanced between the dilepton system and recoiling jets, while the processes containing real neutrinos are less balanced in the transverse plane. Thus, a requirement on $\frecoil$ will also reduce the $\ZDY$ + jets background while maintaining a good signal efficiency. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -320,9 +320,9 @@ Figure~\ref{fig:frecoil} shows a shape comparison of the distribution of $\freco
   \label{fig:frecoil}
 \end{figure}
 
-\subsection{Optimizing background reduction cuts}
+\subsection{Optimizing background reduction selection requirements}
 
-The cuts on $\MPT$ and $\frecoil$ used to reduce the Z+jets background must be optimized to maximize their efficacy. Figure~\ref{fig:optimization} shows an early attempt to optimize the combination of the two cuts in the gluon fusion zero jet bin. Each bin shows the expected signal significance if the $\MPTrel$ is required to be greater than the left edge of the bin and the $\frecoil$ is required to be less than the top edge of the bin. The figure shows that the best signal significance comes from requiring low values of $\frecoil$ ($< 0.05$) and $\MPTrel$  values greater than 45 GeV. 
+The requirements on $\MPT$ and $\frecoil$ used to reduce the Z+jets background must be optimized to maximize their efficacy. Figure~\ref{fig:optimization} shows an early attempt to optimize the combination of the two requirements in the gluon fusion zero jet bin. Each bin shows the expected signal significance if the $\MPTrel$ is required to be greater than the left edge of the bin and the $\frecoil$ is required to be less than the top edge of the bin. The figure shows that the best signal significance comes from requiring low values of $\frecoil$ ($< 0.05$) and $\MPTrel$  values greater than 45 GeV. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -331,7 +331,7 @@ The cuts on $\MPT$ and $\frecoil$ used to reduce the Z+jets background must be o
 
   %\hspace*{-32pt}
   \includegraphics[width=0.8\textwidth]{figures/SFoptimization}
-  \caption{Signal significance as a function of cut value in the ggF $\HWW$ with $\Njet = 0$}
+  \caption{Signal significance as a function of required value for $\frecoil$ and $\MPTrel$ in the ggF $\HWW$ with $\Njet = 0$}
   \label{fig:optimization}
 \end{figure}
 

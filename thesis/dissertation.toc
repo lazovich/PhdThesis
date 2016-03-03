@@ -25,11 +25,11 @@
 \contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{15}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{16}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{18}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction cuts}{20}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction selection requirements}{20}{subsection.3.5.4}
 \contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{20}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Transverse mass}{21}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}title}{21}{subsection.3.6.2}
-\contentsline {subsubsection}{Likelihood function}{21}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.2}title}{22}{subsection.3.6.2}
+\contentsline {subsubsection}{Likelihood function}{22}{subsection.3.6.2}
 \contentsline {subsubsection}{Test statistic}{24}{equation.3.6.10}
 \contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ channel}{26}{chapter.4}
 \contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $}{27}{chapter.5}
