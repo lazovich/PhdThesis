@@ -16,10 +16,10 @@
 \contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{9}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Top quark production}{9}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}$W$+jets background}{10}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}$Z/\gamma ^{*}$+jets background}{11}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}$Z/\gamma ^{*}$+jets background}{10}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Other (subdominant) backgrounds}{11}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{11}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{13}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{12}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{13}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Background reduction in same-flavor final states}{14}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{15}{subsection.3.5.1}
