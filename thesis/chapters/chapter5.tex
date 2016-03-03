@@ -289,7 +289,21 @@ In the different flavor channels, a cut is made to reduce the contamination from
 
 \subsubsection{VBF topological cuts}
 \label{sec:vbf_topocuts}
-After the cuts mentioned above, the analysis applies specific cuts to take advantage of the unique VBF topology, collectively referred to as the ``VBF topological cuts". First, a requirement on the dijet invariant mass of the VBF jets, $\mjj$, is placed, requiring $\mjj > 600 \GeV$. Next, the event is required to have a large gap in rapidity between the two VBF jets, or $\dyjj > 3.6$. Both of these cuts put tight requirements on the presence of two forward, high $\pT$ jets moving in opposite directions in the longitudinal plane. 
+
+The characteristic feature of VBF production of the Higgs is the presence of two additional forward jets coming from the incoming partons which radiate the vector bosons that make the Higgs. These jets are forward because the outgoing partons still carry the longitudinal momentum of the incoming partons. Figure~\ref{fig:VBF_LeadJetEta} shows the distribution of the $\eta$ for the leading jet in a VBF event compared to a background top pair production event. As can be seen, the VBF jets tend to be more forward in $\eta$, while the $\ttbar$ jets are more central. 
+
+\begin{figure}[h!]
+  \vspace{20pt}
+  \centering
+  \hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/VBF_LeadJetEta}
+  \caption{Leading jet $\eta$ in VBF $\HWW$ (red) and $\ttbar$ (black)}
+  \label{fig:VBF_LeadJetEta}
+\end{figure}
+
+Because the cross section for VBF production is an order of magnitude smaller than gluon fusion production, these forward jets must be used in order to better reduce background and achieve a good signal to background ratio. The dedicated VBF search selection requirements are constructed to maximally exploit the features of the unique VBF topology.
+
+Requirements on the VBF jets are collectively referred to as the ``VBF topological cuts". First, a requirement on the dijet invariant mass of the VBF jets, $\mjj$, is placed, requiring $\mjj > 600 \GeV$. Next, the event is required to have a large gap in rapidity between the two VBF jets, or $\dyjj > 3.6$. Both of these cuts put tight requirements on the presence of two forward, high $\pT$ jets moving in opposite directions in the longitudinal plane. 
 
 Beyond requiring the presence of the two forward VBF jets, the analysis also vetoes on the presence of any additional jets that fall between the two VBF jets. This cut is referred to as the central jet veto, or CJV. Any events with a third jet with $\pT > 20 \GeV$ whose rapidity is between the region defined by the two VBF jets are vetoed. This can be expressed in terms of a variable called the jet centrality, defined in equation~\ref{eqn:cjv}.
 
@@ -317,7 +331,19 @@ The final signal region is also split into two bins of $\mjj$, with the first bi
 
 \subsubsection{Higgs topological cuts}
 
-The analysis also places additional requirements on the final state leptons, as discussed in general in section~\ref{sec:sigtopology}. The leptons coming from the Higgs decay should be close in the transverse plane due to the spin-0 nature of the Higgs. As a result, two requirements on dilepton kinematics are made that are common with lower multiplicity jet bins as well. The angle between leptons in the transverse plane, $\dphill$, is required to be less than 1.8 radians. Additionally, the dilepton mass $\mll$ is required to be less than $50 \GeV$. 
+\begin{figure}[h!]
+  \vspace{20pt}
+  \centering
+  \hspace*{-32pt}
+  \includegraphics[width=0.42\textwidth]{figures/ww_spins}
+  \caption{A cartoon of the WW final state. Momenta are represented with thin arrows, spins with thick arrows. \cite{WW2015}}
+  \label{fig:HWWdiagram}
+\end{figure}
+
+The final state leptons will exhibit unique correlations due to the fact that they are arising from the decay of a spin zero resonance. In particular, the spins of the final state leptons and neutrinos must all cancel, as shown in figure~\ref{fig:HWWdiagram}. Because the neutrino has a left handed
+chirality and the anti-neutrino has a right handed chirality (in the massless neutrino approximation), the spin and momentum of the particles will be anti-aligned and aligned, respectively. In the transverse plane, the momenta of all four final state objects must cancel as well. With the constraint of having both the momenta and the spin alignments cancel, the final state kinematics strongly prefer having a small angle between the leptons in the transverse plane (low $\dphill$). This angular correlation will also lead to low values of the di-lepton invariant mass $\mll$. These unique signal final state kinematic correlations will be exploited to define the ultimate signal region. 
+
+The analysis places additional requirements on the final state leptons. Two requirements on dilepton kinematics are made that are common with lower multiplicity jet bins as well. The angle between leptons in the transverse plane, $\dphill$, is required to be less than 1.8 radians. Additionally, the dilepton mass $\mll$ is required to be less than $50 \GeV$. 
 
 The cut-based analysis uses $\mTH$ as the final discriminating variable as in the ggF focused analysis. The optimal number of bins in $\mTH$ was found to be three bins, with the bin boundaries at 80 and 130 \GeV. 
 
