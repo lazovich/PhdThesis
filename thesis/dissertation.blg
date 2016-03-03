@@ -6,6 +6,7 @@ A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/chapter5.aux
+A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
@@ -28,7 +29,7 @@ Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in gg2vv
 You've used 27 entries,
             2229 wiz_defined-function locations,
-            675 strings with 7678 characters,
+            676 strings with 7699 characters,
 and the built_in function-call counts, 8803 in all, are:
 = -- 841
 > -- 288
