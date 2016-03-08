@@ -21,6 +21,8 @@
 \contentsline {table}{\numberline {5.14}{\ignorespaces Composition of the post-fit uncertainties (in $\%$) on the total signal ($N_{\rm sig}$), total background ($N_{\rm bkg}$), and individual background yields in the VBF analysis\cite {WW2015}. \relax }}{59}{table.caption.48}
 \contentsline {table}{\numberline {5.15}{\ignorespaces Event selection for the VBF BDT analysis. The event yields in (a) are shown after the preselection and the additional requirements applied before the BDT classification (see text). The event yields in (b) are given in bins in $O_{\rm BDT}$ after the classification\cite {WW2015}. \relax }}{60}{table.caption.49}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces All signal regions definitions input into final statistical fit\cite {WW2015}. \relax }}{65}{table.caption.53}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Post-fit yields in the different ggF and VBF dedicated signal regions\cite {WW2015}. \relax }}{66}{table.caption.54}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
