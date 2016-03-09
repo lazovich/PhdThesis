@@ -70,10 +70,11 @@
 \contentsline {section}{\numberline {6.1}Introduction}{64}{section.6.1}
 \contentsline {section}{\numberline {6.2}Results of dedication gluon fusion $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ search}{65}{section.6.2}
 \contentsline {section}{\numberline {6.3}Signal strength measurements in ggF and VBF production}{67}{section.6.3}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{71}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{72}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{73}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{74}{chapter.9}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{75}{part.4}
-\contentsline {chapter}{\numberline {10}Conclusion}{76}{chapter.10}
-\contentsline {chapter}{References}{78}{chapter*.60}
+\contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{70}{section.6.4}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{72}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{73}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{74}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{75}{chapter.9}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{76}{part.4}
+\contentsline {chapter}{\numberline {10}Conclusion}{77}{chapter.10}
+\contentsline {chapter}{References}{79}{chapter*.61}
