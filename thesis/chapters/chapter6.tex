@@ -108,7 +108,7 @@ Figure~\ref{fig:ggF-mT} shows the final post-fit $\mTH$ distribution in the $\Nj
 
 These yields are used as input, along with the VBF results in chapter 5, for the physical interpretation of results presented in subsequent sections. 
 
-\subsection{Signal strength measurements in ggF and VBF production}
+\section{Signal strength measurements in ggF and VBF production}
 
 When all of the signal regions are combined in the fit, there can be a combined measurement of the signal strength as well as the individual ggF and VBF signal strengths. The combined signal strength is the ratio of the sum of the gluon fusion and VBF cross sections to the theory prediction, or a singal strength for the total Higgs production cross section that this analysis is sensitive to. The final measured combined signal strength $\mu$ is measured shown in equation~\ref{eqn:final-mu}.
 
@@ -130,3 +130,84 @@ When all of the signal regions are combined in the fit, there can be a combined 
 \end{array}
 \label{eqn:final-mu}
 \end{equation}
+
+Figure~\ref{fig:mu-val} gives the best fit signal strength $\hat{\mu}$ as a function of hte hypothesized Higgs mass. The value at 125.36 \GeV corresponds to the $\mu$ quoted in equation~\ref{eqn:final-mu}. This value of the Higgs mass is used because it is the most precise mass measurement from ATLAS, a result of the combined $\gamma\gamma$ and $ZZ$ mass measurements\cite{MassMeasurement}.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.8\textwidth]{figures/mu_mass}
+  \caption{Best fit signal strength $\hat{\mu}$ as a function of hypothesized $m_{H}$\cite{WW2015}.}
+  \label{fig:mu-val}
+\end{figure}
+
+As explained in chapter 3, a probability $p_0$ can be computed using the test statistic $q_0$ to quantify the probability that the background could fluctuate to produce an excess at least as large as the one observed in the data. The local $p_0$ value is shown in figure~\ref{fig:p0} as a function of $m_H$. The minimum $p_0$ value is at $m_H = 130 \GeV$ and coresponds to a significance of $6.1\sigma$. The curve is relatively flat and the significance is the same at 125.36 \GeV within the quoted precision. The expected significance for a signal with strength $\mu = 1.0$ is $5.8\sigma$. This represents the first discovery level significance measurement in the \HWWfull analysis. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.8\textwidth]{figures/WW_p0}
+  \caption{Local $p_0$ as a function of $m_H$\cite{WW2015}.}
+  \label{fig:p0}
+\end{figure}
+
+All the results presented so far in this section have been for the combined gluon fusion and VBF production modes. However, each signal strength can be calculated separately in the likelihood as well. There are two ways to do this. First, the likelihood can be parameterized in terms of a single parameter, the ratio of the VBF and gluon fusion signal strengths. With this method, the significance of the VBF observation can be evaluated. Figure~\ref{fig:mu_ratio} shows the likelihood as a function of the ratio $\mu_{\VBF}/\mu_{\ggF}$.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.8\textwidth]{figures/WW_muratio}
+  \caption{Likelihood as a function of $\mu_{\VBF}/\mu_{\ggF}$\cite{WW2015}.}
+  \label{fig:mu_ratio}
+\end{figure}
+
+The best fit value of the ratio of signal strengths is shown in equation~\ref{eqn:mu_ratio}. Within the quoted uncertainties, it is consistent with a ratio of unity. 
+
+\begin{equation}
+  \frac{\mu_{\scVX}}{\mu_{\scggF}} 
+  = 1.26\,^{+0.61}_{-0.45}\,(\rm{stat.})\,^{+0.50}_{-0.26}\,(\rm{syst.})
+  = 1.26\,^{+0.79}_{-0.53} 
+\label{eqn:mu_ratio}
+\end{equation}
+
+The null hypothesis for VBF production corresponds to a ratio of $\mu_{\VBF}/\mu_{\ggF} = 0$. The likelihood in figure~\ref{fig:mu_ratio} gives a significance of $3.2\sigma$ at $\mu_{\VBF}/\mu_{\ggF} = 0$, as quoted in chapter 5. 
+
+In addition to the ratio of signal strengths, each signal strength can be varied independently in the likelihood as well. Figure~\ref{fig:mu_2d} shows the two dimensional likelihood scan in the $\mu_{\ggF}$-$\mu_{\VBF}$ plane. The best fit values of the two signal strengths are shown in equation~\ref{eqn:mu_ind}. Both are consistent with unity within their uncertainties. 
+
+
+\begin{equation}
+\begin{array}{llllll}
+\no\mu_{\scggF}\no&=1.02\no&{\PM}0.19           \np&^{+0.22}_{-0.18}\np&=1.02&^{+0.29}_{-0.26} \\ \clineskip
+\no\mu_{\scVX} \no&=1.27\no&\,\,^{+0.44}_{-0.40}\np&^{+0.29}_{-0.21}\np&=1.27&^{+0.53}_{-0.45}.\\ \clineskip
+                     &        & ~\textrm{(stat.)}     &\textrm{(syst.)}\np
+\end{array}
+\label{eqn:mu_ind}
+\end{equation}
+
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.7\textwidth]{figures/WW_muind}
+  \caption{Likelihood scan as a function of $\mu_{\VBF} and \mu_{\ggF}$\cite{WW2015}.}
+  \label{fig:mu_2d}
+\end{figure}
+
+\section{Measurement of Higgs couplings to vector bosons and fermions}
+
+
+
+
+
