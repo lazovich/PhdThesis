@@ -30,45 +30,45 @@ Warning--empty journal in acermc
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in gg2vv
 Warning--empty journal in LHCXSWG
-You've used 29 entries,
+You've used 30 entries,
             2229 wiz_defined-function locations,
-            689 strings with 8135 characters,
-and the built_in function-call counts, 9527 in all, are:
-= -- 906
-> -- 329
-< -- 21
-+ -- 106
-- -- 106
-* -- 787
-:= -- 1723
-add.period$ -- 84
-call.type$ -- 29
-change.case$ -- 189
-chr.to.int$ -- 29
-cite$ -- 46
-duplicate$ -- 392
-empty$ -- 700
-format.name$ -- 142
-if$ -- 1827
+            695 strings with 8287 characters,
+and the built_in function-call counts, 9884 in all, are:
+= -- 942
+> -- 342
+< -- 22
++ -- 110
+- -- 110
+* -- 815
+:= -- 1787
+add.period$ -- 87
+call.type$ -- 30
+change.case$ -- 195
+chr.to.int$ -- 30
+cite$ -- 47
+duplicate$ -- 406
+empty$ -- 726
+format.name$ -- 148
+if$ -- 1899
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 145
-num.names$ -- 75
-pop$ -- 140
+missing$ -- 27
+newline$ -- 150
+num.names$ -- 78
+pop$ -- 143
 preamble$ -- 1
-purify$ -- 191
+purify$ -- 197
 quote$ -- 0
-skip$ -- 306
+skip$ -- 318
 stack$ -- 0
-substring$ -- 580
-swap$ -- 26
+substring$ -- 604
+swap$ -- 27
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 180
 warning$ -- 13
-while$ -- 68
+while$ -- 71
 width$ -- 0
-write$ -- 363
+write$ -- 376
 (There were 18 warnings)

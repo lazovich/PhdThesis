@@ -24,6 +24,12 @@
   the 2012 LHC proton-proton collision data}}.
 \newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva.
 
+\bibitem[Aad et~al., 2012]{Discovery}
+Aad, G. et~al. (2012).
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716, 1--29.
+
 \bibitem[Aad et~al., 2014]{MuonReco}
 Aad, G. et~al. (2014).
 \newblock {Measurement of the muon reconstruction performance of the ATLAS
