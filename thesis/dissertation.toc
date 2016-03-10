@@ -73,10 +73,10 @@
 \contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{70}{section.6.4}
 \contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{71}{section.6.5}
 \contentsline {section}{\numberline {6.6}Conclusion}{72}{section.6.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{73}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{74}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{75}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{76}{chapter.9}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{77}{part.4}
-\contentsline {chapter}{\numberline {10}Conclusion}{78}{chapter.10}
-\contentsline {chapter}{References}{80}{chapter*.61}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{74}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{75}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{76}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{77}{chapter.9}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{78}{part.4}
+\contentsline {chapter}{\numberline {10}Conclusion}{79}{chapter.10}
+\contentsline {chapter}{References}{82}{chapter*.62}
