@@ -5,6 +5,7 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/conclusion.aux
@@ -31,7 +32,7 @@ Warning--empty journal in gg2vv
 Warning--empty journal in LHCXSWG
 You've used 28 entries,
             2229 wiz_defined-function locations,
-            682 strings with 7917 characters,
+            683 strings with 7938 characters,
 and the built_in function-call counts, 9195 in all, are:
 = -- 874
 > -- 316
