@@ -154,7 +154,7 @@ The details of the background estimation techniques used in the \HWWfull analysi
 
 \subsection{Results}
 
-Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ channels for $8 \TeV$ data. (No events are observed in data in the $\Njet \geq 2$ channels in this dataset). The excess shown here relatively flat as a function of hypothesized Higgs mass. The combined $7$ and $8\TeV$ data gives an excess with local significance of $2.8\sigma$ with an expected significance of $2.3\sigma$, corresponding to a $\mu$ measurement of $1.3\pm 0.5$. Of the three main channels discussed in this chapter, this represents the most sensitive measurement of signal strength. 
+Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ channels for $8 \TeV$ data. (No events are observed in data in the $\Njet \geq 2$ channels in this dataset). The excess shown here relatively flat as a function of hypothesized Higgs mass. The combined $7$ and $8\TeV$ data gives an excess with local significance of $2.8\sigma$ with an expected significance of $2.3\sigma$, corresponding to a $\mu$ measurement of $1.3\pm 0.5$. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -169,6 +169,39 @@ Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ chan
 \section{Combined results}
 
 The statistical interpretation of the combined results is undertaken as described in section~\ref{sec:ww_stats}, with a hypothesis test based on a likelihood ratio parameterized by the Higgs signal strength $\mu$. The null hypothesis corresponds to $\mu = 0$, while the SM Higgs corresponds to $\mu = 1$. 
+
+Table~\ref{tab:discovery_summary} summarizes the properties of the individual channels as well as the significances of the excesses seen. The most significant observed local excess comes from the $\gamma\gamma$ channel. Figure~\ref{fig:disc_p0_comp} shows a comparison of the observed local $p_0$ values as a function of hypothesized mass for the three different search channels. Both the $ZZ^*$ and $\gamma\gamma$ channels ahve very peaked excesses, while the $WW^*$ excess can be seen as very broad because the $\mT$ distribution does not provide detailed information about the true Higgs mass. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Channel & Fit var. & Observed $Z_l$ & Expected $Z_l$ & $\hat{\mu}$ \\ \hline
+$H\to ZZ^* \to 4\ell$ & $m_{4\ell}$ & $3.6$ & $2.7$ & $1.2 \pm 0.6$ \\ \hline
+$H\to\gamma\gamma$ & $m_{\gamma\gamma}$ & $4.5$ & $2.5$ & $1.8 \pm 0.5$ \\ \hline
+$H\to WW^* \to e\nu\mu\nu$ & $\mT$ & $2.8$ & $2.3$ & $1.3 \pm 0.5$ \\ \hline
+Combined & - & $6.0$ & $4.9$ & $1.4 \pm 0.3$ \\ \hline
+\end{tabular}
+
+\caption{
+Summary of the expected and observed significance and measured signal strengths in the combined $7$ and $8 \TeV$ datasets for the Higgs discovery analysis\cite{Discovery}. 
+}
+\label{tab:discovery_summary}
+\end{table}
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/discovery_p0_comp}
+  \caption{Local $p_0$ distribution as a function of hypothesized Higgs mass for the $H\to ZZ^* \to 4\ell$ (a), $H\to\gamma\gamma$ (b), and $H\to WW^*\to \ell\nu\ell\nu$ (c) channels. Dashed curves show expected results, while solid curves show observed. Red curves are from $7 \TeV$ data, blue curves from $8\TeV$, and black curved combined\cite{Discovery}.}
+  \label{fig:disc_p0_comp}
+\end{figure}
 
 \section{Conclusion}
 
