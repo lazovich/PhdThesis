@@ -3,96 +3,97 @@
 \contentsline {chapter}{\numberline {1}The Standard Model and beyond: a theoretical overview}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{4}{section.1.1}
 \contentsline {section}{\numberline {1.2}Electroweak Symmetry Breaking and the Higgs}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}Higgs Boson Production and Decay}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Physics Beyond the Standard Model}{7}{section.1.4}
-\contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}The ATLAS Detector}{8}{section.2.2}
-\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{9}{part.2}
-\contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}The $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ signal in ATLAS}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Background processes}{12}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{13}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Top quark production}{13}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}$W$+jets background}{14}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}$Z/\gamma ^{*}$+jets background}{14}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Other (subdominant) backgrounds}{15}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{16}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{16}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{17}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Background reduction in same-flavor final states}{18}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{19}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{20}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{22}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction selection requirements}{24}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{24}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Transverse mass}{25}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}title}{26}{subsection.3.6.2}
-\contentsline {subsubsection}{Likelihood function}{26}{subsection.3.6.2}
-\contentsline {subsubsection}{Test statistic}{28}{equation.3.6.10}
-\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ channel}{30}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{30}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data and simulation samples}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}$H\to \gamma \gamma $ search}{31}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Diphoton invariant mass reconstruction}{32}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Background estimation}{32}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Results}{33}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}$H\to ZZ \to 4\ell $ search}{33}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Lepton pair construction}{34}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Background estimation}{35}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results}{35}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}$H\to WW \to e\nu \mu \nu $ search}{36}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Event selection}{36}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Background estimation}{37}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Results}{38}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Combined results}{38}{section.4.6}
-\contentsline {section}{\numberline {4.7}Conclusion}{40}{section.4.7}
-\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{43}{section.5.1}
-\contentsline {section}{\numberline {5.2}Data and simulation samples}{44}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Triggers}{44}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Monte Carlo samples}{45}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Object selection}{48}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Muons}{48}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Electrons}{49}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Jets}{49}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Overlap removal}{50}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Analysis selection}{51}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Common pre-selection}{51}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{52}{subsection.5.4.2}
-\contentsline {subsubsection}{General background reduction}{52}{subsection.5.4.2}
-\contentsline {subsubsection}{VBF topological cuts}{52}{equation.5.4.1}
-\contentsline {subsubsection}{Higgs topological cuts}{54}{figure.caption.38}
-\contentsline {subsection}{\numberline {5.4.3}BDT based selection}{56}{subsection.5.4.3}
-\contentsline {subsubsection}{Pre-training selection and BDT inputs}{58}{subsection.5.4.3}
-\contentsline {subsubsection}{BDT output}{60}{figure.caption.43}
-\contentsline {section}{\numberline {5.5}Background estimation}{60}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}General strategy}{61}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Top background}{62}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}$Z/\gamma ^{\ast }\to \tau \tau $ background}{63}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{65}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{67}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{68}{subsection.5.5.6}
-\contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{68}{subsection.5.5.7}
-\contentsline {subsubsection}{$W$+jets background}{69}{subsection.5.5.7}
-\contentsline {subsubsection}{QCD multijet background}{69}{figure.caption.53}
-\contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{69}{subsection.5.5.8}
-\contentsline {section}{\numberline {5.6}Systematic uncertainties}{71}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{71}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Experimental uncertainties}{74}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Results}{75}{section.5.7}
-\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{80}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{80}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results of dedication gluon fusion $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ search}{81}{section.6.2}
-\contentsline {section}{\numberline {6.3}Signal strength measurements in ggF and VBF production}{83}{section.6.3}
-\contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{86}{section.6.4}
-\contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{87}{section.6.5}
-\contentsline {section}{\numberline {6.6}Conclusion}{88}{section.6.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{90}{part.3}
-\contentsline {chapter}{\numberline {7}Search overview}{91}{chapter.7}
-\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{92}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{93}{chapter.9}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{94}{part.4}
-\contentsline {chapter}{\numberline {10}Conclusion}{95}{chapter.10}
-\contentsline {chapter}{References}{99}{chapter*.73}
+\contentsline {section}{\numberline {1.3}Higgs Boson Production and Decay}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}Higgs Pair Production in the Standard Model}{8}{section.1.4}
+\contentsline {section}{\numberline {1.5}Higgs Pair Production in Theories Beyond the Standard Model}{8}{section.1.5}
+\contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}The ATLAS Detector}{9}{section.2.2}
+\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{10}{part.2}
+\contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}The $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ signal in ATLAS}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Background processes}{13}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Top quark production}{14}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}$W$+jets background}{15}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}$Z/\gamma ^{*}$+jets background}{15}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Other (subdominant) backgrounds}{16}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{17}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{17}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{18}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Background reduction in same-flavor final states}{19}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{20}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{21}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{23}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction selection requirements}{25}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{25}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Transverse mass}{26}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}title}{27}{subsection.3.6.2}
+\contentsline {subsubsection}{Likelihood function}{27}{subsection.3.6.2}
+\contentsline {subsubsection}{Test statistic}{29}{equation.3.6.10}
+\contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ channel}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data and simulation samples}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}$H\to \gamma \gamma $ search}{32}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Diphoton invariant mass reconstruction}{33}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Background estimation}{33}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Results}{34}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}$H\to ZZ \to 4\ell $ search}{34}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Lepton pair construction}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Background estimation}{36}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results}{36}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}$H\to WW \to e\nu \mu \nu $ search}{37}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Event selection}{37}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Background estimation}{38}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Results}{39}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Combined results}{39}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{41}{section.4.7}
+\contentsline {chapter}{\numberline {5}Observation of Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{44}{section.5.1}
+\contentsline {section}{\numberline {5.2}Data and simulation samples}{45}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Triggers}{45}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Monte Carlo samples}{46}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Object selection}{49}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Muons}{49}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Electrons}{50}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Jets}{50}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Overlap removal}{51}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Analysis selection}{52}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Common pre-selection}{52}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{53}{subsection.5.4.2}
+\contentsline {subsubsection}{General background reduction}{53}{subsection.5.4.2}
+\contentsline {subsubsection}{VBF topological cuts}{53}{equation.5.4.1}
+\contentsline {subsubsection}{Higgs topological cuts}{55}{figure.caption.38}
+\contentsline {subsection}{\numberline {5.4.3}BDT based selection}{57}{subsection.5.4.3}
+\contentsline {subsubsection}{Pre-training selection and BDT inputs}{59}{subsection.5.4.3}
+\contentsline {subsubsection}{BDT output}{61}{figure.caption.43}
+\contentsline {section}{\numberline {5.5}Background estimation}{61}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}General strategy}{62}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Top background}{63}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}$Z/\gamma ^{\ast }\to \tau \tau $ background}{64}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{66}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{68}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{69}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{69}{subsection.5.5.7}
+\contentsline {subsubsection}{$W$+jets background}{70}{subsection.5.5.7}
+\contentsline {subsubsection}{QCD multijet background}{70}{figure.caption.53}
+\contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{70}{subsection.5.5.8}
+\contentsline {section}{\numberline {5.6}Systematic uncertainties}{72}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{72}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Experimental uncertainties}{75}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Results}{76}{section.5.7}
+\contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{81}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{81}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results of dedication gluon fusion $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ search}{82}{section.6.2}
+\contentsline {section}{\numberline {6.3}Signal strength measurements in ggF and VBF production}{84}{section.6.3}
+\contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{87}{section.6.4}
+\contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{88}{section.6.5}
+\contentsline {section}{\numberline {6.6}Conclusion}{89}{section.6.6}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{91}{part.3}
+\contentsline {chapter}{\numberline {7}Search overview}{92}{chapter.7}
+\contentsline {chapter}{\numberline {8}Search for Higgs pair production in boosted final states}{93}{chapter.8}
+\contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{94}{chapter.9}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{95}{part.4}
+\contentsline {chapter}{\numberline {10}Conclusion}{96}{chapter.10}
+\contentsline {chapter}{References}{100}{chapter*.73}
