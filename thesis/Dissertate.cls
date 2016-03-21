@@ -70,7 +70,8 @@
 
 % References.
 \renewcommand\bibname{References}
-\RequirePackage[super,comma,numbers]{natbib}
+%\RequirePackage[super,comma,numbers]{natbib}
+\RequirePackage[numbers,sort&compress]{natbib}
 \renewcommand{\bibnumfmt}[1]{[#1]}
 \RequirePackage[palatino]{quotchap}
 \renewcommand*{\chapterheadstartvskip}{\vspace*{-0.5\baselineskip}}

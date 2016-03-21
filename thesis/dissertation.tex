@@ -13,6 +13,7 @@
 \usepackage{xspace}
 \RequirePackage{booktabs}
 \usepackage{rotating}
+%\usepackage{cite}
 
 \newcommand{\specialcell}[2][c]{%
   \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
@@ -43,11 +44,11 @@
 % include each chapter...
 \setcounter{chapter}{-1}  % start chapter numbering at 0
 \include{chapters/introduction}
-\part{Preliminaries}
+\part{Theoretical and Experimental Background}
 \include{chapters/chapter1}
 \include{chapters/chapter2}
-\part{Observation and measurement of Higgs boson decays to $WW*$ with
-  the ATLAS detector in LHC Run 1 at $\sqrt{s} = 7$ and 8 TeV}
+
+\part{Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt{s} = 7$ and 8 TeV}
 
 \include{chapters/chapter3}
 
@@ -80,7 +81,7 @@
 \clearpage
 \bibliography{references}
 \addcontentsline{toc}{chapter}{References}
-\bibliographystyle{apalike2}
+\bibliographystyle{unsrtnat}
 
 \include{endmatter/colophon}
 

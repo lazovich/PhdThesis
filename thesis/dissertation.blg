@@ -5,70 +5,87 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
+Case mismatch error between cite keys pdg and PDG
+---line 8 of file chapters/chapter3.aux
+ : \citation{pdg
+ :              }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/conclusion.aux
-The style file: apalike2.bst
+The style file: unsrtnat.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
+Warning--string name "pr" is undefined
+--line 461 of file references.bib
+Warning--string name "prl" is undefined
+--line 497 of file references.bib
+Warning--string name "pr" is undefined
+--line 505 of file references.bib
+Warning--string name "prl" is undefined
+--line 514 of file references.bib
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
-Warning--to sort, need author or key in ElectronReco
-Warning--to sort, need author or key in GSF
-Warning--to sort, need author or key in atlas_jets
-Warning--to sort, need author or key in btag-calib
-Warning--empty author in btag-calib
+Warning--empty publisher in Griffiths
+Warning--empty publisher in HalzenAndMartin
+Warning--empty publisher in Tully
+Warning--empty title in Glashow2
+Warning--empty journal in Glashow2
+Warning--empty journal in Higgs1
+Warning--empty journal in Higgs2
+Warning--empty journal in Englert
+Warning--empty journal in ArmbrusterThesis
+Warning--there's a number but no volume in MuonTrigger2012
+Warning--empty journal in acermc
+Warning--empty journal in gg2vv
+Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
-Warning--empty author in ElectronReco
-Warning--empty journal in ArmbrusterThesis
-Warning--empty journal in acermc
-Warning--there's a number but no volume in MuonTrigger2012
-Warning--empty journal in gg2vv
+Warning--empty author in btag-calib
 Warning--empty journal in LHCXSWG
-You've used 30 entries,
-            2229 wiz_defined-function locations,
-            695 strings with 8287 characters,
-and the built_in function-call counts, 9884 in all, are:
-= -- 942
-> -- 342
-< -- 22
-+ -- 110
-- -- 110
-* -- 815
-:= -- 1787
-add.period$ -- 87
-call.type$ -- 30
-change.case$ -- 195
-chr.to.int$ -- 30
-cite$ -- 47
-duplicate$ -- 406
-empty$ -- 726
-format.name$ -- 148
-if$ -- 1899
+You've used 45 entries,
+            2481 wiz_defined-function locations,
+            860 strings with 11400 characters,
+and the built_in function-call counts, 14654 in all, are:
+= -- 1274
+> -- 543
+< -- 36
++ -- 244
+- -- 154
+* -- 991
+:= -- 2351
+add.period$ -- 160
+call.type$ -- 45
+change.case$ -- 84
+chr.to.int$ -- 45
+cite$ -- 66
+duplicate$ -- 842
+empty$ -- 1468
+format.name$ -- 212
+if$ -- 3147
 int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 150
-num.names$ -- 78
-pop$ -- 143
+int.to.str$ -- 46
+missing$ -- 47
+newline$ -- 258
+num.names$ -- 123
+pop$ -- 355
 preamble$ -- 1
-purify$ -- 197
+purify$ -- 45
 quote$ -- 0
-skip$ -- 318
+skip$ -- 494
 stack$ -- 0
-substring$ -- 604
-swap$ -- 27
-text.length$ -- 2
+substring$ -- 478
+swap$ -- 91
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
-warning$ -- 13
-while$ -- 71
+type$ -- 300
+warning$ -- 17
+while$ -- 112
 width$ -- 0
-write$ -- 376
-(There were 18 warnings)
+write$ -- 621
+(There was 1 error message)

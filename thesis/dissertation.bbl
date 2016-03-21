@@ -1,171 +1,286 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[bta, 2011]{btag-calib}
- (2011).
-\newblock Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of
-  data with the atlas detector.
-\newblock {\em ATLAS-CONF-2011-089}.
+\bibitem[Olive et~al.(2014)]{PDG}
+K.~A. Olive et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin. Phys.}, C38:\penalty0 090001, 2014.
+\newblock \doi{10.1088/1674-1137/38/9/090001}.
 
-\bibitem[GSF, 2012]{GSF}
- (2012).
-\newblock {\em {Improved electron reconstruction in ATLAS using the Gaussian
-  Sum Filter-based model for bremsstrahlung}}.
-\newblock Technical Report ATLAS-CONF-2012-047, CERN, Geneva.
+\bibitem[Collaboration(2015)]{WW2015}
+ATLAS Collaboration.
+\newblock {Observation and measurement of Higgs boson decays to WW* with the
+  ATLAS detector}.
+\newblock \emph{Phys. Rev. D}, 92\penalty0 (012006), 2015.
 
-\bibitem[atl, 2013]{atlas_jets}
- (2013).
-\newblock Jet energy scale and its systematic uncertainty in proton-proton
-  collisions at $\sqrt{s}=7$~tev with atlas 2011 data.
-\newblock {\em ATLAS-CONF-2013-004}.
-
-\bibitem[Ele, 2014]{ElectronReco}
- (2014).
-\newblock {\em {Electron efficiency measurements with the ATLAS detector using
-  the 2012 LHC proton-proton collision data}}.
-\newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva.
-
-\bibitem[Aad et~al., 2012]{Discovery}
-Aad, G. et~al. (2012).
+\bibitem[Aad et~al.(2012)]{Discovery}
+Georges Aad et~al.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Phys. Lett.}, B716, 1--29.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
 
-\bibitem[Aad et~al., 2014]{MuonReco}
-Aad, G. et~al. (2014).
-\newblock {Measurement of the muon reconstruction performance of the ATLAS
-  detector using 2011 and 2012 LHC proton–proton collision data}.
-\newblock {\em Eur. Phys. J.}, C74(11), 3130.
-
-\bibitem[Aad et~al., 2016]{HiggsSummaryRun1}
-Aad, G. et~al. (2016).
+\bibitem[Aad et~al.(2016)]{HiggsSummaryRun1}
+Georges Aad et~al.
 \newblock {Measurements of the Higgs boson production and decay rates and
   coupling strengths using pp collision data at $\sqrt{s}=7$ and 8 TeV in the
   ATLAS experiment}.
-\newblock {\em Eur. Phys. J.}, C76(1), 6.
+\newblock \emph{Eur. Phys. J.}, C76\penalty0 (1):\penalty0 6, 2016.
+\newblock \doi{10.1140/epjc/s10052-015-3769-y}.
 
-\bibitem[Armbruster, 2013]{ArmbrusterThesis}
-Armbruster, A.~J. (2013).
+\bibitem[Griffiths(2008)]{Griffiths}
+David Griffiths.
+\newblock \emph{{Introduction to elementary particles}}.
+\newblock 2008.
+
+\bibitem[Halzen and Martin(1984)]{HalzenAndMartin}
+F.~Halzen and Alan~D. Martin.
+\newblock \emph{{QUARKS AND LEPTONS: AN INTRODUCTORY COURSE IN MODERN PARTICLE
+  PHYSICS}}.
+\newblock 1984.
+\newblock ISBN 0471887412, 9780471887416.
+
+\bibitem[Tully(2011)]{Tully}
+Christopher~G. Tully.
+\newblock \emph{{Elementary particle physics in a nutshell}}.
+\newblock 2011.
+
+\bibitem[Schwartz(2014)]{Schwartz}
+Matthew~D. Schwartz.
+\newblock \emph{{Quantum Field Theory and the Standard Model}}.
+\newblock Cambridge University Press, 2014.
+\newblock ISBN 1107034736, 9781107034730.
+\newblock URL
+  \url{http://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model}.
+
+\bibitem[Dawson(1998)]{Dawson}
+S.~Dawson.
+\newblock {Introduction to electroweak symmetry breaking}.
+\newblock In \emph{{High energy physics and cosmology. Proceedings, Summer
+  School, Trieste, Italy, June 29-July 17, 1998}}, pages 1--83, 1998.
+\newblock URL \url{http://alice.cern.ch/format/showfull?sysnb=0301862}.
+
+\bibitem[Glashow(1961)]{Glashow}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock \emph{Nucl. Phys.}, 22:\penalty0 579--588, 1961.
+\newblock \doi{10.1016/0029-5582(61)90469-2}.
+
+\bibitem[Weinberg(1967)]{Weinberg}
+Steven Weinberg.
+\newblock {A Model of Leptons}.
+\newblock \emph{Phys. Rev. Lett.}, 19:\penalty0 1264--1266, 1967.
+\newblock \doi{10.1103/PhysRevLett.19.1264}.
+
+\bibitem[Salam(1968)]{Salam}
+A.~Salam.
+\newblock \emph{Elementary Particle Theory}.
+\newblock Almqvist and Wiksell, Stockholm, 1968.
+
+\bibitem[S.L.~Glashow and Maiani(1970)]{Glashow2}
+J.~Iliopoulos S.L.~Glashow and L.~Maiani.
+\newblock D2:\penalty0 1285, 1970.
+
+\bibitem[Chatrchyan et~al.(2012)]{CMSDiscovery}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 30--61, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+
+\bibitem[Ellis et~al.(1996)Ellis, Stirling, and Webber]{QCDBook}
+R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
+\newblock {QCD and collider physics}.
+\newblock \emph{Camb. Monogr. Part. Phys. Nucl. Phys. Cosmol.}, 8:\penalty0
+  1--435, 1996.
+
+\bibitem[{P.~W.~Higgs}(1964)]{Higgs1}
+{P.~W.~Higgs}.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock 13:\penalty0 508, 1964.
+
+\bibitem[{P.~W.~Higgs}(1966)]{Higgs2}
+{P.~W.~Higgs}.
+\newblock Spontaneous symmetry breakdown without massless bosons.
+\newblock 145:\penalty0 1156, 1966.
+
+\bibitem[{F.~Englert and R.~Brout}(1964)]{Englert}
+{F.~Englert and R.~Brout}.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock 13:\penalty0 321, 1964.
+
+\bibitem[Guralnik et~al.(1964)Guralnik, Hagen, and Kibble]{Guralnik}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
+\newblock Global conservation laws and massless particles.
+\newblock \emph{Phys.\ Rev.\ Lett.}, 13:\penalty0 585, 1964.
+\newblock \doi{10.1103/PhysRevLett.13.585}.
+
+\bibitem[Armbruster(2013)]{ArmbrusterThesis}
+Aaron~James Armbruster.
 \newblock {Discovery of a Higgs Boson with the ATLAS detector}.
+\newblock 2013.
 \newblock CERN-THESIS-2013-047.
 
-\bibitem[{ATLAS Collaboration}, 2011]{luminosity-paper}
-{ATLAS Collaboration} (2011).
-\newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
-  Using the ATLAS Detector at the LHC}.
-\newblock {\em Eur.~Phys.~J.}, C 71, 1630.
+\bibitem[{G. Cowan, K. Cranmer, E. Gross, and O. Vitells}(2011)]{Cowan:2010st}
+{G. Cowan, K. Cranmer, E. Gross, and O. Vitells}.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock \emph{Eur. Phys. J.}, C 71:\penalty0 1554, 2011.
+\newblock \doi{10.1140/epjc/s10052-011-1554-0}.
 
-\bibitem[{ATLAS Collaboration}, 2012]{btag-muons}
-{ATLAS Collaboration} (2012).
-\newblock {Measurement of the $b$-tag Efficiency in a Sample of Jets Containing
-  Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
-\newblock {\em ATLAS-CONF-2012-043}.
-
-\bibitem[{B.~P.~Kersevan and E.~Richter-Was}, 2004]{acermc}
-{B.~P.~Kersevan and E.~Richter-Was} (2004).
-\newblock {The Monte Carlo event generator AcerMC version 2.0 with interfaces
-  to PYTHIA 6.2 and HERWIG 6.5}.
-
-\bibitem[Butterworth et~al., 1996]{jimmy}
-Butterworth, J.~M., Forshaw, J.~R., \& Seymour, M.~H. (1996).
-\newblock {Multiparton interactions in photoproduction at HERA}.
-\newblock {\em Z. Phys.}, C 72, 637.
-
-\bibitem[Collaboration, 2014]{MuonTrigger2012}
-Collaboration, A. (2014).
+\bibitem[Collaboration(2014)]{MuonTrigger2012}
+ATLAS Collaboration.
 \newblock {Performance of the ATLAS muon trigger in pp collisions at
   $\sqrt{s}=$8 TeV}.
-\newblock {\em Eur. Phys. J. C}, (arXiv:1408.3179. CERN-PH-EP-2014-154), 75. 19
-  p.
+\newblock \emph{Eur. Phys. J. C}, \penalty0 (arXiv:1408.3179.
+  CERN-PH-EP-2014-154):\penalty0 75. 19 p, Aug 2014.
+\newblock URL \url{https://cds.cern.ch/record/1749694}.
 
-\bibitem[collaboration, 2015]{ElectronTrigger2012}
-collaboration, A. (2015).
-\newblock {Electron trigger performance in 2012 ATLAS data}.
+\bibitem[collaboration(2015)]{ElectronTrigger2012}
+ATLAS collaboration.
+\newblock {Electron trigger performance in 2012 ATLAS data}, 2015.
 \newblock ATLAS-COM-DAQ-2015-091.
 
-\bibitem[Collaboration, 2015]{WW2015}
-Collaboration, A. (2015).
-\newblock {Observation and measurement of Higgs boson decays to WW* with the
-  ATLAS detector}.
-\newblock {\em Phys. Rev. D}, 92(012006).
-
-\bibitem[Corcella et~al., 2001]{herwig}
-Corcella, G. et~al. (2001).
-\newblock {HERWIG 6: An event generator for hadron emission reactions with
-  interfering gluons (including super-symmetric processes) }.
-\newblock {\em JHEP}, 01, 010.
-
-\bibitem[{G. Cowan, K. Cranmer, E. Gross, and O. Vitells}, 2011]{Cowan:2010st}
-{G. Cowan, K. Cranmer, E. Gross, and O. Vitells} (2011).
-\newblock Asymptotic formulae for likelihood-based tests of new physics.
-\newblock {\em Eur. Phys. J.}, C 71, 1554.
-
-\bibitem[Gao et~al., 2014]{ct10}
-Gao, J., Guzzi, M., Huston, J., Lai, H.-L., Li, Z., et~al. (2014).
-\newblock {The CT10 NNLO Global Analysis of QCD}.
-\newblock {\em Phys.Rev.}, D89, 033009.
-
-\bibitem[Gleisberg et~al., 2009]{sherpa}
-Gleisberg, T., Hoeche, S., Krauss, F., Schonherr, M., Schumann, S., et~al.
-  (2009).
-\newblock {Event generation with SHERPA 1.1}.
-\newblock {\em JHEP}, 0902, 007.
-
-\bibitem[Kauer \& Passarino, 2012]{gg2vv}
-Kauer, N. \& Passarino, G. (2012).
-\newblock {Inadequacy of zero-width approximation for a light Higgs boson
-  signal}.
-
-\bibitem[{LHC Higgs Cross Section Working Group} et~al., 2013]{LHCXSWG}
-{LHC Higgs Cross Section Working Group}, Heinemeyer, S., Mariotti, C.,
-  Passarino, G., \& Tanaka~(Eds.), R. (2013).
-\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
-
-\bibitem[Mangano et~al., 2003]{alpgen}
-Mangano, M.~L. et~al. (2003).
-\newblock {ALPGEN, a generator for hard multiparton processes in hadronic
-  collisions}.
-\newblock {\em JHEP}, 0307, 001.
-
-\bibitem[Nason, 2004]{powheg1}
-Nason, P. (2004).
+\bibitem[Nason(2004)]{powheg1}
+Paolo Nason.
 \newblock {A new method for combining NLO QCD with shower Monte Carlo
   algorithms}.
-\newblock {\em JHEP}, 11, 040.
+\newblock \emph{JHEP}, 11:\penalty0 040, 2004.
 
-\bibitem[Olive et~al., 2014]{pdg}
-Olive, K.~A. et~al. (2014).
-\newblock {Review of Particle Physics}.
-\newblock {\em Chin. Phys.}, C38, 090001.
+\bibitem[{B.~P.~Kersevan and E.~Richter-Was}(2004)]{acermc}
+{B.~P.~Kersevan and E.~Richter-Was}.
+\newblock {The Monte Carlo event generator AcerMC version 2.0 with interfaces
+  to PYTHIA 6.2 and HERWIG 6.5}.
+\newblock 2004.
 
-\bibitem[{P.~M.~Nadolsky}, 2008]{cteq}
-{P.~M.~Nadolsky} (2008).
-\newblock {Implications of CTEQ global analysis for collider observables}.
-\newblock {\em Phys. Rev.}, D 78, 013004.
+\bibitem[Kauer and Passarino(2012)]{gg2vv}
+Nikolas Kauer and Giampiero Passarino.
+\newblock {Inadequacy of zero-width approximation for a light Higgs boson
+  signal}.
+\newblock 2012.
 
-\bibitem[{S.~Agostinelli et al.}, 2003]{geant4}
-{S.~Agostinelli et al.} (2003).
-\newblock {\sc Geant4}, a simulation toolkit.
-\newblock {\em Nucl. Instrum. Meth.}, A 506, 250.
+\bibitem[Gleisberg et~al.(2009)Gleisberg, Hoeche, Krauss, Schonherr, Schumann,
+  et~al.]{sherpa}
+T.~Gleisberg, Stefan. Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, et~al.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock \emph{JHEP}, 0902:\penalty0 007, 2009.
+\newblock \doi{10.1088/1126-6708/2009/02/007}.
 
-\bibitem[Sherstnev \& Thorne, 2009]{mrst}
-Sherstnev, A. \& Thorne, R.~S. (2009).
-\newblock {Parton distributions for the LHC}.
-\newblock {\em Eur. Phys. J}, C 55, 553.
+\bibitem[Mangano et~al.(2003)]{alpgen}
+Michelangelo~L. Mangano et~al.
+\newblock {ALPGEN, a generator for hard multiparton processes in hadronic
+  collisions}.
+\newblock \emph{JHEP}, 0307:\penalty0 001, 2003.
+\newblock \doi{10.1088/1126-6708/2003/07/001}.
 
-\bibitem[Sjostrand et~al., 2006]{pythia6}
-Sjostrand, T., Mrenna, S., \& Skands, P.~Z. (2006).
+\bibitem[Sjostrand et~al.(2006)Sjostrand, Mrenna, and Skands]{pythia6}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 \newblock {PYTHIA 6.4 Physics and Manual}.
-\newblock {\em JHEP}, 0605, 026.
+\newblock \emph{JHEP}, 0605:\penalty0 026, 2006.
+\newblock \doi{10.1088/1126-6708/2006/05/026}.
 
-\bibitem[Sjostrand et~al., 2008]{pythia8}
-Sjostrand, T., Mrenna, S., \& Skands, P.~Z. (2008).
+\bibitem[Sjostrand et~al.(2008)Sjostrand, Mrenna, and Skands]{pythia8}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 \newblock {A Brief Introduction to PYTHIA 8.1}.
-\newblock {\em Comput.Phys.Commun.}, 178, 852--867.
+\newblock \emph{Comput.Phys.Commun.}, 178:\penalty0 852--867, 2008.
+\newblock \doi{10.1016/j.cpc.2008.01.036}.
 
-\bibitem[Stewart \& Tackmann, 2012]{ST}
-Stewart, I. \& Tackmann, F. (2012).
+\bibitem[Corcella et~al.(2001)]{herwig}
+G.~Corcella et~al.
+\newblock {HERWIG 6: An event generator for hadron emission reactions with
+  interfering gluons (including super-symmetric processes) }.
+\newblock \emph{JHEP}, 01:\penalty0 010, 2001.
+\newblock \doi{10.1088/1126-6708/2001/01/010}.
+
+\bibitem[Butterworth et~al.(1996)Butterworth, Forshaw, and Seymour]{jimmy}
+J.~M. Butterworth, Jeffrey~R. Forshaw, and M.~H. Seymour.
+\newblock {Multiparton interactions in photoproduction at HERA}.
+\newblock \emph{Z. Phys.}, C 72:\penalty0 637, 1996.
+\newblock \doi{10.1007/s002880050286}.
+
+\bibitem[Gao et~al.(2014)Gao, Guzzi, Huston, Lai, Li, et~al.]{ct10}
+Jun Gao, Marco Guzzi, Joey Huston, Hung-Liang Lai, Zhao Li, et~al.
+\newblock {The CT10 NNLO Global Analysis of QCD}.
+\newblock \emph{Phys.Rev.}, D89:\penalty0 033009, 2014.
+\newblock \doi{10.1103/PhysRevD.89.033009}.
+
+\bibitem[{P.~M.~Nadolsky}(2008)]{cteq}
+{P.~M.~Nadolsky}.
+\newblock {Implications of CTEQ global analysis for collider observables}.
+\newblock \emph{Phys. Rev.}, D 78:\penalty0 013004, 2008.
+\newblock \doi{10.1103/PhysRevD.78.013004}.
+
+\bibitem[Sherstnev and Thorne(2009)]{mrst}
+A.~Sherstnev and R.~S. Thorne.
+\newblock {Parton distributions for the LHC}.
+\newblock \emph{Eur. Phys. J}, C 55:\penalty0 553, 2009.
+\newblock \doi{10.1140/epjc/s10052-008-0610-x}.
+
+\bibitem[{S.~Agostinelli et al.}(2003)]{geant4}
+{S.~Agostinelli et al.}
+\newblock {\sc Geant4}, a simulation toolkit.
+\newblock \emph{Nucl. Instrum. Meth.}, A 506:\penalty0 250, 2003.
+\newblock \doi{10.1016/S0168-9002(03)01368-8}.
+
+\bibitem[Aad et~al.(2014)]{MuonReco}
+Georges Aad et~al.
+\newblock {Measurement of the muon reconstruction performance of the ATLAS
+  detector using 2011 and 2012 LHC proton–proton collision data}.
+\newblock \emph{Eur. Phys. J.}, C74\penalty0 (11):\penalty0 3130, 2014.
+\newblock \doi{10.1140/epjc/s10052-014-3130-x}.
+
+\bibitem[Ele(2014)]{ElectronReco}
+{Electron efficiency measurements with the ATLAS detector using the 2012 LHC
+  proton-proton collision data}.
+\newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva, Jun 2014.
+\newblock URL \url{https://cds.cern.ch/record/1706245}.
+
+\bibitem[GSF(2012)]{GSF}
+{Improved electron reconstruction in ATLAS using the Gaussian Sum Filter-based
+  model for bremsstrahlung}.
+\newblock Technical Report ATLAS-CONF-2012-047, CERN, Geneva, May 2012.
+\newblock URL \url{https://cds.cern.ch/record/1449796}.
+
+\bibitem[Stewart and Tackmann(2012)]{ST}
+I.~Stewart and F.~Tackmann.
 \newblock {Theory uncertainties for Higgs mass and other searches using jet
   bins}.
-\newblock {\em Phys. Rev.}, D 85, 034011.
+\newblock \emph{Phys. Rev.}, D 85:\penalty0 034011, 2012.
+\newblock \doi{10.1103/PhysRevD.85.034011}.
+
+\bibitem[{ATLAS Collaboration}(2011)]{luminosity-paper}
+{ATLAS Collaboration}.
+\newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
+  Using the ATLAS Detector at the LHC}.
+\newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011.
+\newblock \doi{10.1140/epjc/s10052-011-1630-5}.
+
+\bibitem[atl(2013)]{atlas_jets}
+Jet energy scale and its systematic uncertainty in proton-proton collisions at
+  $\sqrt{s}=7$~tev with atlas 2011 data.
+\newblock \emph{ATLAS-CONF-2013-004}, 2013.
+
+\bibitem[bta(2011)]{btag-calib}
+Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of data with
+  the atlas detector.
+\newblock \emph{ATLAS-CONF-2011-089}, 2011.
+
+\bibitem[{ATLAS Collaboration}(2012)]{btag-muons}
+{ATLAS Collaboration}.
+\newblock {Measurement of the $b$-tag Efficiency in a Sample of Jets Containing
+  Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
+\newblock \emph{ATLAS-CONF-2012-043}, 2012.
+\newblock URL \url{http://cdsweb.cern.ch/record/1435197}.
+
+\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
+  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
+  Tanaka~(Eds.)]{LHCXSWG}
+{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.).
+\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
+\newblock 2013.
 
 \end{thebibliography}
