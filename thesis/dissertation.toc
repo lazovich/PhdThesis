@@ -1,9 +1,10 @@
 \contentsline {chapter}{\numberline {0}Introduction}{1}{chapter.0}
 \contentsline {part}{I\hspace {1em}Theoretical and Experimental Background}{2}{part.1}
-\contentsline {chapter}{\numberline {1}The Standard Model and beyond: a theoretical overview}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{4}{section.1.1}
+\contentsline {chapter}{\numberline {1}The Physics of the Higgs Boson}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Electroweak Symmetry Breaking and the Higgs}{5}{section.1.2}
 \contentsline {section}{\numberline {1.3}Higgs Boson Production and Decay}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Higgs production}{8}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}Higgs Pair Production in the Standard Model}{8}{section.1.4}
 \contentsline {section}{\numberline {1.5}Higgs Pair Production in Theories Beyond the Standard Model}{8}{section.1.5}
 \contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{9}{chapter.2}
@@ -64,10 +65,10 @@
 \contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{53}{subsection.5.4.2}
 \contentsline {subsubsection}{General background reduction}{53}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{53}{equation.5.4.1}
-\contentsline {subsubsection}{Higgs topological cuts}{55}{figure.caption.38}
+\contentsline {subsubsection}{Higgs topological cuts}{55}{figure.caption.39}
 \contentsline {subsection}{\numberline {5.4.3}BDT based selection}{57}{subsection.5.4.3}
 \contentsline {subsubsection}{Pre-training selection and BDT inputs}{59}{subsection.5.4.3}
-\contentsline {subsubsection}{BDT output}{61}{figure.caption.43}
+\contentsline {subsubsection}{BDT output}{61}{figure.caption.44}
 \contentsline {section}{\numberline {5.5}Background estimation}{61}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General strategy}{62}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{63}{subsection.5.5.2}
@@ -77,7 +78,7 @@
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{69}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{69}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{70}{subsection.5.5.7}
-\contentsline {subsubsection}{QCD multijet background}{70}{figure.caption.53}
+\contentsline {subsubsection}{QCD multijet background}{70}{figure.caption.54}
 \contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{70}{subsection.5.5.8}
 \contentsline {section}{\numberline {5.6}Systematic uncertainties}{72}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{72}{subsection.5.6.1}
@@ -96,4 +97,4 @@
 \contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{94}{chapter.9}
 \contentsline {part}{IV\hspace {1em}Looking ahead}{95}{part.4}
 \contentsline {chapter}{\numberline {10}Conclusion}{96}{chapter.10}
-\contentsline {chapter}{References}{100}{chapter*.73}
+\contentsline {chapter}{References}{100}{chapter*.74}
