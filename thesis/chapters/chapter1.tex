@@ -122,6 +122,8 @@ Here, $V$ refers to the $W^{\pm}$ and $Z$, and $\delta_{W} = 1$ while $\delta_Z 
 
 \section{Higgs Boson Production and Decay}
 
+This section discusses the properties of Higgs production and decay mechanisms. The details presented here will focus on the properties of a $125 \GeV$ Higgs boson, as this is the mass closest to that of the newly discovered Higgs. 
+
 \subsection{Higgs production}
 
 The Higgs is produced by four main production modes at the Large Hadron Collider - gluon-gluon fusion (ggF), vector boson fusion (VBF), associated production with a $W$ or $Z$ boson, or associated production with top quarks ($\ttbar H$). Figure~\ref{fig:production_modes} shows the Feynman diagrams for these four modes. 
@@ -157,6 +159,64 @@ The Higgs is produced by four main production modes at the Large Hadron Collider
   \label{fig:production_modes}
 \end{figure}
 
+In gluon-gluon fusion, gluons from the incoming protons fuse via a top-quark loop to produce a Higgs. The top quark is the dominant contribution in the loop due to its heavy mass and the fact that the Higgs-fermion coupling constant scales with fermion mass. In vector boson fusion, the incoming quarks each radiate a $W$ or $Z$ boson which fuse to produce the Higgs. This production mode results in a final state with a Higgs boson and two addtional jets which tend to be forward because they carry the longtiduinal momentum of the incoming partons. The Higgs can also be produced in associated with a $W$ or $Z$ boson. The $W/Z$ is produced normally and then radiates a Higgs (this mode is also sometimes known as ``Higgs-strahlung"). Finally, the Higgs can be produced in association with two top quarks. Each incoming gluon splits into a $\ttbar$ pair, and one of the top pairs combines to create a Higgs. 
+
+Figure~\ref{fig:Higgs_xec} shows the production cross section for a $125 \GeV$ Higgs boson in each of these modes at a $pp$ collider as a function of center of mass energy. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth,angle=270]{figures/h125_xsec}
+  \caption{Higgs production cross sections as a function of center of mass energy ($\sqrt{s}$) at a $pp$ collider\cite{LHCXSWG}.}
+  \label{fig:Higgs_xsec}
+\end{figure}
+
+In figure~\ref{fig:Higgs_xsec}, note that gluon fusion has the largest cross section, while VBF is the second largest at approximately a factor of $10$ smaller. The figure also includes the less commonly studied $b\bar{b}H$ and $tH$ modes. The $b\bar{b}H$ and $tH$ modes are not studied as commonly as $t\bar{t}H$ due to the larger background contributions and lower cross sections, respectively. At $\sqrt{s} = 8 \TeV$, ggF production of a $125 \GeV$ Higgs has a cross section of $19.47 \pb$, while VBF has a cross section of $1.601 \pb$\cite{LHCXSWG}. 
+
+\subsection{Higgs branching ratios}
+
+The fact that the Higgs couples more strongly to more massive particles is crucial for understanding its branching ratios. Figure~\ref{fig:branching_ratios} shows the branching ratios as a function of the Higgs mass. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/Higgs_BR}
+  \caption{Higgs boson branching ratios as a function of $m_H$\cite{LHCXSWG}.}
+  \label{fig:branching_ratios}
+\end{figure}
+
+There are a few interesting features to note in this figure. First, note that at high Higgs masses, once on-shell production of both $W$ and $Z$ bosons is possible, these two decays are the dominant ones due to the large masses of the $W/Z$. Also note that the branching ratio to $W$s is twice that of $Z$s at these large masses due to the $\delta_V$ symmetry factor noted previously. At $125 \GeV$, the Higgs is accessible through many different decay modes. The largest branching ratio is the decay $H\to b\bar{b}$ at 58.24\%~\cite{LHCXSWG}. This branching is larger than the $WW$/$ZZ$ decays because one of the two bosons must be produced off-shell for $m_H = 125 \GeV$. The second largest branching ratio is to $WW^*$ at $21.37$ \% (before taking into account the branching ratios of the $W$). Table~\ref{tab:Higgs_BR} summarizes the branching ratios for a $125 \GeV$ Higgs. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|}
+\hline
+Decay & Branching ratio (\%) \\ \hline
+$b\bar{b}$ & $58.24$ \\ \hline
+$WW^*$ & $21.37$ \\ \hline
+$gg$ & $8.187$ \\ \hline
+$\tau\tau$ & $6.272$ \\ \hline
+$c\bar{c}$ & $2.891$ \\ \hline
+$ZZ^*$ & $2.619$ \\ \hline
+$\gamma\gamma$ & $0.2270$ \\ \hline
+$Z\gamma$ & $0.1533$ \\ \hline
+$\mu\mu$ & $0.02176$ \\ \hline
+\end{tabular}
+
+\caption{
+Branching ratios for a $125 \GeV$ Higgs boson\cite{LHCXSWG}. 
+}
+\label{tab:Higgs_BR}
+\end{table}
 
 \section{Higgs Pair Production in the Standard Model}
 

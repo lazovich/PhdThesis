@@ -30,6 +30,7 @@ Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
+Warning--empty journal in LHCXSWG
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
 Warning--empty publisher in Tully
@@ -46,7 +47,6 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-Warning--empty journal in LHCXSWG
 You've used 45 entries,
             2481 wiz_defined-function locations,
             860 strings with 11400 characters,

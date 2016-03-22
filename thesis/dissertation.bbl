@@ -11,6 +11,14 @@ K.~A. Olive et~al.
 \newblock \emph{Chin. Phys.}, C38:\penalty0 090001, 2014.
 \newblock \doi{10.1088/1674-1137/38/9/090001}.
 
+\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
+  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
+  Tanaka~(Eds.)]{LHCXSWG}
+{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.).
+\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
+\newblock 2013.
+
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
 \newblock {Observation and measurement of Higgs boson decays to WW* with the
@@ -274,13 +282,5 @@ Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of data with
   Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
 \newblock \emph{ATLAS-CONF-2012-043}, 2012.
 \newblock URL \url{http://cdsweb.cern.ch/record/1435197}.
-
-\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
-  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
-  Tanaka~(Eds.)]{LHCXSWG}
-{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
-  G.~Passarino, and R.~Tanaka~(Eds.).
-\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
-\newblock 2013.
 
 \end{thebibliography}
