@@ -161,7 +161,7 @@ The Higgs is produced by four main production modes at the Large Hadron Collider
 
 In gluon-gluon fusion, gluons from the incoming protons fuse via a top-quark loop to produce a Higgs. The top quark is the dominant contribution in the loop due to its heavy mass and the fact that the Higgs-fermion coupling constant scales with fermion mass. In vector boson fusion, the incoming quarks each radiate a $W$ or $Z$ boson which fuse to produce the Higgs. This production mode results in a final state with a Higgs boson and two addtional jets which tend to be forward because they carry the longtiduinal momentum of the incoming partons. The Higgs can also be produced in associated with a $W$ or $Z$ boson. The $W/Z$ is produced normally and then radiates a Higgs (this mode is also sometimes known as ``Higgs-strahlung"). Finally, the Higgs can be produced in association with two top quarks. Each incoming gluon splits into a $\ttbar$ pair, and one of the top pairs combines to create a Higgs. 
 
-Figure~\ref{fig:Higgs_xec} shows the production cross section for a $125 \GeV$ Higgs boson in each of these modes at a $pp$ collider as a function of center of mass energy. 
+Figure~\ref{fig:Higgs_xsec} shows the production cross section for a $125 \GeV$ Higgs boson in each of these modes at a $pp$ collider as a function of center of mass energy. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -178,7 +178,30 @@ In figure~\ref{fig:Higgs_xsec}, note that gluon fusion has the largest cross sec
 
 \subsection{Higgs branching ratios}
 
-The fact that the Higgs couples more strongly to more massive particles is crucial for understanding its branching ratios. Figure~\ref{fig:branching_ratios} shows the branching ratios as a function of the Higgs mass. 
+The fact that the Higgs couples more strongly to more massive particles is crucial for understanding its branching ratios. The width for Higgs decays to fermions is given in equation~\ref{eqn:Hff_width}~\cite{Tully}.
+
+\begin{equation}
+\label{eqn:Hff_width}
+\Gamma(H\to f\bar{f}) = \frac{N_c \sqrt{2} G_F m_f^2 m_H}{8\pi}
+\end{equation}
+
+In this case, $N_c$ is the number of colors, $G_F$ is the Fermi constant, $m_f$ is the mass of the fermion, and $m_H$ is the mass of the Higgs. Note that the width scales with the square of the fermion mass. (This also assumes that the Higgs mass is large enough to decay with both the fermions on shell.) 
+
+The decay width to $WW$ is given in equation~\ref{eqn:HWW_width}~\cite{Tully}. 
+
+\begin{equation}
+\label{eqn:HWW_width}
+\Gamma(H\to W^+W^-) = \frac{\sqrt{2} G_F M_W^2 m_H}{16\pi}\frac{\sqrt{1-x_W}}{x_W}\left(3x_W^2 - 4x_W + 4\right)
+\end{equation}
+
+where $m_W$ is the mass of the $W$ and $x_W  = 4M_W^2/m_H^2$. To get the branching ratio to $ZZ$, the equation is divided by $2$ to account for identical particles in the final state, and $x_W$ is replaced with $x_Z = 4M_Z^2/m_H^2$. This is shown in equation~\ref{eqn:HZZ_width}~\cite{Tully}.
+
+\begin{equation}
+\label{eqn:HZZ_width}
+\Gamma(H\to ZZ) = \frac{\sqrt{2} G_F M_Z^2 m_H}{32\pi}\frac{\sqrt{1-x_Z}}{x_Z}\left(3x_Z^2 - 4x_Z + 4\right)
+\end{equation}
+
+These formulas can also be visualized as a function of Higgs mass. Figure~\ref{fig:branching_ratios} shows the branching ratios as a function of the Higgs mass. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -190,7 +213,7 @@ The fact that the Higgs couples more strongly to more massive particles is cruci
   \label{fig:branching_ratios}
 \end{figure}
 
-There are a few interesting features to note in this figure. First, note that at high Higgs masses, once on-shell production of both $W$ and $Z$ bosons is possible, these two decays are the dominant ones due to the large masses of the $W/Z$. Also note that the branching ratio to $W$s is twice that of $Z$s at these large masses due to the $\delta_V$ symmetry factor noted previously. At $125 \GeV$, the Higgs is accessible through many different decay modes. The largest branching ratio is the decay $H\to b\bar{b}$ at 58.24\%~\cite{LHCXSWG}. This branching is larger than the $WW$/$ZZ$ decays because one of the two bosons must be produced off-shell for $m_H = 125 \GeV$. The second largest branching ratio is to $WW^*$ at $21.37$ \% (before taking into account the branching ratios of the $W$). Table~\ref{tab:Higgs_BR} summarizes the branching ratios for a $125 \GeV$ Higgs. 
+There are a few interesting features to note in this figure. First, note that at high Higgs masses, once on-shell production of both $W$ and $Z$ bosons is possible, these two decays are the dominant ones due to the large masses of the $W/Z$. Also note that the branching ratio to $W$s is twice that of $Z$s at these large masses due to the $\delta_V$ symmetry factor noted previously. At $125 \GeV$, the Higgs is accessible through many different decay modes. The largest branching ratio is the decay $H\to b\bar{b}$ at 58.24\%~\cite{LHCXSWG}. This branching is larger than the $WW$/$ZZ$ decays because one of the two bosons must be produced off-shell for $m_H = 125 \GeV$. The second largest branching ratio is to $WW^*$ at $21.37$ \% (before taking into account the branching ratios of the $W$). Table~\ref{tab:Higgs_BR} summarizes the branching ratios for a $125 \GeV$ Higgs. Note that there is in fact a Higgs branching ratio to $\gamma\gamma$ even though photons are massless. This decay happens through a loop (the largesst contributions to the loop are top and $W$) which suppresses the branching ratio. 
 
 \begin{table}[h!]
 \centering
@@ -216,6 +239,31 @@ $\mu\mu$ & $0.02176$ \\ \hline
 Branching ratios for a $125 \GeV$ Higgs boson\cite{LHCXSWG}. 
 }
 \label{tab:Higgs_BR}
+\end{table}
+
+
+Note that the branching ratios alone do not tell the full story of which Higgs channels are the most sensitive. For example, a $H\to b\bar{b}$ search in gluon fusion production is incredibly difficult due to the large QCD dijet background at the LHC. However, in associated production of the Higgs, where a $W$ or $Z$ gives additional final state particles that can be used to reduce background, a search for $H\to b\bar{b}$ can be sensitive. The combinations of production and decay modes that are most commonly studied are summarized in table~\ref{tab:sensitive_channels}~\cite{Tully}.
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Decay & Inclusive (incl. ggF) & VBF & $WH/ZH$ & $t\bar{t}H$ \\ \hline
+$H\to\gamma\gamma$ & \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+$H\to b \bar{b}$ & & & \checkmark & \checkmark \\ \hline
+$H\to \tau^+\tau^-$ & & \checkmark & & \\ \hline
+\HWWfull & \checkmark & \checkmark & \checkmark &  \\ \hline
+$H \to ZZ \to 4\ell$ & \checkmark & & & \\ \hline
+$H \to Z\gamma \to \ell\ell\gamma$ & very low & & & \\ \hline
+\end{tabular}
+
+\caption{
+Possible channels for Higgs searches. Checkmarks denote the most sensitive production modes~\cite{Tully}. 
+}
+\label{tab:sensitive_channels}
 \end{table}
 
 \section{Higgs Pair Production in the Standard Model}

@@ -5,41 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Olive et~al.(2014)]{PDG}
-K.~A. Olive et~al.
-\newblock {Review of Particle Physics}.
-\newblock \emph{Chin. Phys.}, C38:\penalty0 090001, 2014.
-\newblock \doi{10.1088/1674-1137/38/9/090001}.
-
-\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
-  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
-  Tanaka~(Eds.)]{LHCXSWG}
-{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
-  G.~Passarino, and R.~Tanaka~(Eds.).
-\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
-\newblock 2013.
-
-\bibitem[Collaboration(2015)]{WW2015}
-ATLAS Collaboration.
-\newblock {Observation and measurement of Higgs boson decays to WW* with the
-  ATLAS detector}.
-\newblock \emph{Phys. Rev. D}, 92\penalty0 (012006), 2015.
-
-\bibitem[Aad et~al.(2012)]{Discovery}
-Georges Aad et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
-\newblock \doi{10.1016/j.physletb.2012.08.020}.
-
-\bibitem[Aad et~al.(2016)]{HiggsSummaryRun1}
-Georges Aad et~al.
-\newblock {Measurements of the Higgs boson production and decay rates and
-  coupling strengths using pp collision data at $\sqrt{s}=7$ and 8 TeV in the
-  ATLAS experiment}.
-\newblock \emph{Eur. Phys. J.}, C76\penalty0 (1):\penalty0 6, 2016.
-\newblock \doi{10.1140/epjc/s10052-015-3769-y}.
-
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
 \newblock \emph{{Introduction to elementary particles}}.
@@ -56,6 +21,12 @@ F.~Halzen and Alan~D. Martin.
 Christopher~G. Tully.
 \newblock \emph{{Elementary particle physics in a nutshell}}.
 \newblock 2011.
+
+\bibitem[Olive et~al.(2014)]{PDG}
+K.~A. Olive et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin. Phys.}, C38:\penalty0 090001, 2014.
+\newblock \doi{10.1088/1674-1137/38/9/090001}.
 
 \bibitem[Schwartz(2014)]{Schwartz}
 Matthew~D. Schwartz.
@@ -93,6 +64,13 @@ A.~Salam.
 J.~Iliopoulos S.L.~Glashow and L.~Maiani.
 \newblock D2:\penalty0 1285, 1970.
 
+\bibitem[Aad et~al.(2012)]{Discovery}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
+
 \bibitem[Chatrchyan et~al.(2012)]{CMSDiscovery}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
@@ -126,6 +104,20 @@ G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
 \newblock Global conservation laws and massless particles.
 \newblock \emph{Phys.\ Rev.\ Lett.}, 13:\penalty0 585, 1964.
 \newblock \doi{10.1103/PhysRevLett.13.585}.
+
+\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
+  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
+  Tanaka~(Eds.)]{LHCXSWG}
+{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.).
+\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
+\newblock 2013.
+
+\bibitem[Collaboration(2015)]{WW2015}
+ATLAS Collaboration.
+\newblock {Observation and measurement of Higgs boson decays to WW* with the
+  ATLAS detector}.
+\newblock \emph{Phys. Rev. D}, 92\penalty0 (012006), 2015.
 
 \bibitem[Armbruster(2013)]{ArmbrusterThesis}
 Aaron~James Armbruster.
@@ -282,5 +274,13 @@ Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of data with
   Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
 \newblock \emph{ATLAS-CONF-2012-043}, 2012.
 \newblock URL \url{http://cdsweb.cern.ch/record/1435197}.
+
+\bibitem[Aad et~al.(2016)]{HiggsSummaryRun1}
+Georges Aad et~al.
+\newblock {Measurements of the Higgs boson production and decay rates and
+  coupling strengths using pp collision data at $\sqrt{s}=7$ and 8 TeV in the
+  ATLAS experiment}.
+\newblock \emph{Eur. Phys. J.}, C76\penalty0 (1):\penalty0 6, 2016.
+\newblock \doi{10.1140/epjc/s10052-015-3769-y}.
 
 \end{thebibliography}
