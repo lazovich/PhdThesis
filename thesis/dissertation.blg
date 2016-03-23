@@ -25,6 +25,11 @@ Warning--string name "pr" is undefined
 --line 505 of file references.bib
 Warning--string name "prl" is undefined
 --line 514 of file references.bib
+I was expecting a `,' or a `}'---line 546 of file references.bib
+ :       
+ :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
@@ -32,6 +37,11 @@ Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
 Warning--empty journal in LHCXSWG
 Warning--empty publisher in Tully
+Warning--empty author in HH_LHC
+Warning--empty title in HH_LHC
+Warning--empty journal in HH_LHC
+Warning--empty year in HH_LHC
+Warning--empty year in HH_LHC
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
 Warning--empty title in Glashow2
@@ -47,45 +57,45 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 45 entries,
+You've used 46 entries,
             2481 wiz_defined-function locations,
-            860 strings with 11400 characters,
-and the built_in function-call counts, 14654 in all, are:
-= -- 1274
+            862 strings with 11412 characters,
+and the built_in function-call counts, 14869 in all, are:
+= -- 1288
 > -- 543
 < -- 36
-+ -- 244
++ -- 246
 - -- 154
-* -- 991
-:= -- 2351
-add.period$ -- 160
-call.type$ -- 45
-change.case$ -- 84
-chr.to.int$ -- 45
-cite$ -- 66
-duplicate$ -- 842
-empty$ -- 1468
+* -- 1013
+:= -- 2369
+add.period$ -- 161
+call.type$ -- 46
+change.case$ -- 85
+chr.to.int$ -- 46
+cite$ -- 73
+duplicate$ -- 860
+empty$ -- 1498
 format.name$ -- 212
-if$ -- 3147
+if$ -- 3192
 int.to.chr$ -- 1
-int.to.str$ -- 46
-missing$ -- 47
-newline$ -- 258
+int.to.str$ -- 47
+missing$ -- 48
+newline$ -- 261
 num.names$ -- 123
-pop$ -- 355
+pop$ -- 371
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 46
 quote$ -- 0
-skip$ -- 494
+skip$ -- 505
 stack$ -- 0
-substring$ -- 478
-swap$ -- 91
+substring$ -- 481
+swap$ -- 92
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 300
-warning$ -- 17
+type$ -- 307
+warning$ -- 22
 while$ -- 112
 width$ -- 0
-write$ -- 621
-(There was 1 error message)
+write$ -- 627
+(There were 2 error messages)
