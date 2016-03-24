@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -129,6 +129,67 @@ G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
 \newblock Global conservation laws and massless particles.
 \newblock \emph{Phys.\ Rev.\ Lett.}, 13:\penalty0 585, 1964.
 \newblock \doi{10.1103/PhysRevLett.13.585}.
+
+\bibitem[Dolan et~al.(2013)Dolan, Englert, and Spannowsky]{HH_NewPhys}
+Matthew~J. Dolan, Christoph Englert, and Michael Spannowsky.
+\newblock {New Physics in LHC Higgs boson pair production}.
+\newblock \emph{Phys. Rev.}, D87\penalty0 (5):\penalty0 055002, 2013.
+\newblock \doi{10.1103/PhysRevD.87.055002}.
+
+\bibitem[Contino et~al.(2012)Contino, Ghezzi, Moretti, Panico, Piccinini, and
+  Wulzer]{AnomalousHHVertex}
+Roberto Contino, Margherita Ghezzi, Mauro Moretti, Giuliano Panico, Fulvio
+  Piccinini, and Andrea Wulzer.
+\newblock {Anomalous Couplings in Double Higgs Production}.
+\newblock \emph{JHEP}, 08:\penalty0 154, 2012.
+\newblock \doi{10.1007/JHEP08(2012)154}.
+
+\bibitem[Grober and Muhlleitner(2011)]{CompositeDiHiggs}
+R.~Grober and M.~Muhlleitner.
+\newblock {Composite Higgs Boson Pair Production at the LHC}.
+\newblock \emph{JHEP}, 06:\penalty0 020, 2011.
+\newblock \doi{10.1007/JHEP06(2011)020}.
+
+\bibitem[Randall and Sundrum(1999)]{RSG1}
+Lisa Randall and Raman Sundrum.
+\newblock {A Large mass hierarchy from a small extra dimension}.
+\newblock \emph{Phys. Rev. Lett.}, 83:\penalty0 3370--3373, 1999.
+\newblock \doi{10.1103/PhysRevLett.83.3370}.
+
+\bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{RSG_LHC}
+Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
+\newblock {Warped Gravitons at the LHC and Beyond}.
+\newblock \emph{Phys. Rev.}, D76:\penalty0 036006, 2007.
+\newblock \doi{10.1103/PhysRevD.76.036006}.
+
+\bibitem[Fitzpatrick et~al.(2007)Fitzpatrick, Kaplan, Randall, and
+  Wang]{RSG_LHC2}
+A.~Liam Fitzpatrick, Jared Kaplan, Lisa Randall, and Lian-Tao Wang.
+\newblock {Searching for the Kaluza-Klein Graviton in Bulk RS Models}.
+\newblock \emph{JHEP}, 09:\penalty0 013, 2007.
+\newblock \doi{10.1088/1126-6708/2007/09/013}.
+
+\bibitem[Baglio et~al.(2014)Baglio, Eberhardt, Nierste, and Wiebusch]{HH_2HDM}
+Julien Baglio, Otto Eberhardt, Ulrich Nierste, and Martin Wiebusch.
+\newblock {Benchmarks for Higgs Pair Production and Heavy Higgs boson Searches
+  in the Two-Higgs-Doublet Model of Type II}.
+\newblock \emph{Phys. Rev.}, D90\penalty0 (1):\penalty0 015008, 2014.
+\newblock \doi{10.1103/PhysRevD.90.015008}.
+
+\bibitem[Branco et~al.(2012)Branco, Ferreira, Lavoura, Rebelo, Sher, and
+  Silva]{2HDM2}
+G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, Marc Sher, and Joao~P.
+  Silva.
+\newblock {Theory and phenomenology of two-Higgs-doublet models}.
+\newblock \emph{Phys. Rept.}, 516:\penalty0 1--102, 2012.
+\newblock \doi{10.1016/j.physrep.2012.02.002}.
+
+\bibitem[No and Ramsey-Musolf(2014)]{HiggsPortal}
+Jose~M. No and Michael Ramsey-Musolf.
+\newblock {Probing the Higgs Portal at the LHC Through Resonant di-Higgs
+  Production}.
+\newblock \emph{Phys. Rev.}, D89\penalty0 (9):\penalty0 095031, 2014.
+\newblock \doi{10.1103/PhysRevD.89.095031}.
 
 \bibitem[Armbruster(2013)]{ArmbrusterThesis}
 Aaron~James Armbruster.
