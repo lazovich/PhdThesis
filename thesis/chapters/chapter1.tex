@@ -341,8 +341,71 @@ Production cross sections for pair production of a $125 \GeV$ Higgs boson at $\s
 
 \section{Higgs Pair Production in Theories Beyond the Standard Model}
 
-The Standard Model Higgs pair production cross section is rather small, and datasets on the scale of the full lifetime of the LHC will be required to obtain sensitive measurements of the Higgs self-coupling. However, the discovery of the Higgs also gives particle physicists a new tool that can be exploited in the search for new physics beyond the Standard Model. In particular, Higgs pair production is a promising channel in the search for new physics. The cross section for di-Higgs production can be altered through both resonant and non-resonant production of Higgs pairs. In non-resonant production, di-Higgs production vertices can arise from the presence of a new strong sector and additional colored particles\cite{HH_NewPhys,AnomalousHHVertex,CompositeDiHiggs}. Figure~\ref{fig:HH_nonres} shows examples of the types of vertices that can arise. In the resonant case, new heavy particle can decay to Higgs pairs. Such new particles can include heavy Higgs bosons arising in two Higgs doublet models (2HDM) or Higgs portal models as well as heavy gravitons in Randall-Sundrum theories\cite{HH_NewPhys,RSG1,RSG_LHC,RSG_LHC2,HH_2HDM,2HDM2,HiggsPortal}. Figure~\ref{fig:HH_res} shows examples of the diagrams that can arise in these theories.
+The Standard Model Higgs pair production cross section is rather small, and datasets on the scale of the full lifetime of the LHC will be required to obtain sensitive measurements of the Higgs self-coupling. However, the discovery of the Higgs also gives particle physicists a new tool that can be exploited in the search for new physics beyond the Standard Model. In particular, Higgs pair production is a promising channel in the search for new physics. The cross section for di-Higgs production can be altered through both resonant and non-resonant production of Higgs pairs. In non-resonant production, di-Higgs production vertices can arise from the presence of a new strong sector and additional colored particles\cite{HH_NewPhys,AnomalousHHVertex,CompositeDiHiggs}. Figure~\ref{fig:HH_nonres} shows examples of the types of vertices that can arise. In the resonant case, new heavy particle can decay to Higgs pairs. Such new particles can include heavy Higgs bosons arising in two Higgs doublet models (2HDM) or Higgs portal models as well as heavy gravitons in Randall-Sundrum theories\cite{HH_NewPhys,RSG1,RSG_LHC,RSG_LHC2,HH_2HDM,2HDM2,HiggsPortal}. Figure~\ref{fig:HH_res} shows a generic diagram for a heavy resonance decaying to two Higgs bosons. In the 2HDM, $X$ corresponds to the heavy CP-even scalar $H$. In the Randall-Sundrum model, $X$ corresponds to a heavy spin-2 graviton $G$. 
 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.4\textwidth]{figures/HH_nonres1}
+  \includegraphics[width=0.4\textwidth]{figures/HH_nonres2}
+   \caption{Diagrams with new vertices for non-resonant Higgs pair production arising in composite Higgs models}
+  \label{fig:HH_nonres}
+\end{figure}
+
+The next sections provide more detail on the phenomenology of resonant Higgs production in Randall-Sundrum and 2HDM models, as these models will later be tested in a dedicated search for resonant production of boosted Higgs pairs. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.4\textwidth]{figures/Generic_res}
+   \caption{Generic Feynman diagram for resonant Higgs pair production in BSM theories}
+  \label{fig:HH_res}
+\end{figure}
+
+\subsection{Randall-Sundrum Gravitons}
+
+The Randall-Sundrum model is a proposed solution to the hierarchy problem that posits a five-dimensional warped spacetime that contains two branes: one where the force of gravity is very strong and a second brane at the $\TeV$ scale corresponding to the known Standard Model sector~\cite{RSG1}. In the theory, the branes are weakly coupled and the graviton probability function drops exponentially going from the gravity brane to the SM brane, rendering gravity weak on the SM brane. The experimental consequence of this theory is a tower of widely spaced (in mass) Kaluza-Klein graviton resonances. In theories where the fermions are localized to the SM brane, production of gravitons from fermion pairs is suppressed and the primary mode of production is gluon fusion\cite{RSG_LHC}. These gravitons have a substantial branching fraction to Higgs pairs, ranging from $6.43$\% for gravitons with a mass of $500 \GeV$ to $7.66\%$ at $3 \TeV$. Figure~\ref{fig:G_BR} shows the branching ratios of the spin-2 Randall Sundrum graviton (RSG) as a function of its mass. The predominant decays are to $t\bar{t}$ above the mass threshold for that channel. 
+
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/G_BR}
+   \caption{Branching ratios for a spin-2 Randall-Sundrum graviton as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph}}
+  \label{fig:G_BR}
+\end{figure}
+
+These models have two free parameters - the mass of the graviton and a curvature parameter $k$. Typically, rather than $k$, the theory is parameterized using $c \equiv k/\bar{M_{\rm pl}}$, where $\bar{M_{\rm pl}}$ is the reduced Planck mass. The cross section for production of the RSG decreases as a function of mass and is strongly dependent on the gluon PDF. The increase in center of mass energy from $8$ to $13 \TeV$ in LHC Run 2 greatly increases the cross section at higher mass. Figure~\ref{fig:G_xsec} shows the cross section as a function of graviton mass at $\sqrt{s} = 13 \TeV$ for RSG models with $c=1.0$ and $c=2.0$. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/RSG_xsec}
+   \caption{$\sigma \times \textrm{BR}(HH)$ for RSG as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph}}
+  \label{fig:G_xsec}
+\end{figure}
+
+Another interesting feature of the theory is that the width of the graviton increases with both $c$ and $m_G$. Figure~\ref{fig:G_width} shows the graviton width for both $c=1.0$ and $c=2.0$ as a function of mass. In $c=1.0$, the width starts at $8.365 \GeV$ for a mass of $300 \GeV$ and increases to $187.2 \GeV$ at a mass of $3 \TeV$. SImilarly, with $c=2.0$, the width starts at $33.46 \GeV$ for $m_G = 300 \GeV$ and increases to $748.8 \GeV$ at a mass of $3 \TeV$. 
+
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/RSG_width}
+   \caption{RSG width as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph}}
+  \label{fig:G_width}
+\end{figure}
 
 
 

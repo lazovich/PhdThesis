@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,20 @@ K.~A. Olive et~al.
   G.~Passarino, and R.~Tanaka~(Eds.).
 \newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
 \newblock 2013.
+
+\bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{RSG_LHC}
+Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
+\newblock {Warped Gravitons at the LHC and Beyond}.
+\newblock \emph{Phys. Rev.}, D76:\penalty0 036006, 2007.
+\newblock \doi{10.1103/PhysRevD.76.036006}.
+
+\bibitem[Alwall et~al.(2011)Alwall, Herquet, Maltoni, Mattelaer, and
+  Stelzer]{MadGraph}
+Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
+  Stelzer.
+\newblock {MadGraph 5:Going Beyond}.
+\newblock \emph{JHEP}, 1106:\penalty0 128, 2011.
+\newblock \doi{10.1007/JHEP06(2011)128}.
 
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
@@ -155,12 +169,6 @@ Lisa Randall and Raman Sundrum.
 \newblock {A Large mass hierarchy from a small extra dimension}.
 \newblock \emph{Phys. Rev. Lett.}, 83:\penalty0 3370--3373, 1999.
 \newblock \doi{10.1103/PhysRevLett.83.3370}.
-
-\bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{RSG_LHC}
-Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
-\newblock {Warped Gravitons at the LHC and Beyond}.
-\newblock \emph{Phys. Rev.}, D76:\penalty0 036006, 2007.
-\newblock \doi{10.1103/PhysRevD.76.036006}.
 
 \bibitem[Fitzpatrick et~al.(2007)Fitzpatrick, Kaplan, Randall, and
   Wang]{RSG_LHC2}
