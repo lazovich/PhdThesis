@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,6 +32,13 @@ Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
 \newblock {MadGraph 5:Going Beyond}.
 \newblock \emph{JHEP}, 1106:\penalty0 128, 2011.
 \newblock \doi{10.1007/JHEP06(2011)128}.
+
+\bibitem[Haber and Stål(2015)]{2HDM3}
+Howard~E. Haber and Oscar Stål.
+\newblock {New LHC benchmarks for the $\mathcal{CP}$ -conserving
+  two-Higgs-doublet model}.
+\newblock \emph{Eur. Phys. J.}, C75\penalty0 (10):\penalty0 491, 2015.
+\newblock \doi{10.1140/epjc/s10052-015-3697-x}.
 
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
