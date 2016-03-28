@@ -36,6 +36,7 @@ Warning--I didn't find a database entry for "JVE"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
 Warning--empty journal in LHCXSWG
+Warning--empty publisher in LHCReview
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -57,45 +58,45 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 57 entries,
+You've used 63 entries,
             2481 wiz_defined-function locations,
-            943 strings with 13372 characters,
-and the built_in function-call counts, 19373 in all, are:
-= -- 1655
-> -- 816
-< -- 40
-+ -- 348
-- -- 234
-* -- 1406
-:= -- 3124
-add.period$ -- 205
-call.type$ -- 57
-change.case$ -- 107
-chr.to.int$ -- 57
-cite$ -- 84
-duplicate$ -- 1069
-empty$ -- 1885
-format.name$ -- 311
-if$ -- 4134
+            987 strings with 14322 characters,
+and the built_in function-call counts, 21753 in all, are:
+= -- 1883
+> -- 870
+< -- 48
++ -- 375
+- -- 249
+* -- 1574
+:= -- 3484
+add.period$ -- 231
+call.type$ -- 63
+change.case$ -- 119
+chr.to.int$ -- 63
+cite$ -- 91
+duplicate$ -- 1199
+empty$ -- 2130
+format.name$ -- 334
+if$ -- 4661
 int.to.chr$ -- 1
-int.to.str$ -- 58
-missing$ -- 59
-newline$ -- 327
-num.names$ -- 156
-pop$ -- 437
+int.to.str$ -- 64
+missing$ -- 65
+newline$ -- 364
+num.names$ -- 176
+pop$ -- 477
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 63
 quote$ -- 0
-skip$ -- 623
+skip$ -- 704
 stack$ -- 0
-substring$ -- 662
-swap$ -- 114
-text.length$ -- 3
+substring$ -- 821
+swap$ -- 139
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 384
-warning$ -- 22
-while$ -- 145
+type$ -- 426
+warning$ -- 23
+while$ -- 165
 width$ -- 0
-write$ -- 792
+write$ -- 885
 (There were 2 error messages)

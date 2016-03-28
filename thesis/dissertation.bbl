@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -39,6 +39,15 @@ Howard~E. Haber and Oscar Stål.
   two-Higgs-doublet model}.
 \newblock \emph{Eur. Phys. J.}, C75\penalty0 (10):\penalty0 491, 2015.
 \newblock \doi{10.1140/epjc/s10052-015-3697-x}.
+
+\bibitem[Evans({2011})]{LHCReview}
+Lyndon Evans.
+\newblock {The Large Hadron Collider}.
+\newblock In {Holstein, BR and Haxton, WC and Jawahery, A}, editor,
+  \emph{{ANNUAL REVIEW OF NUCLEAR AND PARTICLE SCIENCE, VOL 61}}, volume~{61}
+  of \emph{{Annual Review of Nuclear and Particle Science}}, pages {435--466}.
+  {2011}.
+\newblock \doi{{10.1146/annurev-nucl-102010-130438}}.
 
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
@@ -205,6 +214,40 @@ Jose~M. No and Michael Ramsey-Musolf.
   Production}.
 \newblock \emph{Phys. Rev.}, D89\penalty0 (9):\penalty0 095031, 2014.
 \newblock \doi{10.1103/PhysRevD.89.095031}.
+
+\bibitem[Evans and Bryant(2008)]{LHCPaper}
+Lyndon~R Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock \emph{J. Instrum.}, 3:\penalty0 S08001. 164 p, 2008.
+\newblock URL \url{https://cds.cern.ch/record/1129806}.
+\newblock This report is an abridged version of the LHC Design Report
+  (CERN-2004-003).
+
+\bibitem[{ATLAS Collaboration}(2008)]{ATLASPaper}
+{ATLAS Collaboration}.
+\newblock {The ATLAS experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
+\bibitem[{CMS Collaboration}(2008)]{CMSPaper}
+{CMS Collaboration}.
+\newblock The cms experiment at the cern lhc.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08004,
+  2008.
+\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
+
+\bibitem[Collaoration(2008)]{LHCbPaper}
+LHCb Collaoration.
+\newblock {The LHCb Detector at the LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08005, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08005}.
+
+\bibitem[{ALICE Collaboration}(2008)]{ALICEPaper}
+{ALICE Collaboration}.
+\newblock The alice experiment at the cern lhc.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08002,
+  2008.
+\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08002}.
 
 \bibitem[Armbruster(2013)]{ArmbrusterThesis}
 Aaron~James Armbruster.
