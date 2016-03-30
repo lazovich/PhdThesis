@@ -88,7 +88,6 @@ The ATLAS detector is a multi-purpose particle detector experiment at the LHC's 
   \label{fig:ATLAS_overview}
 \end{figure}
 
-
 \subsection{Coordinate system}
 
 Before defining the properties of the individual detectors, it is important to establish the coordinate system used. Figure~\ref{fig:coord} shows a schematic of the coordinate system. The azimuthal plane (perpendicular to the beam line) is defined as the $x$-$y$ plane. The angle in this plane is referred to as $\phi$. The angle relative to the beam axis is referred to as $\theta$. Rather than using $\theta$ directly as a coordinate, the experiment often uses the pseudorapidity $\eta$. $\eta$ is defined in equation~\ref{eqn:eta}. 
@@ -98,7 +97,7 @@ Before defining the properties of the individual detectors, it is important to e
 \eta = \ln{\left(\tan\left(\frac{\theta}{2}\right)\right)}
 \end{equation}
 
-Pseudorapidity is the massless approximation of rapidity, the angle used to paramaterize boosts in special relativity. This is important for two reasons. First, it means that differences in $\eta$ are Lorentz invariant. Second, particle production is roughly constant in pseudorapidity. Particles with $\eta$ close to zero are referred to as ``central", while those at high $|\eta|$ are called ``forward". 
+Pseudorapidity is the massless approximation of rapidity, the angle used to paramaterize boosts in special relativity. This is important for two reasons. First, it means that differences in $\eta$ are Lorentz invariant. Second, particle production is roughly constant in pseudorapidity. Particles with $\eta$ close to zero are referred to as ``central", while those at high $|\eta|$ are called ``forward". In general, two main detector topologies can be seen in figure~\ref{fig:ATLAS_overview}. There are ``barrel" elements, which surround the beam line cylindrically and are in the central region of the detector. In the forward region, there are ``endcap" regions which are arranged as disks perpendicular to the beam line. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -109,6 +108,40 @@ Pseudorapidity is the massless approximation of rapidity, the angle used to para
    \caption{The ATLAS coordinate system}
   \label{fig:coord}
 \end{figure}
+
+\subsection{Inner detector}
+
+The ATLAS Inner Detector (ID) system is built for precision tracking of charged particles. It covers the range $|\eta| < 2.5$. In this range, approximately $1000$ particles are generated every bunch crossing in the detector. This requires having fine granularity to achieve the resolutions required for good momentum measurement and vertex reconstruction. 
+
+The ID consists of three sub-components: the pixel detector, semiconductor tracker (SCT), and transition radiation tracker (TRT). It is surrounded by a solenoid providing a $2$ $\rm T$ axial magnetic field which bends particles in the transverse plane to allow for momentum measurement. Figure~\ref{fig:ID}shows the layout of each of these components. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/ATLAS_ID}
+   \caption{Layout of the ATLAS Inner Detector system~\cite{Run2Tracking}}
+  \label{fig:ID}
+\end{figure}
+
+\subsubsection{Pixel detector}
+
+The pixel detector is the first detector particles traverse after being generated in proton collisions and is the most granular detector. Its operation is crucial for precision tracking and vertex reconstruction as well as higher level object reconstruction like tagging of jets from $b$-quarks. The basic sensing element in this subdetector is a silicon pixel detector. The operating principle for the silicon pixels is that of a $p$-$n$ junction. When a charged particle passes through, it creates electron-hole pairs that are then separated by the electric field. The sensors are $250\,\mu\rm m$ thick and use oxygenated $n$-type wafers with readout pixels on the $n^+$ side of the detector~\cite{ATLASPaper}. Overall, the pixel detector has $1744$ sensors and $~80.4$ million readout channels.
+
+In the barrel region, the pixel detector has three concentric layers of sensors surrounding the beamline. In the endcap region, it consists of disks perpendicular to the beam axis. The detector is segmented in the $R$-$\phi$ plane and in $z$. Usually, three pixel layers are crossed by a charged particle track. The intrinsic accuracies of the sensors are $10\,\mu\rm m$ in $R$-$\phi$ and $115\,\mu\rm m$ in $z$ (or $R$ for the endcap).
+
+
+\subsubsection{Insertable B-layer}
+
+In Run 2, a new innermost pixel layer, known as the insertable B-layer (IBL), was added to the Inner Detector~\cite{IBL}. This layer was added to cope with the higher luminosities planned in LHC Run 2 and at the high luminosity HL-LHC. Additionaly it improves tracking position resolution which in turn improves the vertexing and $b$-tagging capabilities in ATLAS. The detector sits directly on a new beam pipe, only $33.25 \textrm{ mm}$ away from the collision points in the azimuthal plane. 
+
+\subsubsection{Semiconductor Tracker (SCT)}
+
+
+
+
+
 
 
 \section{The ATLAS New Small Wheel Muon Upgrade}
