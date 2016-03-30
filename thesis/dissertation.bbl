@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{66}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -77,6 +77,20 @@ Christopher~G. Tully.
 
 \bibitem[HH_()]{HH_LHC}
 
+
+\bibitem[{Mike Lamont for the LHC team}(2013)]{LHC_2011_2012}
+{Mike Lamont for the LHC team}.
+\newblock {The First Years of LHC Operation for Luminosity Production}.
+\newblock {International Particle Accelerator Conference}, 2013.
+\newblock URL
+  \url{https://accelconf.web.cern.ch/accelconf/IPAC2013/talks/moyab101_talk.pdf}.
+
+\bibitem[{Paul Collier for the LHC team}(2015)]{LHC_2015}
+{Paul Collier for the LHC team}.
+\newblock {LHC Machine Status}.
+\newblock {CERN Resource Review Board}, 2015.
+\newblock URL
+  \url{https://cds.cern.ch/record/2063924/files/CERN-RRB-2015-119.PDF}.
 
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.

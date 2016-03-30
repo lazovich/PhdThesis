@@ -14,6 +14,7 @@
 \contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{19}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{20}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Instantaneous luminosity}{21}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Evolution of machine conditions}{22}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}The ATLAS Detector}{22}{section.2.2}
 \contentsline {section}{\numberline {2.3}The ATLAS New Small Wheel Muon Upgrade}{22}{section.2.3}
 \contentsline {section}{\numberline {2.4}Object Reconstruction in ATLAS}{22}{section.2.4}
@@ -72,10 +73,10 @@
 \contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{66}{subsection.5.4.2}
 \contentsline {subsubsection}{General background reduction}{66}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{66}{equation.5.4.1}
-\contentsline {subsubsection}{Higgs topological cuts}{68}{figure.caption.53}
+\contentsline {subsubsection}{Higgs topological cuts}{68}{figure.caption.54}
 \contentsline {subsection}{\numberline {5.4.3}BDT based selection}{70}{subsection.5.4.3}
 \contentsline {subsubsection}{Pre-training selection and BDT inputs}{72}{subsection.5.4.3}
-\contentsline {subsubsection}{BDT output}{74}{figure.caption.58}
+\contentsline {subsubsection}{BDT output}{74}{figure.caption.59}
 \contentsline {section}{\numberline {5.5}Background estimation}{74}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General strategy}{75}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{76}{subsection.5.5.2}
@@ -85,7 +86,7 @@
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{82}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{82}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{83}{subsection.5.5.7}
-\contentsline {subsubsection}{QCD multijet background}{83}{figure.caption.68}
+\contentsline {subsubsection}{QCD multijet background}{83}{figure.caption.69}
 \contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{83}{subsection.5.5.8}
 \contentsline {section}{\numberline {5.6}Systematic uncertainties}{85}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{85}{subsection.5.6.1}
@@ -104,4 +105,4 @@
 \contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{107}{chapter.9}
 \contentsline {part}{IV\hspace {1em}Looking ahead}{108}{part.4}
 \contentsline {chapter}{\numberline {10}Conclusion}{109}{chapter.10}
-\contentsline {chapter}{References}{114}{chapter*.88}
+\contentsline {chapter}{References}{114}{chapter*.89}

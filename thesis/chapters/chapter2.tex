@@ -43,9 +43,35 @@ Another way of writing the instantaneous luminosity is shown in equation~\ref{eq
 L = \frac{R_{\rm inel}}{\sigma_{\rm inel}} = \frac{\mu n_b f_{\rm rev}}{\sigma_{\rm inel}}
 \end{equation}
 
-In this case, $\mu$ is the average number of interactions per bunch crossing in the accelerator. $\mu$ is a useful measurement 
+In this case, $\mu$ is the average number of interactions per bunch crossing in the accelerator. $\mu$ is a useful parameter for characterizing the amount of activity recorded in an experiment. As the instantaneous luminosity and thus $\mu$ increase, there are more interactions per bunch crossing and more activity in the detector. This is often characterized with $\langle \mu \rangle$, the measured per bunch crossing $\mu$ value averaged over all bunch crossings. The interactions inside each bunch crossing that are not the main physics process of interest are often referred to as ``pileup" interactions, and $\langle \mu \rangle$ is a measurement of the level of pileup in the detector. 
 
+\subsection{Evolution of machine conditions}
 
+This thesis uses datasets taken at three different center of mass energies: $\sqrt{s} = 7 \TeV$ data taken in the year $2011$, $\sqrt{s} = 8 \TeV$ data taken in the year $2012$, and $\sqrt{s} = 13 \TeV$ dataa taken in the year $2015$. In addition to increasing center of mass energy, the instananeous luminosity and parameters that determine it were evolving. Table~\ref{tab:LHC_cond} summarizes that machine conditions in each of these datasets. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& $2011$ & $2012$ & $2015$ & Design\\ \hline
+$\sqrt{s}$ [$\TeV$] & $7$ & $8$ & $13$ & $14$ \\ \hline
+Number of bunches & $1380$ & $1380$ & $1825$ & $2808$ \\ \hline
+Max. protons per bunch & $1.45\times10^{11}$ & $1.7\times10^{11}$ & & $1.15 \times 10^{11}$ \\ \hline
+Bunch spacing [$\textrm{ns}$] & $50$ & $50$ & $25$ & $25$ \\ \hline
+\specialcell{Max. instantaneous \\ luminosity [$\textrm{cm}^{-2} \textrm{s}^-1$]} & $3.7\times 10^{33}$ & $7.7\times10^{33}$ & $5\times10^{33}$ & $10^{34}$\\ \hline
+$\beta^*$ [$\textrm{m}$] & $1.0$ & $0.6$ & $0.8$ & $0.55$ \\ \hline 
+$\langle \mu \rangle$ & $11.6$ & $20.7$ & $13.7$ & - \\ \hline
+\end{tabular}
+
+\caption{
+Evolution of LHC machine conditions~\cite{LHC_2011_2012,LHC_2015}
+}
+\label{tab:LHC_cond}
+\end{table}
 
 
 \section{The ATLAS Detector}
