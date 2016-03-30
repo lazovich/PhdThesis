@@ -21,6 +21,7 @@
 \contentsline {subsubsection}{Pixel detector}{25}{figure.caption.24}
 \contentsline {subsubsection}{Insertable B-layer}{26}{figure.caption.24}
 \contentsline {subsubsection}{Semiconductor Tracker (SCT)}{26}{figure.caption.24}
+\contentsline {subsubsection}{Transition radiation tracker (TRT)}{26}{figure.caption.24}
 \contentsline {section}{\numberline {2.3}The ATLAS New Small Wheel Muon Upgrade}{26}{section.2.3}
 \contentsline {section}{\numberline {2.4}Object Reconstruction in ATLAS}{26}{section.2.4}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{27}{part.2}
