@@ -58,45 +58,45 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 63 entries,
+You've used 64 entries,
             2481 wiz_defined-function locations,
-            987 strings with 14322 characters,
-and the built_in function-call counts, 21753 in all, are:
-= -- 1883
-> -- 870
-< -- 48
-+ -- 375
-- -- 249
-* -- 1574
-:= -- 3484
-add.period$ -- 231
-call.type$ -- 63
-change.case$ -- 119
+            988 strings with 14332 characters,
+and the built_in function-call counts, 22077 in all, are:
+= -- 1913
+> -- 877
+< -- 49
++ -- 380
+- -- 251
+* -- 1598
+:= -- 3536
+add.period$ -- 235
+call.type$ -- 64
+change.case$ -- 121
 chr.to.int$ -- 63
-cite$ -- 91
-duplicate$ -- 1199
-empty$ -- 2130
-format.name$ -- 334
-if$ -- 4661
-int.to.chr$ -- 1
-int.to.str$ -- 64
-missing$ -- 65
-newline$ -- 364
-num.names$ -- 176
-pop$ -- 477
+cite$ -- 92
+duplicate$ -- 1218
+empty$ -- 2164
+format.name$ -- 337
+if$ -- 4730
+int.to.chr$ -- 2
+int.to.str$ -- 65
+missing$ -- 66
+newline$ -- 370
+num.names$ -- 179
+pop$ -- 483
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 64
 quote$ -- 0
-skip$ -- 704
+skip$ -- 712
 stack$ -- 0
-substring$ -- 821
-swap$ -- 139
+substring$ -- 835
+swap$ -- 143
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 426
+type$ -- 433
 warning$ -- 23
-while$ -- 165
+while$ -- 168
 width$ -- 0
-write$ -- 885
+write$ -- 900
 (There were 2 error messages)
