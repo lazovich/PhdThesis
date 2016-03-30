@@ -76,6 +76,41 @@ Evolution of LHC machine conditions~\cite{LHC_2011_2012,LHC_2015}
 
 \section{The ATLAS Detector}
 
+The ATLAS detector is a multi-purpose particle detector experiment at the LHC's Point $1$~\cite{ATLASPaper}. It has nearly $4\pi$ coverage in solid angle around the interaction point. It consists of an inner detector for measuring charged particles, electromagnetic and hadronic calorimeters, and a muon spectrometer. Figure~\ref{fig:ATLAS_overview} gives an overview of the detector.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=\textwidth]{figures/ATLAS}
+   \caption{A full diagram of the ATLAS detector~\cite{ATLASPaper}}
+  \label{fig:ATLAS_overview}
+\end{figure}
+
+
+\subsection{Coordinate system}
+
+Before defining the properties of the individual detectors, it is important to establish the coordinate system used. Figure~\ref{fig:coord} shows a schematic of the coordinate system. The azimuthal plane (perpendicular to the beam line) is defined as the $x$-$y$ plane. The angle in this plane is referred to as $\phi$. The angle relative to the beam axis is referred to as $\theta$. Rather than using $\theta$ directly as a coordinate, the experiment often uses the pseudorapidity $\eta$. $\eta$ is defined in equation~\ref{eqn:eta}. 
+
+\begin{equation}
+\label{eqn:eta}
+\eta = \ln{\left(\tan\left(\frac{\theta}{2}\right)\right)}
+\end{equation}
+
+Pseudorapidity is the massless approximation of rapidity, the angle used to paramaterize boosts in special relativity. This is important for two reasons. First, it means that differences in $\eta$ are Lorentz invariant. Second, particle production is roughly constant in pseudorapidity. Particles with $\eta$ close to zero are referred to as ``central", while those at high $|\eta|$ are called ``forward". 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.8\textwidth]{figures/ATLAS_coord}
+   \caption{The ATLAS coordinate system}
+  \label{fig:coord}
+\end{figure}
+
+
 \section{The ATLAS New Small Wheel Muon Upgrade}
 
 \section{Object Reconstruction in ATLAS}

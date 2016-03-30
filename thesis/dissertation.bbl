@@ -49,6 +49,12 @@ Lyndon Evans.
   {2011}.
 \newblock \doi{{10.1146/annurev-nucl-102010-130438}}.
 
+\bibitem[{ATLAS Collaboration}(2008)]{ATLASPaper}
+{ATLAS Collaboration}.
+\newblock {The ATLAS experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
 \newblock {Observation and measurement of Higgs boson decays to WW* with the
@@ -236,12 +242,6 @@ Lyndon~R Evans and Philip Bryant.
 \newblock URL \url{https://cds.cern.ch/record/1129806}.
 \newblock This report is an abridged version of the LHC Design Report
   (CERN-2004-003).
-
-\bibitem[{ATLAS Collaboration}(2008)]{ATLASPaper}
-{ATLAS Collaboration}.
-\newblock {The ATLAS experiment at the CERN Large Hadron Collider}.
-\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
-\newblock \doi{10.1088/1748-0221/3/08/S08003}.
 
 \bibitem[{CMS Collaboration}(2008)]{CMSPaper}
 {CMS Collaboration}.
