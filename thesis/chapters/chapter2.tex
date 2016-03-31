@@ -188,7 +188,7 @@ The muon spectrometer is dedicated to measuring the momentum and position of muo
   \centering
   \captionsetup{justification=centering}
 
-  \includegraphics[width=\textwidth]{figures/ATLAS_muon}
+  \includegraphics[width=0.9\textwidth]{figures/ATLAS_muon}
    \caption{Layout of the ATLAS muon system~\cite{ATLASPaper}}
   \label{fig:ATLAS_muon}
 \end{figure}
@@ -200,12 +200,41 @@ The monitored drift tubes (MDTs) are aluminum $3 \rm cm$ diameter tubes filled w
 
 \subsubsection{Cathode strip chambers (CSCs)}
 
-The cathode strip chambers cover a narrow window of the innermost endcap region at $2.0 < |\eta|< 2.7$. In this region the background rates in the cavern are particularly high and the CSCs are designed to handle these higher rates. The CSCs are multiwire proportional chambers with wires pointing in the radial direction (away from the beam pipe). The wire serves as an anode and there are two types of segmented cathode strip, one perpendicular to the wires which gives the precision measurement and one parallel which provides the transverse coordinate. It has an $80/20$ gas mixture of Argon and $\textrm{CO}_2$. 
+The cathode strip chambers cover a narrow window of the innermost endcap region at $2.0 < |\eta|< 2.7$. In this region the background rates in the cavern are particularly high and the CSCs are designed to handle these higher rates. The CSCs are multiwire proportional chambers with wires pointing in the radial direction (away from the beam pipe). The wire serves as an anode and there are two types of segmented cathode strip, one perpendicular to the wires which gives the precision measurement and one parallel which provides the transverse coordinate. It has an $80/20$ gas mixture of Argon and $\textrm{CO}_2$~\cite{ATLASPaper}. 
 
-\subsubsection{Resisitive plate chambers (RPCs)}
+\subsubsection{Resistive plate chambers (RPCs)}
 
+The resistive plate chambers (RPCs) are gaseous electrode-plate detectors covering the region $|\eta| < 1.05$. They consist of two resistive plates separated by a distance of $2\,\rm mm$. The gas mixture used is a $94.7/5/0.3$\% mixture of $\textrm{C}_2\textrm{H}_2\textrm{F}_4$, $\textrm{Iso-C}_4\textrm{H}_10$, and $\textrm{SF}_6$. It has readout strips with a pitch of $23$-$35\, \rm mm$ for both $\eta$ and $\phi$ measurement and thus provides measurement of the azimuthal coordinate in the barrel that the MDTs do not. The thin gas gap allows for a quick response time which makes it ideal for use in the trigger. There are three layers of RPCs which are referred to as the three trigger stations. They allwo for both a low $p_{T}$ and high $p_{T}$ trigger. The coincidence of hits in the innermost chambers allows for triggering of muons between $6$ and $9 \GeV$, while the outermost layer allows the trigger to select high momentum tracks in the range of $9$ to $35\GeV$~\cite{ATLASPaper}.
 
+\subsubsection{Thin gap chambers (TGCs)}
 
+The thin gap chambers (TGCs) are multiwire proportional chambers where the wire to cathode distance ($1.4\.\rm mm$) is smaller than the wire-to-wire distance ($1.8\,\rm mm$). They contain a gas mixture of $\textrm{CO}_2$ and $n$-pentane and use a hih electric field to gain good time resolution. They serve two functions in the end-cap system. First, they serve as the trigger chambers. Second, they also provide azimuthal coordinate measurement which the MDTs do not. They sit on the inner and middle layers of the endcap. The outermost layer's azimuthal coordinate is determined by extrapolation~\cite{ATLASPaper}.
+
+\section{Magnet system}
+
+As mentioned previously, there are two independent magnet systems in ATLAS. The first is a $2\,\rm T$ solenoid field in the inner detector which provides bending in the azimuthal plane. The second is an approximately $0.5\,\rm T$ toroidal field in the muon system which provides bending in $\eta$. Figure~\ref{fig:ATLAS_mag} shows the predicted field integral as a function of $|\eta|$. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   %\begin{subfigure}[t]{0.5\textwidth}
+   %     \centering
+   %     \includegraphics[width=0.7\textwidth]{figures/ATLAS_magnets}
+   %     \caption{}
+   % \end{subfigure}%
+    %\begin{subfigure}[t]{0.5\textwidth}
+    %    \centering
+        \includegraphics[width=0.7\textwidth]{figures/ATLAS_field}
+    %    \caption{}
+    %\end{subfigure}
+
+   \caption{Predicted field integral as a function of $|\eta|$ for the ATLAS magnet system~\cite{ATLASPaper}}
+  \label{fig:ATLAS_mag}
+\end{figure}
+
+\section{Trigger system}
 
 
 
