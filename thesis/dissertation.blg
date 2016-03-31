@@ -30,10 +30,6 @@ I was expecting a `,' or a `}'---line 546 of file references.bib
  :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 900 of file references.bib
- : year = {2015},
- :               ,
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
@@ -56,6 +52,8 @@ Warning--empty journal in Glashow2
 Warning--empty journal in Higgs1
 Warning--empty journal in Higgs2
 Warning--empty journal in Englert
+Warning--empty note in Lumi_Run1
+Warning--empty note in Lumi_Run2
 Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc
@@ -64,45 +62,45 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 69 entries,
+You've used 71 entries,
             2481 wiz_defined-function locations,
-            1017 strings with 15231 characters,
-and the built_in function-call counts, 23478 in all, are:
-= -- 2035
-> -- 961
-< -- 54
-+ -- 416
-- -- 277
-* -- 1709
-:= -- 3796
-add.period$ -- 253
-call.type$ -- 69
-change.case$ -- 131
+            1026 strings with 15573 characters,
+and the built_in function-call counts, 23958 in all, are:
+= -- 2084
+> -- 975
+< -- 56
++ -- 426
+- -- 281
+* -- 1745
+:= -- 3885
+add.period$ -- 262
+call.type$ -- 71
+change.case$ -- 135
 chr.to.int$ -- 68
-cite$ -- 100
-duplicate$ -- 1284
-empty$ -- 2259
-format.name$ -- 367
-if$ -- 5002
-int.to.chr$ -- 2
-int.to.str$ -- 70
+cite$ -- 104
+duplicate$ -- 1308
+empty$ -- 2293
+format.name$ -- 373
+if$ -- 5093
+int.to.chr$ -- 4
+int.to.str$ -- 72
 missing$ -- 66
-newline$ -- 398
-num.names$ -- 191
-pop$ -- 503
+newline$ -- 411
+num.names$ -- 197
+pop$ -- 510
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 71
 quote$ -- 0
-skip$ -- 754
+skip$ -- 766
 stack$ -- 0
-substring$ -- 846
-swap$ -- 152
+substring$ -- 850
+swap$ -- 158
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 468
-warning$ -- 25
-while$ -- 176
+type$ -- 482
+warning$ -- 27
+while$ -- 180
 width$ -- 0
-write$ -- 969
-(There were 3 error messages)
+write$ -- 997
+(There were 2 error messages)
