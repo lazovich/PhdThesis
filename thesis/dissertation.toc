@@ -26,7 +26,9 @@
 \contentsline {subsubsection}{Electromagnetic calorimeter}{27}{figure.caption.25}
 \contentsline {subsubsection}{Hadronic calorimeters}{28}{figure.caption.25}
 \contentsline {subsection}{\numberline {2.2.4}Muon spectrometer}{29}{subsection.2.2.4}
-\contentsline {subsubsection}{Monitored drift tubes (MDTs)}{30}{figure.caption.26}
+\contentsline {subsubsection}{Monitored drift tubes (MDTs)}{29}{figure.caption.26}
+\contentsline {subsubsection}{Cathode strip chambers (CSCs)}{29}{figure.caption.26}
+\contentsline {subsubsection}{Resisitive plate chambers (RPCs)}{30}{figure.caption.26}
 \contentsline {section}{\numberline {2.3}The ATLAS New Small Wheel Muon Upgrade}{30}{section.2.3}
 \contentsline {section}{\numberline {2.4}Object Reconstruction in ATLAS}{30}{section.2.4}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{31}{part.2}
