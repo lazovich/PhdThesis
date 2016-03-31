@@ -35,25 +35,25 @@ Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
-Warning--empty journal in LHCXSWG
-Warning--empty publisher in LHCReview
-Warning--empty author in Run2Tracking
-Warning--empty note in TriggerOps
-Warning--empty note in Lumi_Run1
-Warning--empty note in Lumi_Run2
-Warning--empty publisher in Tully
-Warning--empty author in HH_LHC
-Warning--empty title in HH_LHC
-Warning--empty journal in HH_LHC
-Warning--empty year in HH_LHC
-Warning--empty year in HH_LHC
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
+Warning--empty publisher in Tully
 Warning--empty title in Glashow2
 Warning--empty journal in Glashow2
 Warning--empty journal in Higgs1
 Warning--empty journal in Higgs2
 Warning--empty journal in Englert
+Warning--empty journal in LHCXSWG
+Warning--empty author in HH_LHC
+Warning--empty title in HH_LHC
+Warning--empty journal in HH_LHC
+Warning--empty year in HH_LHC
+Warning--empty year in HH_LHC
+Warning--empty publisher in LHCReview
+Warning--empty author in Run2Tracking
+Warning--empty note in TriggerOps
+Warning--empty note in Lumi_Run1
+Warning--empty note in Lumi_Run2
 Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc

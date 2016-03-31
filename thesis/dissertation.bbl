@@ -5,126 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Olive et~al.(2014)]{PDG}
-K.~A. Olive et~al.
-\newblock {Review of Particle Physics}.
-\newblock \emph{Chin. Phys.}, C38:\penalty0 090001, 2014.
-\newblock \doi{10.1088/1674-1137/38/9/090001}.
-
-\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
-  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
-  Tanaka~(Eds.)]{LHCXSWG}
-{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
-  G.~Passarino, and R.~Tanaka~(Eds.).
-\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
-\newblock 2013.
-
-\bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{RSG_LHC}
-Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
-\newblock {Warped Gravitons at the LHC and Beyond}.
-\newblock \emph{Phys. Rev.}, D76:\penalty0 036006, 2007.
-\newblock \doi{10.1103/PhysRevD.76.036006}.
-
-\bibitem[Alwall et~al.(2011)Alwall, Herquet, Maltoni, Mattelaer, and
-  Stelzer]{MadGraph}
-Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
-  Stelzer.
-\newblock {MadGraph 5:Going Beyond}.
-\newblock \emph{JHEP}, 1106:\penalty0 128, 2011.
-\newblock \doi{10.1007/JHEP06(2011)128}.
-
-\bibitem[Haber and Stål(2015)]{2HDM3}
-Howard~E. Haber and Oscar Stål.
-\newblock {New LHC benchmarks for the $\mathcal{CP}$ -conserving
-  two-Higgs-doublet model}.
-\newblock \emph{Eur. Phys. J.}, C75\penalty0 (10):\penalty0 491, 2015.
-\newblock \doi{10.1140/epjc/s10052-015-3697-x}.
-
-\bibitem[Evans({2011})]{LHCReview}
-Lyndon Evans.
-\newblock {The Large Hadron Collider}.
-\newblock In {Holstein, BR and Haxton, WC and Jawahery, A}, editor,
-  \emph{{ANNUAL REVIEW OF NUCLEAR AND PARTICLE SCIENCE, VOL 61}}, volume~{61}
-  of \emph{{Annual Review of Nuclear and Particle Science}}, pages {435--466}.
-  {2011}.
-\newblock \doi{{10.1146/annurev-nucl-102010-130438}}.
-
-\bibitem[{ATLAS Collaboration}(2008)]{ATLASPaper}
-{ATLAS Collaboration}.
-\newblock {The ATLAS experiment at the CERN Large Hadron Collider}.
-\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
-\newblock \doi{10.1088/1748-0221/3/08/S08003}.
-
-\bibitem[Run(2015)]{Run2Tracking}
-{Track Reconstruction Performance of the ATLAS Inner Detector at
-  $\sqrt{s}=13$~TeV}.
-\newblock Technical Report ATL-PHYS-PUB-2015-018, CERN, Geneva, Jul 2015.
-\newblock URL \url{http://cds.cern.ch/record/2037683}.
-
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{TriggerOps}
-{ATLAS Collaboration}.
-\newblock {ATLAS Trigger Operations Public Results}.
-\newblock 2015{\natexlab{a}}.
-\newblock URL
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TriggerOperationPublicResults}.
-
-\bibitem[{ATLAS Collaboration}(2012{\natexlab{a}})]{Lumi_Run1}
-{ATLAS Collaboration}.
-\newblock {ATLAS Luminosity Public Results, Run 1}.
-\newblock 2012{\natexlab{a}}.
-\newblock URL
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}.
-
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{Lumi_Run2}
-{ATLAS Collaboration}.
-\newblock {ATLAS Luminosity Public Results, Run 2}.
-\newblock 2015{\natexlab{b}}.
-\newblock URL
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
-
-\bibitem[Collaboration(2015)]{WW2015}
-ATLAS Collaboration.
-\newblock {Observation and measurement of Higgs boson decays to WW* with the
-  ATLAS detector}.
-\newblock \emph{Phys. Rev. D}, 92\penalty0 (012006), 2015.
-
-\bibitem[Aad et~al.(2012)]{Discovery}
-Georges Aad et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
-\newblock \doi{10.1016/j.physletb.2012.08.020}.
-
-\bibitem[Aad et~al.(2016)]{HiggsSummaryRun1}
-Georges Aad et~al.
-\newblock {Measurements of the Higgs boson production and decay rates and
-  coupling strengths using pp collision data at $\sqrt{s}=7$ and 8 TeV in the
-  ATLAS experiment}.
-\newblock \emph{Eur. Phys. J.}, C76\penalty0 (1):\penalty0 6, 2016.
-\newblock \doi{10.1140/epjc/s10052-015-3769-y}.
-
-\bibitem[Tully(2011)]{Tully}
-Christopher~G. Tully.
-\newblock \emph{{Elementary particle physics in a nutshell}}.
-\newblock 2011.
-
-\bibitem[HH_()]{HH_LHC}
-
-
-\bibitem[{Mike Lamont for the LHC team}(2013)]{LHC_2011_2012}
-{Mike Lamont for the LHC team}.
-\newblock {The First Years of LHC Operation for Luminosity Production}.
-\newblock {International Particle Accelerator Conference}, 2013.
-\newblock URL
-  \url{https://accelconf.web.cern.ch/accelconf/IPAC2013/talks/moyab101_talk.pdf}.
-
-\bibitem[{Paul Collier for the LHC team}(2015)]{LHC_2015}
-{Paul Collier for the LHC team}.
-\newblock {LHC Machine Status}.
-\newblock {CERN Resource Review Board}, 2015.
-\newblock URL
-  \url{https://cds.cern.ch/record/2063924/files/CERN-RRB-2015-119.PDF}.
-
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
 \newblock \emph{{Introduction to elementary particles}}.
@@ -136,6 +16,17 @@ F.~Halzen and Alan~D. Martin.
   PHYSICS}}.
 \newblock 1984.
 \newblock ISBN 0471887412, 9780471887416.
+
+\bibitem[Tully(2011)]{Tully}
+Christopher~G. Tully.
+\newblock \emph{{Elementary particle physics in a nutshell}}.
+\newblock 2011.
+
+\bibitem[Olive et~al.(2014)]{PDG}
+K.~A. Olive et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin. Phys.}, C38:\penalty0 090001, 2014.
+\newblock \doi{10.1088/1674-1137/38/9/090001}.
 
 \bibitem[Schwartz(2014)]{Schwartz}
 Matthew~D. Schwartz.
@@ -173,6 +64,13 @@ A.~Salam.
 J.~Iliopoulos S.L.~Glashow and L.~Maiani.
 \newblock D2:\penalty0 1285, 1970.
 
+\bibitem[Aad et~al.(2012)]{Discovery}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
+
 \bibitem[Chatrchyan et~al.(2012)]{CMSDiscovery}
 Serguei Chatrchyan et~al.
 \newblock {Observation of a new boson at a mass of 125 GeV with the CMS
@@ -207,6 +105,17 @@ G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
 \newblock \emph{Phys.\ Rev.\ Lett.}, 13:\penalty0 585, 1964.
 \newblock \doi{10.1103/PhysRevLett.13.585}.
 
+\bibitem[{LHC Higgs Cross Section Working Group} et~al.(2013){LHC Higgs Cross
+  Section Working Group}, Heinemeyer, Mariotti, Passarino, and
+  Tanaka~(Eds.)]{LHCXSWG}
+{LHC Higgs Cross Section Working Group}, S.~Heinemeyer, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.).
+\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
+\newblock 2013.
+
+\bibitem[HH_()]{HH_LHC}
+
+
 \bibitem[Dolan et~al.(2013)Dolan, Englert, and Spannowsky]{HH_NewPhys}
 Matthew~J. Dolan, Christoph Englert, and Michael Spannowsky.
 \newblock {New Physics in LHC Higgs boson pair production}.
@@ -233,6 +142,12 @@ Lisa Randall and Raman Sundrum.
 \newblock \emph{Phys. Rev. Lett.}, 83:\penalty0 3370--3373, 1999.
 \newblock \doi{10.1103/PhysRevLett.83.3370}.
 
+\bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{RSG_LHC}
+Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
+\newblock {Warped Gravitons at the LHC and Beyond}.
+\newblock \emph{Phys. Rev.}, D76:\penalty0 036006, 2007.
+\newblock \doi{10.1103/PhysRevD.76.036006}.
+
 \bibitem[Fitzpatrick et~al.(2007)Fitzpatrick, Kaplan, Randall, and
   Wang]{RSG_LHC2}
 A.~Liam Fitzpatrick, Jared Kaplan, Lisa Randall, and Lian-Tao Wang.
@@ -255,12 +170,27 @@ G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, Marc Sher, and Joao~P.
 \newblock \emph{Phys. Rept.}, 516:\penalty0 1--102, 2012.
 \newblock \doi{10.1016/j.physrep.2012.02.002}.
 
+\bibitem[Haber and Stål(2015)]{2HDM3}
+Howard~E. Haber and Oscar Stål.
+\newblock {New LHC benchmarks for the $\mathcal{CP}$ -conserving
+  two-Higgs-doublet model}.
+\newblock \emph{Eur. Phys. J.}, C75\penalty0 (10):\penalty0 491, 2015.
+\newblock \doi{10.1140/epjc/s10052-015-3697-x}.
+
 \bibitem[No and Ramsey-Musolf(2014)]{HiggsPortal}
 Jose~M. No and Michael Ramsey-Musolf.
 \newblock {Probing the Higgs Portal at the LHC Through Resonant di-Higgs
   Production}.
 \newblock \emph{Phys. Rev.}, D89\penalty0 (9):\penalty0 095031, 2014.
 \newblock \doi{10.1103/PhysRevD.89.095031}.
+
+\bibitem[Alwall et~al.(2011)Alwall, Herquet, Maltoni, Mattelaer, and
+  Stelzer]{MadGraph}
+Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
+  Stelzer.
+\newblock {MadGraph 5:Going Beyond}.
+\newblock \emph{JHEP}, 1106:\penalty0 128, 2011.
+\newblock \doi{10.1007/JHEP06(2011)128}.
 
 \bibitem[Evans and Bryant(2008)]{LHCPaper}
 Lyndon~R Evans and Philip Bryant.
@@ -269,6 +199,12 @@ Lyndon~R Evans and Philip Bryant.
 \newblock URL \url{https://cds.cern.ch/record/1129806}.
 \newblock This report is an abridged version of the LHC Design Report
   (CERN-2004-003).
+
+\bibitem[{ATLAS Collaboration}(2008)]{ATLASPaper}
+{ATLAS Collaboration}.
+\newblock {The ATLAS experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
 
 \bibitem[{CMS Collaboration}(2008)]{CMSPaper}
 {CMS Collaboration}.
@@ -290,12 +226,41 @@ LHCb Collaoration.
   2008.
 \newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08002}.
 
+\bibitem[Evans({2011})]{LHCReview}
+Lyndon Evans.
+\newblock {The Large Hadron Collider}.
+\newblock In {Holstein, BR and Haxton, WC and Jawahery, A}, editor,
+  \emph{{ANNUAL REVIEW OF NUCLEAR AND PARTICLE SCIENCE, VOL 61}}, volume~{61}
+  of \emph{{Annual Review of Nuclear and Particle Science}}, pages {435--466}.
+  {2011}.
+\newblock \doi{{10.1146/annurev-nucl-102010-130438}}.
+
 \bibitem[{ATLAS Collaboration}(2011{\natexlab{a}})]{lumi-paper}
 {ATLAS Collaboration}.
 \newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
   Using the ATLAS Detector at the LHC}.
 \newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011{\natexlab{a}}.
 \newblock \doi{10.1140/epjc/s10052-011-1630-5}.
+
+\bibitem[{Mike Lamont for the LHC team}(2013)]{LHC_2011_2012}
+{Mike Lamont for the LHC team}.
+\newblock {The First Years of LHC Operation for Luminosity Production}.
+\newblock {International Particle Accelerator Conference}, 2013.
+\newblock URL
+  \url{https://accelconf.web.cern.ch/accelconf/IPAC2013/talks/moyab101_talk.pdf}.
+
+\bibitem[{Paul Collier for the LHC team}(2015)]{LHC_2015}
+{Paul Collier for the LHC team}.
+\newblock {LHC Machine Status}.
+\newblock {CERN Resource Review Board}, 2015.
+\newblock URL
+  \url{https://cds.cern.ch/record/2063924/files/CERN-RRB-2015-119.PDF}.
+
+\bibitem[Run(2015)]{Run2Tracking}
+{Track Reconstruction Performance of the ATLAS Inner Detector at
+  $\sqrt{s}=13$~TeV}.
+\newblock Technical Report ATL-PHYS-PUB-2015-018, CERN, Geneva, Jul 2015.
+\newblock URL \url{http://cds.cern.ch/record/2037683}.
 
 \bibitem[Capeans et~al.(2010)Capeans, Darbo, Einsweiller, Elsing, Flick,
   Garcia-Sciveres, Gemme, Pernegger, Rohne, and Vuillermet]{IBL}
@@ -305,6 +270,27 @@ M~Capeans, G~Darbo, K~Einsweiller, M~Elsing, T~Flick, M~Garcia-Sciveres,
 \newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19, CERN, Geneva, Sep
   2010.
 \newblock URL \url{https://cds.cern.ch/record/1291633}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{TriggerOps}
+{ATLAS Collaboration}.
+\newblock {ATLAS Trigger Operations Public Results}.
+\newblock 2015{\natexlab{a}}.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TriggerOperationPublicResults}.
+
+\bibitem[{ATLAS Collaboration}(2012{\natexlab{a}})]{Lumi_Run1}
+{ATLAS Collaboration}.
+\newblock {ATLAS Luminosity Public Results, Run 1}.
+\newblock 2012{\natexlab{a}}.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResults}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{Lumi_Run2}
+{ATLAS Collaboration}.
+\newblock {ATLAS Luminosity Public Results, Run 2}.
+\newblock 2015{\natexlab{b}}.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
 
 \bibitem[Kawamoto et~al.(2013)Kawamoto, Vlachos, Pontecorvo, Dubbert,
   Mikenberg, Iengo, Dallapiccola, Amelung, Levinson, Richter, and
@@ -316,6 +302,12 @@ T~Kawamoto, S~Vlachos, L~Pontecorvo, J~Dubbert, G~Mikenberg, P~Iengo,
   2013.
 \newblock URL \url{https://cds.cern.ch/record/1552862}.
 \newblock ATLAS New Small Wheel Technical Design Report.
+
+\bibitem[Collaboration(2015)]{WW2015}
+ATLAS Collaboration.
+\newblock {Observation and measurement of Higgs boson decays to WW* with the
+  ATLAS detector}.
+\newblock \emph{Phys. Rev. D}, 92\penalty0 (012006), 2015.
 
 \bibitem[Armbruster(2013)]{ArmbrusterThesis}
 Aaron~James Armbruster.
@@ -472,5 +464,13 @@ Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of data with
   Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
 \newblock \emph{ATLAS-CONF-2012-043}, 2012{\natexlab{b}}.
 \newblock URL \url{http://cdsweb.cern.ch/record/1435197}.
+
+\bibitem[Aad et~al.(2016)]{HiggsSummaryRun1}
+Georges Aad et~al.
+\newblock {Measurements of the Higgs boson production and decay rates and
+  coupling strengths using pp collision data at $\sqrt{s}=7$ and 8 TeV in the
+  ATLAS experiment}.
+\newblock \emph{Eur. Phys. J.}, C76\penalty0 (1):\penalty0 6, 2016.
+\newblock \doi{10.1140/epjc/s10052-015-3769-y}.
 
 \end{thebibliography}
