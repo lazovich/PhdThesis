@@ -30,10 +30,10 @@
 \contentsline {subsubsection}{Cathode strip chambers (CSCs)}{30}{figure.caption.26}
 \contentsline {subsubsection}{Resistive plate chambers (RPCs)}{30}{figure.caption.26}
 \contentsline {subsubsection}{Thin gap chambers (TGCs)}{31}{figure.caption.26}
-\contentsline {section}{\numberline {2.3}Magnet system}{31}{section.2.3}
-\contentsline {section}{\numberline {2.4}Trigger system}{32}{section.2.4}
-\contentsline {section}{\numberline {2.5}The ATLAS New Small Wheel Muon Upgrade}{32}{section.2.5}
-\contentsline {section}{\numberline {2.6}Object Reconstruction in ATLAS}{32}{section.2.6}
+\contentsline {subsection}{\numberline {2.2.5}Magnet system}{31}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Trigger system}{31}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}The ATLAS New Small Wheel Muon Upgrade}{32}{section.2.3}
+\contentsline {section}{\numberline {2.4}Object Reconstruction in ATLAS}{32}{section.2.4}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{33}{part.2}
 \contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{34}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{34}{section.3.1}
@@ -89,10 +89,10 @@
 \contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{76}{subsection.5.4.2}
 \contentsline {subsubsection}{General background reduction}{76}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{76}{equation.5.4.1}
-\contentsline {subsubsection}{Higgs topological cuts}{78}{figure.caption.60}
+\contentsline {subsubsection}{Higgs topological cuts}{78}{figure.caption.61}
 \contentsline {subsection}{\numberline {5.4.3}BDT based selection}{80}{subsection.5.4.3}
 \contentsline {subsubsection}{Pre-training selection and BDT inputs}{82}{subsection.5.4.3}
-\contentsline {subsubsection}{BDT output}{84}{figure.caption.65}
+\contentsline {subsubsection}{BDT output}{84}{figure.caption.66}
 \contentsline {section}{\numberline {5.5}Background estimation}{84}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General strategy}{85}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{86}{subsection.5.5.2}
@@ -102,7 +102,7 @@
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{92}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{92}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{93}{subsection.5.5.7}
-\contentsline {subsubsection}{QCD multijet background}{93}{figure.caption.75}
+\contentsline {subsubsection}{QCD multijet background}{93}{figure.caption.76}
 \contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{93}{subsection.5.5.8}
 \contentsline {section}{\numberline {5.6}Systematic uncertainties}{95}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{95}{subsection.5.6.1}
@@ -121,4 +121,4 @@
 \contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{117}{chapter.9}
 \contentsline {part}{IV\hspace {1em}Looking ahead}{118}{part.4}
 \contentsline {chapter}{\numberline {10}Conclusion}{119}{chapter.10}
-\contentsline {chapter}{References}{125}{chapter*.95}
+\contentsline {chapter}{References}{125}{chapter*.96}

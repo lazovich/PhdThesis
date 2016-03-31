@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -60,6 +60,11 @@ Lyndon Evans.
   $\sqrt{s}=13$~TeV}.
 \newblock Technical Report ATL-PHYS-PUB-2015-018, CERN, Geneva, Jul 2015.
 \newblock URL \url{http://cds.cern.ch/record/2037683}.
+
+\bibitem[{ATLAS Collaboration}(2015)]{TriggerOps}
+{ATLAS Collaboration}.
+\newblock {ATLAS Trigger Operations Public Results}.
+\newblock 2015.
 
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.

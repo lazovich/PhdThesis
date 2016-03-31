@@ -210,9 +210,9 @@ The resistive plate chambers (RPCs) are gaseous electrode-plate detectors coveri
 
 The thin gap chambers (TGCs) are multiwire proportional chambers where the wire to cathode distance ($1.4\.\rm mm$) is smaller than the wire-to-wire distance ($1.8\,\rm mm$). They contain a gas mixture of $\textrm{CO}_2$ and $n$-pentane and use a hih electric field to gain good time resolution. They serve two functions in the end-cap system. First, they serve as the trigger chambers. Second, they also provide azimuthal coordinate measurement which the MDTs do not. They sit on the inner and middle layers of the endcap. The outermost layer's azimuthal coordinate is determined by extrapolation~\cite{ATLASPaper}.
 
-\section{Magnet system}
+\subsection{Magnet system}
 
-As mentioned previously, there are two independent magnet systems in ATLAS. The first is a $2\,\rm T$ solenoid field in the inner detector which provides bending in the azimuthal plane. The second is an approximately $0.5\,\rm T$ toroidal field in the muon system which provides bending in $\eta$. Figure~\ref{fig:ATLAS_mag} shows the predicted field integral as a function of $|\eta|$. 
+As mentioned previously, there are two independent magnet systems in ATLAS. The first is a $2\,\rm T$ solenoid field in the inner detector which provides bending in the azimuthal plane. The second is an approximately $0.5\,\rm T$ toroidal field in the muon system which provides bending in $\eta$. Figure~\ref{fig:ATLAS_mag} shows the predicted field integral as a function of $|\eta|$~\cite{ATLASPaper}. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -226,7 +226,7 @@ As mentioned previously, there are two independent magnet systems in ATLAS. The 
    % \end{subfigure}%
     %\begin{subfigure}[t]{0.5\textwidth}
     %    \centering
-        \includegraphics[width=0.7\textwidth]{figures/ATLAS_field}
+        \includegraphics[width=0.6\textwidth]{figures/ATLAS_field}
     %    \caption{}
     %\end{subfigure}
 
@@ -234,9 +234,31 @@ As mentioned previously, there are two independent magnet systems in ATLAS. The 
   \label{fig:ATLAS_mag}
 \end{figure}
 
-\section{Trigger system}
+\subsection{Trigger system}
 
+The ATLAS trigger system searches for signatures of muons, electrons, photons, hadronically decaying $\tau$ leptons, and jets in order to save these events for further analysis. The trigger system in ATLAS is designed to reduce the maximum LHC event rate of $40\,\rm MHz$ to a more reasonable rate that can be recorded. The trigger first consists of a fast, hardware based system called the Level-$1$ (L$1$) trigger. The L$1$ trigger consists of indepdendent dedicated detector sub-components that can seed regions of interest (RoIs) for further analysis downstream. For muons, the RPCs and TGCs are used, while in the calorimeter coarsely grained sections of calorimeter cells called towers are used. Once regions of interest are seeded, a software based system called the High Level Trigger (HLT) is used to reconstruct objects and integrate information from different parts of the detector. In Run $1$ of ATLAS, the HLT consisted of two separate stages: the level $2$ (L$2$) trigger and the event filter (EF). 
 
+The maximum trigger rate that the L$1$ trigger can handle is $75\,\rm kHz$. In the HLT, the rate of events written to disk is approximately $200\, \rm Hz$. Figure~\ref{fig:trigger_rates} shows the trigger rates for different L$1$ triggers in 2012 and 2015 for ATLAS~\cite{TriggerOps}. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth]{figures/2012_trigger_rates}
+        \caption{2012}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/2015_trigger_rate}
+        \caption{2015}
+    \end{subfigure}
+
+   \caption{ATLAS trigger rates for Level-$1$ triggers as a function of instantaneous luminosity in 2012 and 2015 operation. These are single object triggers for electromagnetic clusters (EM), muons (MU), jets (J), missing energy (XE), and $\tau$ leptons (TAU). The threshold of the trigger is given in the name in $\GeV$.~\cite{TriggerOps}}
+  \label{fig:trigger_rates}
+\end{figure}
 
 \section{The ATLAS New Small Wheel Muon Upgrade}
 

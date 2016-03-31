@@ -30,6 +30,10 @@ I was expecting a `,' or a `}'---line 546 of file references.bib
  :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+You're missing a field name---line 900 of file references.bib
+ : year = {2015},
+ :               ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
@@ -38,6 +42,7 @@ Warning--I didn't find a database entry for "MassMeasurement"
 Warning--empty journal in LHCXSWG
 Warning--empty publisher in LHCReview
 Warning--empty author in Run2Tracking
+Warning--empty note in TriggerOps
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -59,45 +64,45 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 68 entries,
+You've used 69 entries,
             2481 wiz_defined-function locations,
-            1014 strings with 15170 characters,
-and the built_in function-call counts, 23263 in all, are:
-= -- 2015
-> -- 954
-< -- 53
-+ -- 412
-- -- 275
-* -- 1698
-:= -- 3756
-add.period$ -- 250
-call.type$ -- 68
-change.case$ -- 129
-chr.to.int$ -- 67
-cite$ -- 98
-duplicate$ -- 1272
-empty$ -- 2242
-format.name$ -- 364
-if$ -- 4961
+            1017 strings with 15231 characters,
+and the built_in function-call counts, 23478 in all, are:
+= -- 2035
+> -- 961
+< -- 54
++ -- 416
+- -- 277
+* -- 1709
+:= -- 3796
+add.period$ -- 253
+call.type$ -- 69
+change.case$ -- 131
+chr.to.int$ -- 68
+cite$ -- 100
+duplicate$ -- 1284
+empty$ -- 2259
+format.name$ -- 367
+if$ -- 5002
 int.to.chr$ -- 2
-int.to.str$ -- 69
+int.to.str$ -- 70
 missing$ -- 66
-newline$ -- 393
-num.names$ -- 188
-pop$ -- 498
+newline$ -- 398
+num.names$ -- 191
+pop$ -- 503
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 69
 quote$ -- 0
-skip$ -- 745
+skip$ -- 754
 stack$ -- 0
-substring$ -- 844
-swap$ -- 151
+substring$ -- 846
+swap$ -- 152
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 461
-warning$ -- 24
-while$ -- 174
+type$ -- 468
+warning$ -- 25
+while$ -- 176
 width$ -- 0
-write$ -- 958
-(There were 2 error messages)
+write$ -- 969
+(There were 3 error messages)
