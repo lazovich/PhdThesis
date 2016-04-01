@@ -320,31 +320,6 @@ Second, the NSW will work to alleviate the rate of fake triggers arising in the 
   \label{fig:NSW_trig}
 \end{figure}
 
-\subsection{Physics Impact}
-
-Maintaining low $p_{T}$ thresholds for muons while still staying within the trigger rate budget at Level $1$ ($20\,\textrm{kHz}$) for the muon system is crucial for physics analyses to be successful in high luminosity conditions. One realm where the lepton trigger threshold is especially important is in Higgs physics. In the $\HWW$ analysis, one of the $W$ bosons is off shell and tends to decay to soft leptons. In associated production of a Higgs with a $W$, the lepton is also important because the lepton provides the main handle which allows the event to be triggered. Table~\ref{tab:NSW_trig_efficiencies} shows the impact of increasing the trigger thresholds on these analyses. It shows that either raising the threshold or using only the barrel both have significant impacts on the signal efficiency. With the NSW, the signal efficiency is largely maintained and the triggers can be unprescaled.
-
-\begin{table}[h!]
-\centering
-\captionsetup{justification=centering}
-
-%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
-\hspace{-10pt}
-\begin{tabular}{|c|c|c|}
-\hline
-Threshold & $H\to b\bar{b}$ (\%) & $\HWW$ (\%) \\ \hline
-$p_{T} > 20 \GeV$ & $93$ & $94$ \\ \hline
-$p_{T} > 40 \GeV$ & $61$ & $75$ \\ \hline
-$p_{T} > 20 \GeV$ (barrel only) & $43$ & $72$ \\ \hline
-$p_{T} > 20 \GeV$ (with NSW) & $90$ & $92$ \\ \hline
-\end{tabular}
-
-\caption{
-Signal efficiencies for $WH$ production with $H\to b\bar{b}$ and $H\to WW^* \to \mu \nu qq$ under different trigger configurations~\cite{NSW_TDR}.
-}
-\label{tab:NSW_trig_efficiencies}
-\end{table}
-
 \subsection{NSW detector technologies}
 
 The NSW will use two new detector technologies - micromesh gaseous structure detectors (micromegas) and small-strip thin gap chambers (sTGCs)~\cite{MMPaper,NSW_TDR}. Unlike the previous detectors, both of these detector technologies can be used for tracking or trigger. However, the micromegas is more suited to tracking because of its good spatial resolution, while the sTGCs have better time resolution and are more suited for the trigger. To maintain a fully redundant system, both technologies are used for both purposes. 
@@ -379,7 +354,29 @@ The sTGCs are similar to the TGCs already described. They consist of gold-plated
   \label{fig:stgc}
 \end{figure}
 
+\subsection{Physics Impact}
 
-\subsection{Micromegas trigger}
+Maintaining low $p_{T}$ thresholds for muons while still staying within the trigger rate budget at Level $1$ ($20\,\textrm{kHz}$) for the muon system is crucial for physics analyses to be successful in high luminosity conditions. One realm where the lepton trigger threshold is especially important is in Higgs physics. In the $\HWW$ analysis, one of the $W$ bosons is off shell and tends to decay to soft leptons. In associated production of a Higgs with a $W$, the lepton is also important because the lepton provides the main handle which allows the event to be triggered. Table~\ref{tab:NSW_trig_efficiencies} shows the impact of increasing the trigger thresholds on these analyses. It shows that either raising the threshold or using only the barrel both have significant impacts on the signal efficiency. With the NSW, the signal efficiency is largely maintained and the triggers can be unprescaled.
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|}
+\hline
+Threshold & $H\to b\bar{b}$ (\%) & $\HWW$ (\%) \\ \hline
+$p_{T} > 20 \GeV$ & $93$ & $94$ \\ \hline
+$p_{T} > 40 \GeV$ & $61$ & $75$ \\ \hline
+$p_{T} > 20 \GeV$ (barrel only) & $43$ & $72$ \\ \hline
+$p_{T} > 20 \GeV$ (with NSW) & $90$ & $92$ \\ \hline
+\end{tabular}
+
+\caption{
+Signal efficiencies for $WH$ production with $H\to b\bar{b}$ and $H\to WW^* \to \mu \nu qq$ under different trigger configurations~\cite{NSW_TDR}.
+}
+\label{tab:NSW_trig_efficiencies}
+\end{table}
 
 \section{Object Reconstruction in ATLAS}

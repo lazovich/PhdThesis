@@ -35,11 +35,10 @@
 \contentsline {subsection}{\numberline {2.2.7}ATLAS datasets}{32}{subsection.2.2.7}
 \contentsline {section}{\numberline {2.3}The ATLAS Muon New Small Wheel Upgrade}{33}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Motivation}{34}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Physics Impact}{34}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}NSW detector technologies}{36}{subsection.2.3.3}
-\contentsline {subsubsection}{Micromegas}{36}{subsection.2.3.3}
-\contentsline {subsubsection}{sTGCs}{37}{figure.caption.33}
-\contentsline {subsection}{\numberline {2.3.4}Micromegas trigger}{37}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.2}NSW detector technologies}{34}{subsection.2.3.2}
+\contentsline {subsubsection}{Micromegas}{35}{subsection.2.3.2}
+\contentsline {subsubsection}{sTGCs}{36}{figure.caption.32}
+\contentsline {subsection}{\numberline {2.3.3}Physics Impact}{36}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Object Reconstruction in ATLAS}{37}{section.2.4}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{38}{part.2}
 \contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{39}{chapter.3}
