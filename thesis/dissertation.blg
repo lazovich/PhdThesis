@@ -35,25 +35,25 @@ Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
-Warning--empty publisher in Griffiths
-Warning--empty publisher in HalzenAndMartin
-Warning--empty publisher in Tully
-Warning--empty title in Glashow2
-Warning--empty journal in Glashow2
-Warning--empty journal in Higgs1
-Warning--empty journal in Higgs2
-Warning--empty journal in Englert
 Warning--empty journal in LHCXSWG
-Warning--empty author in HH_LHC
-Warning--empty title in HH_LHC
-Warning--empty journal in HH_LHC
-Warning--empty year in HH_LHC
-Warning--empty year in HH_LHC
 Warning--empty publisher in LHCReview
 Warning--empty author in Run2Tracking
 Warning--empty note in TriggerOps
 Warning--empty note in Lumi_Run1
 Warning--empty note in Lumi_Run2
+Warning--empty publisher in Tully
+Warning--empty author in HH_LHC
+Warning--empty title in HH_LHC
+Warning--empty journal in HH_LHC
+Warning--empty year in HH_LHC
+Warning--empty year in HH_LHC
+Warning--empty publisher in Griffiths
+Warning--empty publisher in HalzenAndMartin
+Warning--empty title in Glashow2
+Warning--empty journal in Glashow2
+Warning--empty journal in Higgs1
+Warning--empty journal in Higgs2
+Warning--empty journal in Englert
 Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc
@@ -62,45 +62,45 @@ Warning--empty author in ElectronReco
 Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 72 entries,
+You've used 74 entries,
             2481 wiz_defined-function locations,
-            1033 strings with 15911 characters,
-and the built_in function-call counts, 24498 in all, are:
-= -- 2115
-> -- 1044
+            1051 strings with 16714 characters,
+and the built_in function-call counts, 25584 in all, are:
+= -- 2201
+> -- 1128
 < -- 57
-+ -- 450
-- -- 303
-* -- 1806
-:= -- 3995
-add.period$ -- 267
-call.type$ -- 72
-change.case$ -- 137
-chr.to.int$ -- 69
-cite$ -- 105
-duplicate$ -- 1323
-empty$ -- 2314
-format.name$ -- 396
-if$ -- 5191
++ -- 480
+- -- 329
+* -- 1918
+:= -- 4185
+add.period$ -- 279
+call.type$ -- 74
+change.case$ -- 141
+chr.to.int$ -- 71
+cite$ -- 107
+duplicate$ -- 1361
+empty$ -- 2392
+format.name$ -- 424
+if$ -- 5413
 int.to.chr$ -- 4
-int.to.str$ -- 73
-missing$ -- 66
-newline$ -- 418
-num.names$ -- 200
-pop$ -- 513
+int.to.str$ -- 75
+missing$ -- 68
+newline$ -- 434
+num.names$ -- 206
+pop$ -- 521
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 74
 quote$ -- 0
-skip$ -- 773
+skip$ -- 793
 stack$ -- 0
-substring$ -- 852
-swap$ -- 161
+substring$ -- 904
+swap$ -- 165
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 489
+type$ -- 503
 warning$ -- 27
-while$ -- 182
+while$ -- 188
 width$ -- 0
-write$ -- 1015
+write$ -- 1053
 (There were 2 error messages)

@@ -315,7 +315,7 @@ Second, the NSW will work to alleviate the rate of fake triggers arising in the 
   \centering
   \captionsetup{justification=centering}
 
-  \includegraphics[width=0.7\textwidth]{figures/NSW_trigger_rate}
+  \includegraphics[width=0.6\textwidth]{figures/NSW_trigger_rate}
    \caption{Trigger rate as a function of $p_{T}$ threshold with and without the NSW upgrade~\cite{NSW_TDR}}
   \label{fig:NSW_trig}
 \end{figure}
@@ -332,7 +332,7 @@ Maintaining low $p_{T}$ thresholds for muons while still staying within the trig
 \hspace{-10pt}
 \begin{tabular}{|c|c|c|}
 \hline
-Threshold & $H\to b\bar{b}$(\%) & $\HWW$ \\ \hline
+Threshold & $H\to b\bar{b}$ (\%) & $\HWW$ (\%) \\ \hline
 $p_{T} > 20 \GeV$ & $93$ & $94$ \\ \hline
 $p_{T} > 40 \GeV$ & $61$ & $75$ \\ \hline
 $p_{T} > 20 \GeV$ (barrel only) & $43$ & $72$ \\ \hline
@@ -345,8 +345,25 @@ Signal efficiencies for $WH$ production with $H\to b\bar{b}$ and $H\to WW^* \to 
 \label{tab:NSW_trig_efficiencies}
 \end{table}
 
+\subsection{NSW detector technologies}
 
-\subsection{Detector technologies}
+The NSW will use two new detector technologies - micromesh gaseous structure detectors (micromegas) and small-strip thin gap chambers (sTGCs)~\cite{MMPaper,NSW_TDR}. Unlike the previous detectors, both of these detector technologies can be used for tracking or trigger. However, the micromegas is more suited to tracking because of its good spatial resolution, while the sTGCs have better time resolution and are more suited for the trigger. To maintain a fully redundant system, both technologies are used for both purposes. 
+
+\subsubsection{Micromegas}
+
+Micromegas detectors operate using a thin metallic mesh that sits approximately $100\,\mu \rm m$ away from the readout electrodes to create the amplification region. Above this mesh, there is a drift region on the order of a few mm in length capped by a drift electrode. As a charged particle traverses the detector, it ionizes gas and the electrons drift down towards readout strips. The timing of the drift can be used to reconstruct the angle of traversal of the particle. This is illustrated in figure~\ref{fig:mm}. The micromegas used in ATLAS will be resistive micromegas, where the readout electrodes are topped with resistive strips~\cite{ResistiveMM}. This alleviates the risk of sparking in the large area detectors that ATLAS will use.
+
+In ATLAS, the micromegas drift gap will be $5\,\rm mm$ and the amplification gap will be $128\,\mu \rm m$. They are filled with the same gas mixture as the MDTs. They will be stacked in an octuplet in an XXUV-UVXX geometry, where X refers to straight strips and U and V refer to stero strips at an angle of $\pm 1.5^\circ$. This arrangement allows for measurement of the azimuthal coordinate and gives a large lever arm between the straight strips for triggering purposes. Figure~\ref{fig:mm} shows the geometry of a single micromegas detector as well as its operating principle. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.85\textwidth]{figures/MM}
+   \caption{Illustrations of the geometry (left) and operating principle (right) of the micromegas detector~\cite{NSW_TDR}}
+  \label{fig:mm}
+\end{figure}
 
 \subsection{Micromegas trigger}
 
