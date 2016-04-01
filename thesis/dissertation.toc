@@ -38,6 +38,7 @@
 \contentsline {subsection}{\numberline {2.3.2}Physics Impact}{34}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}NSW detector technologies}{36}{subsection.2.3.3}
 \contentsline {subsubsection}{Micromegas}{36}{subsection.2.3.3}
+\contentsline {subsubsection}{sTGCs}{37}{figure.caption.33}
 \contentsline {subsection}{\numberline {2.3.4}Micromegas trigger}{37}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Object Reconstruction in ATLAS}{37}{section.2.4}
 \contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{38}{part.2}
@@ -95,10 +96,10 @@
 \contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{81}{subsection.5.4.2}
 \contentsline {subsubsection}{General background reduction}{81}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{81}{equation.5.4.1}
-\contentsline {subsubsection}{Higgs topological cuts}{83}{figure.caption.66}
+\contentsline {subsubsection}{Higgs topological cuts}{83}{figure.caption.67}
 \contentsline {subsection}{\numberline {5.4.3}BDT based selection}{85}{subsection.5.4.3}
 \contentsline {subsubsection}{Pre-training selection and BDT inputs}{87}{subsection.5.4.3}
-\contentsline {subsubsection}{BDT output}{89}{figure.caption.71}
+\contentsline {subsubsection}{BDT output}{89}{figure.caption.72}
 \contentsline {section}{\numberline {5.5}Background estimation}{89}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General strategy}{90}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{91}{subsection.5.5.2}
@@ -108,7 +109,7 @@
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{97}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{97}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{98}{subsection.5.5.7}
-\contentsline {subsubsection}{QCD multijet background}{98}{figure.caption.81}
+\contentsline {subsubsection}{QCD multijet background}{98}{figure.caption.82}
 \contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{98}{subsection.5.5.8}
 \contentsline {section}{\numberline {5.6}Systematic uncertainties}{100}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{100}{subsection.5.6.1}
@@ -127,4 +128,4 @@
 \contentsline {chapter}{\numberline {9}Results with Run 2 2015 dataset}{122}{chapter.9}
 \contentsline {part}{IV\hspace {1em}Looking ahead}{123}{part.4}
 \contentsline {chapter}{\numberline {10}Conclusion}{124}{chapter.10}
-\contentsline {chapter}{References}{130}{chapter*.101}
+\contentsline {chapter}{References}{130}{chapter*.102}
