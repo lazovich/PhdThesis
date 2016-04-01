@@ -481,6 +481,23 @@ Figure~\ref{fig:muons} shows the muon reconstruction efficiency (measured with $
   \label{fig:muons}
 \end{figure}
 
+\subsection{Jets}
+
+When a quark or gluon is produced in collisions, it is not measured directly in ATLAS. Rather, due to QCD effects, it produces a collimated spray of hadrons in the direction of the original parton, which is known as a jet. Jets are reconstructed in ATLAS using energy deposits in the hadronic calorimeter. The first step is build ``topological clusters" out of energy deposits in calorimeter cells~\cite{TopoClusters,TopoClusters2}. This is done using strategy where seed cells are chosen by picking cells whose energy measurements are four times the amount of noise expected for that cell. Adjacent cells with at least $2\sigma$ energy measurements are added to the cluster, then a final layer of clusters with energy above $0\sigma$ are added. Once calorimeter clusters are formed, they are clustered further into jet candidates using the anti-$k_T$ jet clustering algorithm~\cite{AntiKt}. This algorithm uses a parameter $R$ that appears in the denominator of the clustering distance metric and defines the radial size of the jet in $\eta$-$\phi$ space. 
+
+The energy response of the calorimeter must be properly characterized in order to reconstruct jet energy. Calorimeter clusters can be calibrated either with the EM calibration, where each cluster is assumed to have come from the energy deposit of an electron or photon, or the LCW calibration, where local cluster weights are computed to allow for local calibration of clusters as hadronic or electromagnetic. The details of the jet energy calibration are not detailed here and are discussed in reference~\cite{JetCalib}.
+
+Figure~\ref{fig:jets} shows the jet energy response after calibration in Monte Carlo as a function of the true $p_{T}$ of the jet~\cite{JetCalib}.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/JetReso}
+   \caption{Jet energy response after calibration as a function of true $p_{T}$ in simulation~\cite{JetCalib}}
+  \label{fig:jets}
+\end{figure}
 
 
 
