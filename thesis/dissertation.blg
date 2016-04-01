@@ -41,6 +41,7 @@ Warning--empty author in Run2Tracking
 Warning--empty note in TriggerOps
 Warning--empty note in Lumi_Run1
 Warning--empty note in Lumi_Run2
+Warning--empty note in ATLAS_Particles
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -54,53 +55,53 @@ Warning--empty journal in Glashow2
 Warning--empty journal in Higgs1
 Warning--empty journal in Higgs2
 Warning--empty journal in Englert
+Warning--empty author in GSF
+Warning--empty author in ElectronReco
 Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc
 Warning--empty journal in gg2vv
-Warning--empty author in ElectronReco
-Warning--empty author in GSF
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 74 entries,
+You've used 76 entries,
             2481 wiz_defined-function locations,
-            1051 strings with 16714 characters,
-and the built_in function-call counts, 25584 in all, are:
-= -- 2201
-> -- 1128
-< -- 57
-+ -- 480
-- -- 329
-* -- 1918
-:= -- 4185
-add.period$ -- 279
-call.type$ -- 74
-change.case$ -- 141
-chr.to.int$ -- 71
-cite$ -- 107
-duplicate$ -- 1361
-empty$ -- 2392
-format.name$ -- 424
-if$ -- 5413
-int.to.chr$ -- 4
-int.to.str$ -- 75
-missing$ -- 68
-newline$ -- 434
-num.names$ -- 206
-pop$ -- 521
+            1062 strings with 17028 characters,
+and the built_in function-call counts, 26222 in all, are:
+= -- 2260
+> -- 1158
+< -- 59
++ -- 493
+- -- 337
+* -- 1969
+:= -- 4292
+add.period$ -- 287
+call.type$ -- 76
+change.case$ -- 145
+chr.to.int$ -- 72
+cite$ -- 110
+duplicate$ -- 1392
+empty$ -- 2444
+format.name$ -- 437
+if$ -- 5545
+int.to.chr$ -- 5
+int.to.str$ -- 77
+missing$ -- 69
+newline$ -- 446
+num.names$ -- 212
+pop$ -- 531
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 76
 quote$ -- 0
-skip$ -- 793
+skip$ -- 811
 stack$ -- 0
-substring$ -- 904
-swap$ -- 165
+substring$ -- 920
+swap$ -- 171
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 503
-warning$ -- 27
-while$ -- 188
+type$ -- 517
+warning$ -- 28
+while$ -- 193
 width$ -- 0
-write$ -- 1053
+write$ -- 1081
 (There were 2 error messages)

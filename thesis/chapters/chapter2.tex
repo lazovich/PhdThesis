@@ -260,6 +260,7 @@ The maximum trigger rate that the L$1$ trigger can handle is $75\,\rm kHz$. In t
   \label{fig:trigger_rates}
 \end{figure}
 
+
 \subsection{ATLAS datasets}
 
 ATLAS has collected data at center of mass energies of $7$, $8$, and $13 \TeV$. Figure~\ref{fig:lumis} shows the integrated luminosity as a function of time for each of the three collected datasets. At $\sqrt{s} = 7 \TeV$, ATLAS recorded $5.08\ifb$. Increased instantaneous luminosity in 2012 led to a larger dataset of $21.3 \ifb$ recorded at $\sqrt{s} = 8 \TeV$. After Long Shutdown $1$ (LS$1$) of the LHC and a restart in 2015, ATLAS recorded $3.9\ifb$ of data at $\sqrt{s} = 13 \TeV$. ~\cite{Lumi_Run1, Lumi_Run2} 
@@ -288,6 +289,33 @@ ATLAS has collected data at center of mass energies of $7$, $8$, and $13 \TeV$. 
    \caption{Instantaneous luminosity as a function of time for data recorded by ATLAS at different center of mass energies~\cite{Lumi_Run1, Lumi_Run2}}
   \label{fig:lumis}
 \end{figure}
+
+\subsection{Detector performance}
+
+Table~\ref{tab:performance} summarizes the design requirements for each of the different sub-detectors. This table shows the energy and momentum resolution of each tracking, calorimetry, and muon measurements. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|}
+\hline
+ & Required resolution \\ \hline
+Tracking & $\sigma_{p_{T}}/\pT = 0.05\% \pT \oplus 1\%$ \\ \hline
+EM calorimetry & $\sigma_E/E = 10\%/\sqrt{E} \oplus 0.7\%$ \\ \hline
+Hadronic calorimetry & \\ 
+Barrel and end-cap & $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ \\ 
+Forward & $\sigma_E/E = 100\%/\sqrt{E} \oplus 10\%$ \\ \hline
+Muon spectrometer & $\sigma_{\pT}/\pT$ at $\pT = 1 \TeV$ \\ \hline
+\end{tabular}
+
+\caption{
+Performance requirements for the ATLAS detector~\cite{ATLASPaper}.
+}
+\label{tab:performance}
+\end{table}
 
 
 \section{The ATLAS Muon New Small Wheel Upgrade}
@@ -380,3 +408,56 @@ Signal efficiencies for $WH$ production with $H\to b\bar{b}$ and $H\to WW^* \to 
 \end{table}
 
 \section{Object Reconstruction in ATLAS}
+
+ATLAS analyses first start by requiring the presence of certain reconstructed physics objects in the event. This section will present a brief overview of the algorithms used to reconstruct electrons, muons, jets (including $b$-jets), and missing energy\footnote{Reconstruction algorithms for other objects, such as photons and $\tau$ leptons, are not detailed here as these objects are not used in the presented studies.}. The performance of object reconstruction and measurement will also be discussed as these are relevent to the analyses presented later. Figure~\ref{fig:reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.8\textwidth]{figures/ATLAS_reco}
+   \caption{Illustration of particle interactions in ATLAS~\cite{ATLAS_Particles}}
+  \label{fig:reco_overview}
+\end{figure}
+
+\subsection{Electrons}
+
+Electrons in ATLAS will leave tracks in the inner detector and energy deposits in the electromagnetic calorimeter. The algorithm for recognizing the signature of electrons proceeds in two steps: reconstruction and identification. 
+
+In reconstruction, an electron candidate is formed by matching EM calorimeter deposits with ID tracks. The algorithm first chooses seed clusters in the EM calorimeter by using a sliding window algorithm that searches for towers with transverse energy larger than $2.5 \GeV$. In addition to seed clusters, track candidates must be identified in the ID. The algorithm selects seed tracks with $\pT > 1 \GeV$ that do not fit well with a pion hypothesis. Once candidate tracks are selected, they are re-fit with a Gaussian Sum Filter (GSF) algorithm to estimate electron parameters~\cite{GSF}. Finally, an electron candidate is formed if at least one track matches to a seed cluster in the calorimeter. The full details of the reconstruction algorithm can be found in reference~\cite{ElectronReco}.
+
+Once an electron candidate is present, identification criteria must be applied in order to reject fake electrons from background. Many different variables are used for this identification, most of them related to the shower shape in the EM calorimeter and the amount of leakage into the hadronic calorimeter, as well as information from the ID and in particular the TRT. There are both cut-based and likelihood-based criteria that range from ``loose" to ``very tight". For details, see reference~\cite{ElectronReco}. 
+
+Figure~\ref{fig:electrons} shows the algorithm's reconstruction efficiency of true electrons for different identification criteria as well as the electron energy resolution in simulation~\cite{ElectronReco,ElectronCalib}. The reconstruction efficiency is measured using both $Z$ and $J/\psi$ tag and probe techniques. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+	\begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/ElectronEff}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/ElectronResolution}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Electron performance: (a) reconstruction efficiency as a function of electron $E_{T}$~\cite{ElectronReco} (b) energy resolution in simulation as a function of $|\eta|$ for different energy electrons~\cite{ElectronCalib}}
+  \label{fig:electrons}
+\end{figure}
+
+\subsection{Muons}
+
+The ATLAS detector is designed to stop most particles before they reach the muon spectrometer. Muons, however, are minimum ionizing particles, meaning that they will not lose a significant amount of energy through interactions with the detector and will thus pass through. Therefore, the muon reconstruction works to match tracks in the muon spectrometer with tracks in the inner detector. 
+
+
+
+
+
+
+
