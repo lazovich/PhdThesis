@@ -100,6 +100,20 @@ Joao Pequenao and Paul Schaffner.
 \newblock Jan 2013.
 \newblock URL \url{https://cds.cern.ch/record/1505342}.
 
+\bibitem[Ele(2014)]{ElectronReco}
+{Electron efficiency measurements with the ATLAS detector using the 2012 LHC
+  proton-proton collision data}.
+\newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva, Jun 2014.
+\newblock URL \url{https://cds.cern.ch/record/1706245}.
+
+\bibitem[Aad et~al.(2014{\natexlab{a}})]{ElectronCalib}
+Georges Aad et~al.
+\newblock {Electron and photon energy calibration with the ATLAS detector using
+  LHC Run 1 data}.
+\newblock \emph{Eur. Phys. J.}, C74\penalty0 (10):\penalty0 3071,
+  2014{\natexlab{a}}.
+\newblock \doi{10.1140/epjc/s10052-014-3071-4}.
+
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
 \newblock {Observation and measurement of Higgs boson decays to WW* with the
@@ -357,19 +371,13 @@ T.~Alexopoulos, J.~Burnens, R.~de~Oliveira, G.~Glonti, O.~Pizzirusso,
 \newblock Technical Report ATLAS-CONF-2012-047, CERN, Geneva, May 2012.
 \newblock URL \url{https://cds.cern.ch/record/1449796}.
 
-\bibitem[Ele(2014)]{ElectronReco}
-{Electron efficiency measurements with the ATLAS detector using the 2012 LHC
-  proton-proton collision data}.
-\newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva, Jun 2014.
-\newblock URL \url{https://cds.cern.ch/record/1706245}.
-
-\bibitem[Aad et~al.(2014{\natexlab{a}})]{ElectronCalib}
+\bibitem[Aad et~al.(2014{\natexlab{b}})]{MuonReco}
 Georges Aad et~al.
-\newblock {Electron and photon energy calibration with the ATLAS detector using
-  LHC Run 1 data}.
-\newblock \emph{Eur. Phys. J.}, C74\penalty0 (10):\penalty0 3071,
-  2014{\natexlab{a}}.
-\newblock \doi{10.1140/epjc/s10052-014-3071-4}.
+\newblock {Measurement of the muon reconstruction performance of the ATLAS
+  detector using 2011 and 2012 LHC proton–proton collision data}.
+\newblock \emph{Eur. Phys. J.}, C74\penalty0 (11):\penalty0 3130,
+  2014{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-014-3130-x}.
 
 \bibitem[Armbruster(2013)]{ArmbrusterThesis}
 Aaron~James Armbruster.
@@ -476,14 +484,6 @@ A.~Sherstnev and R.~S. Thorne.
 \newblock {\sc Geant4}, a simulation toolkit.
 \newblock \emph{Nucl. Instrum. Meth.}, A 506:\penalty0 250, 2003.
 \newblock \doi{10.1016/S0168-9002(03)01368-8}.
-
-\bibitem[Aad et~al.(2014{\natexlab{b}})]{MuonReco}
-Georges Aad et~al.
-\newblock {Measurement of the muon reconstruction performance of the ATLAS
-  detector using 2011 and 2012 LHC proton–proton collision data}.
-\newblock \emph{Eur. Phys. J.}, C74\penalty0 (11):\penalty0 3130,
-  2014{\natexlab{b}}.
-\newblock \doi{10.1140/epjc/s10052-014-3130-x}.
 
 \bibitem[Stewart and Tackmann(2012)]{ST}
 I.~Stewart and F.~Tackmann.

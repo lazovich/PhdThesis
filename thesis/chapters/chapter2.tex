@@ -455,6 +455,32 @@ Figure~\ref{fig:electrons} shows the algorithm's reconstruction efficiency of tr
 
 The ATLAS detector is designed to stop most particles before they reach the muon spectrometer. Muons, however, are minimum ionizing particles, meaning that they will not lose a significant amount of energy through interactions with the detector and will thus pass through. Therefore, the muon reconstruction works to match tracks in the muon spectrometer with tracks in the inner detector. 
 
+The first step of reconstruction is to reconstruct local straight line tracks, called segments, in each muon chamber. Segments are then fit to larger tracks that traverse the entire muon spectrometer. Such muon tracks are referred to as ``standalone" tracks (SA) as they only use information from the muon spectrometer. The standalone tracks are then matched to tracks in the inner detector to form ``combined" (CB) muons, where the combined ID and MS fit are used to determine the momentum and direction of the muon. To improve acceptance, segment-tagged and calorimeter-tagged muons are also reconstructed. In these cases, ID tracks are matched to segments in the MS and calorimeter deposits consistent with a minimum ionizing particle, respectively. The details of the reconstruction can be found in reference~\cite{MuonReco}.
+
+As with electrons, once muon candidates are reconstructed they have identification criteria applied to reduce background. These criteria include the $\chi^2$ match between the ID and MS tracks, the number of hits in the ID, overall ID and MS track fit quality, and additional variables~\cite{MuonReco}. The criteria range from ``loose" to ``tight" as with electrons. 
+
+Figure~\ref{fig:muons} shows the muon reconstruction efficiency (measured with $Z$ and $J/\psi$ tag and probe) and invariant mass resolution~\cite{MuonReco}. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+	\begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/MuonEff}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/MuonMass}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Muon performance: (a) reconstruction efficiency as a function of muon $p_{T}$ (b) dimuon mass resolution as a function of average $\pT$~\cite{MuonReco}}
+  \label{fig:muons}
+\end{figure}
+
 
 
 
