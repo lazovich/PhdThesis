@@ -46,6 +46,7 @@ Warning--empty author in ElectronReco
 Warning--empty author in JetCalib
 Warning--empty journal in Run1BJets
 Warning--empty author in Run2BJets
+Warning--empty author in MET8TeV
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -67,45 +68,45 @@ Warning--empty journal in acermc
 Warning--empty journal in gg2vv
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 82 entries,
+You've used 84 entries,
             2481 wiz_defined-function locations,
-            1092 strings with 18002 characters,
-and the built_in function-call counts, 28145 in all, are:
-= -- 2418
-> -- 1272
-< -- 64
-+ -- 541
-- -- 371
-* -- 2135
-:= -- 4613
-add.period$ -- 307
-call.type$ -- 82
-change.case$ -- 157
-chr.to.int$ -- 76
-cite$ -- 122
-duplicate$ -- 1492
-empty$ -- 2600
-format.name$ -- 477
-if$ -- 5939
-int.to.chr$ -- 7
-int.to.str$ -- 83
-missing$ -- 72
-newline$ -- 478
-num.names$ -- 224
-pop$ -- 573
+            1103 strings with 18356 characters,
+and the built_in function-call counts, 28731 in all, are:
+= -- 2476
+> -- 1287
+< -- 66
++ -- 550
+- -- 375
+* -- 2183
+:= -- 4701
+add.period$ -- 314
+call.type$ -- 84
+change.case$ -- 161
+chr.to.int$ -- 77
+cite$ -- 126
+duplicate$ -- 1526
+empty$ -- 2657
+format.name$ -- 483
+if$ -- 6066
+int.to.chr$ -- 8
+int.to.str$ -- 85
+missing$ -- 73
+newline$ -- 489
+num.names$ -- 227
+pop$ -- 584
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 84
 quote$ -- 0
-skip$ -- 862
+skip$ -- 879
 stack$ -- 0
-substring$ -- 943
-swap$ -- 188
-text.length$ -- 11
+substring$ -- 960
+swap$ -- 195
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 559
-warning$ -- 32
-while$ -- 202
+type$ -- 573
+warning$ -- 33
+while$ -- 205
 width$ -- 0
-write$ -- 1162
+write$ -- 1191
 (There were 2 error messages)

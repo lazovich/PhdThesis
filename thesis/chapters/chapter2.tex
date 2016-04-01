@@ -533,11 +533,46 @@ In Run $1$, the multivariate $b$-tagging algorithm used a neural network and was
 
 \subsection{Missing transverse energy}
 
-As noted in figure~\ref{fig:reco_overview}, neutrinos produced in ATLAS will pass through the detector without interacting. The only way of detecting the presence of particles like neutrinos (or BSM particles that are long-lived) is to use missing transverse momentum. The basic principle of missing transverse energy is to use the momentum balance of the incoming protons to infer the presence of missing particles. The net longitudinal momentum of the incoming partons that collide is not known (since each carries an unknown fraction of the proton's momentum). However, the protons (and thus incoming partons) have no net momentum in the plane transverse to the beam line (the $x$-$y$) plane. Therefore, if there are no un-measured particles in the final state, the transverse momenta of all of the ifnal state particles should balance. The magnitude of this imbalance is known as missing transverse momentum. 
+As noted in figure~\ref{fig:reco_overview}, neutrinos produced in ATLAS will pass through the detector without interacting. The only way of detecting the presence of particles like neutrinos (or BSM particles that are long-lived) is to use missing transverse momentum. The basic principle of missing transverse energy is to use the momentum balance of the incoming protons to infer the presence of missing particles. The net longitudinal momentum of the incoming partons that collide is not known (since each carries an unknown fraction of the proton's momentum). However, the protons (and thus incoming partons) have no net momentum in the plane transverse to the beam line (the $x$-$y$) plane. Therefore, if there are no un-measured particles in the final state, the transverse momenta of all of the final state particles should balance. The magnitude of this imbalance is known as missing transverse momentum ($\MET$). 
 
+The basic calculation of missing transverse momentum from calorimeter cells is given in equation~\ref{eqn:met_basic}~\cite{MET7TeV}. 
 
+\begin{equation}
+\label{eqn:met_basic}
+\begin{array}{c}
+E^{\rm miss}_x = - \sum_{i=1}^{N_{\rm cell}} E_i \sin \theta_i \cos \phi_i \\
+E^{\rm miss}_y = - \sum_{i=1}^{N_{\rm cell}} E_i \sin \theta_i \sin \phi_i
+\end{array}
+\end{equation}
 
+The $\MET$ calculation is separated into different terms based on the objects that the calorimeter clusters are associated with. This way, each cell's constribution is calibrated appropriately according to the object. This separation of terms is shown in equation~\ref{eqn:met_terms}~\cite{MET7TeV}. 
 
+\begin{equation}
+\label{eqn:met_terms}
+\begin{array}{c}
+E^{\rm miss, calo}_{x(y)} = E^{\textrm{miss}, e}_{x(y)} + E^{\textrm{miss}, \gamma}_{x(y)} + E^{\textrm{miss}, \tau}_{x(y)} + E^{\textrm{miss}, \rm jets}_{x(y)} \\ 
++ E^{\textrm{miss}, \rm soft jets}_{x(y)} + E^{\textrm{miss}, \mu}_{x(y)} + E^{\textrm{miss}, \rm CellOut}_{x(y)}
+\end{array}
+\end{equation}
+
+The CellOut term of the above equation corresponds to calorimeter cells with energy deposits that are not associated with other objects. The soft jets term comes from cells associated to jets with $\pT$ between $7$ and $20 \GeV$, while the jets term comes from jets with $\pT > 20 \GeV$. Because muons do not deposit significant energy in the calorimeter, the muon momentum is used for the muon term~\cite{MET7TeV}. The final $\MET$ is calculated using equation~\ref{eqn:final_met}.
+
+\begin{equation}
+\label{eqn:final_met}
+\MET = \sqrt{\left(E_x^{\rm miss}\right)^2 + \left(E_y^{\rm miss}\right)^2}
+\end{equation}
+
+Figure~\ref{fig:met} shows the resolution of the components of the $\MET$ under different pileup suppression techniques~\cite{MET8TeV}. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/MetReso}
+   \caption{Resolution of $\MET$ components as a function of $\sum E_{T}$ before pileup suppression with different pileup techniques~\cite{MET8TeV}}
+  \label{fig:met}
+\end{figure}
 
 
 

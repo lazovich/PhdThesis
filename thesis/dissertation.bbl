@@ -1,4 +1,4 @@
-\begin{thebibliography}{82}
+\begin{thebibliography}{84}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -140,17 +140,23 @@ Georges Aad et~al.
   2015{\natexlab{b}}.
 \newblock URL \url{http://cds.cern.ch/record/2037697}.
 
+\bibitem[MET(2013)]{MET8TeV}
+{Performance of Missing Transverse Momentum Reconstruction in ATLAS studied in
+  Proton-Proton Collisions recorded in 2012 at 8 TeV}.
+\newblock Technical Report ATLAS-CONF-2013-082, CERN, Geneva, Aug 2013.
+\newblock URL \url{http://cds.cern.ch/record/1570993}.
+
 \bibitem[Collaboration(2015)]{WW2015}
 ATLAS Collaboration.
 \newblock {Observation and measurement of Higgs boson decays to WW* with the
   ATLAS detector}.
 \newblock \emph{Phys. Rev. D}, 92\penalty0 (012006), 2015.
 
-\bibitem[Aad et~al.(2012)]{Discovery}
+\bibitem[Aad et~al.(2012{\natexlab{a}})]{Discovery}
 Georges Aad et~al.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
-\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 1--29, 2012{\natexlab{a}}.
 \newblock \doi{10.1016/j.physletb.2012.08.020}.
 
 \bibitem[Aad et~al.(2016{\natexlab{a}})]{HiggsSummaryRun1}
@@ -418,6 +424,13 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {The Anti-k(t) jet clustering algorithm}.
 \newblock \emph{JHEP}, 04:\penalty0 063, 2008.
 \newblock \doi{10.1088/1126-6708/2008/04/063}.
+
+\bibitem[Aad et~al.(2012{\natexlab{b}})]{MET7TeV}
+Georges Aad et~al.
+\newblock {Performance of Missing Transverse Momentum Reconstruction in
+  Proton-Proton Collisions at 7 TeV with ATLAS}.
+\newblock \emph{Eur. Phys. J.}, C72:\penalty0 1844, 2012{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-011-1844-6}.
 
 \bibitem[Armbruster(2013)]{ArmbrusterThesis}
 Aaron~James Armbruster.
