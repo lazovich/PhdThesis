@@ -13,6 +13,7 @@ I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
+A level-1 auxiliary file: chapters/chapter7.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: endmatter/colophon.aux
@@ -70,7 +71,7 @@ Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
 You've used 85 entries,
             2481 wiz_defined-function locations,
-            1109 strings with 18537 characters,
+            1110 strings with 18558 characters,
 and the built_in function-call counts, 29053 in all, are:
 = -- 2506
 > -- 1294

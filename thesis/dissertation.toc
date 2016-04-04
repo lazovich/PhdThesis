@@ -124,8 +124,9 @@
 \contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{124}{section.6.5}
 \contentsline {section}{\numberline {6.6}Conclusion}{125}{section.6.6}
 \contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{127}{part.3}
-\contentsline {chapter}{\numberline {7}Search for Higgs pair production in boosted $4b$ final states}{128}{chapter.7}
-\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{129}{chapter.8}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{130}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{131}{chapter.9}
-\contentsline {chapter}{References}{138}{chapter*.110}
+\contentsline {chapter}{\numberline {7}Search for Higgs pair production in boosted $b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ final states}{128}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{128}{section.7.1}
+\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{130}{chapter.8}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{131}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{132}{chapter.9}
+\contentsline {chapter}{References}{139}{chapter*.110}
