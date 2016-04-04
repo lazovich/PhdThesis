@@ -129,7 +129,41 @@ The control samples which are used for background normalization can also be used
 
 The $W$+jets background estimate is taken entirely from data using a control sample with one well reconstructed lepton and one anti-identified lepton. All other backgrounds are taken purely from simulation. 
 
+\subsection{Systematic uncertainties}
+
+The systematic uncertainties that have the largest impact on the analysis are the theoretical uncertainties associated with the signal cross section, and these are shared with the $ZZ^*$ and $\gamma\gamma$ channels. The uncertainties resulting from variations of the QCD scale are $+7\%/-8\%$ on the final singal yield. Those coming from variations of the parton distribution function (PDF) used in the simulation add a $\pm 8\%$ uncertainty on the yield. The uncertainties on the branching ratios of the Higgs are $\pm 5\%$. 
+
+The main experimental uncertainties come from variations of the jet energy scale (JES), jet energy resolution, pile-up, $\MET$, $b$-tagging efficiency, $W$+jets background estimate, and integrated luminosity. For more details, see reference~\cite{Discovery}.  
+
 \subsection{Results}
+
+Table~\ref{tab:disc_ww_results} shows the signal and background yields in the final signal region after normalizing the backgrounds according to the methods described above. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& $\Njet = 0$ & $\Njet = 1$ & $\Njet \geq 2$\\ \hline
+Signal & $20 \pm 4$ & $5 \pm 2$ & $0.34 \pm 0.07$ \\ \hline
+$WW$ & $101 \pm 13$ & $12 \pm 5$ & $0.10 \pm 0.14$ \\ 
+Other dibosons & $12 \pm 3$ & $1.9 \pm 1.1$ & $0.10 \pm 0.10$ \\ 
+$\ttbar$ & $8 \pm 2$ & $6 \pm 2$ & $0.15 \pm 0.10$ \\ 
+Single top & $3.4 \pm 1.5$ & $3.7 \pm 1.6$ & - \\ 
+$\ZDY$ + jets & $1.9 \pm 1.3$ & $0.10 \pm 0.10$ & - \\ 
+$W$ + jets & $15 \pm 7$ & $2 \pm 1$ & - \\ \hline
+Total background & $142 \pm 16$ & $26 \pm 6$ & $0.35 \pm 0.18$ \\ \hline
+Observed in data & $185$ & $38$ & $0$ \\ \hline
+\end{tabular}
+
+\caption{
+Data and expected yields for signal and background in the final \HWWfull signal region. Uncertainties shown are both statistical and systematic.~\cite{Discovery}
+}
+\label{tab:disc_ww_results}
+\end{table}
 
 Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ channels for $8 \TeV$ data. (No events are observed in data in the $\Njet \geq 2$ channels in this dataset). The excess shown here relatively flat as a function of hypothesized Higgs mass. The combined $7$ and $8\TeV$ data gives an excess with local significance of $2.8\sigma$ with an expected significance of $2.3\sigma$, corresponding to a $\mu$ measurement of $1.3\pm 0.5$. 
 
@@ -146,19 +180,9 @@ Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ chan
 
 \section{$H\to\gamma\gamma$ search}
 
-The $H\to\gamma\gamma$ search is in essence a search for a peaked excess above the falling SM diphoton mass spectrum, with $m_{\gamma\gamma}$ as the ultimate discriminating variable. Events are selected by requiring two isolated photons, with the leading (sub-leading) photon required to have $E_{T} > 40 (30) \GeV$. In the $8 \TeV$ data, the photons are required to pass cut-based identification criteria consistent with a photon in the electromagnetic calorimeter and little leakage in the hadronic calorimeter. The main challenges for this analysis are accurate mass reconstruction and background estimation. These are the issues that will be discussed in this section.
+The $H\to\gamma\gamma$ search is in essence a search for a peaked excess above the falling SM diphoton mass spectrum, with $m_{\gamma\gamma}$ as the ultimate discriminating variable. Events are selected by requiring two isolated photons, with the leading (sub-leading) photon required to have $E_{T} > 40 (30) \GeV$. In the $8 \TeV$ data, the photons are required to pass cut-based identification criteria consistent with a photon in the electromagnetic calorimeter and little leakage in the hadronic calorimeter. 
 
-\subsection{Diphoton invariant mass reconstruction}
-
-In order to accurately reconstruct the invariant mass of the di-photon system, both the energy and direction of the photons must be measured well. The $\eta$ coordinate of the photons is calculated using the position of the primary vertex identified in the event as well as the entry points of the photons in the calorimeter. Therefore, the identification of hte primary vertex of the hard interaction is particularly important, and is done using a likelihood which combines the flight direction of the photons, the beam position measurement, and the scalar sum of $p_{T}^2$ for tracks at the primary vertex. This give a resolution of $15$ $\rm mm$ on the $z$ position of the primary vertex (which improves to $6$ $\rm mm$ for photons which convert to electron-positron pairs in the ID material). 
-
-In the inclusive sample, there are $35251$ events observed in the $8 \TeV$ sample and $23788$ observed in the $7 \TeV$ sample. The total expected number of events for a Higgs at $126.5 \GeV$ is $110.5$ at $8 \TeV$ and $79.6$ at $7 \TeV$. The full width at half maximum (FWHM) of the mass distribution at this mass is $3.9 \GeV$ in the inclusive sample. The mass distribution is modeled with a crystal ball function for the core and a Guassian for the tails, and the width of the core is $1.6 \GeV$ in the inclusive sample. The events are additionally categorized based on the types of photons in the event, leading to ten distinct categories which ahve varying $S/B$ and mass resolution. The best expected FWHM of $3.2 \GeV$ comes from the category with unconverted photons at high $p_{Tt}$ (the component of the diphoton $p_{T}$ orthogonal to to the axis defined by the vectorial difference of their momenta) The worst expected FWHM of $6.1 \GeV$ comes from converted photons in the transition region of the calorimeter. 
-
-\subsection{Background estimation}
-
-The background is modeled with a falling spectrum in $m_{\gamma\gamma}$ that is paramaterized by different functions depending on the category of the event. An exponential function of a second order polynomial is used for the categories involving low $p_{Tt}$ photons in the central region, as well as photon conversions in the transition region. A fourth order Bernstein polynomial is used the low $p_{Tt}$ categories outside of the central region as well as the inclusive category. An exponential function is used for all other categories. 
-
-One important consideration when using such a background model is how much the model could be biased by a signal arising in the data. This level of potential bias from a signal is estimated using the mass spectrum of background plus signal from simulation (with the background shape in simulation validated using data-driven control regions). For this test, the signal shape is taken from simulation but the yield is left as a free parameter. The bias is then taken as the largest absolute yield coming from the likelihood fit. This potential bias is taken as a systematic uncertainty and amounts to $\pm(0.3$-$6.8)$ events in the 8 $\TeV$ data sample. 
+The main challenges for this analysis are accurate mass reconstruction and background estimation. In order to accurately reconstruct the invariant mass of the di-photon system, both the energy and direction of the photons must be measured well. Therefore, the identification of the primary vertex of the hard interaction is particularly important, and is done using a multivariate likelihood which combines information about the photon direction and vertex position. The background is modeled with a falling spectrum in $m_{\gamma\gamma}$ that is paramaterized by different functions depending on the category of the event.
 
 \subsection{Results}
 
@@ -169,49 +193,18 @@ The resulting diphoton mass spectrum is shown in figure~\ref{fig:disc_mgg}. The 
   \centering
   \captionsetup{justification=centering}
   %\hspace*{-32pt}
-  \includegraphics[width=0.6\textwidth]{figures/discovery_mgg}
+  \includegraphics[width=0.5\textwidth]{figures/discovery_mgg}
   \caption{Diphoton mass spectrum in $7$ and $8 \TeV$ data. Panel a) shows the unweighted data distribution superimposed on the background fit, wile panel c) shows the data where each event category is weighted by its signal to background ratio. Panels b) and d) show the respective distributions with background subtracted\cite{Discovery}.}
   \label{fig:disc_mgg}
 \end{figure}
 
 \section{$H\to ZZ \to 4\ell$ search}
 
-The $H\to ZZ \to 4\ell$ analysis searches for a Standard Model Higgs boson decaying to two $Z$ bosons, each of which decays to a pair of same flavor, opposite charge isolated leptons. The ultimate discriminating variable is $m_{4\ell}$, or the invariant mass of the four selected leptons. The $\ell$ denotes an $e$ or $\mu$ as with the \HWWfull analysis. Electrons must have $p_{T} > 7 \GeV$ and $|\eta| < 2.47$, while muons must have $\pT > 6 \GeV$ and $|\eta| < 2.7$. There are then additional $\pT$ cuts depending on the relative ranking of the lepton $\pT$, with the leading lepton required to have $\pT > 20 \GeV$, subleading lepton $\pT > 15 \GeV$, and third leading lepton $\pT > 10 \GeV$. 
-
-\subsection{Lepton pair construction}
-
-One of the difficult aspects of this channel is that there are multiple possible same flavor, opposite charge lepton pairs that can be produced out of the four selected leptons. The lepton pair whose mass is closest to $m_Z$ is referred to as the leading pair and its mass is denoted as $m_{12}$, while the other lepton pair's mass is $m_{34}$. Events are required to have $m_{12}$ consistent with a $Z$ mass, or $50 < m_{12} < 106 \GeV$. $m_{34}$ is required to be less than $115 \GeV$. The minimum requirement for $m_{min}$ varies from $17.5 \GeV$ at $m_{4\ell} = 120 \GeV$ to $50 \GeV$ at $m_{4\ell} = 190 \GeV$. 
+The $H\to ZZ \to 4\ell$ analysis searches for a Standard Model Higgs boson decaying to two $Z$ bosons, each of which decays to a pair of same flavor, opposite charge isolated leptons. The ultimate discriminating variable is $m_{4\ell}$, or the invariant mass of the four selected leptons. The $\ell$ denotes an $e$ or $\mu$ as with the \HWWfull analysis. 
 
 Four distinct signal regions are constructed depending on the flavors of the final state, additionally separated by the flavor of the leading lepton pair. These are referred to as $4e$, $2e2\mu$, $2\mu2e$, $4\mu$. 
 
-Table~\ref{tab:disc_zz_summary} summarizes the mass resolutions and selection efficiencies for the four signal regions. The mass resolution at $125 \GeV$ is dominated by experimental resolution, ranging from $1.7 \GeV$ to $2.3 \GeV$. 
-
-\begin{table}[h!]
-\centering
-\captionsetup{justification=centering}
-
-%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
-\hspace{-10pt}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-Channel & Efficiency & Mass resolution \\ \hline
-$4\mu$ & $36\%$ & $1.7 \GeV$ \\ \hline
-$2e2\mu$ & $22\%$ & $1.7 \GeV$ \\ \hline
-$2\mu2e$ & $22\%$ & $2.2\GeV$ \\ \hline
-$4e$ & $20\%$ & $2.3\GeV$ \\ \hline 
-\end{tabular}
-
-\caption{
-A summary of selection efficiencies and expected resolutions for a $125 \GeV$ Higgs in the $H\to ZZ\to 4\ell$ channel\cite{Discovery}. 
-}
-\label{tab:disc_zz_summary}
-\end{table}
-
-\subsection{Background estimation}
-
-The main backgrounds in the $H\to ZZ \to 4\ell$ search are continuum $ZZ^*$ production, $Z$+ jets production, and $\ttbar$. The $m_{4\ell}$ distribution for background is estimated from simulation. The normalization of the SM $ZZ^*$ background is also taken from MC simulation, while the $Z$+jets and $\ttbar$ normalizations are taken from data-driven methods. The data-driven methods are separated into $\ell\ell+\mu\mu$ and $\ell\ell+ee$ methods. 
-
-In the $\ell\ell+\mu\mu$ case, the control region is defined by relaxing the requirements on the $\mu\mu$ pair to crate a region enriched in background. The $\ttbar$ and $Z$+jets backgrounds are then fit together from the leading mass distribution $m_{12}$. A similar method is used in the $\ell\ell+ee$ case, but there is an additional sorting into categories based on identification criteria for electrons that come from heavy flavor decays or photon conversions. 
+The main backgrounds in the $H\to ZZ \to 4\ell$ search are continuum $ZZ^*$ production, $Z$+ jets production, and $\ttbar$. The $m_{4\ell}$ distribution for background is estimated from simulation. The normalization of the SM $ZZ^*$ background is also taken from MC simulation, while the $Z$+jets and $\ttbar$ normalizations are taken from data-driven methods.
 
 \subsection{Results}
 
