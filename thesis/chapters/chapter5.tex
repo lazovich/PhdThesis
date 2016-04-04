@@ -7,7 +7,9 @@ The imagination of nature is far, far greater than the imagination of man.
 
 \section{Introduction}
 
-After the discovery of a particle consistent with the Higgs boson, the $\HWW$ analysis had two main goals. The first goal was to increase the sensitivity of the analysis to fully confirm that the $\HWW$ process did indeed exist. The second goal was to characterize the particle as much as possible, including searching for the lower cross-section production modes, in order to confirm that it was indeed a Higgs boson.   This chapter presents a dedicated search for Vector Boson Fusion (VBF) production of a Higgs boson decaying via the \HWWfull mode. First, basics of the topology of VBF production are presented. Then, the details of the analysis are shown, including signal region definition, background estimation techniques, and systematic uncertainties. Finally, the results of the analysis are shown. As will be shown, this analysis is the first and most sensitive observation of the VBF production mode of the Higgs on ATLAS.
+After the discovery of a particle consistent with the Higgs boson, the $\HWW$ analysis had two main goals. The first goal was to increase the sensitivity of the analysis to fully confirm that the $\HWW$ process did indeed exist. The second goal was to characterize the particle as much as possible, including searching for the lower cross-section production modes, in order to confirm that it was indeed a Higgs boson.  This chapter presents a dedicated search for Vector Boson Fusion (VBF) production of a Higgs boson decaying via the \HWWfull mode. First, basics of the topology of VBF production are presented. Then, the details of the analysis are shown, including signal region definition, background estimation techniques, and systematic uncertainties. Finally, the results of the analysis are presented. As will be shown, this analysis is the first and most sensitive observation of the VBF production mode of the Higgs on ATLAS.
+
+In the VBF channel, there are both a selection requirement based signal region analysis (known as the ``cut-based") and a multivariate analysis which uses a boosted decision tree (known as the BDT analysis). The focus of this chapter will be on the cut-based signal region, as this is an important component of the VBF analysis and in particular acts as strong validation for the final BDT result. Connections between the cut-based and BDT analyses will be discussed where appropriate. 
  
 
 \section{Data and simulation samples}
@@ -256,19 +258,17 @@ Once the overlap removal is complete, the final set of objects used in the analy
 
 \section{Analysis selection}
 
-The VBF analysis uses two distinct selections. The first is a looser selection that uses a Boosted Decision Tree (BDT) score as the final discriminator in order to take advantage of the detailed correlations between the VBF variables. The second is a more standard selection, referred to as ``cut-based", that applies cuts on the VBF variables and uses $\mTH$ as the final discriminating variable. While the BDT analysis is ultimately more sensitive, the cut-based serves as an important component of the analysis. First, the cut-based allows for confirming the modeling and validity of many variables used as input to the BDT. Second, because this is the first use of such an MVA technique in the $\HWW$ analysis, the cut-based selection allows confirmation of the final BDT result with a more traditional analysis. Both analyses will be discussed here. 
+The VBF analysis uses two distinct selections. The first is a more standard selection, referred to as ``cut-based", that applies requirements on the VBF variables and uses $\mTH$ as the final discriminating variable. The second is a looser selection that uses a Boosted Decision Tree (BDT) score as the final discriminator in order to take advantage of the detailed correlations between the VBF variables.  While the BDT analysis is ultimately more sensitive, the cut-based serves as an important component of the analysis. First, the cut-based allows for confirming the modeling and validity of many variables used as input to the BDT. Second, because this is the first use of such an MVA technique in the $\HWW$ analysis, the cut-based selection allows confirmation of the final BDT result with a more traditional analysis. The cut-based techniques are the focus of this chapter, but connections to the BDT result will be illustrated when appropriate. 
 
-One important note is that because this analysis is dedicated to the measurement of the VBF production mode of the Higs, events coming from gluon fusion production with the Higgs decaying via \HWWfull are treated as background events. This will be seen throughout the vargious cutflow tables and yields shown. 
+One important note is that because this analysis is dedicated to the measurement of the VBF production mode of the Higs, events coming from gluon fusion production with the Higgs decaying via \HWWfull are treated as background events. This will be seen throughout the various predictions shown. 
 
 \subsection{Common pre-selection}
 \label{sec:vbf_presel}
-Both the BDT and cut-based analyses have a common pre-selection that is applied before their main cuts. The cuts on leptons are common to all $\Njet$ bins. The analysis requires two oppositely charged leptons, with the leading lepton required to have $\pT > 22$ \GeV while the subleading lepton must have $\pT > 10$ \GeV. Next, to cut out low mass $\ZDY$ events, a cut on the dilepton mass $\mll > 10$ (12) \GeV is applied in the different (same) flavor channel. In the same flavor channels, there is an additional veto placed on the region around the Z peak, requiring that $|\mll - \mZ| > 15$ \GeV. 
+Both the cut-based and BDT analyses have a common pre-selection that is applied before the main signal region requirements. The requirements on leptons are common to all $\Njet$ bins. The analysis requires two oppositely charged leptons, with the leading lepton required to have $\pT > 22$ \GeV while the subleading lepton must have $\pT > 10$ \GeV. Next, to remove low mass $\ZDY$ events, a cut on the dilepton mass $\mll > 10$ (12) \GeV is applied in the different (same) flavor channel. In the same flavor channels, there is an additional veto placed on the region around the Z peak, requiring that $|\mll - \mZ| > 15$ \GeV. 
 
-There are also requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, as in the different flavor channels $\ttbar$ is the dominant background in $\Njet \geq 2$. The BDT analysis requires $\MPTj > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must cut tighter on these variables to have maximal sensitivity and thus requires $\MPTj > 50 \GeV$ and $\MET > 55 \GeV$. 
+There are also requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, as in the different flavor channels $\ttbar$ is the dominant background in $\Njet \geq 2$. The BDT analysis requires $\MPTj > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must select more tightly on these variables to have maximal sensitivity and thus requires $\MPTj > 50 \GeV$ and $\MET > 55 \GeV$. 
 
 Finally, because this analysis is focused on VBF, a requirement on the jet multiplicity is placed, with $\Njet \geq 2$. Additionally, the analysis requires that there are no jets identified as b-quarks in the event, or $\Nbjet = 0$. 
-
-
 
 \subsection{Cut-based selection}
 
@@ -429,21 +429,16 @@ $\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2
 \end{figure}                                                                                     
 
 
-\subsection{BDT based selection}
+\subsection{BDT-based selection}
 
-The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score as the final discriminant. The BDT is trained with the VBF $\HWW$ simulation as the signal samples and all other processes as background, including ggF $\HWW$ production. 
+The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score ($\bdt$) as the final discriminant. The BDT is trained with the VBF $\HWW$ simulation as the signal samples and all other processes as background, including ggF $\HWW$ production. While the BDT based analysis is treated as a separate result, it has significant overlap with the cut-based selection.
 
 \subsubsection{Pre-training selection and BDT inputs}
-Before training, the common preselection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to do the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations, shown in equation~\ref{eqn:mlj}.
+Before training, the common preselection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to do the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations.
 
-\begin{equation}
-\mlj = m_{\ell1, j1} + m_{\ell1, j2} + m_{\ell2,j1} + m_{\ell2,j2}
-\label{eqn:mlj}
-\end{equation}
+Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for the $\mlj$ variable, as well as showing its discriminating power. Figure~\ref{fig:vbf_bdt_htopo} shows the distributions of the Higgs topological variables that are shared between the cut-based and BDT analyses. Figure~\ref{fig:vbf_bdt_vbftopo} shows the distributions of the VBF topological variables shared between the cut-based and BDT analyses. In both cases, the VBF yield has been scaled by a factor of 50 to better show the shape difference compared to the backgrounds. 
 
-Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for the $\mlj$ variable, as well as showing its discriminating power. Figure~\ref{fig:vbf_bdt_htopo} shows the distributions of the Higgs topological variables used as BDT inputs for VBF signal and corresponding backgrounds. Figure~\ref{fig:vbf_bdt_vbftopo} shows the distributions of the VBF topological variables used as BDT inputs. In both cases, the VBF yield has been scaled by a factor of 50 to better show the shape difference compared to the backgrounds. 
-
-Table~\ref{tab:vbfcuts} summarizes the cuts applied for the BDT and cut-based analyses, as well as which variables are used as input to the BDT. 
+Table~\ref{tab:vbfcuts} summarizes the cuts applied for the cut-based and analyses, as well as which variables are used as input to the BDT. 
 
 \begin{figure}[h!]
   \centering
@@ -452,7 +447,7 @@ Table~\ref{tab:vbfcuts} summarizes the cuts applied for the BDT and cut-based an
   \includegraphics[width=0.45\textwidth]{figures/BDT_dphill}
   \includegraphics[width=0.45\textwidth]{figures/BDT_mT}
 
-  \caption{Distributions of $\mll$ (top left), $\dphill$ (top right), and $\mTH$ (bottom) for the VBF BDT analysis. These are plotted after all of the BDT pre-training selection cuts\cite{WW2015}.}
+  \caption{Distributions of $\mll$ (top left), $\dphill$ (top right), and $\mTH$ (bottom), Higgs topology variables used in the selection requirements of the cut-based signal region and as inputs to the BDT result. These are plotted after all of the BDT pre-training selection cuts\cite{WW2015}.}
   \label{fig:vbf_bdt_htopo}
 \end{figure}
 
@@ -462,8 +457,7 @@ Table~\ref{tab:vbfcuts} summarizes the cuts applied for the BDT and cut-based an
   \includegraphics[width=0.45\textwidth]{figures/BDT_mjj}
   \includegraphics[width=0.45\textwidth]{figures/BDT_dyjj}
   \includegraphics[width=0.45\textwidth]{figures/BDT_olv}
-  \includegraphics[width=0.45\textwidth]{figures/BDT_mlj}
-  \caption{Distributions of $\mjj$ (top left), $\dyjj$ (top right), $\sum\olv$ (bottom left), and $\mlj$ (bottom right) for the VBF BDT analysis. These are plotted after all of the BDT pre-training selection cuts\cite{WW2015}.}
+  \caption{Distributions of $\mjj$ (top left), $\dyjj$ (top right), $\sum\olv$ (bottom), VBF topology variables used in the selection requirements of the cut-based signal region and as inputs to the BDT result. These are plotted after all of the BDT pre-training selection cuts\cite{WW2015}.}
   \label{fig:vbf_bdt_vbftopo}
 \end{figure}
 
@@ -482,19 +476,17 @@ Table~\ref{tab:vbfcuts} summarizes the cuts applied for the BDT and cut-based an
 %\label{tab:vbfcuts}
 %\end{table}
 
-\subsubsection{BDT output}
+%\subsubsection{BDT output}
 
-After training, the BDT outputs a score ($\bdt$) which is in the range $[-1, 1]$, where $-1$ corresponds to background-like events and $+1$ corresponds to signal-like events. Figure~\ref{fig:bdtscore} shows the output BDT distribution in both the different flavor and same flavor channels. For the final discriminant analysis, the $\bdt$ distribution is divided into four bins, with boundaries at $[-1, -0.48, -0.3, 0.78, 1]$. The bins are numbered from $0,1,2,3$ respectively. Because bin $0$ is predominantly background, it is excluded from the likelihood analysis. 
+%After training, the BDT outputs a score ($\bdt$) which is in the range $[-1, 1]$, where $-1$ corresponds to background-like events and $+1$ corresponds to signal-like events. Figure~\ref{fig:bdtscore} shows the output BDT distribution in both the different flavor and same flavor channels. For the final discriminant analysis, the $\bdt$ distribution is divided into four bins, with boundaries at $[-1, -0.48, -0.3, 0.78, 1]$. The bins are numbered from $0,1,2,3$ respectively. Because bin $0$ is predominantly background, it is excluded from the likelihood analysis. 
 
-\begin{figure}[h!]
-  \centering
-  \captionsetup{justification=centering}
-  \includegraphics[width=0.6\textwidth]{figures/BDT_score}
-  \caption{Distributions of $\bdt$ for the VBF signal and associated backgrounds after the VBF pre-training selection\cite{WW2015}.}
-  \label{fig:bdtscore}
-\end{figure}
-
-
+%\begin{figure}[h!]
+%  \centering
+%  \captionsetup{justification=centering}
+%  \includegraphics[width=0.6\textwidth]{figures/BDT_score}
+%  \caption{Distributions of $\bdt$ for the VBF signal and associated backgrounds after the VBF pre-training selection\cite{WW2015}.}
+%  \label{fig:bdtscore}
+%\end{figure}
 
 \section{Background estimation}
 \label{sec:HWWbkg}
@@ -525,7 +517,7 @@ Phrased this way, the equation shows that with enough statistics in the control 
 
 The normalization factor $\beta_{t}$ for the top background in the VBF analysis is derived in a region required to have one b-tagged jet, or $\Nbjet = 1$. In the cut-based analysis, normalization factors are computed at every stage of the cutflow by applying the appropriate cuts in the CR. These NF are then applied to the $\ttbar$ and single top event yields in the SR. In the BDT analysis, a single normalization factor is computed for each bin of $\bdt$ after applying the BDT pre-training cuts described previously. The computed normalization factors are derived with all flavor combinations combined in order to decrease statistical uncertainty. Additionally, in the BDT analysis, BDT bins 2 and 3 are merged for the same reason.
 
-Table~\ref{tab:vbf_cb_topnf} shows the evolution of the $\beta_{t}$ through the cut-based selection. Table~\ref{tab:vbf_bdt_topnf} shows the value of the $\beta_{t}$ in each bin of $\bdt$. In all cases, the computed factors are relatively consistent with unity, with the largest discrepancy coming in bin 1 of $\bdt$. 
+Table~\ref{tab:vbf_cb_topnf} shows the evolution of the $\beta_{t}$ through the cut-based selection. Table~\ref{tab:vbf_bdt_topnf} shows the value of the $\beta_{t}$ in each bin of $\bdt$. In all cases, the computed factors are relatively consistent with unity, with the largest discrepancy coming in bin 1 of $\bdt$. The normalization factors in the bins of $\bdt$ are also consistent with those derived in teh cut-based sisgnal region, increasing confidence in the BDT estimation. 
 
 \begin{table}[h!]
 \centering
@@ -568,7 +560,7 @@ Figure~\ref{fig:vbf_top_cr} shows the $\mjj$ and $\bdt$ distributions in the top
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.6\textwidth]{figures/VBF_topcr}
-  \caption{Distributions of $\mjj$ (a) and $\bdt$ (b) in the VBF $\Nbjet = 1$ top CR\cite{WW2015}.}
+  \caption{Distributions of $\mjj$ (a) and $\bdt$ (b) in the VBF $\Nbjet = 1$ top CR~\cite{WW2015}.}
   \label{fig:vbf_top_cr}
 \end{figure}
 
