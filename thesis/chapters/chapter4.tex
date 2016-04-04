@@ -7,7 +7,7 @@ The real voyage of discovery consists not in seeking new landscapes, but in havi
 
 \section{Introduction}
 
-This chapter presents the results of the search for the Higgs boson in $4.8 \ifb$ collected at $\sqrt{s} = 7 \TeV$ and $5.8 \ifb$ at $\sqrt{s} = 8 \TeV$. The results of three searches at $\sqrt{s} = 8 \TeV$ in the $H\to \gamma \gamma$, $H\to ZZ \to 4\ell$, and \HWWfull channels are combined with results of searches at $\sqrt{s} = 7 \TeV$ in the same search channels (as well as the $H\to\tau\tau$ production and associated production searches for $H\to b\bar{b}$). The results of this combination are a $5.9 \sigma$ detection of a new particle consistent with a Higgs boson. Rather than going into detail for all of the different Higgs decay searches, this chapter will discuss the three most sensitive channels and in particular give a comparison of the $\gamma\gamma$ and $4\ell$ channels to the $\ell\nu\ell\nu$ channel. This chapter is a summary of results presented in the ATLAS Higgs discovery publication\cite{Discovery}.
+This chapter presents the results of the search for the Higgs boson in $4.8 \ifb$ collected at $\sqrt{s} = 7 \TeV$ and $5.8 \ifb$ at $\sqrt{s} = 8 \TeV$. The results of three searches at $\sqrt{s} = 8 \TeV$ in the \HWWfull, $H\to \gamma \gamma$, and $H\to ZZ \to 4\ell$ channels are combined with results of searches at $\sqrt{s} = 7 \TeV$ in the same search channels (as well as the $H\to\tau\tau$ production and associated production searches for $H\to b\bar{b}$). The results of this combination are a $5.9 \sigma$ detection of a new particle consistent with a Higgs boson. Rather than going into detail for all of the different Higgs decay searches, this chapter will discuss the three most sensitive channels and in particular focus on \HWWfull. While the focus is on $WW^*$, some of the $ZZ^*$ and $\gamma\gamma$ results are shown for completeness. The results not discussed here can be found in the ATLAS Higgs discovery publication\cite{Discovery}.
 
 
 \section{Data and simulation samples}
@@ -46,6 +46,103 @@ Monte carlo generators used to model signal and background for the Higgs search\
 }
 \label{tab:disc_mc}
 \end{table} 
+
+\section{$H\to WW \to e\nu\mu\nu$ search}
+
+The $H\to WW \to e\nu\mu\nu$ search is unique compared to the $ZZ$ and $\gamma\gamma$ channels. The Higgs mass cannot be fully reconstructed due to the presence of neutrinos in the final state, so the transverse mass $\mT$ is used as the final discriminating variable. Compared to the other channels, there are more backgrounds here as well, as discussed in chapter 3. The same flavor final states are excluded from this search due to high pileup in the $8 \TeV$ dataset. 
+
+\subsection{Event selection}
+
+The analysis requires to opposite charge isolated leptons, with the leading (sub-leading) lepton required to have $\pT > 25 (15) \GeV$. The events are separated into different signal regions depending on which flavor of lepton is leading ($e\mu$ for leading electron, $\mu e$ for leading muon). Strict lepton quality cuts are applied to the sample to reduce backgrounds from fake leptons.
+
+Jets are reconstructed with the anti-$k_{T}$ algorithm with a radius parameter $R = 0.4$. The jets are required to have $\pT > 25 \GeV$ and $|eta| < 4.5$, with jets in the tracking volume required to have a jet vertex fraction of $0.5$ and jets in the forward region required to have $\pT > 30 \GeV$. The analysis is separated into three different signal regions based on jet multiplicity: $\Njet = 0, 1, \geq 2$. 
+
+To indicate the presence of neutrinos in the event, a requirement of $\METrel > 25 \GeV$ is made\footnote{For the definition of $\METrel$, see chapter 3}. This requirement significantly reduces the QCD multijet and $\ZDY$ + jets backgrounds. Figure~\ref{fig:disc_njet} shows the distribution of $\Njet$ in data and simulation after applying these ``pre-selection" requirements. 
+
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/disc_njet}
+  \caption{Jet multiplicity distribution in data and MC after applying lepton, jet, and $\METrel$ selections. The $WW$ and top backgrounds have been normalized using control samples, and the hashed band indicates the total uncertainty on the prediction.~\cite{Discovery} }
+  \label{fig:disc_njet}
+\end{figure}
+
+Additional selections are applied to require the dilepton topology to correspond to that of a SM Higgs. The requirements are presented here - more detailed discussion on the motivation for each requirement is saved for Chapter 5. In all of the jet multiplicity channels, the dilepton system is required to have a small gap in azimuthal angle, $\dphill < 1.8$. Similarly, the $\mll$ is required to be less than $50 \GeV$ in the lower jet multiciplicity channels and less than $80 \GeV$ in the $\Njet \geq 2$ channel.  In the $\Njet = 0$ channel, the magnitude of the dilepton $\pT$, $\pTll$, is required to be greater than $30 \GeV$. 
+
+In the higher jet multiplicity channels ($\Njet \geq 1$), the top background is a more important component and must be reduced. The total transverse momentum $\pTtot$ is thus required to be less than $30 \GeV$. Additionally, the di-$\tau$ invariant mass $m_{\tau\tau}$ (dilepton mass computed under the assumption that the neutrinos from the $\tau$ decay are emitted collinear to the charged leptons) is used to reject $Z\to\tau\tau$ events by requiring $|m_{\tau\tau} - m_{Z}| > 25 \GeV$. These variables are also discussed in more detail in Chapter 5. 
+
+In the $\Njet \geq 2$ channel, requirements are made to isolate the VBF contribution to Higgs production. The kinematics of the two leading jets are used to make these requirements. In particular, the event must have $\dyjj > 3.8$ and $\mjj > 500 \GeV$, along with a veto on having any additional jets with rapidity between the to leading jets. 
+
+\subsection{Background estimation}
+
+The details of the background estimation techniques used in the \HWWfull analysis are discussed in section~\ref{sec:HWWbkg}. As that section refers to a later iteration of the analysis, a general discussion is given here for completeness. The dominant backgrounds are SM $WW$ production and top (both pair and single) production, and these backgrounds have their normalizations estimated from dedicated control regions while their shapes are taken from simulation. 
+
+The control sample for the Standard Model $WW$ background is defined by making the same requirements as the signal region with the $\mll$ requirement inverted (now requiring $\mll > 80 \GeV$) and removing the $\dphill$ requirement. This creates a control sample that is $70$\% ($40$\%) pure in the $0$($1$)-jet region. The correction to the pure MC-based background estimate is quantified by defining a normalization factor $\beta$ which is the ratio of the data yield to the MC yield ($N_{\rm data}/N_{\rm MC}$) in this control sample. Table~\ref{tab:disc_NF} shows the $WW$ normalization factors in the $\Njet = 0$ and $\Njet = 1$ bins (the $\Njet \geq 2$ estimate is taken directly from MC). 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|}
+\hline
+$\Njet$ & $\beta_{WW}$ & $\beta_{t}$ \\ \hline
+$ = 0$ & $1.06 \pm 0.06$ & $1.11 \pm 0.06$ \\ \hline
+$= 1$ & $0.99 \pm 0.15$ & $1.11 \pm 0.05$  \\ \hline
+$\geq 2$ & - & $1.01 \pm 0.26$ \\ \hline
+\end{tabular}
+
+\caption{
+Normalization factors (ratio of data and MC yields in a control sample) for the Standard Model $WW$ and top backgrounds in the \HWWfull analysis~\cite{Discovery}. Only statistical uncertainties are shown. 
+}
+\label{tab:disc_NF}
+\end{table}
+
+The top background estimate is also computed separately in each jet multiplicity bin. In the $\Njet = 0$ channel, the background is first normalized using data after pre-selection requirements with no selection on $\Njet$. Then, a dedicated $b$-tagged control sample is used to evaluate the ratio of one-jet to two-jet events in data. The details of this technique are shown in reference~\cite{Higgs2011}. In the $\Njet = 1$ and the $\Njet \geq 2$ regions, the top background is normalized in a control sample where the signal region selections are applied, but the $b$-jet veto is reversed and the Higgs topology requirements on $\mll$ and $\dphill$ are removed. The resulting normalization factors for these techniques are shown in table~\ref{tab:disc_NF}. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/disc_mt_wwcr}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/disc_mt_topcr}
+        \caption{}
+    \end{subfigure}
+
+
+   \caption{Comparison of $\mTH$ between data and simulation in the $\Njet = 0$ $WW$ (a) and $\Njet = 1$ top (b) control samples~\cite{Discovery}}
+  \label{fig:disc_mt_cr}
+\end{figure}
+
+The control samples which are used for background normalization can also be used to validate the modeling of the $\mTH$ distribution for each background. Figure~\ref{fig:disc_mt_cr} shows the comparison between data and MC for the $\mTH$ distribution after correcting the normalization of the backgrounds in the $WW$ and top control regions. Good agreement between data and simulation is seen in both cases. 
+
+The $W$+jets background estimate is taken entirely from data using a control sample with one well reconstructed lepton and one anti-identified lepton. All other backgrounds are taken purely from simulation. 
+
+\subsection{Results}
+
+Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ channels for $8 \TeV$ data. (No events are observed in data in the $\Njet \geq 2$ channels in this dataset). The excess shown here relatively flat as a function of hypothesized Higgs mass. The combined $7$ and $8\TeV$ data gives an excess with local significance of $2.8\sigma$ with an expected significance of $2.3\sigma$, corresponding to a $\mu$ measurement of $1.3\pm 0.5$. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/discovery_mt}
+  \caption{$\mT$ distribution in the $H\to WW \to e\nu\mu\nu$ $\Njet \leq 1$ channels for $8 \TeV$ data\cite{Discovery}.}
+  \label{fig:disc_mt}
+\end{figure}
+
 
 \section{$H\to\gamma\gamma$ search}
 
@@ -128,42 +225,6 @@ Figure~\ref{fig:disc_zz_result} shows the $m_{4\ell}$ spectrum measured in the $
   \includegraphics[width=0.6\textwidth]{figures/discovery_m4l}
   \caption{Four lepton invariant mass spectrum ($m_{4\ell}$) in $7$ and $8 \TeV$ data compared to background estimate. A $125 \GeV$ SM Higgs signal is shown in blue\cite{Discovery}.}
   \label{fig:disc_zz_result}
-\end{figure}
-
-\section{$H\to WW \to e\nu\mu\nu$ search}
-
-The $H\to WW \to e\nu\mu\nu$ search is unique compared to the $ZZ$ and $\gamma\gamma$ channels. The Higgs mass cannot be fully reconstructed due to the presence of neutrinos in the final state, so the transverse mass $\mT$ is used as the final discriminating variable. Compared to the other channels, there are more backgrounds here as well, as discussed in chapter 3. The same flavor final states are excluded from this search due to high pileup in the $8 \TeV$ dataset. 
-
-\subsection{Event selection}
-
-The analysis requires to opposite charge isolated leptons, with the leading (sub-leading) lepton required to have $\pT > 25 (15) \GeV$. The events are separated into different signal regions depending on which flavor of lepton is leading ($e\mu$ for leading electron, $\mu e$ for leading muon). Strict lepton quality cuts are applied to the sample to reduce backgrounds from fake leptons.
-
-Jets are reconstructed with the anti-$k_{T}$ algorithm with a radius parameter $R = 0.4$. The jets are required to have $\pT > 25 \GeV$ and $|eta| < 4.5$, with jets in the tracking volume required to have a jet vertex fraction of $0.5$ and jets in the forward region required to have $\pT > 30 \GeV$. The analysis is separated into three different signal regions based on jet multiplicity: $\Njet = 0, 1, \geq 2$. 
-
-To indicate the presence of neutrinos in the event, a requirement of $\METrel > 25 \GeV$ is made. This requirement significantly reduces the QCD multijet and $\ZDY$ + jets backgrounds. 
-
-Additional selections are applied to require the dilepton topology to correspond to that of a SM Higgs. The requirements are presented here - more detailed discussion on the motivation for each requirement is saved for Chapter 5. In all of the jet multiplicity channels, the dilepton system is required to have a small gap in azimuthal angle, $\dphill < 1.8$. Similarly, the $\mll$ is required to be less than $50 \GeV$ in the lower jet multiciplicity channels and less than $80 \GeV$ in the $\Njet \geq 2$ channel.  In the $\Njet = 0$ channel, the magnitude of the dilepton $\pT$, $\pTll$, is required to be greater than $30 \GeV$. 
-
-In the higher jet multiplicity channels ($\Njet \geq 1$), the top background is a more important component and must be reduced. The total transverse momentum $\pTtot$ is thus required to be less than $30 \GeV$. Additionally, the di-$\tau$ invariant mass $m_{\tau\tau}$ (dilepton mass computed under the assumption that the neutrinos from the $\tau$ decay are emitted collinear to the charged leptons) is used to reject $Z\to\tau\tau$ events by requiring $|m_{\tau\tau} - m_{Z}| > 25 \GeV$. These variables are also discussed in more detail in Chapter 5. 
-
-In the $\Njet \geq 2$ channel, requirements are made to isolate the VBF contribution to Higgs production. The kinematics of the two leading jets are used to make these requirements. In particular, the event must have $\dyjj > 3.8$ and $\mjj > 500 \GeV$, along with a veto on having any additional jets with rapidity between the to leading jets. 
-
-\subsection{Background estimation}
-
-The details of the background estimation techniques used in the \HWWfull analysis are discussed in section~\ref{sec:HWWbkg}. As that section refers to a later iteration of the analysis, a general discussion is given here for completeness. The dominant backgrounds are SM $WW$ production and top (both pair and single) production, and these backgrounds have their normalizations estimated from dedicated control regions while their shapes are taken from simulation. The $W$+jets background estimate is taken entirely from data using a control sample with one well reconstructed lepton and one anti-identified lepton. All other backgrounds are taken purely from simulation. 
-
-\subsection{Results}
-
-Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ channels for $8 \TeV$ data. (No events are observed in data in the $\Njet \geq 2$ channels in this dataset). The excess shown here relatively flat as a function of hypothesized Higgs mass. The combined $7$ and $8\TeV$ data gives an excess with local significance of $2.8\sigma$ with an expected significance of $2.3\sigma$, corresponding to a $\mu$ measurement of $1.3\pm 0.5$. 
-
-\begin{figure}[h!]
-  %\vspace{20pt}
-  \centering
-  \captionsetup{justification=centering}
-  %\hspace*{-32pt}
-  \includegraphics[width=0.6\textwidth]{figures/discovery_mt}
-  \caption{$\mT$ distribution in the $H\to WW \to e\nu\mu\nu$ $\Njet \leq 1$ channels for $8 \TeV$ data\cite{Discovery}.}
-  \label{fig:disc_mt}
 \end{figure}
 
 \section{Combined results}

@@ -68,45 +68,45 @@ Warning--empty journal in acermc
 Warning--empty journal in gg2vv
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 84 entries,
+You've used 85 entries,
             2481 wiz_defined-function locations,
-            1103 strings with 18356 characters,
-and the built_in function-call counts, 28731 in all, are:
-= -- 2476
-> -- 1287
-< -- 66
-+ -- 550
-- -- 375
-* -- 2183
-:= -- 4701
-add.period$ -- 314
-call.type$ -- 84
-change.case$ -- 161
+            1109 strings with 18537 characters,
+and the built_in function-call counts, 29053 in all, are:
+= -- 2506
+> -- 1294
+< -- 67
++ -- 555
+- -- 377
+* -- 2205
+:= -- 4752
+add.period$ -- 318
+call.type$ -- 85
+change.case$ -- 163
 chr.to.int$ -- 77
-cite$ -- 126
-duplicate$ -- 1526
-empty$ -- 2657
-format.name$ -- 483
-if$ -- 6066
-int.to.chr$ -- 8
-int.to.str$ -- 85
-missing$ -- 73
-newline$ -- 489
-num.names$ -- 227
-pop$ -- 584
+cite$ -- 127
+duplicate$ -- 1545
+empty$ -- 2691
+format.name$ -- 486
+if$ -- 6135
+int.to.chr$ -- 9
+int.to.str$ -- 86
+missing$ -- 74
+newline$ -- 495
+num.names$ -- 230
+pop$ -- 590
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 85
 quote$ -- 0
-skip$ -- 879
+skip$ -- 889
 stack$ -- 0
-substring$ -- 960
-swap$ -- 195
+substring$ -- 974
+swap$ -- 198
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 573
+type$ -- 580
 warning$ -- 33
-while$ -- 205
+while$ -- 208
 width$ -- 0
-write$ -- 1191
+write$ -- 1206
 (There were 2 error messages)

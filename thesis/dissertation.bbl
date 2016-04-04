@@ -1,4 +1,4 @@
-\begin{thebibliography}{84}
+\begin{thebibliography}{85}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -444,6 +444,13 @@ Aaron~James Armbruster.
 \newblock \emph{Eur. Phys. J.}, C 71:\penalty0 1554, 2011.
 \newblock \doi{10.1140/epjc/s10052-011-1554-0}.
 
+\bibitem[{ATLAS Collaboration}(2011{\natexlab{b}})]{Higgs2011}
+{ATLAS Collaboration}.
+\newblock {Limits on the production of the Standard Model Higgs Boson in $pp$
+  collisions at $\sqrt{s} = 7$~TeV with the ATLAS detector}.
+\newblock \emph{Eur.~Phys.~J.}, C~71:\penalty0 1728, 2011{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-011-1728-9}.
+
 \bibitem[Collaboration(2014)]{MuonTrigger2012}
 ATLAS Collaboration.
 \newblock {Performance of the ATLAS muon trigger in pp collisions at
@@ -545,11 +552,11 @@ I.~Stewart and F.~Tackmann.
 \newblock \emph{Phys. Rev.}, D 85:\penalty0 034011, 2012.
 \newblock \doi{10.1103/PhysRevD.85.034011}.
 
-\bibitem[{ATLAS Collaboration}(2011{\natexlab{b}})]{luminosity-paper}
+\bibitem[{ATLAS Collaboration}(2011{\natexlab{c}})]{luminosity-paper}
 {ATLAS Collaboration}.
 \newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
   Using the ATLAS Detector at the LHC}.
-\newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011{\natexlab{b}}.
+\newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011{\natexlab{c}}.
 \newblock \doi{10.1140/epjc/s10052-011-1630-5}.
 
 \bibitem[atl(2013)]{atlas_jets}
