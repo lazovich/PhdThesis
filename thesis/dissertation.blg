@@ -31,7 +31,6 @@ I was expecting a `,' or a `}'---line 546 of file references.bib
  :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "HHBR"
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
@@ -50,6 +49,7 @@ Warning--empty journal in Run1BJets
 Warning--empty author in Run2BJets
 Warning--empty author in MET8TeV
 Warning--empty note in LumiRatio
+Warning--empty note in HH_BR
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -71,10 +71,9 @@ Warning--empty journal in acermc
 Warning--empty journal in gg2vv
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-Warning--empty note in HH_BR
 You've used 87 entries,
             2481 wiz_defined-function locations,
-            1123 strings with 18788 characters,
+            1121 strings with 18780 characters,
 and the built_in function-call counts, 29513 in all, are:
 = -- 2552
 > -- 1308

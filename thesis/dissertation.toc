@@ -127,13 +127,13 @@
 \contentsline {chapter}{\numberline {7}Search for Higgs pair production in boosted $b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ final states}{128}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{128}{section.7.1}
 \contentsline {section}{\numberline {7.2}Motivation}{129}{section.7.2}
-\contentsline {section}{\numberline {7.3}Data and simulation samples}{130}{section.7.3}
-\contentsline {section}{\numberline {7.4}Event reconstruction}{130}{section.7.4}
-\contentsline {section}{\numberline {7.5}Event selection}{130}{section.7.5}
-\contentsline {section}{\numberline {7.6}Data-driven background estimation}{130}{section.7.6}
-\contentsline {section}{\numberline {7.7}Systematic uncertainties}{130}{section.7.7}
-\contentsline {section}{\numberline {7.8}Results}{130}{section.7.8}
-\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{131}{chapter.8}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{132}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{133}{chapter.9}
-\contentsline {chapter}{References}{140}{chapter*.112}
+\contentsline {section}{\numberline {7.3}Data and simulation samples}{131}{section.7.3}
+\contentsline {section}{\numberline {7.4}Event reconstruction}{131}{section.7.4}
+\contentsline {section}{\numberline {7.5}Event selection}{131}{section.7.5}
+\contentsline {section}{\numberline {7.6}Data-driven background estimation}{131}{section.7.6}
+\contentsline {section}{\numberline {7.7}Systematic uncertainties}{131}{section.7.7}
+\contentsline {section}{\numberline {7.8}Results}{131}{section.7.8}
+\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{132}{chapter.8}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{133}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{134}{chapter.9}
+\contentsline {chapter}{References}{141}{chapter*.113}
