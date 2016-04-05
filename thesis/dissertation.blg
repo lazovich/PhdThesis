@@ -31,6 +31,7 @@ I was expecting a `,' or a `}'---line 546 of file references.bib
  :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "HHBR"
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
@@ -48,6 +49,7 @@ Warning--empty author in JetCalib
 Warning--empty journal in Run1BJets
 Warning--empty author in Run2BJets
 Warning--empty author in MET8TeV
+Warning--empty note in LumiRatio
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -69,45 +71,46 @@ Warning--empty journal in acermc
 Warning--empty journal in gg2vv
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 85 entries,
+Warning--empty note in HH_BR
+You've used 87 entries,
             2481 wiz_defined-function locations,
-            1110 strings with 18558 characters,
-and the built_in function-call counts, 29053 in all, are:
-= -- 2506
-> -- 1294
-< -- 67
-+ -- 555
-- -- 377
-* -- 2205
-:= -- 4752
-add.period$ -- 318
-call.type$ -- 85
-change.case$ -- 163
-chr.to.int$ -- 77
-cite$ -- 127
-duplicate$ -- 1545
-empty$ -- 2691
-format.name$ -- 486
-if$ -- 6135
+            1123 strings with 18788 characters,
+and the built_in function-call counts, 29513 in all, are:
+= -- 2552
+> -- 1308
+< -- 69
++ -- 563
+- -- 381
+* -- 2233
+:= -- 4838
+add.period$ -- 326
+call.type$ -- 87
+change.case$ -- 167
+chr.to.int$ -- 79
+cite$ -- 131
+duplicate$ -- 1569
+empty$ -- 2725
+format.name$ -- 492
+if$ -- 6223
 int.to.chr$ -- 9
-int.to.str$ -- 86
+int.to.str$ -- 88
 missing$ -- 74
-newline$ -- 495
-num.names$ -- 230
-pop$ -- 590
+newline$ -- 507
+num.names$ -- 236
+pop$ -- 598
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 87
 quote$ -- 0
-skip$ -- 889
+skip$ -- 906
 stack$ -- 0
-substring$ -- 974
-swap$ -- 198
+substring$ -- 978
+swap$ -- 201
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 580
-warning$ -- 33
-while$ -- 208
+type$ -- 594
+warning$ -- 35
+while$ -- 212
 width$ -- 0
-write$ -- 1206
+write$ -- 1232
 (There were 2 error messages)
