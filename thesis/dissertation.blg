@@ -50,6 +50,8 @@ Warning--empty author in Run2BJets
 Warning--empty author in MET8TeV
 Warning--empty note in LumiRatio
 Warning--empty note in HH_BR
+Warning--empty note in Tony
+Warning--empty year in Tony
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -71,45 +73,45 @@ Warning--empty journal in acermc
 Warning--empty journal in gg2vv
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
-You've used 87 entries,
+You've used 88 entries,
             2481 wiz_defined-function locations,
-            1121 strings with 18780 characters,
-and the built_in function-call counts, 29513 in all, are:
-= -- 2552
-> -- 1308
-< -- 69
-+ -- 563
-- -- 381
-* -- 2233
-:= -- 4838
-add.period$ -- 326
-call.type$ -- 87
-change.case$ -- 167
-chr.to.int$ -- 79
-cite$ -- 131
-duplicate$ -- 1569
-empty$ -- 2725
-format.name$ -- 492
-if$ -- 6223
+            1125 strings with 18827 characters,
+and the built_in function-call counts, 29722 in all, are:
+= -- 2570
+> -- 1315
+< -- 70
++ -- 567
+- -- 383
+* -- 2245
+:= -- 4876
+add.period$ -- 328
+call.type$ -- 88
+change.case$ -- 169
+chr.to.int$ -- 80
+cite$ -- 134
+duplicate$ -- 1581
+empty$ -- 2742
+format.name$ -- 495
+if$ -- 6262
 int.to.chr$ -- 9
-int.to.str$ -- 88
+int.to.str$ -- 89
 missing$ -- 74
-newline$ -- 507
-num.names$ -- 236
-pop$ -- 598
+newline$ -- 511
+num.names$ -- 239
+pop$ -- 606
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 88
 quote$ -- 0
-skip$ -- 906
+skip$ -- 913
 stack$ -- 0
-substring$ -- 978
-swap$ -- 201
+substring$ -- 980
+swap$ -- 202
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 594
-warning$ -- 35
-while$ -- 212
+type$ -- 601
+warning$ -- 37
+while$ -- 214
 width$ -- 0
-write$ -- 1232
+write$ -- 1241
 (There were 2 error messages)
