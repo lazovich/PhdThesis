@@ -8,7 +8,7 @@ If you can snap two chicken necks in a single motion, why use two motions to sla
 
 \section{Introduction}
 
-After the discovery of the Higgs boson in the ATLAS Run 1 dataset and the subsequent measurements of its properties, the Higgs transformed into a potential tool in searches for physics beyond the Standard Model. The pair production cross section of the Higgs can be enhanced through BSM physics. Studying di-Higgs production also probes the Higgs self-coupling, shedding light on the structure of the Higgs potential. This chapter presents a search for resonant production of a Higgs pair in the $\FourBfull$ final state in $3.2 \ifb$ of data collected at $\sqrt{s} = 13 \TeV$. In particular, this chapter focuses on a search for this final state in the regime where $m_{X}$ is large ($\gtrsim 1 \TeV$) and the Higgs bosons in the decay are significantly boosted. A tailored selection for this boosted selection, using novel techniques in jet substructure and $b$-tagging, is discussed. Then, the data-driven background estimate is presented. Finally, the results of the search are shown. Limits on signal models are reserved for the next chapter where the results of this chapter are combined with the results of a separate selection dedicated to the lower $m_X$ regime. 
+After the discovery of the Higgs boson in the ATLAS Run 1 dataset and the subsequent measurements of its properties, the Higgs transformed into a potential tool in searches for physics beyond the Standard Model. The pair production cross section of the Higgs can be enhanced through BSM physics. Studying di-Higgs production also probes the Higgs self-coupling, shedding light on the structure of the Higgs potential. This chapter presents a search for resonant production of a Higgs pair in the $\FourBfull$ final state in $3.2 \ifb$ of data collected at $\sqrt{s} = 13 \TeV$. In particular, this chapter focuses on a search for this final state in the regime where $m_{X}$ is large ($\gtrsim 1 \TeV$) and the Higgs bosons in the decay are significantly boosted. A tailored selection for this boosted selection, using novel techniques in jet substructure and $b$-tagging, is discussed. Then, the data-driven background estimate is presented. Finally, the results of the search are shown. The signal models used as benchmarks are a spin-$2$ Rnadall Sundrum graviton (RSG) and a narrow width spin-$0$ resonance in the two Higgs Doublet Model (2HDM). These models are described in more detail in Chapter 1. Limits on signal models are reserved for the next chapter where the results of this chapter are combined with the results of a separate selection dedicated to the lower $m_X$ regime. 
 
 \section{Motivation}
 
@@ -59,6 +59,14 @@ Figure~\ref{fig:bb_dr} shows the minimum $\Delta R$ between truth level $B$ deca
 
 \section{Data and simulation samples}
 
+\subsection{Signal models}
+
+While the resonance search is by its nature generic (as it is a simple search for a peak in the $4b$ invariant mass spectrum), there are two signal models that the selection requirements have been optimized for. The first is  Randall-Sundrum (RSG) model, where a tower of massive spin-$2$ Kaluza-Klein gravitons is predicted. The second is a heavy narrow spin-$0$ resonance, the so-called ``heavy Higgs". This benchmark model is a two Higgs doublet model (2HDM). More details about the physics of these models and their motivation is given in chapter 1. 
+
+Signal graviton ($\Gkk$) events are generated at leading order (LO) with \MADGRAPH $5$ v$2.2.2$~\cite{MG5aMCatNLO}. The PDF set used is the \NNPDF 2.3 LO set~\cite{nnpdf}. For modeling parton shower and hadronization in jets, \PYTHIA $8.186$ is used with the A$14$ tune~\cite{pythia8,a14tune}. The free parameters in the RSG model are the graviton mass and the coupling constant $k/\bar{M}_{\rm Pl}$\footnote{$k$ is the curvature constant for the warped extra dimension and $\bar{M}_{\rm Pl}$ is the Planck mass divided by $8\pi$}. 
+
+\subsection{Data sample and trigger}
+
 This analysis is done on $3.2 \ifb$ of data taken in $2015$ at $\sqrt{s} = 13 \TeV$. The details of the machine conditions during this time can be found in Chapter 2. Only data which was taken during stable beam conditions with all detectors functioning is used. Events must pass a trigger which requires a single $360 \GeV$ large radius ($R=1.0$) jet to be reconstructed in the HLT. Figure~\ref{fig:trig_eff_4b} shows the trigger efficiency for various trigger options as a function of graviton mass. Above $m_{G} > 1 \TeV$, the single large radius jet trigger is $99\%$ efficient for events passing the signal selection. 
 
 \begin{figure}[h!]
@@ -71,6 +79,8 @@ This analysis is done on $3.2 \ifb$ of data taken in $2015$ at $\sqrt{s} = 13 \T
   \caption{Trigger efficiency for events passing all signal region selections as a function of mass in $\Gkk \to HH \to 4b$ samples with $c = 1$~\cite{Tony}. In the trigger names, ``j" refers to a jet or jets. ``ht" refers to $H_{T}$, the scalar sum of transverse momenta in the event. ``bloose" refers to a loose $b$-tagging requirement applied to the jet. ``a10r" refers to anti-$k_{T}$ jets with $R = 1.0$. The numbers at the end are the thresholds on the given quantity in $\GeV$.}
   \label{fig:trig_eff_4b}
 \end{figure}
+
+
 
 \section{Event reconstruction}
 
