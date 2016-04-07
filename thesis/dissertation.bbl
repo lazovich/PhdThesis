@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{97}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -640,5 +640,11 @@ Michal Czakon and Alexander Mitov.
 \newblock {Top++: A Program for the Calculation of the Top-Pair Cross-Section
   at Hadron Colliders}.
 \newblock 2011.
+
+\bibitem[Krohn et~al.(2010)Krohn, Thaler, and Wang]{Trimming}
+D.~Krohn, J.~Thaler, and L.-T. Wang.
+\newblock {Jet Trimming}.
+\newblock \emph{JHEP}, 02:\penalty0 084, 2010.
+\newblock \doi{10.1007/JHEP02(2010)084}.
 
 \end{thebibliography}

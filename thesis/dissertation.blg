@@ -76,45 +76,45 @@ Warning--empty author in btag-calib
 Warning--empty journal in a14tune
 Warning--there's a number but no volume in a14tune
 Warning--empty journal in TopPP
-You've used 96 entries,
+You've used 97 entries,
             2481 wiz_defined-function locations,
-            1172 strings with 19885 characters,
-and the built_in function-call counts, 32462 in all, are:
-= -- 2806
-> -- 1437
+            1179 strings with 19983 characters,
+and the built_in function-call counts, 32834 in all, are:
+= -- 2837
+> -- 1458
 < -- 76
-+ -- 617
-- -- 417
-* -- 2435
-:= -- 5323
-add.period$ -- 356
-call.type$ -- 96
-change.case$ -- 185
-chr.to.int$ -- 88
-cite$ -- 145
-duplicate$ -- 1731
-empty$ -- 3005
-format.name$ -- 542
-if$ -- 6848
++ -- 625
+- -- 423
+* -- 2466
+:= -- 5386
+add.period$ -- 360
+call.type$ -- 97
+change.case$ -- 187
+chr.to.int$ -- 89
+cite$ -- 146
+duplicate$ -- 1750
+empty$ -- 3038
+format.name$ -- 549
+if$ -- 6926
 int.to.chr$ -- 9
-int.to.str$ -- 97
-missing$ -- 82
-newline$ -- 555
-num.names$ -- 263
-pop$ -- 665
+int.to.str$ -- 98
+missing$ -- 83
+newline$ -- 561
+num.names$ -- 266
+pop$ -- 671
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 97
 quote$ -- 0
-skip$ -- 1001
+skip$ -- 1011
 stack$ -- 0
-substring$ -- 1074
-swap$ -- 217
+substring$ -- 1085
+swap$ -- 219
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 657
+type$ -- 664
 warning$ -- 40
-while$ -- 236
+while$ -- 239
 width$ -- 0
-write$ -- 1350
+write$ -- 1365
 (There were 2 error messages)

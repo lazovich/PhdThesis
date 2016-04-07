@@ -90,9 +90,27 @@ This analysis is done on $3.2 \ifb$ of data taken in $2015$ at $\sqrt{s} = 13 \T
   \label{fig:trig_eff_4b}
 \end{figure}
 
-
-
 \section{Event reconstruction}
+
+The boosted selection first begins by defining a unique set of objects that can be exploited to increase signal efficiency in the kinematic regime where the final state $b$-jets are very merged. 
+
+\subsection{Large radius ($R = 1.0$)\, jets}
+
+The first step towards reconstructing the final state is to define objects that can be used to measure the kinematics of the Higgs bosons. In the boosted selection anti-$k_{T}$ jets with a radius parameter of $1.0$ are used. These jets is much larger in angular size than the typical $R=0.4$ jets and are intended to encompass both jets resulting from the Higgs decay\footnote{This is in contrast to the resolved selection, which uses two $R=0.4$ anti-$k_{T}$ jets for each Higgs}. The jets are built from clusters in the calorimeter calibrated with local calibration weighting~\cite{JetCalib}. 
+
+Because of the large extent of these jets, great care must be taken to remove potential contrubutions of calorimeter clusters from pile-up. This is done using a technique called jet trimming~\cite{Trimming}. With trimming, the constituents of the large radius jet are re-clustered with a smaller radius with the $k_{T}$ algorithm. Then, these so-called subjets are removed from the larger jet if $p_{T}^{\rm subjet}/p_{T}^{\rm jet} < f_{\rm cut}$. In this analysis, the subjet radius is $R = 0.2$ and $f_{\rm cut} = 0.05$. Trimming has been shown to improve the mass resolution of large radius jets. Figure~\ref{fig:trimming} shows the effect of trimming on the large radius jet mass ($\MJ$). Because the large radius jet fully contains the higgs decay products, its invariant mass should correspond to the $125 \GeV$ mass of the Higgs. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/Trimmed_Mass}
+  \caption{}
+  \label{fig:trimming}
+\end{figure}
+
 
 \section{Event selection}
 
