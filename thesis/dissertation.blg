@@ -75,45 +75,46 @@ Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
 Warning--empty journal in a14tune
 Warning--there's a number but no volume in a14tune
-You've used 91 entries,
+Warning--empty journal in TopPP
+You've used 96 entries,
             2481 wiz_defined-function locations,
-            1142 strings with 19198 characters,
-and the built_in function-call counts, 30674 in all, are:
-= -- 2653
-> -- 1352
-< -- 73
-+ -- 583
-- -- 393
-* -- 2305
-:= -- 5030
-add.period$ -- 338
-call.type$ -- 91
-change.case$ -- 175
-chr.to.int$ -- 83
-cite$ -- 139
-duplicate$ -- 1637
-empty$ -- 2837
-format.name$ -- 510
-if$ -- 6467
+            1172 strings with 19885 characters,
+and the built_in function-call counts, 32462 in all, are:
+= -- 2806
+> -- 1437
+< -- 76
++ -- 617
+- -- 417
+* -- 2435
+:= -- 5323
+add.period$ -- 356
+call.type$ -- 96
+change.case$ -- 185
+chr.to.int$ -- 88
+cite$ -- 145
+duplicate$ -- 1731
+empty$ -- 3005
+format.name$ -- 542
+if$ -- 6848
 int.to.chr$ -- 9
-int.to.str$ -- 92
-missing$ -- 77
-newline$ -- 527
-num.names$ -- 248
-pop$ -- 629
+int.to.str$ -- 97
+missing$ -- 82
+newline$ -- 555
+num.names$ -- 263
+pop$ -- 665
 preamble$ -- 1
-purify$ -- 91
+purify$ -- 96
 quote$ -- 0
-skip$ -- 946
+skip$ -- 1001
 stack$ -- 0
-substring$ -- 1004
-swap$ -- 208
+substring$ -- 1074
+swap$ -- 217
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 622
-warning$ -- 39
-while$ -- 222
+type$ -- 657
+warning$ -- 40
+while$ -- 236
 width$ -- 0
-write$ -- 1281
+write$ -- 1350
 (There were 2 error messages)

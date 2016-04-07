@@ -1,6 +1,6 @@
 \begin{savequote}[75mm]
-If you can snap two chicken necks in a single motion, why use two motions to slaughter those chickens?
-\qauthor{Dwight Schrute}
+Passion is in all great searches and is necessary to all creative endeavors.
+\qauthor{W. Eugene Smith}
 \end{savequote}
 
 \chapter{Search for Higgs pair production in boosted $\FourB$ final states}
@@ -8,7 +8,7 @@ If you can snap two chicken necks in a single motion, why use two motions to sla
 
 \section{Introduction}
 
-After the discovery of the Higgs boson in the ATLAS Run 1 dataset and the subsequent measurements of its properties, the Higgs transformed into a potential tool in searches for physics beyond the Standard Model. The pair production cross section of the Higgs can be enhanced through BSM physics. Studying di-Higgs production also probes the Higgs self-coupling, shedding light on the structure of the Higgs potential. This chapter presents a search for resonant production of a Higgs pair in the $\FourBfull$ final state in $3.2 \ifb$ of data collected at $\sqrt{s} = 13 \TeV$. In particular, this chapter focuses on a search for this final state in the regime where $m_{X}$ is large ($\gtrsim 1 \TeV$) and the Higgs bosons in the decay are significantly boosted. A tailored selection for this boosted selection, using novel techniques in jet substructure and $b$-tagging, is discussed. Then, the data-driven background estimate is presented. Finally, the results of the search are shown. The signal models used as benchmarks are a spin-$2$ Rnadall Sundrum graviton (RSG) and a narrow width spin-$0$ resonance in the two Higgs Doublet Model (2HDM). These models are described in more detail in Chapter 1. Limits on signal models are reserved for the next chapter where the results of this chapter are combined with the results of a separate selection dedicated to the lower $m_X$ regime. 
+After the discovery of the Higgs boson in the ATLAS Run 1 dataset and the subsequent measurements of its properties, the Higgs transformed into a potential tool in searches for physics beyond the Standard Model. The pair production cross section of the Higgs can be enhanced through BSM physics. Studying di-Higgs production also probes the Higgs self-coupling, shedding light on the structure of the Higgs potential. This chapter presents a search for resonant production of a Higgs pair in the $\FourBfull$ final state in $3.2 \ifb$ of data collected at $\sqrt{s} = 13 \TeV$. In particular, this chapter focuses on a search for this final state in the regime where $m_{X}$ is large ($\gtrsim 1 \TeV$) and the Higgs bosons in the decay are significantly boosted. A tailored selection for this boosted selection, using novel techniques in jet substructure and $b$-tagging, is discussed. Then, the data-driven background estimate is presented. Finally, the results of the search are shown. The signal models used as benchmarks are a spin-$2$ Rnadall Sundrum graviton (RSG) and a narrow width spin-$0$ resonance. These models are described in more detail in Chapter 1. Limits on signal models are reserved for the next chapter where the results of this chapter are combined with the results of a separate selection dedicated to the lower $m_X$ regime. 
 
 \section{Motivation}
 
@@ -61,9 +61,19 @@ Figure~\ref{fig:bb_dr} shows the minimum $\Delta R$ between truth level $B$ deca
 
 \subsection{Signal models}
 
-While the resonance search is by its nature generic (as it is a simple search for a peak in the $4b$ invariant mass spectrum), there are two signal models that the selection requirements have been optimized for. The first is  Randall-Sundrum (RSG) model, where a tower of massive spin-$2$ Kaluza-Klein gravitons is predicted. The second is a heavy narrow spin-$0$ resonance, the so-called ``heavy Higgs". This benchmark model is a two Higgs doublet model (2HDM). More details about the physics of these models and their motivation is given in chapter 1. 
+While the resonance search is by its nature generic (as it is a simple search for a peak in the $4b$ invariant mass spectrum), there are two signal models that the selection requirements have been optimized for. The first is  Randall-Sundrum (RSG) model, where a tower of massive spin-$2$ Kaluza-Klein gravitons is predicted. The second is a heavy narrow spin-$0$ resonance, the so-called ``heavy Higgs". This type of resonance arises, for example, in the two Higgs doublet model (2HDM). More details about the physics of these models and their motivation is given in chapter 1. 
 
-Signal graviton ($\Gkk$) events are generated at leading order (LO) with \MADGRAPH $5$ v$2.2.2$~\cite{MG5aMCatNLO}. The PDF set used is the \NNPDF 2.3 LO set~\cite{nnpdf}. For modeling parton shower and hadronization in jets, \PYTHIA $8.186$ is used with the A$14$ tune~\cite{pythia8,a14tune}. The free parameters in the RSG model are the graviton mass and the coupling constant $k/\bar{M}_{\rm Pl}$\footnote{$k$ is the curvature constant for the warped extra dimension and $\bar{M}_{\rm Pl}$ is the Planck mass divided by $8\pi$}. 
+Signal graviton ($\Gkk$) events are generated at leading order (LO) with \MADGRAPH 5 v$2.2.2$~\cite{MG5aMCatNLO}. The PDF set used is the \NNPDF 2.3 LO set~\cite{nnpdf}. For modeling parton shower and hadronization in jets, \PYTHIA $8.186$ is used with the A$14$ tune~\cite{pythia8,a14tune}. The free parameters in the RSG model are the graviton mass and the coupling constant $c \equiv k/\bar{M}_{\rm Pl}$\footnote{$k$ is the curvature constant for the warped extra dimension and $\bar{M}_{\rm Pl}$ is the Planck mass divided by $8\pi$}. Both the production cross section and width of the graviton are proportional to $c^2$. Samples are generated at both $c = 1$ and $c = 2$ for a variety of mass points between $300 \GeV$ and $3 \TeV$. 
+
+The second signal sample is a heavy spin-$0$ resonance $H$ with a fixed width of $\Gamma_H = 1 \GeV$. This is generated with \MADGRAPH 5 and uses the \CT10 PDF set~\cite{ct10}. The parton shower and hadronization are handled by \HERWIG++ with the \CTEQ6L1 PDF set and the UEEE5 event tune~\cite{HerwigPP,cteq,UEEE5}. Because the width and branching ratios depend on 2HDM parameters, each mass point generated with this fixed width corresponds to a different point in the 2HDM parameter phase space. Mass points are generated between $300 \GeV$ and $1 \TeV$ as with the RSG signal samples. 
+
+\subsection{Background samples}
+
+While the dominant QCD multijet background is estimated with a fully data-driven method, the sub-dominant backgrounds $t\bar{t}$ and $Z$+jets are modeled with some input from simulation.
+
+$\ttbar$ events are simulated at next-to-leading order (NLO) with the \POWHEGBOX version 1 generator using the \CT10 PDF set~\cite{PowhegBox}. The parton shower, hadronization, and underlying event are simulated with \PYTHIA 6.428 with the \CTEQ6L1 PDF set~\cite{pythia6}. The Perugia 2012 tune is used~\cite{Perugia2012}. NNLO QCD corrections to the cross sections are computed in Top++ 2.0~\cite{TopPP}. The top quark mass is set to $172.5 \GeV$. The shapes of distributions in $\ttbar$ are taken from MC while the normalization is taken from data.
+
+Finally, the $Z$+jets background is simulated with \PYTHIA $8.186$ and the \NNPDF 2.3 LO PDF set. This background is negligible compared to the others and is taken fully from MC. 
 
 \subsection{Data sample and trigger}
 
