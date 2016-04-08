@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{102}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -189,6 +189,13 @@ Baojia~(Tony) Tong.
 {Flavor Tagging with Track Jets in Boosted Topologies with the ATLAS Detector}.
 \newblock Technical Report ATL-PHYS-PUB-2014-013, CERN, Geneva, Aug 2014.
 \newblock URL \url{https://cds.cern.ch/record/1750681}.
+
+\bibitem[4bc(2016)]{4bconf}
+{Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$ final
+  state using proton-proton collisions at $\sqrt{s} = 13$ TeV with the ATLAS
+  detector}.
+\newblock Technical Report ATLAS-CONF-2016-017, CERN, Geneva, Mar 2016.
+\newblock URL \url{https://cds.cern.ch/record/2141006}.
 
 \bibitem[Tully(2011)]{Tully}
 Christopher~G. Tully.

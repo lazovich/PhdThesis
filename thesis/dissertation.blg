@@ -15,6 +15,7 @@ A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/chapter7.aux
 A level-1 auxiliary file: chapters/conclusion.aux
+A level-1 auxiliary file: chapters/appendixA.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
@@ -53,6 +54,7 @@ Warning--empty note in HH_BR
 Warning--empty note in Tony
 Warning--empty year in Tony
 Warning--empty author in TrackJets
+Warning--empty author in 4bconf
 Warning--empty publisher in Tully
 Warning--empty author in HH_LHC
 Warning--empty title in HH_LHC
@@ -79,45 +81,45 @@ Warning--there's a number but no volume in a14tune
 Warning--empty journal in TopPP
 Warning--empty journal in BoostedW
 Warning--empty author in BoostedHiggs
-You've used 101 entries,
+You've used 102 entries,
             2481 wiz_defined-function locations,
-            1200 strings with 20633 characters,
-and the built_in function-call counts, 33895 in all, are:
-= -- 2940
+            1206 strings with 20877 characters,
+and the built_in function-call counts, 34120 in all, are:
+= -- 2965
 > -- 1480
-< -- 80
-+ -- 640
+< -- 81
++ -- 642
 - -- 429
-* -- 2546
-:= -- 5544
-add.period$ -- 373
-call.type$ -- 101
-change.case$ -- 195
-chr.to.int$ -- 92
-cite$ -- 155
-duplicate$ -- 1817
-empty$ -- 3145
+* -- 2567
+:= -- 5574
+add.period$ -- 376
+call.type$ -- 102
+change.case$ -- 197
+chr.to.int$ -- 93
+cite$ -- 158
+duplicate$ -- 1832
+empty$ -- 3168
 format.name$ -- 559
-if$ -- 7154
+if$ -- 7203
 int.to.chr$ -- 10
-int.to.str$ -- 102
+int.to.str$ -- 103
 missing$ -- 85
-newline$ -- 582
+newline$ -- 587
 num.names$ -- 272
-pop$ -- 698
+pop$ -- 703
 preamble$ -- 1
-purify$ -- 101
+purify$ -- 102
 quote$ -- 0
-skip$ -- 1049
+skip$ -- 1057
 stack$ -- 0
-substring$ -- 1104
-swap$ -- 229
-text.length$ -- 14
+substring$ -- 1107
+swap$ -- 232
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 692
-warning$ -- 43
+type$ -- 699
+warning$ -- 44
 while$ -- 244
 width$ -- 0
-write$ -- 1419
+write$ -- 1433
 (There were 2 error messages)
