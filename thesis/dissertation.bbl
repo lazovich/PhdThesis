@@ -1,4 +1,4 @@
-\begin{thebibliography}{97}
+\begin{thebibliography}{99}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -184,6 +184,11 @@ J~Alison.
 \bibitem[Tong()]{Tony}
 Baojia~(Tony) Tong.
 \newblock Private communication.
+
+\bibitem[Tra(2014)]{TrackJets}
+{Flavor Tagging with Track Jets in Boosted Topologies with the ATLAS Detector}.
+\newblock Technical Report ATL-PHYS-PUB-2014-013, CERN, Geneva, Aug 2014.
+\newblock URL \url{https://cds.cern.ch/record/1750681}.
 
 \bibitem[Tully(2011)]{Tully}
 Christopher~G. Tully.
@@ -646,5 +651,11 @@ D.~Krohn, J.~Thaler, and L.-T. Wang.
 \newblock {Jet Trimming}.
 \newblock \emph{JHEP}, 02:\penalty0 084, 2010.
 \newblock \doi{10.1007/JHEP02(2010)084}.
+
+\bibitem[Boo(2015)]{BoostedHiggs}
+{Expected Performance of Boosted Higgs ($\rightarrow b\bar{b}$) Boson
+  Identification with the ATLAS Detector at $\sqrt{s} = 13$ TeV}.
+\newblock Technical Report ATL-PHYS-PUB-2015-035, CERN, Geneva, Aug 2015.
+\newblock URL \url{https://cds.cern.ch/record/2042155}.
 
 \end{thebibliography}

@@ -98,7 +98,7 @@ The boosted selection first begins by defining a unique set of objects that can 
 
 The first step towards reconstructing the final state is to define objects that can be used to measure the kinematics of the Higgs bosons. In the boosted selection anti-$k_{T}$ jets with a radius parameter of $1.0$ are used. These jets is much larger in angular size than the typical $R=0.4$ jets and are intended to encompass both jets resulting from the Higgs decay\footnote{This is in contrast to the resolved selection, which uses two $R=0.4$ anti-$k_{T}$ jets for each Higgs}. The jets are built from clusters in the calorimeter calibrated with local calibration weighting~\cite{JetCalib}. 
 
-Because of the large extent of these jets, great care must be taken to remove potential contrubutions of calorimeter clusters from pile-up. This is done using a technique called jet trimming~\cite{Trimming}. With trimming, the constituents of the large radius jet are re-clustered with a smaller radius with the $k_{T}$ algorithm. Then, these so-called subjets are removed from the larger jet if $p_{T}^{\rm subjet}/p_{T}^{\rm jet} < f_{\rm cut}$. In this analysis, the subjet radius is $R = 0.2$ and $f_{\rm cut} = 0.05$. Trimming has been shown to improve the mass resolution of large radius jets. Figure~\ref{fig:trimming} shows the effect of trimming on the large radius jet mass ($\MJ$). Because the large radius jet fully contains the higgs decay products, its invariant mass should correspond to the $125 \GeV$ mass of the Higgs. 
+Because of the large extent of these jets, great care must be taken to remove potential contrubutions of calorimeter clusters from pile-up. This is done using a technique called jet trimming~\cite{Trimming}. With trimming, the constituents of the large radius jet are re-clustered with a smaller radius with the $k_{T}$ algorithm. Then, these so-called subjets are removed from the larger jet if $p_{T}^{\rm subjet}/p_{T}^{\rm jet} < f_{\rm cut}$. In this analysis, the subjet radius is $R = 0.2$ and $f_{\rm cut} = 0.05$. Trimming has been shown to improve the mass resolution of large radius jets. Figure~\ref{fig:trimming} shows the effect of trimming on the large radius jet mass ($\MJ$). Because the large radius jet fully contains the higgs decay products, its invariant mass should correspond to the $125 \GeV$ mass of the Higgs. The trimming algorithm brings the jet mass much closer to the expected Higgs mass and improves the mass resolution. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -107,7 +107,7 @@ Because of the large extent of these jets, great care must be taken to remove po
 
   %\hspace*{-32pt}
   \includegraphics[width=0.6\textwidth]{figures/Trimmed_Mass}
-  \caption{}
+  \caption{Comparison of untrimmed and trimmed jet masses for large radius jets in a RSG sample with $m_{\Gkk} = 1 \TeV$. JES (JMS) refers to the standard jet energy (mass) scale calibration for ATLAS~\cite{JetCalib}.}
   \label{fig:trimming}
 \end{figure}
 
@@ -115,7 +115,22 @@ The large radius jets are required to satisfy $250 < \pt < 1500 \GeV$.  They mus
 
 \subsection{Track jets and $b$-tagging}
 
+Because the $b$-jets from boosted Higgs decays are so close together (as illustrated in figure~\ref{fig:bb_dr}), narrow radius jets are required to fully resolve both $b$-jets. The minimum radius feasible for jets based on calorimeter deposits is determined by the calorimeter granularity. However, because $b$-tagging relies on information from the inner detector, it is possible to define another type of jet that can have a smaller radius and better $b$-tagging resolution. These jets are called ``track jets"~\cite{TrackJets,BoostedHiggs}.
 
+Track jets are formed by applying the usual anti-$k_{T}$ clustering algorithm to tracks that are required to be consistent with the primary vertex. After the jet axis has been determined using these tracks, a second step of track association is also performed to add tracks that can be useful for $b$-tagging~\cite{TrackJets}. In this analysis, the tracks are clustered with a radius parameter of $R = 0.2$. This radius has been shown to give good performance in boosted Higgs tagging~\cite{TrackJets,BoostedHiggs}. Figure~\ref{fig:rcomp} shows a comparison among different track jet radii of the efficiency for reconstructing two $b$-jets from each Higgs in a RSG sample as a function of mass. Track jets with radius of $0.2$ give the best performance, especially at high mass. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/TrackJet_RComp}
+  \caption{Efficiency of finding two $b$-jets from each Higgs in an RSG event using calorimeter jets with $R=0.3$ or different track jet radii~\cite{TrackJets}}
+  \label{fig:rcomp}
+\end{figure}
+
+In this analysis, track jets are required to have $p_{T} > 10 \GeV$ and $|\eta| < 2.5$. They must also have at least two tracks. 
 
 \section{Event selection}
 
