@@ -173,9 +173,9 @@ The final set of requirements ensures that the Higgs candidates are consistent w
 
 The mass values in the $\Xhh$ formula are optimized to maximize signal efficiency. The sub-leading jet typically has a lower mass due to semi-leptonic $b$ decays and final state radiation. $\Xhh$ effectively acts as a $\chi^2$ measurement of the consistency of the two Higgs candidate masses with the signal hypothesis. The denominators of each term ($0.1M$) give the uncertainty on the mass measurement for the large radius jets. Events are required to satisfy $\Xhh < 1.6$. 
 
-The last requirement applied is on the number of $b$-tagged track jets. There are two signal regions defined. The first requires exactly four $b$-tagged track jets, two in each Higgs candidate. At high resonance masses, this requirement is inefficient, so an additional signal region requiring only three $b$-tagged track jets is also defined. While this has a larger background it is also more efficient for high resonance masses.
+The last requirement applied is on the number of $b$-tagged track jets. There are two signal regions defined. The first requires exactly four $b$-tagged track jets, two in each Higgs candidate (known as the $4b$ signal region). At high resonance masses, this requirement is inefficient, so an additional signal region requiring only three $b$-tagged track jets is also defined (known as the $3b$ signal region). While this has a larger background it is also more efficient for high resonance masses. For both signal regions, threshold on MV2 score is chosen such that the algorithm is $77\%$ efficiency in finding true $b$-jets. Different working points were tested and this was found to be optimal. Appendix~\ref{AppendixA} has more details on this optimization. 
 
-Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a function of mass for both the RSG and narrow heavy scalar resonance signal models. After $m_{X} > 1 \TeV$, the efficiency of the $4b$ requirement begins to decline. After $m_{X} > 2 \TeV$, the efficiency of requiring two track jets in each Higgs candidate begins to decline as well. Both of these behaviors illustrate the difficulty of reoslving the merged decay products at high mass.
+Before making the requirement on $\Xhh$, the masses of the Higgs candidates are corrected for semi-leptonic $b$ decays using muons with the criteria outlined in the previous section. Any muons within a $\Delta R < 0.2$ of a $b$-tagged track jet have their four-momenta added to the four-momentum of the Higgs candidate. This correction does not affect the pre-selection requirements but does affect the $\Xhh$ requirement and the final invariant mass distribution used. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -196,6 +196,23 @@ Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a funct
    \caption{Acceptance $\times$ efficiency as a function of mass for (a) RSG and (b) narrow heavy scalar signal models~\cite{4bconf}.}
   \label{fig:4beff}
 \end{figure}
+
+Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a function of mass for both the RSG and narrow heavy scalar resonance signal models. After $m_{X} > 1 \TeV$, the efficiency of the $4b$ requirement begins to decline. After $m_{X} > 2 \TeV$, the efficiency of requiring two track jets in each Higgs candidate begins to decline as well. Both of these behaviors illustrate the difficulty of reoslving the merged decay products at high mass.
+
+Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficiency in the $3b$ vs $4b$ signal regions for the RSG model. The efficiencies shown here are relative to all prior selection requirements. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.5\textwidth]{figures/3bvs4b_eff}
+  \caption{Efficiency of requiring $3$ or $4\,$ $b$-tagged track jets vs. RSG mass. The efficiency quoted is relative to the previous selection requirements (rather than an absolute efficiency). }
+  \label{fig:3bvs4b}
+\end{figure}
+
+The final discriminating variable used in the boosted analysis is $M_{JJ}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/m_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. 
 
 \section{Data-driven background estimation}
 
