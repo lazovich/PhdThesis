@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -663,5 +663,11 @@ D.~Krohn, J.~Thaler, and L.-T. Wang.
   Identification with the ATLAS Detector at $\sqrt{s} = 13$ TeV}.
 \newblock Technical Report ATL-PHYS-PUB-2015-035, CERN, Geneva, Aug 2015.
 \newblock URL \url{https://cds.cern.ch/record/2042155}.
+
+\bibitem[Cacciari and Salam(2008)]{GhostAssociation}
+Matteo Cacciari and Gavin~P. Salam.
+\newblock {Pileup subtraction using jet areas}.
+\newblock \emph{Phys. Lett. B}, 659:\penalty0 119, 2008.
+\newblock \doi{10.1016/j.physletb.2007.09.077}.
 
 \end{thebibliography}
