@@ -132,7 +132,8 @@
 \contentsline {subsection}{\numberline {7.3.2}Background samples}{132}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}Data sample and trigger}{132}{subsection.7.3.3}
 \contentsline {section}{\numberline {7.4}Event reconstruction}{133}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Large radius ($R = 1.0$) jets}{133}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.1}Large radius ($R = 1.0$)\tmspace +\thinmuskip {.1667em} jets}{133}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Track jets and $b$-tagging}{135}{subsection.7.4.2}
 \contentsline {section}{\numberline {7.5}Event selection}{135}{section.7.5}
 \contentsline {section}{\numberline {7.6}Data-driven background estimation}{135}{section.7.6}
 \contentsline {section}{\numberline {7.7}Systematic uncertainties}{135}{section.7.7}
