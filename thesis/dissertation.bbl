@@ -1,4 +1,4 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{100}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -651,6 +651,12 @@ D.~Krohn, J.~Thaler, and L.-T. Wang.
 \newblock {Jet Trimming}.
 \newblock \emph{JHEP}, 02:\penalty0 084, 2010.
 \newblock \doi{10.1007/JHEP02(2010)084}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{c}})]{BoostedW}
+{ATLAS Collaboration}.
+\newblock {Identification of Boosted, Hadronically Decaying W Bosons and
+  Comparisons with ATLAS Data Taken at $\sqrt{s} = 8$ TeV}.
+\newblock 2015{\natexlab{c}}.
 
 \bibitem[Boo(2015)]{BoostedHiggs}
 {Expected Performance of Boosted Higgs ($\rightarrow b\bar{b}$) Boson

@@ -90,7 +90,7 @@ This analysis is done on $3.2 \ifb$ of data taken in $2015$ at $\sqrt{s} = 13 \T
   \label{fig:trig_eff_4b}
 \end{figure}
 
-\section{Event reconstruction}
+\section{Event reconstruction and object selection}
 
 The boosted selection first begins by defining a unique set of objects that can be exploited to increase signal efficiency in the kinematic regime where the final state $b$-jets are very merged. 
 
@@ -111,7 +111,7 @@ Because of the large extent of these jets, great care must be taken to remove po
   \label{fig:trimming}
 \end{figure}
 
-The large radius jets are required to satisfy $250 < \pt < 1500 \GeV$.  They must also be within $|\eta| < 2.0$ in order to ensure that the full jet is within the inner detector tracking volume. Finally, they are required to have $\MJ > 50 \GeV$. 
+The large radius jets are required to satisfy $250 < \pt < 1500 \GeV$.  They must also be within $|\eta| < 2.0$ in order to ensure that the full jet is within the inner detector tracking volume. Finally, they are required to have $\MJ > 50 \GeV$. The upper $\pT$ cut and lower threshold on mass are applied to correspond to the kinematic range where uncertainties are available in ATLAS calibrations~\cite{BoostedW,BoostedHiggs}.
 
 \subsection{Track jets and $b$-tagging}
 
@@ -131,6 +131,30 @@ Track jets are formed by applying the usual anti-$k_{T}$ clustering algorithm to
 \end{figure}
 
 In this analysis, track jets are required to have $p_{T} > 10 \GeV$ and $|\eta| < 2.5$. They must also have at least two tracks. 
+
+\subsection{Muons}
+
+Muons are used in this study to correct the four-momenta of calorimeter jets by accounting for semi-leptonic $b$ decays. The muons used are combined ID and MS muons which must satisfy tight identification requirements~\cite{MuonReco}. The muons must have $\pT > 4 \GeV$ and $|\eta| < 2.5$. Table~\ref{tab:4b_req} summarizes the object requirements described in this section.
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+& $R$ & $\pT $ & $|\eta|$ & $M$ \\ \hline
+Calorimeter jets & $1.0$ & $250 < \pT < 1500 \GeV$ & $ < 2.0$ & $ > 50 \GeV$ \\ \hline
+Track jets & $0.2$ & $> 10 \GeV$ & $< 2.5$ & - \\ \hline
+Muons & - & $4 \GeV$ & $< 2.5$ & - \\ \hline
+\end{tabular}
+
+\caption{
+Summary of requirements on objects used in the $\FourBfull$ search
+}
+\label{tab:4b_req}
+\end{table}
 
 \section{Event selection}
 

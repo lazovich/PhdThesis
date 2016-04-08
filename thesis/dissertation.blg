@@ -77,46 +77,47 @@ Warning--empty author in btag-calib
 Warning--empty journal in a14tune
 Warning--there's a number but no volume in a14tune
 Warning--empty journal in TopPP
+Warning--empty journal in BoostedW
 Warning--empty author in BoostedHiggs
-You've used 99 entries,
+You've used 100 entries,
             2481 wiz_defined-function locations,
-            1189 strings with 20345 characters,
-and the built_in function-call counts, 33284 in all, are:
-= -- 2887
-> -- 1458
-< -- 78
-+ -- 629
-- -- 423
-* -- 2508
-:= -- 5446
-add.period$ -- 366
-call.type$ -- 99
-change.case$ -- 191
+            1192 strings with 20480 characters,
+and the built_in function-call counts, 33543 in all, are:
+= -- 2908
+> -- 1465
+< -- 79
++ -- 634
+- -- 425
+* -- 2521
+:= -- 5487
+add.period$ -- 369
+call.type$ -- 100
+change.case$ -- 193
 chr.to.int$ -- 91
-cite$ -- 152
-duplicate$ -- 1780
-empty$ -- 3084
-format.name$ -- 549
-if$ -- 7024
-int.to.chr$ -- 9
-int.to.str$ -- 100
-missing$ -- 83
-newline$ -- 571
-num.names$ -- 266
-pop$ -- 681
+cite$ -- 154
+duplicate$ -- 1798
+empty$ -- 3112
+format.name$ -- 552
+if$ -- 7078
+int.to.chr$ -- 10
+int.to.str$ -- 101
+missing$ -- 84
+newline$ -- 576
+num.names$ -- 269
+pop$ -- 692
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 100
 quote$ -- 0
-skip$ -- 1027
+skip$ -- 1037
 stack$ -- 0
-substring$ -- 1091
-swap$ -- 225
+substring$ -- 1093
+swap$ -- 227
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 678
-warning$ -- 42
-while$ -- 239
+type$ -- 685
+warning$ -- 43
+while$ -- 241
 width$ -- 0
-write$ -- 1393
+write$ -- 1404
 (There were 2 error messages)
