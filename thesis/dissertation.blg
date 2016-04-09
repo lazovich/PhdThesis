@@ -61,6 +61,8 @@ Warning--empty title in HH_LHC
 Warning--empty journal in HH_LHC
 Warning--empty year in HH_LHC
 Warning--empty year in HH_LHC
+Warning--empty note in Qi
+Warning--empty year in Qi
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
 Warning--empty title in Glashow2
@@ -81,45 +83,45 @@ Warning--there's a number but no volume in a14tune
 Warning--empty journal in TopPP
 Warning--empty journal in BoostedW
 Warning--empty author in BoostedHiggs
-You've used 102 entries,
+You've used 103 entries,
             2481 wiz_defined-function locations,
-            1206 strings with 20877 characters,
-and the built_in function-call counts, 34120 in all, are:
-= -- 2965
-> -- 1480
-< -- 81
-+ -- 642
-- -- 429
-* -- 2567
-:= -- 5574
-add.period$ -- 376
-call.type$ -- 102
-change.case$ -- 197
-chr.to.int$ -- 93
-cite$ -- 158
-duplicate$ -- 1832
-empty$ -- 3168
-format.name$ -- 559
-if$ -- 7203
+            1209 strings with 20888 characters,
+and the built_in function-call counts, 34329 in all, are:
+= -- 2983
+> -- 1487
+< -- 82
++ -- 646
+- -- 431
+* -- 2579
+:= -- 5612
+add.period$ -- 378
+call.type$ -- 103
+change.case$ -- 199
+chr.to.int$ -- 94
+cite$ -- 161
+duplicate$ -- 1844
+empty$ -- 3185
+format.name$ -- 562
+if$ -- 7242
 int.to.chr$ -- 10
-int.to.str$ -- 103
+int.to.str$ -- 104
 missing$ -- 85
-newline$ -- 587
-num.names$ -- 272
-pop$ -- 703
+newline$ -- 591
+num.names$ -- 275
+pop$ -- 711
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 103
 quote$ -- 0
-skip$ -- 1057
+skip$ -- 1064
 stack$ -- 0
-substring$ -- 1107
-swap$ -- 232
+substring$ -- 1109
+swap$ -- 233
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 699
-warning$ -- 44
-while$ -- 244
+type$ -- 706
+warning$ -- 46
+while$ -- 246
 width$ -- 0
-write$ -- 1433
+write$ -- 1442
 (There were 2 error messages)
