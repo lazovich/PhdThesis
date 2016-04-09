@@ -139,10 +139,12 @@
 \contentsline {section}{\numberline {7.6}Data-driven background estimation}{139}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Mass region definitions}{140}{subsection.7.6.1}
 \contentsline {subsection}{\numberline {7.6.2}Background estimation}{140}{subsection.7.6.2}
-\contentsline {section}{\numberline {7.7}Systematic uncertainties}{142}{section.7.7}
-\contentsline {section}{\numberline {7.8}Results}{142}{section.7.8}
-\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{143}{chapter.8}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{144}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{145}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{146}{Appendix.1.A}
-\contentsline {chapter}{References}{154}{chapter*.124}
+\contentsline {subsection}{\numberline {7.6.3}Background shape fit}{143}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{144}{subsection.7.6.4}
+\contentsline {section}{\numberline {7.7}Systematic uncertainties}{144}{section.7.7}
+\contentsline {section}{\numberline {7.8}Results}{144}{section.7.8}
+\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{145}{chapter.8}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{146}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{147}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{148}{Appendix.1.A}
+\contentsline {chapter}{References}{156}{chapter*.126}

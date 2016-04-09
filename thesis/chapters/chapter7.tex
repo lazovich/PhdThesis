@@ -334,6 +334,58 @@ The $\ttbar$ scale factor ($\beta_{\ttbar}$) and the QCD multijet extrapolation 
   \label{fig:4b_bkg_cartoon}
 \end{figure}
 
+In the $3b$ region, the fit yields values of $\muM = 0.160 \pm 0.03$ and $\beta_{\ttbar} = 1.02 \pm 0.09$. In the $4b$ region, the fit gives $\muM = 0.0091 \pm 0.0007$ and $\beta_{\ttbar} = 0.82 \pm 0.39$. The uncertainties quoted are statistical only. The larger uncertainties in the $4b$ values indicate the lower statistics available in that region. 
+
+Figure~\ref{fig:4b_sideband} shows the distributions of data and background estimates in the $3b$ and $4b$ sideband regions after the background fit has been done. The normalizations are constrained from the fit to match that of the data, but good modeling of the shape of the mass of the leading large-R jet is seen as well. The shapes of the kinematic distributions in the $4b$ region are taken from the $3b$ region due to the better MC statistics in that region. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/3b_sideband}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/4b_sideband}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Leading large-R jet mass in the $3b$ (a) and $4b$ (b) sideband regions. The multijet and $\ttbar$ backgrounds are estimated using the data-driven methods described above. Because their normalizations are derived in the sideband region, the total background normalization is constrained by default to match the normalization of the data~\cite{4bconf}.}
+  \label{fig:4b_sideband}
+\end{figure}
+
+\subsection{Background shape fit}
+
+As mentioned in the previous section, the background shape in the $3$-tag and $4$-tag signal regions is taken from the $2$-tag signal mass region. Due to the limited statistics available, the background shapes are additionally smoothed after being extrapolated to the $3$-tag and $4$-tag signal regions. Only the data in the range $900 < M_{JJ} < 2000 \GeV$ is included in the fit due to the limited statistics available above $2 \TeV$. Both the $\ttbar$ and QCD multijet background are independently fit with an exponential shape, $y = e^{ax+b}$. Other shapes are considered and used for the systematic uncertainties. Table~\ref{tab:shape_fit} shows the fit values for the parameters. Because both the $3b$ and $4b$ QCD shapes come from the $2$-tag region, the slopes derived are very similar. 
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+
+%\begin{tabular*}{0.480\textwidth}{p{0.075\textwidth} p{0.180\textwidth} l}
+\hspace{-10pt}
+\begin{tabular}{|c|c|c|}
+\hline
+ & $a$ & $b$ \\ \hline
+QCD ($4b$) & $0.00545 \pm 0.00021$ & $5.44 \pm 0.24$ \\ 
+$\ttbar$\,($4b$) & $0.00746 \pm 0.00021$ & $4.88 \pm 0.36$ \\ \hline
+QCD ($3b$) & $0.00545 \pm 0.00021$ & $8.30 \pm 0.24$ \\ 
+$\ttbar$\,($3b$) & $0.00746 \pm 0.00021$ & $8.58 \pm 0.36$ \\ \hline
+\end{tabular}
+\caption{
+Parameters derived for exponential fit to background $M_{JJ}$ shape in the $3b$ and $4b$ signal regions~\cite{Qi}
+}
+\label{tab:shape_fit}
+\end{table}
+
+\subsection{Validation of background estimate}
+
+
+
 \section{Systematic uncertainties}
 
 \section{Results}
