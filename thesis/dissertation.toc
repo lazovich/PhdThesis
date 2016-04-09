@@ -137,10 +137,11 @@
 \contentsline {subsection}{\numberline {7.4.3}Muons}{136}{subsection.7.4.3}
 \contentsline {section}{\numberline {7.5}Event selection}{136}{section.7.5}
 \contentsline {section}{\numberline {7.6}Data-driven background estimation}{139}{section.7.6}
-\contentsline {section}{\numberline {7.7}Systematic uncertainties}{139}{section.7.7}
-\contentsline {section}{\numberline {7.8}Results}{139}{section.7.8}
-\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{140}{chapter.8}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{141}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{142}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{143}{Appendix.1.A}
-\contentsline {chapter}{References}{151}{chapter*.120}
+\contentsline {subsection}{\numberline {7.6.1}Mass region definitions}{139}{subsection.7.6.1}
+\contentsline {section}{\numberline {7.7}Systematic uncertainties}{140}{section.7.7}
+\contentsline {section}{\numberline {7.8}Results}{140}{section.7.8}
+\contentsline {chapter}{\numberline {8}Combined results of boosted and resolved searches}{141}{chapter.8}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{142}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{143}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{144}{Appendix.1.A}
+\contentsline {chapter}{References}{152}{chapter*.121}

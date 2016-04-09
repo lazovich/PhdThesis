@@ -212,7 +212,7 @@ Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficienc
   \label{fig:3bvs4b}
 \end{figure}
 
-The final discriminating variable used in the boosted analysis is $M_{JJ}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/m_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. 
+The final discriminating variable used in the boosted analysis is $M_{JJ}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/M_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. 
 
 Table~\ref{tab:4bcutflow} shows the effect of the selection requirements on signal and background simulations as well as data. 
 
@@ -246,6 +246,30 @@ Effect of boosted selection on data, RSG signal models, $\ttbar$, and $Z$+jets. 
 
 \section{Data-driven background estimation}
 \label{sec:dd4b}
+
+The largest background to this final state is QCD multijet production, constituting $80$-$90$\% of the total background. Because of the difficulties in modeling higher order QCD processes, this background is estimated with a fully data-driven method. The only other non-negligible background is $\ttbar$, contituting the other $10$-$20$\%. Due to the presence of $\ttbar$ in the sideband region where the QCD background will be estimated, the normalization of the QCD and $\ttbar$ backgrounds are simultaneously estimated. 
+
+\subsection{Mass region definitions}
+
+The first step in the data-driven background estimate is to define a sideband mass region where the background normalization can be derived. Additionally, a control region is defined where the background estimate can be validated. The control (CR) and sideband (SB) regions are defined using a radial distance in the two-dimensional large-R jet mass plane, $\Rhh$, which is defined in equation~\ref{eqn:Rhh}.
+
+\begin{equation}
+\label{eqn:Rhh}
+\Rhh = \sqrt{\left(M_{J}^{\rm lead} - 124 \GeV\right)^2 + \left(M_{J}^{\rm sublead} - 115 \GeV\right)^2}
+\end{equation}
+
+Events in the sideband region are required to fail the signal region $\Xhh < 1.6$ requirement and have $\Rhh > 35.8 \GeV$. The control region consists of those events which are not in the signal or sideband regions. Figure~\ref{fig:MassRegions} shows the definition of the signal, control, and sideband mass regions.
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=0.6\textwidth]{figures/MassRegions}
+  \caption{$M_{J}^{\rm sublead}$ vs. $M_{J}^{\rm lead}$ in a $2\,b$-tag data sample. The signal region is defined by the inner black contour ($\Xhh < 1.6$) and the sideband region is defined by the outer contour ($\Rhh > 35.8 \GeV$). The region between the black contours is the control region. The mass region which is enriched in $\ttbar$ background is also shown for illustration.~\cite{4bconf}}
+  \label{fig:MassRegions}
+\end{figure}
 
 \section{Systematic uncertainties}
 

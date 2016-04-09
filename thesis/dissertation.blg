@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
+Case mismatch error between cite keys 4bConf and 4bconf
+---line 81 of file dissertation.aux
+ : \citation{4bConf
+ :                 }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
@@ -124,4 +129,4 @@ warning$ -- 46
 while$ -- 246
 width$ -- 0
 write$ -- 1442
-(There were 2 error messages)
+(There were 3 error messages)
