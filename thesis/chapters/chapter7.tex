@@ -223,7 +223,7 @@ Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficienc
   \label{fig:3bvs4b}
 \end{figure}
 
-The final discriminating variable used in the boosted analysis is $M_{JJ}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/M_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. 
+The final discriminating variable used in the boosted analysis is $M_{2J}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/M_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. 
 
 Table~\ref{tab:4bcutflow} shows the effect of the selection requirements on signal and background simulations as well as data. 
 
@@ -321,7 +321,7 @@ In this equation, $N_{\rm bkg}^{\rm 3(4)-tag}$ is the expected number of backgro
 \muM = \frac{N_{\rm Multijet}^{\rm 3(4)-tag, SB}}{N_{\rm Multijet}^{\rm 2-tag, SB}} = \frac{N_{\rm data}^{\rm 3(4)-tag, SB} - \beta_{\ttbar} N_{\ttbar}^{\rm 3(4)-tag, SB} - N_{Z+ \rm jets}^{\rm 3(4)-tag, SB}}{N_{\rm data}^{\rm 2-tag, SB} - \beta_{\ttbar} N_{\ttbar}^{\rm 2-tag, SB} - N_{Z+ \rm jets}^{\rm 2-tag, SB}}
 \end{equation}
 
-The $\ttbar$ scale factor ($\beta_{\ttbar}$) and the QCD multijet extrapolation factor ($\muM$) are estimated together in a simultaneous fit in the sideband region. Then, the number of events in the $2$-tag signal region is used, along with the $\ttbar$ estimate in the $3b$ and $4b$ signal regions and $\muM$, to estimate the total number of background events in the two final signal regions. The shape of the final discriminant $M_{JJ}$ is also taken from the $2$-tag signal region where there are more statistics. This method is illustrated graphically in figure~\ref{fig:4b_bkg_cartoon}.
+The $\ttbar$ scale factor ($\beta_{\ttbar}$) and the QCD multijet extrapolation factor ($\muM$) are estimated together in a simultaneous fit in the sideband region. Then, the number of events in the $2$-tag signal region is used, along with the $\ttbar$ estimate in the $3b$ and $4b$ signal regions and $\muM$, to estimate the total number of background events in the two final signal regions. The shape of the final discriminant $M_{2J}$ is also taken from the $2$-tag signal region where there are more statistics. This method is illustrated graphically in figure~\ref{fig:4b_bkg_cartoon}.
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -360,7 +360,7 @@ Figure~\ref{fig:4b_sideband} shows the distributions of data and background esti
 
 \subsection{Background shape fit}
 
-As mentioned in the previous section, the background shape in the $3$-tag and $4$-tag signal regions is taken from the $2$-tag signal mass region. Due to the limited statistics available, the background shapes are additionally smoothed after being extrapolated to the $3$-tag and $4$-tag signal regions. Only the data in the range $900 < M_{JJ} < 2000 \GeV$ is included in the fit due to the limited statistics available above $2 \TeV$. Both the $\ttbar$ and QCD multijet background are independently fit with an exponential shape, $y = e^{ax+b}$. Other shapes are considered and used for the systematic uncertainties. Table~\ref{tab:shape_fit} shows the fit values for the parameters. Because both the $3b$ and $4b$ QCD shapes come from the $2$-tag region, the slopes derived are very similar. 
+As mentioned in the previous section, the background shape in the $3$-tag and $4$-tag signal regions is taken from the $2$-tag signal mass region. Due to the limited statistics available, the background shapes are additionally smoothed after being extrapolated to the $3$-tag and $4$-tag signal regions. Only the data in the range $900 < M_{2J} < 2000 \GeV$ is included in the fit due to the limited statistics available above $2 \TeV$. Both the $\ttbar$ and QCD multijet background are independently fit with an exponential shape, $y = e^{ax+b}$. Other shapes are considered and used for the systematic uncertainties. Table~\ref{tab:shape_fit} shows the fit values for the parameters. Because both the $3b$ and $4b$ QCD shapes come from the $2$-tag region, the slopes derived are very similar. 
 
 \begin{table}[h!]
 \centering
@@ -377,13 +377,34 @@ QCD ($3b$) & $0.00545 \pm 0.00021$ & $8.30 \pm 0.24$ \\
 $\ttbar$\,($3b$) & $0.00746 \pm 0.00021$ & $8.58 \pm 0.36$ \\ \hline
 \end{tabular}
 \caption{
-Parameters derived for exponential fit to background $M_{JJ}$ shape in the $3b$ and $4b$ signal regions~\cite{Qi}
+Parameters derived for exponential fit to background $M_{2J}$ shape in the $3b$ and $4b$ signal regions~\cite{Qi}
 }
 \label{tab:shape_fit}
 \end{table}
 
 \subsection{Validation of background estimate}
 
+The background estimate can be validated by using the method to estimate the number of events in the control mass region rather than the signal mass region. Figure~\ref{fig:4b_control} shows the $M_{2J}$ distribution in the $3b$ and $4b$ control regions, comparing data and background estimates. In both cases, both the background shape and normalization are consistent with the data, indicating good agreement. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/3b_control}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/4b_control}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Di-jet invariant mass ($M_{2J}$) in the $3b$ (a) and $4b$ (b) control regions. The multijet and $\ttbar$ backgrounds are estimated using the data-driven methods described above~\cite{4bconf}.}
+  \label{fig:4b_control}
+\end{figure}
 
 
 \section{Systematic uncertainties}
