@@ -158,9 +158,20 @@ Summary of requirements on objects used in the $\FourBfull$ search
 
 \section{Event selection}
 
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  %\hspace*{-32pt}
+  \includegraphics[width=\textwidth]{figures/Boosted_HH_cartoon}
+  \caption{Illustration of the boosted selection requirements on Higgs candidates. Each large-radius calorimeter jet (Higgs candidate) must contain two track jets}
+  \label{fig:BoostedCartoon}
+\end{figure}
+
 The first requirement in the boosted selection is for $\geq 2$ large radius jets satisfying the selections outlined above. The two highest momentum large-R jets in the event are referred to as ``Higgs candidates". The leading jet is required to have $\pT > 350 \GeV$. 
 
-Track jets satisfying the object selections are matched to Higgs candidate jets via ghost association~\cite{GhostAssociation}. Each Higgs candidate must have at least $2$ track jets associated with it.
+Track jets satisfying the object selections are matched to Higgs candidate jets via ghost association~\cite{GhostAssociation}. Each Higgs candidate must have at least $2$ track jets associated with it. These basic requirements are illustrated in figure~\ref{fig:BoostedCartoon}
 
 The QCD multijet background produces less central jets than high mass resonances, so there is an additional requirement that the two Higgs candidates be close together in $\eta$. The large-R jets are required to satisfy $|\Delta\eta(JJ)| < 1.7$. 
 
@@ -247,7 +258,7 @@ Effect of boosted selection on data, RSG signal models, $\ttbar$, and $Z$+jets. 
 \section{Data-driven background estimation}
 \label{sec:dd4b}
 
-The largest background to this final state is QCD multijet production, constituting $80$-$90$\% of the total background. Because of the difficulties in modeling higher order QCD processes, this background is estimated with a fully data-driven method. The only other non-negligible background is $\ttbar$, contituting the other $10$-$20$\%. Due to the presence of $\ttbar$ in the sideband region where the QCD background will be estimated, the normalization of the QCD and $\ttbar$ backgrounds are simultaneously estimated. 
+The largest background to this final state is QCD multijet production, constituting $80$-$90$\% of the total background. Because of the difficulties in modeling higher order QCD processes, this background is estimated with a fully data-driven method. The only other non-negligible background is $\ttbar$, contituting the other $10$-$20$\%\footnote{The $Z$+jets background is a sub-percent level contribution}.  Due to the presence of $\ttbar$ in the sideband region where the QCD background will be estimated, the normalization of the QCD and $\ttbar$ backgrounds are simultaneously estimated. 
 
 \subsection{Mass region definitions}
 
@@ -293,6 +304,25 @@ Mass region definitions used for background estimation
 }
 \label{tab:MassRegions}
 \end{table}
+
+\subsection{Background estimation}
+
+The method for estimating the background in this analysis is similar to the ABCD method presented in Chapter 5. In this case, the two handles used to define different regions for the estimate are the number of $b$-tagged track jets and the mass regions. A region requiring exactly two $b$-tagged track jets in one large-R jet (referred to as the $2$-tag or $2b$ region) is defined for use in the background estimate. The number of expected background events in the $3b$ and $4b$ signal regions is then given by equation~\ref{eqn:4b_bkg}.
+
+\begin{equation}
+\label{eqn:4b_bkg}
+N_{\rm bkg}^{\rm 3(4)-tag, SR} = \muM N_{\rm Multijet}^{\rm 2-tag, SR} + \beta_{\ttbar} N_{\ttbar}^{\rm 3(4)-tag, SR} + N_{Z+ \rm jets}^{\rm 3(4)-tag, SR}
+\end{equation}
+
+In this equation, $N_{\rm bkg}^{\rm 3(4)-tag}$ is the expected number of background events in the $3b$ or $4b$ signal regions. $N_{\rm Multijet}^{\rm 2-tag}$ is the number of multijet events in the $2$-tag region. $N_{\ttbar}^{\rm 3(4)-tag}$ is the number of $\ttbar$ events predicted in the MC for the $3b$ or $4b$ signal region, and the variable is similarly defined for the $Z$+jets background. The $\beta_{\ttbar}$ parameter is a scale factor used to correct the normalization of the $\ttbar$ estimate in the signal region. $\muM$ is an extrapolation factor that is derived in the sideband region and used to estimate the ratio of $2$-tag events to $3$($4$)-tag events in the signal region. It is defined in equation~\ref{eqn:4bmu}.
+
+\begin{equation}
+\label{eqn:4bmu}
+\muM = \frac{N_{\rm Multijet}^{\rm 3(4)-tag, SB}}{N_{\rm Multijet}^{\rm 2-tag, SB}} = \frac{N_{\rm data}^{\rm 3(4)-tag, SB} - \beta_{\ttbar} N_{\ttbar}^{\rm 3(4)-tag, SB} - N_{Z+ \rm jets}^{\rm 3(4)-tag, SB}}{N_{\rm data}^{\rm 2-tag, SB} - \beta_{\ttbar} N_{\ttbar}^{\rm 2-tag, SB} - N_{Z+ \rm jets}^{\rm 2-tag, SB}}
+\end{equation}
+
+The $\ttbar$ scale factor ($\beta_{\ttbar}$) and the QCD multijet extrapolation factor ($\muM$) are estimated together in a simultaneous fit in the sideband region. Then, the number of events in the $2$-tag signal region is used, along with the $\ttbar$ estimate in the $3b$ and $4b$ signal regions and $\muM$, to estimate the total number of background events in the two final signal regions. The shape of the final discriminant $M_{JJ}$ is also taken from the $2$-tag signal region where there are more statistics. This method is illustrated graphically in figure~\ref{fig:4b_bkg_cartoon.}
+
 
 \section{Systematic uncertainties}
 
