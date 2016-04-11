@@ -522,6 +522,38 @@ Table~\ref{tab:BoostedSyst} shows the systematic uncertainties on the signal nor
 \end{center}
 \end{table}
 
+\subsection{Background uncertainties}
+
+Uncertainties on the QCD multijet background normalization and shape are estimated using the control mass region. As shown previously, the background predictions in the control region match with the data yields within the statistical uncertainty in both the $3$-tag and $4$-tag control regions. As an additional protection, the statistical uncertainty on the background prediction in the control region is assigned as a systmeatic uncertainty on the normalization of the QCD background. 
+
+Additional robustness tests are done by varying the defintion of the control mass region and the $b$-tagging requirements used to define the $2$-tag sample. In all cases, the effect of the variations is found to be within the statistical uncertainties on the backgorund normalization in the control region. 
+
+Shape uncertainties on the background are evaluated using two techniques. First, as shown in figure~\ref{fig:4b_control}, the ratio between the data and background prediction is fit with a linear function. The uncertainties on the slope of this fit are assigned as shape uncertainties. An additional uncertainty is assigned by using alternate power law fit functions for the smoothing of the background shape. Table~\ref{tab:SystFunctions} shows the alternate shapes used. The largest difference between the nominal fit function and the alternates, taking into account the $1\sigma$ uncertainty band on each fit as well, is taken as a shape uncertainty. 
+
+\begin{table}[htbp!]
+\begin{center} 
+\begin{tabular}{|c|}
+%\footnotesize
+\hline
+Functional Form \\
+\hline
+$f_{1}(x) = p_0 (1-x)^{p_1} x^{p_2}$ \\
+$f_{2}(x) = p_0 (1-x)^{p_1} e^{p_2\ x^2}$ \\
+$f_{3}(x) = p_0 (1-x)^{p_1} x^{p_2\ x}$ \\
+$f_{4}(x) = p_0 (1-x)^{p_1} x^{p_2\ ln\ x}$ \\
+$f_{5}(x) = p_0 (1-x)^{p_1} (1+x)^{p_2\ x}$ \\
+$f_{6}(x) = p_0 (1-x)^{p_1} (1+x)^{p_2\ ln\ x}$ \\
+$f_{7}(x) = \frac{p_0}{x} (1-x)^{p_1 - p_2\ ln\ x}$ \\
+$f_{8}(x) = \frac{p_0}{x^2} (1-x)^{p_1 - p_2\ ln\ x}$ \\
+\hline
+\end{tabular}
+\caption{Alternate fit functions used to model the $M_{JJ}$ distribution in the QCD multijet background. In the equations, $x = M_{JJ} / \sqrt{s}$.}
+\label{tab:SystFunctions}
+\end{center}
+\end{table}
+
+The uncertainties on the $\ttbar$ background are obtained by propagating the various experimental variations (JES, JER, JMS, JMR, $b$-tagging) through the analysis selection requirements. Table~\ref{tab:BoostedSyst} summarizes the background uncertainties in the $3$-tag and $4$-tag regions. 
+
 
 
 \section{Results}
