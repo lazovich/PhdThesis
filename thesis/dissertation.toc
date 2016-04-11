@@ -147,7 +147,8 @@
 \contentsline {section}{\numberline {7.8}Results}{148}{section.7.8}
 \contentsline {chapter}{\numberline {8}Combined limits from boosted and resolved searches}{150}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{150}{section.8.1}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{152}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{153}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{154}{Appendix.1.A}
-\contentsline {chapter}{References}{163}{chapter*.132}
+\contentsline {section}{\numberline {8.2}Resolved results}{151}{section.8.2}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{153}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{154}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{155}{Appendix.1.A}
+\contentsline {chapter}{References}{164}{chapter*.134}
