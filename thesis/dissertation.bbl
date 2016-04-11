@@ -1,4 +1,4 @@
-\begin{thebibliography}{103}
+\begin{thebibliography}{106}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -621,10 +621,10 @@ Richard~D. Ball et~al.
 \newblock {Parton distributions with LHC data}.
 \newblock \emph{Nucl. Phys. B}, 867:\penalty0 244, 2013.
 
-\bibitem[{ATLAS Collaboration}(2014)]{a14tune}
+\bibitem[{ATLAS Collaboration}(2014{\natexlab{a}})]{a14tune}
 {ATLAS Collaboration}.
 \newblock {ATLAS Run 1 Pythia8 tunes}.
-\newblock \penalty0 (ATL-PHYS-PUB-2014-021), Nov 2014.
+\newblock \penalty0 (ATL-PHYS-PUB-2014-021), Nov 2014{\natexlab{a}}.
 \newblock URL \url{https://cds.cern.ch/record/1966419}.
 
 \bibitem[Bahr et~al.(2008)]{HerwigPP}
@@ -680,5 +680,24 @@ Matteo Cacciari and Gavin~P. Salam.
 \newblock {Pileup subtraction using jet areas}.
 \newblock \emph{Phys. Lett. B}, 659:\penalty0 119, 2008.
 \newblock \doi{10.1016/j.physletb.2007.09.077}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{d}})]{LargeRUncert}
+{ATLAS Collaboration}.
+\newblock {Identification of boosted, hadronically-decaying $W$ and $Z$ bosons
+  in $\sqrt{s} = 13$ TeV Monte Carlo Simulations for ATLAS}.
+\newblock \penalty0 (ATL-PHYS-PUB-2015-033), Aug 2015{\natexlab{d}}.
+\newblock URL \url{https://cds.cern.ch/record/2041461}.
+
+\bibitem[{ATLAS Collaboration}(2014{\natexlab{b}})]{BtagCalib1}
+{ATLAS Collaboration}.
+\newblock {Calibration of $b$-tagging using dileptonic top pair events in a
+  combinatorial likelihood approach with the ATLAS experiment}.
+\newblock \penalty0 (ATLAS-CONF-2014-004), 2014{\natexlab{b}}.
+\newblock URL \url{http://cds.cern.ch/record/1664335}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{e}})]{BtagPaper}
+{ATLAS Collaboration}.
+\newblock {Performance of $b$-Jet Identification in the ATLAS Experiment}.
+\newblock 2015{\natexlab{e}}.
 
 \end{thebibliography}

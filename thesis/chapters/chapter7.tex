@@ -415,27 +415,27 @@ Table~\ref{tab:4b_control} shows the yields in data and background estimates in 
  Sample (3-tag) & Sideband Region       & Control Region  \\ 
 \midrule
 %Multijet        & 4327.9 $\pm$ 26.9     & 607.3  $\pm$  10.1  \\
-Multijet        & 4328   $\pm$ 27       & 607  $\pm$  10  \\
-$\ttbar$          & 683.5  $\pm$ 8.1      & 99.6 $\pm$  3.1 \\
-$Z$+jets        & 31.8   $\pm$ 3.7      & 7.7  $\pm$  1.8 \\
+Multijet        & $4328   \pm 27$       & $607  \pm  10$  \\
+$\ttbar$          & $683.5  \pm 8.1$      & $99.6 \pm  3.1$ \\
+$Z$+jets        & $31.8   \pm 3.7$      & $7.7  \pm  1.8$ \\
 \midrule
 %Total           & 5043.2 $\pm$ 28.3     & 714.6$\pm$  10.7 \\
-Total           & 5043 $\pm$ 28     & 715$\pm$  11 \\
+Total           & $5043 \pm 28$     & $715\pm  11$ \\
 \midrule
-Data            & 5043                  & 724     \\  
+Data            & $5043$                  & $724$     \\  
 \toprule
   Sample (4-tag) & Sideband Region      & Control Region  \\ 
 \midrule
 %Multijet         & 247.4 $\pm$ 1.5      & 34.71  $\pm$  0.58 \\
 %\ttbar           & 28.4  $\pm$ 1.5      & 5.08   $\pm$  0.67 \\
 %$Z$+jets         & 3.4   $\pm$ 1.2      & 0.55   $\pm$  0.45  \\
-Multijet         & 247.4 $\pm$ 1.5      & 34.7  $\pm$  0.6 \\
-$\ttbar$           & 28.4  $\pm$ 1.5      & 5.1   $\pm$  0.7 \\
-$Z$+jets         & 3.4   $\pm$ 1.2      & 0.6   $\pm$  0.5  \\
+Multijet         & $247.4 \pm 1.5$      & $34.7  \pm  0.6$ \\
+$\ttbar$           & $28.4  \pm 1.5$      & $5.1   \pm  0.7$ \\
+$Z$+jets         & $3.4   \pm 1.2$      & $0.6   \pm  0.5$  \\
 \midrule
-Total            & 279.2 $\pm$ 2.5      & 40.3  $\pm$  1.0  \\
+Total            & $279.2 \pm 2.5$     & $40.3  \pm  1.0$  \\
 \midrule
-Data             & 279                  & 45     \\ 
+Data             & $279$                  & $45$     \\ 
 \bottomrule
 \end{tabular}
 \caption{The number of events in data and predicted background events in the boosted $3$-tag and $4$-tag sideband and control
@@ -445,6 +445,82 @@ Data             & 279                  & 45     \\
 \end{table}
 
 \section{Systematic uncertainties}
+
+The systematic uncertainties in this analysis can be divided into two broad categories. The first type is uncertainties associated with the modeling of the signal processes. The second type of uncertainty is associated with both the shape and normalization of the background prediction. 
+
+\subsection{Signal modeling uncertainties}
+
+The signal modeling uncertainty has three main components: theoretical uncertainty on the acceptance, experimental uncertainties on the large-R jets, and experimental uncertainties on the track jets related to $b$-tagging. In this analysis the experimental uncertainties are the most significant. 
+
+The first uncertainty on signal modeling is the theoretical uncertainty on the acceptance. As explained in section~\ref{sec:theory_uncert_WW}, there are four components to this uncertainty. The first is related to missing higher order terms from the matrix element calculations which is estimated by varying the QCD renormalization and factorization scales. The second is uncertainty due to the PDF set used. The third is a generator uncertainty which is estimated by modifying the generator used to model the underlying event and hadronization. Finally, there is an uncertainty associated with the modeling of the initial state and final state radiation (ISR/FSR). The total theoretical uncertainty on the signal yield is $3\%$, and this is dominated by the ISR/FSR modeling.
+
+There are uncertainties on the large-R jets in both the jet energy scale (JES) and jet energy resolution (JER) as well as the jet mass scale (JMS) and jet mass resolution (JMR). These are evaluated using $\sqrt{s} = 8 \TeV$ data from Run $1$ of ATLAS and extrapolated to the Run $2$ beam and detector conditions using MC\footnote{The uncertainties are correspondingly larger due to the uncertainty of this extrapolation.}. The details of these uncertainties can be found in reference~\cite{LargeRUncert}. 
+
+Uncertainties on the track jets are related to the $b$-tagging efficiency. The total uncertainty on the signal yield due to $b$-tagging is evaluated by propagating variations of the $b$-tagging efficiency through the boosted selection requirements. The uncertainties are calculated jet-by-jet and paramaterized as a function of $b$-jet $\pT$ and $\eta$~\cite{BtagCalib1}. For high $\pT$ $b$-jets (with $\pT > 300 \GeV$), the uncertainties are extrapolated using MC simulation from the lower $\pT$ $b$-jets~\cite{BtagPaper}. 
+
+Table~\ref{tab:BoostedSyst} shows the systematic uncertainties on the signal normalization for models with $m_{\Gkk} = 1.5 \TeV$ and both $c = 1$ and $c = 2$ as well as a narrow width heavy scalar. The dominant uncertainty comes from $b$-tagging and this uncertainty is larger in the $4$-tag region than the $3$-tag region. 
+
+\begin{table}[ht!]
+\begin{center} 
+\begin{tabular}{  l  c  c  c  c }
+\toprule
+ Source          & Background    & \multicolumn{2}{c}{$\Gkk$} & $H$ \\
+                 &         & $c = 1$ & $c = 2$  &     \\
+\midrule
+   Luminosity    &  -      &  $5.0$    &  $5.0$    & $5.0$ \\
+\midrule
+                \multicolumn{5}{c}{$3$-tag}  \\
+\midrule
+   JER           &  $<1$   &  $< 1$   &  $<1$   & $< 1$ \\
+   JES           &  $2$    &  $<1$    &  $< 1$    & $<1$ \\
+   JMR           &  $1$    &  $12$   &  $12$   & $11$  \\
+   JMS           &  $5$    &  $14$   &  $13$   & $17$  \\
+   $b$-tagging   &  $1$   &  $23$   &  $22$   & $23$  \\
+   Theoretical   &  -      &  $3$    &  $3$    & $3$ \\
+   Multijet Normalization      &  $3$    &  -      &  -      &  -  \\
+   Statistical     &  $2$    &  $1$      &  $1$      &  $1$  \\
+   \midrule
+   Total         &  $7$    &  $31$   &  $30$   &  $33$ \\
+   %% JER           &  0.4    &  0.6    &  0.4    & 1.0 \\
+   %% JES           &  2.2    &  0.2    &  0.5    & 0.3 \\
+   %% JMR           &  1.1    &  12.0   &  11.6   & 11.6  \\
+   %% JMS           &  4.7    &  13.8   &  12.6   & 17.4  \\
+   %% $b$-tagging   &  0.9    &  22.5   &  21.6   & 23.2  \\
+   %% Theoretical   &  -      &  2.5    &  2.5    & 2.5 \\
+   %% Multijet Normalization      &  3.1    &  -      &  -      &  -  \\
+   %% Statistical    &  2.4    &  0.9      &  0.9      &  1.1  \\
+   %% \midrule
+   %% Total         &  6.7    &  31.0   &  29.7   &  33.1 \\
+\bottomrule
+                \multicolumn{5}{c}{$4$-tag}  \\
+\midrule
+   JER           &  $< 1$    &  $<1$  &  $<1$   & $<1$ \\
+   JES           &  $< 1$    &  $<1$    &  $<1$    & $<1$ \\
+   JMR           &  $4$    &   $12$   &  $13$   & $13$  \\
+   JMS           &  $5$    &  $13$   &  $13$   & $14$  \\
+   $b$-tagging   &  $2$    &  $36$   &  $36$   & $36$  \\
+   Theoretical   &  -      &  $3$    &  $3$    & $3$ \\
+   Multijet Normalization      &  $14$  &  -      &  -      &  -  \\
+   Statistical    &  $3$    &  $1$      &  $1$      &  $1$  \\
+   \midrule
+   Total         &  $15$   &  $42$   &  $42$   & $43$ \\
+   %% JER           &  0.5    &  <0.1   &  0.6    & 0.3 \\
+   %% JES           &  0.6    &  0.3    &  0.5    & 0.2 \\
+   %% JMR           &  3.8    &  11.5   &  13.0   & 12.8  \\
+   %% JMS           &  4.7    &  12.9   &  12.5   & 14.0  \\
+   %% $b$-tagging   &  1.6    &  36.3   &  36.0   & 36.4  \\
+   %% Theoretical   &  -      &  2.5    &  2.5    & 2.5 \\
+   %% Multijet Normalization      &  13.7   &  -      &  -      &  -  \\
+   %% Statistical    &  2.5    &  1.1      &  1.2      &  1.4  \\
+   %% \midrule
+   %% Total         &  15.3   &  41.7   &  41.8   & 42.5 \\
+\bottomrule
+\end{tabular}
+\caption{Summary of systematic uncertainties in the total background and signal event yields (expressed in $\%$) in the boosted $3$-tag and $4$-tag signal regions. Systematic uncertainties on the signal normalization are shown for models with $m_{\Gkk} = 1.5 \TeV$ and both $c = 1$ and $c = 2$ as well as a narrow width heavy scalar.
+}
+\label{tab:BoostedSyst}
+\end{center}
+\end{table}
 
 
 

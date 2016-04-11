@@ -32,6 +32,11 @@ I was expecting a `,' or a `}'---line 546 of file references.bib
  :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+You're missing a field name---line 1356 of file references.bib
+ :       
+ :       %primaryClass   = "hep-ex",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "collinear"
 Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
@@ -83,45 +88,50 @@ Warning--there's a number but no volume in a14tune
 Warning--empty journal in TopPP
 Warning--empty journal in BoostedW
 Warning--empty author in BoostedHiggs
-You've used 103 entries,
+Warning--empty journal in LargeRUncert
+Warning--there's a number but no volume in LargeRUncert
+Warning--empty journal in BtagCalib1
+Warning--there's a number but no volume in BtagCalib1
+Warning--empty journal in BtagPaper
+You've used 106 entries,
             2481 wiz_defined-function locations,
-            1209 strings with 20888 characters,
-and the built_in function-call counts, 34329 in all, are:
-= -- 2983
-> -- 1487
-< -- 82
-+ -- 646
-- -- 431
-* -- 2579
-:= -- 5612
-add.period$ -- 378
-call.type$ -- 103
-change.case$ -- 199
+            1220 strings with 21290 characters,
+and the built_in function-call counts, 35160 in all, are:
+= -- 3054
+> -- 1508
+< -- 85
++ -- 661
+- -- 437
+* -- 2636
+:= -- 5744
+add.period$ -- 389
+call.type$ -- 106
+change.case$ -- 205
 chr.to.int$ -- 94
-cite$ -- 161
-duplicate$ -- 1844
-empty$ -- 3185
-format.name$ -- 562
-if$ -- 7242
-int.to.chr$ -- 10
-int.to.str$ -- 104
-missing$ -- 85
-newline$ -- 591
-num.names$ -- 275
-pop$ -- 711
+cite$ -- 169
+duplicate$ -- 1898
+empty$ -- 3271
+format.name$ -- 571
+if$ -- 7414
+int.to.chr$ -- 13
+int.to.str$ -- 107
+missing$ -- 88
+newline$ -- 608
+num.names$ -- 284
+pop$ -- 740
 preamble$ -- 1
-purify$ -- 103
+purify$ -- 106
 quote$ -- 0
-skip$ -- 1064
+skip$ -- 1089
 stack$ -- 0
-substring$ -- 1109
-swap$ -- 233
+substring$ -- 1115
+swap$ -- 241
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 706
-warning$ -- 46
-while$ -- 246
+type$ -- 727
+warning$ -- 51
+while$ -- 252
 width$ -- 0
-write$ -- 1442
-(There were 2 error messages)
+write$ -- 1481
+(There were 3 error messages)
