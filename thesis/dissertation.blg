@@ -14,6 +14,7 @@ A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/chapter7.aux
+A level-1 auxiliary file: chapters/chapter8.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/appendixA.aux
 The style file: unsrtnat.bst
@@ -95,7 +96,7 @@ Warning--there's a number but no volume in BtagCalib1
 Warning--empty journal in BtagPaper
 You've used 106 entries,
             2481 wiz_defined-function locations,
-            1220 strings with 21290 characters,
+            1221 strings with 21311 characters,
 and the built_in function-call counts, 35160 in all, are:
 = -- 3054
 > -- 1508
