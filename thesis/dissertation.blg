@@ -17,6 +17,7 @@ A level-1 auxiliary file: chapters/chapter7.aux
 A level-1 auxiliary file: chapters/chapter8.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/appendixA.aux
+A level-1 auxiliary file: chapters/appendixB.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
@@ -94,45 +95,45 @@ Warning--there's a number but no volume in LargeRUncert
 Warning--empty journal in BtagCalib1
 Warning--there's a number but no volume in BtagCalib1
 Warning--empty journal in BtagPaper
-You've used 106 entries,
+You've used 107 entries,
             2481 wiz_defined-function locations,
-            1221 strings with 21311 characters,
-and the built_in function-call counts, 35160 in all, are:
-= -- 3054
-> -- 1508
-< -- 85
-+ -- 661
-- -- 437
-* -- 2636
-:= -- 5744
-add.period$ -- 389
-call.type$ -- 106
-change.case$ -- 205
-chr.to.int$ -- 94
-cite$ -- 169
-duplicate$ -- 1898
-empty$ -- 3271
-format.name$ -- 571
-if$ -- 7414
+            1231 strings with 21457 characters,
+and the built_in function-call counts, 35480 in all, are:
+= -- 3084
+> -- 1515
+< -- 86
++ -- 665
+- -- 439
+* -- 2656
+:= -- 5796
+add.period$ -- 393
+call.type$ -- 107
+change.case$ -- 207
+chr.to.int$ -- 95
+cite$ -- 170
+duplicate$ -- 1917
+empty$ -- 3305
+format.name$ -- 574
+if$ -- 7483
 int.to.chr$ -- 13
-int.to.str$ -- 107
-missing$ -- 88
-newline$ -- 608
-num.names$ -- 284
-pop$ -- 740
+int.to.str$ -- 108
+missing$ -- 89
+newline$ -- 614
+num.names$ -- 287
+pop$ -- 746
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 107
 quote$ -- 0
-skip$ -- 1089
+skip$ -- 1100
 stack$ -- 0
-substring$ -- 1115
-swap$ -- 241
+substring$ -- 1129
+swap$ -- 243
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 727
+type$ -- 734
 warning$ -- 51
-while$ -- 252
+while$ -- 255
 width$ -- 0
-write$ -- 1481
+write$ -- 1496
 (There were 3 error messages)

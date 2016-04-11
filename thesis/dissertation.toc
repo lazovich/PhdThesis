@@ -138,10 +138,10 @@
 \contentsline {section}{\numberline {7.5}Event selection}{136}{section.7.5}
 \contentsline {section}{\numberline {7.6}Data-driven background estimation}{139}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Mass region definitions}{140}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Background estimation}{140}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.2}Background estimation}{141}{subsection.7.6.2}
 \contentsline {subsection}{\numberline {7.6.3}Background shape fit}{143}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{143}{subsection.7.6.4}
-\contentsline {section}{\numberline {7.7}Systematic uncertainties}{144}{section.7.7}
+\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{144}{subsection.7.6.4}
+\contentsline {section}{\numberline {7.7}Systematic uncertainties}{145}{section.7.7}
 \contentsline {subsection}{\numberline {7.7.1}Signal modeling uncertainties}{145}{subsection.7.7.1}
 \contentsline {subsection}{\numberline {7.7.2}Background uncertainties}{146}{subsection.7.7.2}
 \contentsline {section}{\numberline {7.8}Results}{148}{section.7.8}
@@ -150,7 +150,10 @@
 \contentsline {section}{\numberline {8.2}Resolved results}{151}{section.8.2}
 \contentsline {section}{\numberline {8.3}Search technique and results}{151}{section.8.3}
 \contentsline {section}{\numberline {8.4}Limit setting}{152}{section.8.4}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{153}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{154}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{155}{Appendix.1.A}
-\contentsline {chapter}{References}{164}{chapter*.134}
+\contentsline {subsection}{\numberline {8.4.1}Limit setting procedure}{153}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Limit setting results}{154}{subsection.8.4.2}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{156}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{157}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{158}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {B}$b$-tagging efficiency at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{159}{Appendix.1.B}
+\contentsline {chapter}{References}{168}{chapter*.135}
