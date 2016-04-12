@@ -223,6 +223,13 @@ Christopher~G. Tully.
 Qi~Zeng.
 \newblock Private communication.
 
+\bibitem[Chatrchyan et~al.(2012)]{CMSDiscovery}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock \emph{Phys. Lett.}, B716:\penalty0 30--61, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
 \newblock \emph{{Introduction to elementary particles}}.
@@ -270,13 +277,6 @@ A.~Salam.
 \bibitem[S.L.~Glashow and Maiani(1970)]{Glashow2}
 J.~Iliopoulos S.L.~Glashow and L.~Maiani.
 \newblock D2:\penalty0 1285, 1970.
-
-\bibitem[Chatrchyan et~al.(2012)]{CMSDiscovery}
-Serguei Chatrchyan et~al.
-\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}.
-\newblock \emph{Phys. Lett.}, B716:\penalty0 30--61, 2012.
-\newblock \doi{10.1016/j.physletb.2012.08.021}.
 
 \bibitem[Ellis et~al.(1996)Ellis, Stirling, and Webber]{QCDBook}
 R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
