@@ -1,4 +1,4 @@
-\chapter{$b$-tagging efficiency at high $p_{T}$}
+\chapter{$b$-tagging performance at high $p_{T}$}
 \label{AppendixB}
 
 One of the limiting factors of the signal acceptance in the $FourBfull$ search at high resonance masses is the degradation of the $b$-tagging efficiency for high $p_{T}$ jets. This appendix presents a study of the underlying causes of this degradation. 
@@ -26,7 +26,86 @@ The degradation of $b$-tagging at high $\pT$ was studied in particular in the co
   \centering
   \captionsetup{justification=centering}
 
-  \includegraphics[width=0.6\textwidth]{figures/TrackJetPt}
-  \caption{$\pT$ distribution for the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models}
+  \includegraphics[width=0.5\textwidth]{figures/TrackJetPt}
+  \caption{$\pT$ of the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models}
   \label{fig:TrackJetPt}
 \end{figure}
+
+Figure~\ref{fig:TrackJetMV2} shows the MV2c20 algorithm score for the leading and subleading track jets inside of the leading calorimeter jet. In both cases, it can be seen that at higher RSG masses the MV2 score shifts towards more background like (negative) values. Additionally, this effect is more pronounced in the leading track jet than the subleading. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrackJet_MV2c20}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/SubleadTrackJet_MV2c20}
+        \caption{}
+    \end{subfigure}
+
+   \caption{MV2c20 score for the leading track jet (a) and subleading track jet (b) of the leading calorimeter jet for different signal masses in RSG $c=1$ models}
+  \label{fig:TrackJetMV2}
+\end{figure}
+
+To understand what is causing this change in the MV2c20 score, the same comparisons can be made for the input variables of MV2c20. The focus in these comparisons will be on the leading track jet as this is the one seen to have the largest difference in MV2 score. Figure~\ref{fig:TrackJetIP3D} shows the log likelihood ratio $\log(p_b/p_u)$ from the IP3D (three dimensional impact parameter) algorithm. At higher masses, the IP3D likelihood ratio distribution does become more background-like. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.5\textwidth]{figures/LeadTrackJet_IP3D}
+  \caption{IP3D log-likehood ratio ($\log(p_b/p_u))$) of the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models}
+  \label{fig:TrackJetIP3D}
+\end{figure}
+%
+Figure~\ref{fig:TrackJetSV1} shows the mass and number of tracks at the secondary vertex computed by the SV1 algorithm. When there is no secondary vertex found, the algorithm assigns a default negative value for these quantities. Both of these distributions show that there is a significantly larger fraction of jets where no secondary vertex is found in the high mass samples compared to the $m_{\Gkk} = 1 \TeV$ sample. The SV1 algorithm's inability to find a secondary vertex could be an important factor in the overall MV2 score shift, as this eliminates eight of the input variables that would normally contribute information to the algorithm. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrackJet_SV1mass}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrackJet_SV1ntrk}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Mass (a) and number of tracks (b) for the secondary vertices computed with the SV1 algorithm. When no secondary vertex is found, the quantiites are assigned to default negative values.}
+  \label{fig:TrackJetSV1}
+\end{figure}
+
+Figure~\ref{fig:TrackJetJF} shows the same quantities for the JetFitter algorithm. In this case, there is also a change in the fraction of jets which have their secondary vertices successfully reconstructed, but this change is not as drastic as that seen in SV1. There is also an increase in the number of jets which have high values of mass. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrackJet_JFmass}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrackJet_JFntrk}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Mass (a) and number of tracks (b) for vertices computed with the JetFitter algorithm. When no vertices are found, the quantiites are assigned to default negative values.}
+  \label{fig:TrackJetJF}
+\end{figure}
+
