@@ -95,45 +95,46 @@ Warning--there's a number but no volume in LargeRUncert
 Warning--empty journal in BtagCalib1
 Warning--there's a number but no volume in BtagCalib1
 Warning--empty journal in BtagPaper
-You've used 107 entries,
+Warning--empty note in CowanSig
+You've used 108 entries,
             2481 wiz_defined-function locations,
-            1231 strings with 21457 characters,
-and the built_in function-call counts, 35480 in all, are:
-= -- 3084
-> -- 1515
-< -- 86
-+ -- 665
-- -- 439
-* -- 2656
-:= -- 5796
-add.period$ -- 393
-call.type$ -- 107
-change.case$ -- 207
-chr.to.int$ -- 95
-cite$ -- 170
-duplicate$ -- 1917
-empty$ -- 3305
-format.name$ -- 574
-if$ -- 7483
+            1236 strings with 21636 characters,
+and the built_in function-call counts, 35709 in all, are:
+= -- 3107
+> -- 1522
+< -- 87
++ -- 669
+- -- 441
+* -- 2669
+:= -- 5839
+add.period$ -- 397
+call.type$ -- 108
+change.case$ -- 209
+chr.to.int$ -- 96
+cite$ -- 172
+duplicate$ -- 1929
+empty$ -- 3322
+format.name$ -- 577
+if$ -- 7527
 int.to.chr$ -- 13
-int.to.str$ -- 108
+int.to.str$ -- 109
 missing$ -- 89
-newline$ -- 614
-num.names$ -- 287
-pop$ -- 746
+newline$ -- 620
+num.names$ -- 290
+pop$ -- 750
 preamble$ -- 1
-purify$ -- 107
+purify$ -- 108
 quote$ -- 0
-skip$ -- 1100
+skip$ -- 1109
 stack$ -- 0
-substring$ -- 1129
-swap$ -- 243
+substring$ -- 1131
+swap$ -- 244
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 734
-warning$ -- 51
-while$ -- 255
+type$ -- 741
+warning$ -- 52
+while$ -- 257
 width$ -- 0
-write$ -- 1496
+write$ -- 1509
 (There were 3 error messages)

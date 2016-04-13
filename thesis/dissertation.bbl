@@ -1,4 +1,4 @@
-\begin{thebibliography}{107}
+\begin{thebibliography}{108}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -705,5 +705,12 @@ Alexander~L. Read.
 \newblock {Presentation of search results: The CL(s) technique}.
 \newblock \emph{J. Phys. G}, 28:\penalty0 2693, 2002.
 \newblock \doi{10.1088/0954-3899/28/10/313}.
+
+\bibitem[{Glen Cowan, Eilam Gross}(2008)]{CowanSig}
+{Glen Cowan, Eilam Gross}.
+\newblock {Discovery significance with statistical uncertainty in the
+  background estimate}.
+\newblock 2008.
+\newblock URL \url{http://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}.
 
 \end{thebibliography}
