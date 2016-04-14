@@ -126,7 +126,7 @@ In the last section, the largest changes in MV2 score were seen for the leading 
 \section{Effect of multiple $b$-quarks inside one jet}
 
 One hypothesis for why the efficiency of $b$-tagging the leading track jet degrades is that at high masses, the $b$ quarks get close enough together that both of them are inside of the leading track jet. Because MV2 is not tuned for tagging multiple $b$ quarks inside one jet, the tagging efficiency could degrade. Figure~\ref{fig:MV2_nb} shows MV2 scores and SV1 mass for cases where there are two $b$ quarks at truth level within the radius of the leading track jet compared to cases where there is only one true $b$\footnote{When two truth $b$ quarks are required in the leading jet, the subleading jet is required to have zero. When one is required for the leading, one is also required for the subleading.}. 
-
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering
@@ -146,11 +146,58 @@ One hypothesis for why the efficiency of $b$-tagging the leading track jet degra
    \caption{MV2c20 score (a) and SV1 mass (b) for leading track jets with two truth $b$ quarks ($n_{\rm tb, lead} = 2$) compared to those with only one truth $b$ ($n_{\rm tb, lead} = 1$).}
   \label{fig:MV2_nb}
 \end{figure}
+%
+This figure suggests that the presence of two $b$-quarks inside the leading jet is not the cause of the degradation in efficiency. There is a change in the shape of the MV2 score distribution, but it is not nearly as pronounced as that seen in~\ref{fig:TrackJetMV2} at higher masses. Additionally, the fraction of jets with no secondary vertex found is nearly identical in the track jets with two truth $b$-quarks. 
 
 \section{Changes in track quality at high $\pT$}
 
-To investigate the change in MV2 score further, individual track quantities within the jet can be compared. 
+Another hypothesis for the degradation of the $b$-tagging efficiency is a decrease in track quality for high $\pT\,b$ jets. One way to check the overall quality of the tracking inside the jet is to investigate quantities related to the leading track inside of the track jet. Figure~\ref{fig:LeadTrack} shows the fit $\chi^2/n_{\rm DOF}$ and number of hits in the pixel detector for the leading track of the leading track jet. 
+%
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
 
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrack_Chi2NDF}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/LeadTrack_NPixhits}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Track fit $\chi^2/n_{\rm DOF}$ (a) and number of pixel detector hits (b) for the leading track of the leading track jet in different mass RSG $c=1$ samples}
+  \label{fig:LeadTrack}
+\end{figure}
+%
+In both cases, the figure shows that in higher mass samples, the quality of the leading track inside of the track jet degrades substantially. The fit quality is lessened and the tracks have less hits in the pixel detector. This is likely due to the fact that at higher $\pT$, the $B$-hadron will sometimes live long enough to miss the IBL and first pixel layer, thus decreasing the number of hits on the track. 
+
+To check whether this is the cause for the shift in the MV2 score and the higher difficulty in reconstructing secondary vertices, jets whose leading track have at least four pixel hits are compared with those whose tracks have less than four pixel hits. The results for the MV2 score and SV1 mass are shown in figure~\ref{fig:Nph_MV2}. 
+%
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Nph_MV2c20}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Nph_SV1mass}
+        \caption{}
+    \end{subfigure}
+
+   \caption{MV2c20 score (a) and SV1 mass (b) for leading track jets whose leading track jet has at least four pixel hits ($N_{\rm pix} \geq 4$) compared to those which do not ($N_{\rm pix} < 4$).}
+  \label{fig:Nph_MV2}
+\end{figure}
+%
+Track jets where the leading track does not have at least four pixel hits are more likely to not have a secondary vertex reconstructed. Additionally, their MV2c20 score is shifted more significantly to background-like values. This seems to confirm the hypothesis that degrading track quality is responsible for the lowered $b$-tagging efficiency at high $\pT$. 
 
 
 
