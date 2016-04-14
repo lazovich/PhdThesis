@@ -98,7 +98,7 @@ The boosted selection first begins by defining a unique set of objects that can 
 
 The first step towards reconstructing the final state is to define objects that can be used to measure the kinematics of the Higgs bosons. In the boosted selection anti-$k_{T}$ jets with a radius parameter of $1.0$ are used. These jets is much larger in angular size than the typical $R=0.4$ jets and are intended to encompass both jets resulting from the Higgs decay\footnote{This is in contrast to the resolved selection, which uses two $R=0.4$ anti-$k_{T}$ jets for each Higgs}. The jets are built from clusters in the calorimeter calibrated with local calibration weighting~\cite{JetCalib}. 
 
-Because of the large extent of these jets, great care must be taken to remove potential contrubutions of calorimeter clusters from pile-up. This is done using a technique called jet trimming~\cite{Trimming}. With trimming, the constituents of the large radius jet are re-clustered with a smaller radius with the $k_{T}$ algorithm. Then, these so-called subjets are removed from the larger jet if $p_{T}^{\rm subjet}/p_{T}^{\rm jet} < f_{\rm cut}$. In this analysis, the subjet radius is $R = 0.2$ and $f_{\rm cut} = 0.05$. Trimming has been shown to improve the mass resolution of large radius jets. Figure~\ref{fig:trimming} shows the effect of trimming on the large radius jet mass ($\MJ$). Because the large radius jet fully contains the higgs decay products, its invariant mass should correspond to the $125 \GeV$ mass of the Higgs. The trimming algorithm brings the jet mass much closer to the expected Higgs mass and improves the mass resolution. 
+Because of the large extent of these jets, great care must be taken to remove potential contributions of calorimeter clusters from pile-up. This is done using a technique called jet trimming~\cite{Trimming}. With trimming, the constituents of the large radius jet are re-clustered with a smaller radius with the $k_{T}$ algorithm. Then, these so-called subjets are removed from the larger jet if $p_{T}^{\rm subjet}/p_{T}^{\rm jet} < f_{\rm cut}$. In this analysis, the subjet radius is $R = 0.2$ and $f_{\rm cut} = 0.05$. Trimming has been shown to improve the mass resolution of large radius jets. Figure~\ref{fig:trimming} shows the effect of trimming on the large radius jet mass ($\MJ$). Because the large radius jet fully contains the higgs decay products, its invariant mass should correspond to the $125 \GeV$ mass of the Higgs. The trimming algorithm brings the jet mass much closer to the expected Higgs mass and improves the mass resolution. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -118,7 +118,7 @@ The large radius jets are required to satisfy $250 < \pt < 1500 \GeV$.  They mus
 Because the $b$-jets from boosted Higgs decays are so close together (as illustrated in figure~\ref{fig:bb_dr}), narrow radius jets are required to fully resolve both $b$-jets. The minimum radius feasible for jets based on calorimeter deposits is determined by the calorimeter granularity. However, because $b$-tagging relies on information from the inner detector, it is possible to define another type of jet that can have a smaller radius and better $b$-tagging resolution. These jets are called ``track jets"~\cite{TrackJets,BoostedHiggs}.
 
 Track jets are formed by applying the usual anti-$k_{T}$ clustering algorithm to tracks that are required to be consistent with the primary vertex. After the jet axis has been determined using these tracks, a second step of track association is also performed to add tracks that can be useful for $b$-tagging~\cite{TrackJets}. In this analysis, the tracks are clustered with a radius parameter of $R = 0.2$. This radius has been shown to give good performance in boosted Higgs tagging~\cite{TrackJets,BoostedHiggs}. Figure~\ref{fig:rcomp} shows a comparison among different track jet radii of the efficiency for reconstructing two $b$-jets from each Higgs in a RSG sample as a function of mass. Track jets with radius of $0.2$ give the best performance, especially at high mass. 
-
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering
@@ -129,7 +129,7 @@ Track jets are formed by applying the usual anti-$k_{T}$ clustering algorithm to
   \caption{Efficiency of finding two $b$-jets from each Higgs in an RSG event using calorimeter jets with $R=0.3$ or different track jet radii~\cite{TrackJets}}
   \label{fig:rcomp}
 \end{figure}
-
+%
 In this analysis, track jets are required to have $p_{T} > 10 \GeV$ and $|\eta| < 2.5$. They must also have at least two tracks. 
 
 \subsection{Muons}
@@ -208,7 +208,7 @@ Before making the requirement on $\Xhh$, the masses of the Higgs candidates are 
   \label{fig:4beff}
 \end{figure}
 
-Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a function of mass for both the RSG and narrow heavy scalar resonance signal models. After $m_{X} > 1 \TeV$, the efficiency of the $4b$ requirement begins to decline. After $m_{X} > 2 \TeV$, the efficiency of requiring two track jets in each Higgs candidate begins to decline as well. Both of these behaviors illustrate the difficulty of reoslving the merged decay products at high mass. More details on the degradation of the $b$-tagging efficiency at high masses are shown in appendix~\ref{AppendixB}. 
+Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a function of mass for both the RSG and narrow heavy scalar resonance signal models. After $m_{X} > 1 \TeV$, the efficiency of the $4b$ requirement begins to decline. After $m_{X} > 2 \TeV$, the efficiency of requiring two track jets in each Higgs candidate begins to decline as well. Both of these behaviors illustrate the difficulty of resolving the merged decay products at high mass. More details on the degradation of the $b$-tagging efficiency at high masses are shown in appendix~\ref{AppendixB}. 
 
 Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficiency in the $3b$ vs $4b$ signal regions for the RSG model. The efficiencies shown here are relative to all prior selection requirements. 
 
@@ -258,7 +258,7 @@ Effect of boosted selection on data, RSG signal models, $\ttbar$, and $Z$+jets. 
 \section{Data-driven background estimation}
 \label{sec:dd4b}
 
-The largest background to this final state is QCD multijet production, constituting $80$-$90$\% of the total background. Because of the difficulties in modeling higher order QCD processes, this background is estimated with a fully data-driven method. The only other non-negligible background is $\ttbar$, contituting the other $10$-$20$\%\footnote{The $Z$+jets background is a sub-percent level contribution}.  Due to the presence of $\ttbar$ in the sideband region where the QCD background will be estimated, the normalization of the QCD and $\ttbar$ backgrounds are simultaneously estimated. 
+The largest background to this final state is QCD multijet production, constituting $80$-$90$\% of the total background. Because of the difficulties in modeling higher order QCD processes, this background is estimated with a fully data-driven method. The only other non-negligible background is $\ttbar$, constituting the other $10$-$20$\%\footnote{The $Z$+jets background is a sub-percent level contribution}.  Due to the presence of $\ttbar$ in the sideband region where the QCD background will be estimated, the normalization of the QCD and $\ttbar$ backgrounds are simultaneously estimated. 
 
 \subsection{Mass region definitions}
 
@@ -270,7 +270,7 @@ The first step in the data-driven background estimate is to define a sideband ma
 \end{equation}
 
 Events in the sideband region are required to fail the signal region $\Xhh < 1.6$ requirement and have $\Rhh > 35.8 \GeV$. The control region consists of those events which are not in the signal or sideband regions. Figure~\ref{fig:MassRegions} shows the definition of the signal, control, and sideband mass regions.
-
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering
@@ -281,7 +281,7 @@ Events in the sideband region are required to fail the signal region $\Xhh < 1.6
   \caption{$M_{J}^{\rm sublead}$ vs. $M_{J}^{\rm lead}$ in a $2\,b$-tag data sample. The signal region is defined by the inner black contour ($\Xhh < 1.6$) and the sideband region is defined by the outer contour ($\Rhh > 35.8 \GeV$). The region between the black contours is the control region. The mass region which is enriched in $\ttbar$ background is also shown for illustration.~\cite{4bconf}}
   \label{fig:MassRegions}
 \end{figure}
-
+%
 Table~\ref{tab:MassRegions} summarizes the mass region selections for the three different regions used in the analysis.
 
 \begin{table}[h!]
@@ -308,19 +308,19 @@ Mass region definitions used for background estimation
 \subsection{Background estimation}
 
 The method for estimating the background in this analysis is similar to the ABCD method presented in Chapter 5. In this case, the two handles used to define different regions for the estimate are the number of $b$-tagged track jets and the mass regions. A region requiring exactly two $b$-tagged track jets in one large-R jet (referred to as the $2$-tag or $2b$ region) is defined for use in the background estimate. The number of expected background events in the $3b$ and $4b$ signal regions is then given by equation~\ref{eqn:4b_bkg}.
-
+%
 \begin{equation}
 \label{eqn:4b_bkg}
 N_{\rm bkg}^{\rm 3(4)-tag, SR} = \muM N_{\rm Multijet}^{\rm 2-tag, SR} + \beta_{\ttbar} N_{\ttbar}^{\rm 3(4)-tag, SR} + N_{Z+ \rm jets}^{\rm 3(4)-tag, SR}
 \end{equation}
-
+%
 In this equation, $N_{\rm bkg}^{\rm 3(4)-tag}$ is the expected number of background events in the $3b$ or $4b$ signal regions. $N_{\rm Multijet}^{\rm 2-tag}$ is the number of multijet events in the $2$-tag region. $N_{\ttbar}^{\rm 3(4)-tag}$ is the number of $\ttbar$ events predicted in the MC for the $3b$ or $4b$ signal region, and the variable is similarly defined for the $Z$+jets background. The $\beta_{\ttbar}$ parameter is a scale factor used to correct the normalization of the $\ttbar$ estimate in the signal region. $\muM$ is an extrapolation factor that is derived in the sideband region and used to estimate the ratio of $2$-tag events to $3$($4$)-tag events in the signal region. It is defined in equation~\ref{eqn:4bmu}.
-
+%
 \begin{equation}
 \label{eqn:4bmu}
 \muM = \frac{N_{\rm Multijet}^{\rm 3(4)-tag, SB}}{N_{\rm Multijet}^{\rm 2-tag, SB}} = \frac{N_{\rm data}^{\rm 3(4)-tag, SB} - \beta_{\ttbar} N_{\ttbar}^{\rm 3(4)-tag, SB} - N_{Z+ \rm jets}^{\rm 3(4)-tag, SB}}{N_{\rm data}^{\rm 2-tag, SB} - \beta_{\ttbar} N_{\ttbar}^{\rm 2-tag, SB} - N_{Z+ \rm jets}^{\rm 2-tag, SB}}
 \end{equation}
-
+%
 The $\ttbar$ scale factor ($\beta_{\ttbar}$) and the QCD multijet extrapolation factor ($\muM$) are estimated together in a simultaneous fit in the sideband region. Then, the number of events in the $2$-tag signal region is used, along with the $\ttbar$ estimate in the $3b$ and $4b$ signal regions and $\muM$, to estimate the total number of background events in the two final signal regions. The shape of the final discriminant $M_{2J}$ is also taken from the $2$-tag signal region where there are more statistics. This method is illustrated graphically in figure~\ref{fig:4b_bkg_cartoon}.
 
 \begin{figure}[h!]
@@ -456,7 +456,7 @@ The first uncertainty on signal modeling is the theoretical uncertainty on the a
 
 There are uncertainties on the large-R jets in both the jet energy scale (JES) and jet energy resolution (JER) as well as the jet mass scale (JMS) and jet mass resolution (JMR). These are evaluated using $\sqrt{s} = 8 \TeV$ data from Run $1$ of ATLAS and extrapolated to the Run $2$ beam and detector conditions using MC\footnote{The uncertainties are correspondingly larger due to the uncertainty of this extrapolation.}. The details of these uncertainties can be found in reference~\cite{LargeRUncert}. 
 
-Uncertainties on the track jets are related to the $b$-tagging efficiency. The total uncertainty on the signal yield due to $b$-tagging is evaluated by propagating variations of the $b$-tagging efficiency through the boosted selection requirements. The uncertainties are calculated jet-by-jet and paramaterized as a function of $b$-jet $\pT$ and $\eta$~\cite{BtagCalib1}. For high $\pT$ $b$-jets (with $\pT > 300 \GeV$), the uncertainties are extrapolated using MC simulation from the lower $\pT$ $b$-jets~\cite{BtagPaper}. 
+Uncertainties on the track jets are related to the $b$-tagging efficiency. The total uncertainty on the signal yield due to $b$-tagging is evaluated by propagating variations of the $b$-tagging efficiency through the boosted selection requirements. The uncertainties are calculated jet-by-jet and parameterized as a function of $b$-jet $\pT$ and $\eta$~\cite{BtagCalib1}. For high $\pT$ $b$-jets (with $\pT > 300 \GeV$), the uncertainties are extrapolated using MC simulation from the lower $\pT$ $b$-jets~\cite{BtagPaper}. 
 
 Table~\ref{tab:BoostedSyst} shows the systematic uncertainties on the signal normalization for models with $m_{\Gkk} = 1.5 \TeV$ and both $c = 1$ and $c = 2$ as well as a narrow width heavy scalar. The dominant uncertainty comes from $b$-tagging and this uncertainty is larger in the $4$-tag region than the $3$-tag region. 
 
@@ -524,9 +524,9 @@ Table~\ref{tab:BoostedSyst} shows the systematic uncertainties on the signal nor
 
 \subsection{Background uncertainties}
 
-Uncertainties on the QCD multijet background normalization and shape are estimated using the control mass region. As shown previously, the background predictions in the control region match with the data yields within the statistical uncertainty in both the $3$-tag and $4$-tag control regions. As an additional protection, the statistical uncertainty on the background prediction in the control region is assigned as a systmeatic uncertainty on the normalization of the QCD background. 
+Uncertainties on the QCD multijet background normalization and shape are estimated using the control mass region. As shown previously, the background predictions in the control region match with the data yields within the statistical uncertainty in both the $3$-tag and $4$-tag control regions. As an additional protection, the statistical uncertainty on the background prediction in the control region is assigned as a systematic uncertainty on the normalization of the QCD background. 
 
-Additional robustness tests are done by varying the defintion of the control mass region and the $b$-tagging requirements used to define the $2$-tag sample. In all cases, the effect of the variations is found to be within the statistical uncertainties on the backgorund normalization in the control region. 
+Additional robustness tests are done by varying the definition of the control mass region and the $b$-tagging requirements used to define the $2$-tag sample. In all cases, the effect of the variations is found to be within the statistical uncertainties on the background normalization in the control region. 
 
 Shape uncertainties on the background are evaluated using two techniques. First, as shown in figure~\ref{fig:4b_control}, the ratio between the data and background prediction is fit with a linear function. The uncertainties on the slope of this fit are assigned as shape uncertainties. An additional uncertainty is assigned by using alternate power law fit functions for the smoothing of the background shape. Table~\ref{tab:SystFunctions} shows the alternate shapes used. The largest difference between the nominal fit function and the alternates, taking into account the $1\sigma$ uncertainty band on each fit as well, is taken as a shape uncertainty. 
 

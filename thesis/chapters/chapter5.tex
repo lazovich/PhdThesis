@@ -34,8 +34,6 @@ The analysis uses a combination of single lepton and dilepton triggers to allow 
 
 As discussed in Chapter 2, there are multiple levels in the ATLAS trigger system, and there are different $\pT$ thresholds imposed for the leptons at each level. Additionally, some triggers have a loose selection on the isolation of the lepton (looser than that applied offline in the analysis object selection). Table~\ref{tab:single-lepton-trig} shows the thresholds used for single lepton triggers, while table~\ref{tab:dilepton-trig} shows the thresholds coming from di-lepton triggers. The single lepton trigger efficiency for muons that pass the analysis object selection is 70\% for muons in the barrel region ($|\eta| < 1.05$) and 90\% in the endcap region. The electron trigger efficiency increases with electron $\pT$ but the average is approximately 90\%. These efficiencies are measured by combined performance and trigger signature groups\cite{MuonTrigger2012,ElectronTrigger2012}.
 
-
-
 \begin{table}[h!]
 \centering
 \captionsetup{justification=centering}
@@ -95,8 +93,6 @@ $ee$ & $97$\% & $9.1$\% \\ \hline
 $\mu\mu$ & $89$\% & $18.5$\% \\ \hline
 $e\mu$ & $95$\% & $8.3$\% \\ \hline
 $\mu e$ & $81$\% & $8.2$\% \\ \hline
-
-
 \end{tabular}
 
 \caption{
@@ -104,8 +100,6 @@ Trigger efficiency for signal events and relative gain of adding a dilepton trig
 }
 \label{tab:trigeff}
 \end{table}
-
-
 
 \subsection{Monte Carlo samples}
 \label{sec:HWWMC}
@@ -188,7 +182,7 @@ The analysis uses combined muon candidates, where a track in the Inner Detector 
 
 As discussed previously, the muons must also be isolated. There are two types of lepton isolations that are calculated: track-based and calorimeter-based. For muons, the track-based isolation is defined using the scalar sum  $\sum \pT$ for tracks with $\pT > 1 \GeV$ (excluding the muon's track) within a cone of  $\Delta R = 0.3$ ($0.4$) for muon with $\pT > 15 \GeV$ ($10 < \pT < 15 \GeV$). The final isolation requirement is made my requiring that this scalar sum be no more than a certain fraction of the muon's $\pT$. This requirement varies with muon $\pT$ and the exact cuts are defined in table~\ref{tab:muonisocuts}.
 
-The calorimeter-based muon isolation is defined using as a $\sum E_{T}$ calculated from calorimeter cells using the same cone size as the track-based isolation but excluding cells with $\Delta R < 0.05$ around the muon. This requirement is also definedas a cut on the ratio of the sum to the muon $\pT$ and varies with muon $\pT$. The cut values are also given in table~\ref{tab:muonisocuts}.
+The calorimeter-based muon isolation is defined using as a $\sum E_{T}$ calculated from calorimeter cells using the same cone size as the track-based isolation but excluding cells with $\Delta R < 0.05$ around the muon. This requirement is also defined as a cut on the ratio of the sum to the muon $\pT$ and varies with muon $\pT$. The cut values are also given in table~\ref{tab:muonisocuts}.
 
 The isolation requirements loosen as a function of $\pT$ to allow for larger signal acceptance. At low $\pT$, the isolation is tightened to reduce the $W$+jets background which arises from a misidentified lepton. 
 
@@ -215,7 +209,7 @@ $\pT$ dependent isolation requirements for muons. Muons are required to have the
 
 \subsection{Electrons}
 
-Electrons are identified by matching reconstructed clusters in the electromagnetic calorimeter with tracks in the inner detector. The electrons are identified using a likehood based method\cite{ElectronReco,GSF} which takes into account the shower shapes in the calorimeter, the matching of tracks to clusters, and the amount of transition radiation in the TRT. The electrons are required to have $|\eta| < 2.47$, and candidates in the transition region between the barrel and endcap ($1.37 < |\eta| < 1.52$) are excluded. As the muons, the electrons are required to have transverse impact parameter significance $ < 3$, while in the longitudinal direction they must have $|z_0 \sin \theta| < 0.4$ mm. Some electron requirements also vary with electron $E_{T}$, and these requirements are summarized in table~\ref{tab:elecselec}.
+Electrons are identified by matching reconstructed clusters in the electromagnetic calorimeter with tracks in the inner detector. The electrons are identified using a likelihood based method\cite{ElectronReco,GSF} which takes into account the shower shapes in the calorimeter, the matching of tracks to clusters, and the amount of transition radiation in the TRT. The electrons are required to have $|\eta| < 2.47$, and candidates in the transition region between the barrel and endcap ($1.37 < |\eta| < 1.52$) are excluded. As the muons, the electrons are required to have transverse impact parameter significance $ < 3$, while in the longitudinal direction they must have $|z_0 \sin \theta| < 0.4$ mm. Some electron requirements also vary with electron $E_{T}$, and these requirements are summarized in table~\ref{tab:elecselec}.
 
 The isolation for electrons are defined similarly to the muons but with unique cuts on the objects included. The track-based isolation is defined using tracks with $\pT > 400 \MeV$ with cone sizes as defined previously. The calorimeter-based isolation also uses the same cone size as the muon, but here the cells within a $0.125 \times 0.175$ area in $\eta \times \phi$ around the electron cluster's barycenter are excluded. The other difference with respect to muons is that the denominator of the isolation ratio is the electron's $E_{T}$ rather than $\pT$. The isolation cuts very with electron $E_{T}$and are defined in table~\ref{tab:elecselec}. 
 
@@ -260,7 +254,7 @@ Once the overlap removal is complete, the final set of objects used in the analy
 
 The VBF analysis uses two distinct selections. The first is a more standard selection, referred to as ``cut-based", that applies requirements on the VBF variables and uses $\mTH$ as the final discriminating variable. The second is a looser selection that uses a Boosted Decision Tree (BDT) score as the final discriminator in order to take advantage of the detailed correlations between the VBF variables.  While the BDT analysis is ultimately more sensitive, the cut-based serves as an important component of the analysis. First, the cut-based allows for confirming the modeling and validity of many variables used as input to the BDT. Second, because this is the first use of such an MVA technique in the $\HWW$ analysis, the cut-based selection allows confirmation of the final BDT result with a more traditional analysis. The cut-based techniques are the focus of this chapter, but connections to the BDT result will be illustrated when appropriate. 
 
-One important note is that because this analysis is dedicated to the measurement of the VBF production mode of the Higs, events coming from gluon fusion production with the Higgs decaying via \HWWfull are treated as background events. This will be seen throughout the various predictions shown. 
+One important note is that because this analysis is dedicated to the measurement of the VBF production mode of the Higgs, events coming from gluon fusion production with the Higgs decaying via \HWWfull are treated as background events. This will be seen throughout the various predictions shown. 
 
 \subsection{Common pre-selection}
 \label{sec:vbf_presel}
@@ -277,12 +271,12 @@ The cut-based selection places sequential requirements on variables reconstructe
 \subsubsection{General background reduction}
 
 Top pair production is the primary background in the $\Njet \geq 2$ bin. Even though $\Nbjet = 0$ is required, an additional variable is constructed to further suppress the top background. There is often additional QCD radiation that accompanies the $\ttbar$ system when it is produced. Therefore, a variable which tests for the presence of this additional radiation, $\pTtot$, is constructed. It is defined in equation~\ref{eqn:pttot}.
-
+%
 \begin{equation}
 \vpTtot = \vpTll + \vMPTj + \sum \vpTjet
 \label{eqn:pttot}
 \end{equation} 
-
+%
 The first cut after pre-selection in the cut-based analysis requires $\pTtot < 15 \GeV$ to further suppress $\ttbar$ production.  
 
 In the different flavor channels, a cut is made to reduce the contamination from $Z\to\tau\tau$ decays. The di-$\tau$ invariant mass, $\mtt$. is constructed by assuming that the neutrinos from the $\tau$ decays were collinear with the leptons\cite{collinear}. The analysis requires that this mass not be consistent with a $Z$ by requiring $\mtt < m_Z - 25$ \GeV. 
@@ -306,12 +300,12 @@ Because the cross section for VBF production is an order of magnitude smaller th
 Requirements on the VBF jets are collectively referred to as the ``VBF topological cuts". First, a requirement on the dijet invariant mass of the VBF jets, $\mjj$, is placed, requiring $\mjj > 600 \GeV$. Next, the event is required to have a large gap in rapidity between the two VBF jets, or $\dyjj > 3.6$. Both of these cuts put tight requirements on the presence of two forward, high $\pT$ jets moving in opposite directions in the longitudinal plane. 
 
 Beyond requiring the presence of the two forward VBF jets, the analysis also vetoes on the presence of any additional jets that fall between the two VBF jets. This cut is referred to as the central jet veto, or CJV. Any events with a third jet with $\pT > 20 \GeV$ whose rapidity is between the region defined by the two VBF jets are vetoed. This can be expressed in terms of a variable called the jet centrality, defined in equation~\ref{eqn:cjv}.
-
+%
 \begin{equation}
 \cjv = \bigg|\, \etathirdjet - \frac{\eta_{j1} + \eta_{j2}}{2} \,\bigg|\ \Big/\ \frac{\left|\eta_{j1} - \eta_{j2}\right|}{2},
 \label{eqn:cjv}
 \end{equation}
-
+%
 Here, $\eta_{j1}$ and $\eta_{j2}$ are the pseudorapidities of the leading and subleading jets, respectively, while $\eta_{j3}$ is the pseudorapidity of the extra jet in the event (if one exists). Intuitively, $\cjv$ is zero when $\eta_{j3}$ is directly centered between the two jets and unity when $\eta_{j3}$ is aligned with either of the VBF jets. Thus, the CJV can be expressed as a requirement that $\cjv > 1$. 
 
 The decay products of the Higgs tend to be central as well. Thus, the analysis also requires that both leptons in the analysis fall within the rapidity gap defined by the jets. This cut is referred to as the outside lepton veto, or OLV. A quantitative way to define the cut is to require that the centrality of each lepton (defined analogously to that of the third jet in equation~\ref{eqn:cjv}) correspond to the lepton being within the jet rapidity gap, or $\olv < 1$ for both leptons. 
@@ -347,7 +341,7 @@ The analysis places additional requirements on the final state leptons. Two requ
 
 The cut-based analysis uses $\mTH$ as the final discriminating variable as in the ggF focused analysis. The optimal number of bins in $\mTH$ was found to be three bins, with the bin boundaries at 80 and 130 \GeV. 
 
-Table~\ref{tab:vbf_cutflow} shows the data and estimated signal and background yields from simulation as each cut described above is made. The table shows how each cut reduces specific backgrounds and how the overall signal to background ratio grows through the cutflow. 
+Table~\ref{tab:vbf_cutflow} shows the data and estimated signal and background yields from simulation as each cut described above is made. The table shows how each cut reduces specific backgrounds and how the overall signal to background ratio grows through the various selection requirements. 
 
 Figure~\ref{fig:eventdisplay} shows an ATLAS event display of a candidate event in the final signal region. 
 
@@ -434,7 +428,7 @@ $\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2
 The boosted decision tree based analysis takes a different philosophy compared to the cut-based. Rather than cutting sequentially on many variables, the BDT analysis uses many of these variables as inputs to the BDT and the output BDT score ($\bdt$) as the final discriminant. The BDT is trained with the VBF $\HWW$ simulation as the signal samples and all other processes as background, including ggF $\HWW$ production. While the BDT based analysis is treated as a separate result, it has significant overlap with the cut-based selection.
 
 \subsubsection{Pre-training selection and BDT inputs}
-Before training, the common preselection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to do the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations.
+Before training, the common pre-selection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to do the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations.
 
 Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for the $\mlj$ variable, as well as showing its discriminating power. Figure~\ref{fig:vbf_bdt_htopo} shows the distributions of the Higgs topological variables that are shared between the cut-based and BDT analyses. Figure~\ref{fig:vbf_bdt_vbftopo} shows the distributions of the VBF topological variables shared between the cut-based and BDT analyses. In both cases, the VBF yield has been scaled by a factor of 50 to better show the shape difference compared to the backgrounds. 
 
@@ -496,21 +490,21 @@ This section describes the procedures used to estimate backgrounds for the VBF a
 \subsection{General strategy}
 
 Most of the backgrounds in the VBf analysis have shapes estimated from Monte Carlo simulation but normalizations derived from control regions in data. In essence, a normalization factor (denoted with $\beta$ or abbreviated as NF) is derived by scaling the MC yield in the control region to the corresponding yield in data. Once this factor is derived, it can be used to scale the MC estimate of the background in the signal region. This is illustrated in equation~\ref{eqn:nf}.
-
+%
 \begin{equation}
 B_{\rm SR}^{\rm est} = B_{\rm SR} \times \frac{N_{\rm CR}}{B_{\rm CR}} \equiv B_{\rm SR} \times \beta
 \label{eqn:nf}
 \end{equation}
-
+%
 Here, $B$ denotes the MC yield prediction in the denoted region, while $N$ denotes the observed number of events in data in the denoted region. 
 
 Another way of writing the same equation, in terms of an extrapolation factor $\alpha$ rather than a normalization factor $\beta$. The overall calculation is exactly the same. However, when phrased in this way, it shows hwo the uncertainty on the background estimation can be reduced. This is shown in equation~\ref{eqn:nf2}.
-
+%
 \begin{equation}
 B_{\rm SR}^{\rm est} = N_{\rm CR} \times \frac{B_{\rm SR}}{B_{\rm CR}} \equiv N_{\rm CR} \times \alpha
 \label{eqn:nf2}
 \end{equation}
-
+%
 Phrased this way, the equation shows that with enough statistics in the control region, a large theoretical uncertainty on the overall background yield in the signal region can be replaced by a small statistical uncertainty coming from the number of data events in the CR and a smaller theoretical uncertainty on the extrapolation from the control region to the signal region. 
 
 \subsection{Top background}
@@ -553,7 +547,6 @@ $\rm Bin 3$ & $0.95 \pm 0.31$ \\ \hline
 \label{tab:vbf_bdt_topnf}
 \end{table}
 
-
 Figure~\ref{fig:vbf_top_cr} shows the $\mjj$ and $\bdt$ distributions in the top control region. Overall the modeling looks consistent with the data.
 
 \begin{figure}[h!]
@@ -572,15 +565,14 @@ In the different flavor channels, the $\ZDY \to \tau\tau$ background is an impor
 
 In the BDT analysis, a single normalization factor for the background is derived. A control region is defined using the pre-training selection cuts, except requiring that $|\mtt - m_Z| < 25 \GeV$ so that the region is enriched in $\ZDY \to \tau\tau$ background. Additional requirements of $\mll < 80 (75) \GeV$ in the different (same) flavor channel, as well as $\bdt > -0.48$ are applied to increase the purity of the region. The final $\beta_{\ZDY \to \tau\tau}$ is calculated to be $0.9 \pm 0.3$ (statistical uncertainty only). Because of the small contribution of this background in the BDT analysis and the large statistical uncertainty, no additional systematics are calculated. The final SR estimate is scaled by this $\beta$ and not allowed to float in the fit. 
 
-The cut-based corrections are a bit more involved because they need to be applied cut by cut through the cutflow, as well as in the final signal region for the fit. The region is defined including all SR cuts up to the $\ZDY \to \tau\tau$ veto, which is instead made into a Z mass peak requirement as for the BDT region. The $\mll$ cut from the BDT region is included as well. The cut-based approach aims to correct the normalization of the $\ZDY \to\tau\tau$ background in two ways. First, an overall normalization factor is computed from the control region. However, the VBF topological cuts are not included in this region, and applying them as is done in the top CR is not feasible due to limited statistics. So, instead, correction factors (CF) to the cut efficiencies of the VBF cuts are derived in a same flavor $Z\to\ell\ell$ control region, which has significantly more statistics. The CF is simply the ratio of the cut efficiencies in data and MC derived in this region. In the end, the overall background estimate is given by equation~\ref{eqn:zttest}.
-
+The cut-based corrections are a bit more involved because they need to be applied selection by selection, as well as in the final signal region for the fit. The region is defined including all SR cuts up to the $\ZDY \to \tau\tau$ veto, which is instead made into a Z mass peak requirement as for the BDT region. The $\mll$ cut from the BDT region is included as well. The cut-based approach aims to correct the normalization of the $\ZDY \to\tau\tau$ background in two ways. First, an overall normalization factor is computed from the control region. However, the VBF topological cuts are not included in this region, and applying them as is done in the top CR is not feasible due to limited statistics. So, instead, correction factors (CF) to the cut efficiencies of the VBF cuts are derived in a same flavor $Z\to\ell\ell$ control region, which has significantly more statistics. The CF is simply the ratio of the cut efficiencies in data and MC derived in this region. In the end, the overall background estimate is given by equation~\ref{eqn:zttest}.
+%
 \begin{equation}
 N^{\rm est}_{\ZDY \to \tau\tau} = B^{\rm SR}_{\ZDY \to \tau\tau} \times \beta_{\tau\tau} \times \frac{\epsilon_{\rm VBF\,cuts}^{\rm data}}{\epsilon_{\rm VBF\,cuts}^{\rm MC}} 
 \label{eqn:zttest}
 \end{equation}
-
+%
 The hypothesis is that while the normalization correction must be derived in a dedicated region, the efficiency of the VBF cuts should not be sensitive to the type of $\ZDY$ process and thus the larger control region can be exploited to derive the CF. Figure~\ref{fig:vbf_ztt_comp} shows a shape comparison for the $\mjj$ variable in $Z\to\tau\tau$ events in the signal region and $Z\to\ell\ell$ events in the control region. The figure shows that the shapes are indeed comparable and thus any CF derived in the same flavor control region can reliably be applied in the signal region. 
-
 
 \begin{figure}[h!]
   \centering
@@ -686,7 +678,7 @@ Because this analysis is dedicated to measuring the VBF contribution to Higgs pr
 
 \subsection{Backgrounds with misidentified leptons}
 
-As discussed previously, the $W+$jets and QCD multijet backgrounds are deried with fully data-driven methods. These backgrounds do not make a large contribution to the final VBF signal region but their estimation methods are discussed briefly here.
+As discussed previously, the $W+$jets and QCD multijet backgrounds are derived with fully data-driven methods. These backgrounds do not make a large contribution to the final VBF signal region but their estimation methods are discussed briefly here.
 
 \subsubsection{$W$+jets background}
 
@@ -746,7 +738,7 @@ There are four main components to theoretical uncertainties assigned to signal a
 %\label{tab:vbf_bdt_theosys}
 %\end{table}
 
-There are two additional uncertainties that are applied to the Higgs processes as well. First, there are uncertainties assigned to the Higgs total production cross section. Then, there are uncertainties assigned based on the fact that the analysis is done in exclusive jet bins and it is possible for signal events to migrate from one bin to the next depending on the presence or absense of jets. These are assigned using the Jet Veto Efficiency (JVE) procedure\cite{JVE} for ggF events and the Stewart-Tackmann (ST) method\cite{ST} for VBF production. 
+There are two additional uncertainties that are applied to the Higgs processes as well. First, there are uncertainties assigned to the Higgs total production cross section. Then, there are uncertainties assigned based on the fact that the analysis is done in exclusive jet bins and it is possible for signal events to migrate from one bin to the next depending on the presence or absence of jets. These are assigned using the Jet Veto Efficiency (JVE) procedure\cite{JVE} for ggF events and the Stewart-Tackmann (ST) method\cite{ST} for VBF production. 
 
 %Table~\ref{tab:vbf_bdt_theosys} shows how the different theory uncertainty components contribute to variation in the yields of dominant background processes and signal in the BDT analysis. 
 
@@ -771,7 +763,6 @@ Figures~\ref{fig:vbf_tt_pdf} and~\ref{fig:vbf_tt_qcd} show the variations in the
 
 While the estimate for the same-flavor $\ZDY\to\ell\ell$ background is data-driven, there is still a systematic uncertainty taken for the non-closure of the method in Monte Carlo. This is taken as the maximum of the deviation of the non-closure factor $f_{\rm corr}$ from unity and its uncertainty, or $\textrm{max}(|1 - f_{\rm corr}|, \delta f_{\rm corr})$. For the cut-based analysis this non-closure uncertainty $23$\%, while for the BDT analysis it is $17\%$.
 
-
 \begin{figure}[h!]
   \centering
   \captionsetup{justification=centering}
@@ -792,9 +783,9 @@ While the estimate for the same-flavor $\ZDY\to\ell\ell$ background is data-driv
 
 In this analysis, the theoretical uncertainties end up being the most dominant, but there are some experimental uncertainties that make a contribution as well. The first is the uncertainty on the measured integrated luminosity, which affects backgrounds whose normalization is taken from MC and is measured to be 2.8\% in the 8 \TeV dataset~\cite{luminosity-paper}. The dominant sources of uncertainty overall are uncertainties on the jet energy scale and resolution and the $b$-tagging efficiency. Additional sources include lepton uncertainties on identification, resolution, and trigger efficiency, as well as uncertainties on the \met. 
 
-The jet energy scale uncertainty is split into several independent components, including jet-flavor dependent calorimeter response uncertainties, uncertainties on modeling of pile-up interactions, uncertainties on extrapolation from the central to forward detector regions, and MC non-closure~\cite{atlas_jets}. The uncertainty on energy scale for jets used in this analysis ranges from $1\%$ to $7\%$ depending on the jet $\pT$ and $\eta$. The jet energy resolution varies from $5\%$ to $20\%$, with uncertainties ranging from $2\%$ to $40\%$ (the largest uncertainties occuring at the selection threshold).
+The jet energy scale uncertainty is split into several independent components, including jet-flavor dependent calorimeter response uncertainties, uncertainties on modeling of pile-up interactions, uncertainties on extrapolation from the central to forward detector regions, and MC non-closure~\cite{atlas_jets}. The uncertainty on energy scale for jets used in this analysis ranges from $1\%$ to $7\%$ depending on the jet $\pT$ and $\eta$. The jet energy resolution varies from $5\%$ to $20\%$, with uncertainties ranging from $2\%$ to $40\%$ (the largest uncertainties occurring at the selection threshold).
 
-The b-tagging efficiency is independently measured in data samples enriched in dileptonic decays of $\ttbar$ events or in events where a muon is reconstructed in the vicinity of a jet\cite{btag-calib,btag-muons}. The efficiencies and their uncertainties are binned in $\pT$ and decomposed into uncorrelated components using an eigenvector method\cite{ATLAS-CONF-2014-004}. Uncertainties on the effiency range from $1\%$ to $7.8\%$. The uncertainty on the rate of misidentification of $c$-jets as $b$-jets ranges from $6$-$14$\%, while the uncertainty on the rate of light jet mis-tagging ranges from $9$-$19\%$ depending on $\pT$ and $\eta$.
+The b-tagging efficiency is independently measured in data samples enriched in dileptonic decays of $\ttbar$ events or in events where a muon is reconstructed in the vicinity of a jet\cite{btag-calib,btag-muons}. The efficiencies and their uncertainties are binned in $\pT$ and decomposed into uncorrelated components using an eigenvector method\cite{ATLAS-CONF-2014-004}. Uncertainties on the efficiency range from $1\%$ to $7.8\%$. The uncertainty on the rate of misidentification of $c$-jets as $b$-jets ranges from $6$-$14$\%, while the uncertainty on the rate of light jet mis-tagging ranges from $9$-$19\%$ depending on $\pT$ and $\eta$.
 
 The total experimental uncertainties on different signal and background components are summarized in table~\ref{tab:vbf_totsyst}. They are compared to the level of other statistical and systematic uncertainties as well. OVerall, the experimental uncertainties are sub-dominant compared to the statistical and theoretical uncertainties.
 
@@ -842,9 +833,7 @@ The total experimental uncertainties on different signal and background componen
 
 \section{Results}
 
-While the combined results of all the $\HWW$ sub-analyses will be discussed in the next chapter, this section presents the results of the VBF specific analysis and interpretations. 
-
-As table~\ref{tab:vbf_cutflow} shows, the final cut-based signal region contains $20$ events in data with $\mTH < 150 \GeV$, $14$ coming from the $e\mu$ channel and $6$ coming from the $ee+\mu\mu$ channel. The BDT analysis has many more candidates due to its looser selection, and the yields in each bin of $\bdt$ are shown in table~\ref{tab:vbf_bdt_yield}.
+While the combined results of all the $\HWW$ sub-analyses will be discussed in the next chapter, this section presents the results of the VBF specific analysis and interpretations. As table~\ref{tab:vbf_cutflow} shows, the final cut-based signal region contains $20$ events in data with $\mTH < 150 \GeV$, $14$ coming from the $e\mu$ channel and $6$ coming from the $ee+\mu\mu$ channel. The BDT analysis has many more candidates due to its looser selection, and the yields in each bin of $\bdt$ are shown in table~\ref{tab:vbf_bdt_yield}.
 
 \begin{sidewaystable}[!hbtp]
 \scalebox{0.8}
@@ -916,7 +905,7 @@ $\quad$ Bin 3            &6.52 &2.87 &  6   &  0.9 & 0.2 & 1.7 &$-$ && 0.1 & 0.2
 }
 \caption{
   Event selection for the VBF BDT analysis.
-  The event yields in (a) are shown after the preselection and the additional
+  The event yields in (a) are shown after the pre-selection and the additional
   requirements applied before the BDT classification (see text).
   The event yields in (b) are given in bins in $\bdt$ after the classification\cite{WW2015}.
 }
@@ -929,7 +918,7 @@ Figure~\ref{fig:vbf_cb_mt}(a) shows the final distribution of data candidates co
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.7\textwidth]{figures/VBF_cb_mt}
-  \caption{Postfit distributions in the cut-based VBF analysis. Panel (a) shows the one-dimensional $\mTH$ distribution, while (b) shows the data candidates split into the bins of $\mTH$ and $\mjj$ used in the final fit\cite{WW2015}.}
+  \caption{Post-fit distributions in the cut-based VBF analysis. Panel (a) shows the one-dimensional $\mTH$ distribution, while (b) shows the data candidates split into the bins of $\mTH$ and $\mjj$ used in the final fit\cite{WW2015}.}
   \label{fig:vbf_cb_mt}
 \end{figure}
 
@@ -953,6 +942,4 @@ Because the cut-based result is used as a validation for the BDT analysis and th
   \label{fig:vbf_bdt_cb_overlay}
 \end{figure}
 
-While the context of these results in the broader $\HWW$ statistical analysis will be presented in the next chapter, the significance of the VBF observation can be shown here. In the BDT analysis, the expected signal significance was $2.7\sigma$, while the observed significance was $3.1\sigma$. In the cut-based analysis, the expected significance was $2.1\sigma$ and the observed significance was $3.0\sigma$. The compatibility between these two results can be evaluated by computing the probability of observing a larger difference in $Z_0$ values than the one measured. Using toy Monte Carlo with the ggF signal strength fixed to unity and considering only statistical uncertainties, this probability is computed to be $79\%$, indicating good agreement between the analyses. 
-
-This result represents the first observation of the vector boson fusion production of a Higgs boson. 
+While the context of these results in the broader $\HWW$ statistical analysis will be presented in the next chapter, the significance of the VBF observation can be shown here. In the BDT analysis, the expected signal significance was $2.7\sigma$, while the observed significance was $3.1\sigma$. In the cut-based analysis, the expected significance was $2.1\sigma$ and the observed significance was $3.0\sigma$. The compatibility between these two results can be evaluated by computing the probability of observing a larger difference in $Z_0$ values than the one measured. Using toy Monte Carlo with the ggF signal strength fixed to unity and considering only statistical uncertainties, this probability is computed to be $79\%$, indicating good agreement between the analyses. This result represents the first observation of the vector boson fusion production of a Higgs boson. 
