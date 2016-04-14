@@ -125,7 +125,27 @@ In the last section, the largest changes in MV2 score were seen for the leading 
 
 \section{Effect of multiple $b$-quarks inside one jet}
 
-One hypothesis for why the efficiency of $b$-tagging the leading track jet degrades is that at high masses, the $b$ quarks get close enough together that both of them are inside of the leading track jet. Because MV2 is not tuned for tagging multiple $b$ quarks inside one jet, the tagging efficiency could degrade. 
+One hypothesis for why the efficiency of $b$-tagging the leading track jet degrades is that at high masses, the $b$ quarks get close enough together that both of them are inside of the leading track jet. Because MV2 is not tuned for tagging multiple $b$ quarks inside one jet, the tagging efficiency could degrade. Figure~\ref{fig:MV2_nb} shows MV2 scores and SV1 mass for cases where there are two $b$ quarks at truth level within the radius of the leading track jet compared to cases where there is only one true $b$\footnote{When two truth $b$ quarks are required in the leading jet, the subleading jet is required to have zero. When one is required for the leading, one is also required for the subleading.}. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Ntb_MV2c20}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Ntb_SV1mass}
+        \caption{}
+    \end{subfigure}
+
+   \caption{MV2c20 score (a) and SV1 mass (b) for leading track jets with two truth $b$ quarks ($n_{\rm tb, lead} = 2$) compared to those with only one truth $b$ ($n_{\rm tb, lead} = 1$).}
+  \label{fig:MV2_nb}
+\end{figure}
 
 \section{Changes in track quality at high $\pT$}
 
