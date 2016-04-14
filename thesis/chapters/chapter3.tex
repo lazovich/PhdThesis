@@ -66,9 +66,7 @@ Non-resonant Standard Model diboson production, as shown in figure~\ref{fig:SMWW
 
 Production of top quarks, either in pairs ($\ttbar$ production) or singly (e.g. $Wt$ production), can also mimic Higgs production. Because top quarks decay via $t\TO Wb$, top pair production can produce a final state with two W bosons that then decay leptonically. In this case, however, there are two additional jets from the bottom quarks in the final state. This allows the analysis to veto on the presence of jets identified as originating from a $b$ in order to reduce the size of the background. 
 
-Single top production can occur via $s$-channel, $t$-channel, or associated production ($Wt$). The mode which most closely resembles the Higgs final state is $Wt$. In this case, there are two real $W$ bosons produced, as with $\ttbar$. However, the decay of the single top quark will still also produce one $b$-jet, meaning a $b$ veto will reduce this background as well. 
-
-Figure~\ref{fig:Topdiagram} shows the Feynman diagrams for $\ttbar$ and $Wt$ production.  
+Single top production can occur via $s$-channel, $t$-channel, or associated production ($Wt$). The mode which most closely resembles the Higgs final state is $Wt$. In this case, there are two real $W$ bosons produced, as with $\ttbar$. However, the decay of the single top quark will still also produce one $b$-jet, meaning a $b$ veto will reduce this background as well. Figure~\ref{fig:Topdiagram} shows the Feynman diagrams for $\ttbar$ and $Wt$ production.  
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -86,7 +84,6 @@ Figure~\ref{fig:Topdiagram} shows the Feynman diagrams for $\ttbar$ and $Wt$ pro
 \subsection{$W$+jets background}
 
 Single $W$ boson production, in association with jets, is a unique background. The other background considered so far have all included real leptons in the final state. In this case, however, only one real lepton from the decay of a $W$ exists in the final state. The second reconstructed lepton can arise from two different cases. First, the lepton may truly be an algorithm ``fake", or a jet misidentified as a lepton by either the electron or muon reconstruction algorithms. Second, the lepton may be a real lepton but coming from semi-leptonic decays of particles inside the shower of the jet. This background can be reduced by requiring that the reconstructed lepton have little activity surrounding it in the calorimeter (also known as an ``isolated" lepton). Figure~\ref{fig:Wdiagram} shows the Feynman diagram for $W$+jets production. 
-
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -181,7 +178,7 @@ As presented in section~\ref{sec:sigtopology}, there are many different combinat
 Before being sorted into the distinct signal regions, basic requirements are applied on the reconstructed objects in the event to select Higgs-like event candidates. First, two oppositely charged leptons are required. 
 
 Once the leptons are selected, the last requirement for event pre-selection is the presence of neutrinos. As neutrinos cannot be detected directly in ATLAS, $\MET$ can be used as a proxy for the combined neutrino momentum in the transverse plane. In general, it is expected that the signal should have a harder $\MET$ spectrum than backgrounds, especially if those backgrounds did not contain neutrinos. One additional consideration when using $\MET$ is the fact that mis-measurements of objects in the detector can lead to imbalances in the transverse plane that are not due to real particles escaping the detector. One indicator that this is the case is that the $\MET$ vector in the transverse plane will be pointing in the same direction as the mis-measured object. Therefore, a new variable, $\METrel$, is used in the pre-selection. $\METrel$ is defined in equation~\ref{eqn:METrel}. 
-
+%
 \begin{equation}
   \begin{array}{ll}
   \multirow{2}{*}{$\METrel$ =\ \bigg\{ }
@@ -190,9 +187,9 @@ Once the leptons are selected, the last requirement for event pre-selection is t
   \end{array}
 \label{eqn:METrel}
 \end{equation}
-
+%
 If the closest object to the $\MET$ vector is within $\pi/2$ radians in the transverse plane, the $\MET$ is projected away from this object. Otherwise, the normal $\MET$ vector is used. Figure~\ref{fig:METrel} shows a graphical illustration of this concept. 
-
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering
@@ -258,7 +255,7 @@ Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO
 \subsection{Track-based definitions of missing transverse momentum}
 
 Because the increasing number of secondary proton-proton interactions degrades calorimeter-based $\MET$ resolution, a new variable using only contributions from the primary interaction vertex is necessary to further reduce the $\ZDY$ background. While it is not possible to associate calorimeter energy deposits with a particular vertex, individual charged particle tracks in the Inner Detector are associated to unique vertices. Thus, two track-based definitions of \met, using only tracks coming from the primary vertex in the event, are used in the analysis. The simplest variable, $\MPT$, is the vectorial sum of the $\pt$ of all of the tracks from the primary vertex and the selected leptons (excluding the tracks associated with the selected leptons to avoid double counting). This is defined in equation~\ref{eqn:MPT}.
-
+%
 \begin{equation}
 \vMPT = -\raisebox{-3.0pt}{\bigg(}%
      \displaystyle
@@ -267,9 +264,9 @@ Because the increasing number of secondary proton-proton interactions degrades c
    \raisebox{-3.0pt}{\bigg)},
 \label{eqn:MPT}
 \end{equation} 
-
+%
 In events with hard jets, a better resolution on the \met is obtained by including the calorimeter based measurement of the hard jets rather than the track based measurements. Thus, another variable, $\MPTj$, is defined, using the nominal measurements of $\pT$ for the selected leptons and jets and using tracks rather than calorimeter clusters for the soft component of the \met. This is defined in equation~\ref{eqn:MPTj}.
-
+%
 \begin{equation}
 \vMPTj = -\raisebox{-3.0pt}{\bigg(}%
      \displaystyle
@@ -279,9 +276,9 @@ In events with hard jets, a better resolution on the \met is obtained by includi
    \raisebox{-3.0pt}{\bigg)},
 \label{eqn:MPTj}
 \end{equation} 
-
+%
 Figure~\ref{fig:METResolution} illustrates that these two new variables accomplish their intended purpose. The resolution as a function of mean number of interactions for both $\MPT$ and $\MPTj$ is much flatter compared to the dependence for $\MET$. 
-
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering
@@ -292,13 +289,13 @@ Figure~\ref{fig:METResolution} illustrates that these two new variables accompli
   \caption{The difference between the true and reconstructed values of the \met (a) and $\mT$ (b) in a gluon fusion signal sample}
   \label{fig:METResolution2}
 \end{figure}
-
+%
 Figure~\ref{fig:METResolution2}a shows the difference between the true and reconstructed values of \met using both the track-based $\MPTj$ and calorimeter based $\MET$. The RMS of the distribution improves by 3.5 \GeV when using $\MPTj$.
 
 \subsection{Distinguishing $\ZDY$ +jets and $\HWW$ topologies}
 
 The track-based definitions of \met were constructed to mitigate degrading performance as a function of pileup. However, an additional variable can be constructed to exploit kinematic and topological differences between the $\ZDY$ background and $\HWW$ signal. Because there are no real neutrinos in the final state (in the case of $Z/\gamma^{*} \TO ee,\mu\mu$ decays), the dilepton system of a $\ZDY$ will be balanced with the jets produced in the hard scatter. A new variable, $\frecoil$, is constructed to estimate the balance between the dilepton system and the jets in the quadrant opposite the dilepton vector in the transverse plane. It is defined in equation~\ref{eqn:frecoil}. The numerator of $\frecoil$ is the magnitude of the vectorial sum of the $\pt$ of jets in the quadrant opposite the dilepton system, weighted by each jet's Jet Vertex Fraction (JVF, described in chapter 2). The denominator is the magnitude of the dilepton $\pt$. 
-
+%
 \begin{equation}
 \frecoil = \raisebox{-3pt}{\bigg|} \sum_{{\rm jets\,}j{\rm\,in\,}\wedge}
            \no\jvf_{\,j}\cdot\vpTjet
@@ -306,7 +303,7 @@ The track-based definitions of \met were constructed to mitigate degrading perfo
            ~\raisebox{-3pt}{\bigg/} \pTll.
 \label{eqn:frecoil}
 \end{equation}
-
+%
 Figure~\ref{fig:frecoil} shows a shape comparison of the distribution of $\frecoil$ in a simulated $\ZDY$ + jets sample, a $\HWW$ signal sample, and other backgrounds that contain real neutrinos. The $\ZDY$ + jets events tend to be more balanced between the dilepton system and recoiling jets, while the processes containing real neutrinos are less balanced in the transverse plane. Thus, a requirement on $\frecoil$ will also reduce the $\ZDY$ + jets background while maintaining a good signal efficiency. 
 
 \begin{figure}[h!]
@@ -339,23 +336,23 @@ The requirements on $\MPT$ and $\frecoil$ used to reduce the Z+jets background m
 \section{Parameters of interest and statistical treatment}
  
 As with any search or measurement, there are particular parameters of the Higgs that the $\HWW$ analysis is interested in measuring. In this case, the parameters of interest are the mass of the Higgs boson and its production cross section. Because the \HWWfull process does not have a closed final state, it is not possible to measure the full invariant mass of the particle that may have produced the final state. However, a proxy for the invariant mass using transverse plane information can be defined. This is described in more detail in section~\ref{sec:mt}. The second parameter of interest is the ratio of the measured cross section to that expected from the Standard Model Higgs, which is denoted a $\mu$. This is defined in equation~\ref{eqn:mu}.
-
+%
 \begin{equation}
 \mu = \frac{\sigma}{\sigma_{\rm SM}}
 \label{eqn:mu}
 \end{equation}
-
-All of the likelihoods used in the statistical analysis of the final signal region events are paramaterized as a function of $\mu$. $\mu$ is a natural variable for hypothesis testing, as $\mu = 0$ corresponds to a background only hypothesis and $\mu = 1$ corresponds exactly to a Standard Model Higgs. 
+%
+All of the likelihoods used in the statistical analysis of the final signal region events are parameterized as a function of $\mu$. $\mu$ is a natural variable for hypothesis testing, as $\mu = 0$ corresponds to a background only hypothesis and $\mu = 1$ corresponds exactly to a Standard Model Higgs. 
 
 \subsection{Transverse mass}
 \label{sec:mt}
 Because the longitudinal information about the neutrinos is not attainable, the \HWWfull analysis uses a mass variable, the transverse mass, that exploits information in the transverse plane as a proxy for the full invariant mass. The transverse mass is defined in equation~\ref{eqn:mt}.
-
+%
 \begin{equation}
   \mTH = \sqrt{\left(\eTll + \MPTj\right)^2 - \left|\,\vpTll + \vMPTj\,\right|^2},
 \label{eqn:mt}
 \end{equation}
-
+%
 Here the $\eTll$ and $\pTll$ are the transverse energy and momentum of the dilepton system, while $\MPTj$ is a proxy for the transverse momentum of the di-neutrino system. The track-based $\MPTj$ is used in the $\mTH$ rather than the calorimeter based $\MET$ because it has a better resolution on the true transverse mass. Figure~\ref{fig:METResolution2}b shows the improvement in the RMS of the difference between the true and reconstructed transverse mass in a ggF signal sample. The RMS improves by 4.7 \GeV using $\MPTj$ in the $\mTH$ calculation.
 
 \subsection[title]{Statistical treatment\footnote{Many thanks to Aaron Armbruster, whose thesis\cite{ArmbrusterThesis} inspired parts of this section.}}\label{sec:ww_stats}
@@ -363,25 +360,25 @@ Here the $\eTll$ and $\pTll$ are the transverse energy and momentum of the dilep
 \subsubsection{Likelihood function}
 
 The statistical analysis of final event candidates is framed as a hypothesis test, where the null hypothesis is background-only (no Standard Model Higgs). The first step in the analysis is to form a likelihood function for the data. In its simplest form, this likelihood is the probability of observing the number of events seen in the final signal region given knowledge of the signal strength. Because observation of events is fundamentally a Poisson counting experiment, this simple likelihood can be expressed as a Poisson probability of observing $N$ events given a total number of predicted signal and background events. This basic likelihood is shown in equation~\ref{eqn:simplepoisson}.
-
+%
 \begin{equation}
 \likelihood(\mu) = P\left(N | \mu S + B\right)
 \label{eqn:simplepoisson}
 \end{equation}
-
+%
 Here, $P$ is the Poisson probability density function, $N$ is the total number of observed events, $\mu$ is the signal strength, $S$ is the predicted number of signal events, and $B$ is the predicted number of background events. 
 
 In particle physics, certain background estimates are commonly normalized in so-called ``control" regions and those predictions are scaled by the same normalization factor in the signal region. This leads to a slightly more complicated likelihood, which is a function of both the signal strength and the background normalization. This is shown in equation~\ref{eqn:mediumpoisson}.
-
+%
 \begin{equation}
 \likelihood(\mu, \theta) = P\left(N | \mu S + \theta B\right)P\left(N_{\rm CR} | \theta B_{\rm CR}\right)
 \label{eqn:mediumpoisson}
 \end{equation}
-
+%
 Here, $\theta$ is a so-called ``nuisance parameter", a parameter that is not a primary parameter of interest but still enters the likelihood. The second Poisson term adds an extra term to the likelihood, enforcing the fact that the background normalization must be consistent with the number of observed events in data in the control region, $N_{\rm CR}$.
 
 So far, these two formulations of likelihoods have assumed a single signal region and do not take into account any shape information of potential discriminating variables. The $\HWW$ analysis is divided into many different categories, and we can perform the same counting experiment described above in each individual category. As mentioned in section~\ref{sec:mt}, the transverse mass is used as the primary discriminating variable in many of the $\HWW$ sub-analyses, so additionally we can perform the same counting experiment in each bin of the $\mTH$ distribution to incorporate some shape information. Thus, the total likelihood becomes a product over signal regions and bins of the $\mTH$ distribution. Finally, there are usually many backgrounds that are normalized in control regions, so the new formulation of the likelihood takes this into account as well by including a product over control regions in the second Poisson term. All of these modifications are shown in equation~\ref{eqn:binnedpoisson}. 
-
+%
 \begin{equation}
 \likelihood\left(\mu, \MBF{\theta}\right) = \prod_{\substack{\rm{SRs }\, i \\ \rm{bins }\, b}} P\left(N_{ib} \Bigg| \mu S_{ib} + \sum_{\rm{bkg }\, k}\theta_{k} B_{kib}\right)
  \prod_{\substack{\rm{CRs} \, l}} P\left(N_{l} \Bigg| \sum_{\rm{bkg }\, k}\theta_{k} B_{kl}\right)
@@ -389,7 +386,7 @@ So far, these two formulations of likelihoods have assumed a single signal regio
 \end{equation}
 
 The final step to get the full likelihood used in the analysis is to add nuisance parameters for the systematic uncertainties. In cases where the uncertainty does not affect the shape of $\mTH$ bin-by-bin, each systematic uncertainty $\epsilon$ is allowed to affect the expected event yields through a linear response function of the nuisance parameter, namely $\nu(\theta) = (1 + \epsilon)^\theta$. If instead the uncertainty does affect the shape, the effect is instead parameterized by $\nu_b(\theta) = 1 + \epsilon_{b}\theta$. The value of the nuisance parameters for the systematic uncertainty are constrained with a Gaussian term that is added to the likelihood as well. This is of the form $g(\delta | \theta) = e^{-(\delta - \theta)^2/2}/\sqrt{2\pi}$, where $\delta$ is the central value and $\theta$ is a nuisance parameter. Finally, a last term is added to account for the statistical uncertainty in the Monte Carlo samples used, which adds an additional poisson term. The full likelihood used in the final statistical analysis is defined in equation~\ref{eqn:fullpoisson}.
-
+%
 \begin{equation}
 \begin{aligned}
 \likelihood\left(\mu, \MBF{\theta}\right) = & \prod_{\substack{\rm{SRs }\, i \\ \rm{bins }\, b}} P\left(N_{ib} \Bigg| \mu S_{ib} \cdot \prod_{\substack{\rm{sig.} \\ \rm{syst.} \\ r}} \nu_{br}(\theta_{r})
@@ -400,45 +397,43 @@ The final step to get the full likelihood used in the analysis is to add nuisanc
 \end{aligned}
 \label{eqn:fullpoisson}
 \end{equation}
-
+%
 In the fourth term of the equation, quantifying uncertainty due to finite Monte Carlo sample size, $\xi$ represents the central value of the background prediction, $\theta$ is the associated nuisance parameter, $\zeta = (B/\delta B)^2$, where $\delta B$ is the statistical uncertainty of $B$.
 
-The best fit value of the signal strength $\mu$ is determined by finding the values of $\mu$ and $\boldsymbol{\theta}$ that maximize the likelihood, while setting $\delta = 0$ and $\xi = \zeta$.
-
-Once the likelihood is defined, a test statistic must be built for use in hypothesis testing.
+The best fit value of the signal strength $\mu$ is determined by finding the values of $\mu$ and $\boldsymbol{\theta}$ that maximize the likelihood, while setting $\delta = 0$ and $\xi = \zeta$. Once the likelihood is defined, a test statistic must be built for use in hypothesis testing.
 
 \subsubsection{Test statistic}
 
 To distinguish whether the data match a background only or background and signal hypothesis, a test statistic must be used. The $\HWW$ analysis used the profile likelihood technique\cite{Cowan:2010st}. The first step in formulating this test statistic is to define the profile likelihood ratio, shown in equation~\ref{eqn:proflikelihood}.
-
+%
 \begin{equation}
 \lambda(\mu) = \frac{\likelihood\left(\mu, \hat{\theta}_\mu\right)}{\likelihood\left(\hat{\mu}, \hat{\theta}\right)}
 \label{eqn:proflikelihood}
 \end{equation}
-
+%
 Here $\hat{\theta}_\mu$ is the value of $\theta$ that maximizes the likelihood for the choice of $\mu$ being tested. Additionally, $\hat{\theta}$ and $\hat{\mu}$ represent the values of $\theta$ and $\mu$ that gives the overall maximum value of the likelihood. 
 
 Once this is defined, a test statistic $q_\mu$ is constructed. This is shown in equation~\ref{eqn:qmu}.
-
+%
 \begin{equation}
 q_\mu = -2 \ln \lambda(\mu)
 \label{eqn:qmu}
 \end{equation}
-
+%
 A higher value of $q_\mu$ means that the data are more incompatible with the hypothesized value of $\mu$, and $q_0$ then corresponds to the value of the test statistic for the background only hypothesis. A $p_0$ value is then defined to quantify the compatibility between the data and the null hypothesis. The $p_0$ value is the probability of obtaining a value of $q_0$ larger than the observed value, and this is shown in equation~\ref{eqn:pzero}.
-
+%
 \begin{equation}
 p_0 = \int_{q_0^{\rm obs}}^{\infty} f(q_\mu | \mu = 0) d q_\mu
 \label{eqn:pzero}
 \end{equation}
-
+%
 Here $f(q_\mu)$ is the probability distribution function of the test statistic. Finally, the $p_0$ value can be converted into a signal significance, using the formula in equation\ref{eqn:zscore}, or the one-sided tail of the Gaussian distribution. 
-
+%
 \begin{equation}
 Z_0 = \sqrt{2} \text{erf}^{-1} (1-2p_0)
 \label{eqn:zscore}
 \end{equation}
-
+%
 The threshold for discovery used in particle physics is $Z_0 \geq 5$, more commonly known as a value of $5\sigma$.
 
 
