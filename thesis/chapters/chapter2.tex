@@ -9,9 +9,7 @@ This chapter presents an overview of the experimental systems used to conduct th
 
 \section{The Large Hadron Collider}
 
-The Large Hadron Collider (LHC) is a proton-proton collider at the CERN laboratory in Geneva, Switzerland\cite{LHCPaper}. It is designed for a maximum collision center of mass energy of $\sqrt{s} = 14 \TeV$ and has a circumference of $26.7$ kilometers. Four main experiments are located at the interaction points (IP) of the accelerator: ATLAS (A Toroidal LHC ApparatuS), CMS (the Compact Muon Solenoid), ALICE (A Large Ion Collider Experiment), and LHC$b$~\cite{ATLASPaper, CMSPaper, LHCbPaper, ALICEPaper}. The studies performed in this thesis were all completed with the ATLAS detector.
-
-Figure~\ref{fig:LHC} shows a schematic of the LHC ring and the various experiments.  
+The Large Hadron Collider (LHC) is a proton-proton collider at the CERN laboratory in Geneva, Switzerland\cite{LHCPaper}. It is designed for a maximum collision center of mass energy of $\sqrt{s} = 14 \TeV$ and has a circumference of $26.7$ kilometers. Four main experiments are located at the interaction points (IP) of the accelerator: ATLAS (A Toroidal LHC ApparatuS), CMS (the Compact Muon Solenoid), ALICE (A Large Ion Collider Experiment), and LHC$b$~\cite{ATLASPaper, CMSPaper, LHCbPaper, ALICEPaper}. The studies performed in this thesis were all completed with the ATLAS detector. Figure~\ref{fig:LHC} shows a schematic of the LHC ring and the various experiments.  
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -28,26 +26,26 @@ One of the most interesting features of the LHC is in its magnet design. Because
 \subsection{Instantaneous luminosity}
 
 The rate of physics events expected from the accelerator is dependent on the instantaneous luminosity of the machine and the cross section of the physics process, $R_{\rm events} = L\sigma$. Here, $R_{\rm events}$ is the number of events per second, $L$ is the instantaneous luminosity of the machine, and $\sigma$ is the cross section for the physics process being measured. The instantaneous luminosity of the LHC is determined by numerous factors related to machine conditions. Equation~\ref{eqn:lumi} gives the equation for instantaneous luminosity of Gaussian beam profile~\cite{LHCReview}.
-
+%
 \begin{equation}
 \label{eqn:lumi}
 L = \frac{N_b^2 n_b f_{\rm rev} \gamma_r}{4\pi \epsilon_n \beta^*} F
 \end{equation}
-
-The LHC collides protons in bunches, and in the above equation $N_b$ is the number of protons per bunch while $n_b$ is the number of bunches per beam. Nominally, the LHC can hold up to $2808$ proton bunches. $f_{\rm rev}$ is the revolution frequency. $\epsilon_n$ is the normalized transverse beam emittance, a measurement of the average spread of the particles position-momentum space which has the dimension of length. $\beta^*$ is the value of the $beta$ function for the beam at the interaction point. It relates the emmitance to the Gaussian width of the beam with $\sigma_{\rm beam} = \sqrt{\epsilon \cdot \beta}$. $F$ is a reduction factor that corrects for the fact that the beams are colliding at an angle at the IP. 
+%
+The LHC collides protons in bunches, and in the above equation $N_b$ is the number of protons per bunch while $n_b$ is the number of bunches per beam. Nominally, the LHC can hold up to $2808$ proton bunches. $f_{\rm rev}$ is the revolution frequency. $\epsilon_n$ is the normalized transverse beam emittance, a measurement of the average spread of the particles position-momentum space which has the dimension of length. $\beta^*$ is the value of the $beta$ function for the beam at the interaction point. It relates the emittance to the Gaussian width of the beam with $\sigma_{\rm beam} = \sqrt{\epsilon \cdot \beta}$. $F$ is a reduction factor that corrects for the fact that the beams are colliding at an angle at the IP. 
 
 Another way of writing the instantaneous luminosity is shown in equation~\ref{eqn:lumi2}. In this case, the instantaneous luminosity is written as the ratio of the rate of inelastic collisions with the inelastic cross section\cite{lumi-paper}. 
-
+%
 \begin{equation}
 \label{eqn:lumi2}
 L = \frac{R_{\rm inel}}{\sigma_{\rm inel}} = \frac{\mu n_b f_{\rm rev}}{\sigma_{\rm inel}}
 \end{equation}
-
+%
 In this case, $\mu$ is the average number of interactions per bunch crossing in the accelerator. $\mu$ is a useful parameter for characterizing the amount of activity recorded in an experiment. As the instantaneous luminosity and thus $\mu$ increase, there are more interactions per bunch crossing and more activity in the detector. This is often characterized with $\langle \mu \rangle$, the measured per bunch crossing $\mu$ value averaged over all bunch crossings. The interactions inside each bunch crossing that are not the main physics process of interest are often referred to as ``pileup" interactions, and $\langle \mu \rangle$ is a measurement of the level of pileup in the detector. 
 
 \subsection{Evolution of machine conditions}
 
-This thesis uses datasets taken at three different center of mass energies: $\sqrt{s} = 7 \TeV$ data taken in the year $2011$, $\sqrt{s} = 8 \TeV$ data taken in the year $2012$, and $\sqrt{s} = 13 \TeV$ dataa taken in the year $2015$. In addition to increasing center of mass energy, the instananeous luminosity and parameters that determine it were evolving. Table~\ref{tab:LHC_cond} summarizes that machine conditions in each of these datasets. 
+This thesis uses datasets taken at three different center of mass energies: $\sqrt{s} = 7 \TeV$ data taken in the year $2011$, $\sqrt{s} = 8 \TeV$ data taken in the year $2012$, and $\sqrt{s} = 13 \TeV$ data taken in the year $2015$. In addition to increasing center of mass energy, the instantaneous luminosity and parameters that determine it were evolving. Table~\ref{tab:LHC_cond} summarizes that machine conditions in each of these datasets. 
 
 \begin{table}[h!]
 \centering
@@ -73,7 +71,6 @@ Evolution of LHC machine conditions~\cite{LHC_2011_2012,LHC_2015}
 \label{tab:LHC_cond}
 \end{table}
 
-
 \section{The ATLAS Detector}
 
 The ATLAS detector is a multi-purpose particle detector experiment at the LHC's Point $1$~\cite{ATLASPaper}. It has nearly $4\pi$ coverage in solid angle around the interaction point. It consists of an inner detector for measuring charged particles, electromagnetic and hadronic calorimeters, and a muon spectrometer. Figure~\ref{fig:ATLAS_overview} gives an overview of the detector.
@@ -97,7 +94,7 @@ Before defining the properties of the individual detectors, it is important to e
 \eta = \ln{\left(\tan\left(\frac{\theta}{2}\right)\right)}
 \end{equation}
 
-Pseudorapidity is the massless approximation of rapidity, the angle used to paramaterize boosts in special relativity. This is important for two reasons. First, it means that differences in $\eta$ are Lorentz invariant. Second, particle production is roughly constant in pseudorapidity. Particles with $\eta$ close to zero are referred to as ``central", while those at high $|\eta|$ are called ``forward". In general, two main detector topologies can be seen in figure~\ref{fig:ATLAS_overview}. There are ``barrel" elements, which surround the beam line cylindrically and are in the central region of the detector. In the forward region, there are ``endcap" regions which are arranged as disks perpendicular to the beam line. 
+Pseudorapidity is the massless approximation of rapidity, the angle used to parameterize boosts in special relativity. This is important for two reasons. First, it means that differences in $\eta$ are Lorentz invariant. Second, particle production is roughly constant in pseudorapidity. Particles with $\eta$ close to zero are referred to as ``central", while those at high $|\eta|$ are called ``forward". In general, two main detector topologies can be seen in figure~\ref{fig:ATLAS_overview}. There are ``barrel" elements, which surround the beam line cylindrically and are in the central region of the detector. In the forward region, there are ``endcap" regions which are arranged as disks perpendicular to the beam line. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -134,11 +131,11 @@ In the barrel region, the pixel detector has three concentric layers of sensors 
 
 \subsubsection{Insertable B-layer}
 
-In Run 2, a new innermost pixel layer, known as the insertable B-layer (IBL), was added to the Inner Detector~\cite{IBL}. This layer was added to cope with the higher luminosities planned in LHC Run 2 and at the high luminosity HL-LHC. Additionaly it improves tracking position resolution which in turn improves the vertexing and $b$-tagging capabilities in ATLAS. The detector sits directly on a new beam pipe, only $33.25 \textrm{ mm}$ away from the collision points in the azimuthal plane. 
+In Run 2, a new innermost pixel layer, known as the insertable B-layer (IBL), was added to the Inner Detector~\cite{IBL}. This layer was added to cope with the higher luminosities planned in LHC Run 2 and at the high luminosity HL-LHC. Additionally it improves tracking position resolution which in turn improves the vertexing and $b$-tagging capabilities in ATLAS. The detector sits directly on a new beam pipe, only $33.25 \textrm{ mm}$ away from the collision points in the azimuthal plane. 
 
 \subsubsection{Semiconductor Tracker (SCT)}
 
-The semiconductor tracker (SCT) consists of silicon microstrips and comprises the next four layers of the ID. This sub-detector has $6.4 \textrm{cm}$ long sensors that are daisy-chained into strips with a strip pich of $80 \,\mu\rm m$~\cite{ATLASPaper}. Some of the strips have a small stereo angle to allow for measurement of both angular coordinates. In total there are $6.3$ million readout channels. The intrinsic accuracies are $17 \,\mu\rm m$ in $R$-$\phi$ and $580 \,\mu\rm m$ in $z$ (or $R$ in the endcap).
+The semiconductor tracker (SCT) consists of silicon microstrips and comprises the next four layers of the ID. This sub-detector has $6.4 \textrm{cm}$ long sensors that are daisy-chained into strips with a strip pitch of $80 \,\mu\rm m$~\cite{ATLASPaper}. Some of the strips have a small stereo angle to allow for measurement of both angular coordinates. In total there are $6.3$ million readout channels. The intrinsic accuracies are $17 \,\mu\rm m$ in $R$-$\phi$ and $580 \,\mu\rm m$ in $z$ (or $R$ in the endcap).
 
 \subsubsection{Transition radiation tracker (TRT)}
 
@@ -204,11 +201,11 @@ The cathode strip chambers cover a narrow window of the innermost endcap region 
 
 \subsubsection{Resistive plate chambers (RPCs)}
 
-The resistive plate chambers (RPCs) are gaseous electrode-plate detectors covering the region $|\eta| < 1.05$. They consist of two resistive plates separated by a distance of $2\,\rm mm$. The gas mixture used is a $94.7/5/0.3$\% mixture of $\textrm{C}_2\textrm{H}_2\textrm{F}_4$, $\textrm{Iso-C}_4\textrm{H}_10$, and $\textrm{SF}_6$. It has readout strips with a pitch of $23$-$35\, \rm mm$ for both $\eta$ and $\phi$ measurement and thus provides measurement of the azimuthal coordinate in the barrel that the MDTs do not. The thin gas gap allows for a quick response time which makes it ideal for use in the trigger. There are three layers of RPCs which are referred to as the three trigger stations. They allwo for both a low $p_{T}$ and high $p_{T}$ trigger. The coincidence of hits in the innermost chambers allows for triggering of muons between $6$ and $9 \GeV$, while the outermost layer allows the trigger to select high momentum tracks in the range of $9$ to $35\GeV$~\cite{ATLASPaper}.
+The resistive plate chambers (RPCs) are gaseous electrode-plate detectors covering the region $|\eta| < 1.05$. They consist of two resistive plates separated by a distance of $2\,\rm mm$. The gas mixture used is a $94.7/5/0.3$\% mixture of $\textrm{C}_2\textrm{H}_2\textrm{F}_4$, $\textrm{Iso-C}_4\textrm{H}_10$, and $\textrm{SF}_6$. It has readout strips with a pitch of $23$-$35\, \rm mm$ for both $\eta$ and $\phi$ measurement and thus provides measurement of the azimuthal coordinate in the barrel that the MDTs do not. The thin gas gap allows for a quick response time which makes it ideal for use in the trigger. There are three layers of RPCs which are referred to as the three trigger stations. They allow for both a low $p_{T}$ and high $p_{T}$ trigger. The coincidence of hits in the innermost chambers allows for triggering of muons between $6$ and $9 \GeV$, while the outermost layer allows the trigger to select high momentum tracks in the range of $9$ to $35\GeV$~\cite{ATLASPaper}.
 
 \subsubsection{Thin gap chambers (TGCs)}
 
-The thin gap chambers (TGCs) are multiwire proportional chambers where the wire to cathode distance ($1.4\.\rm mm$) is smaller than the wire-to-wire distance ($1.8\,\rm mm$). They contain a gas mixture of $\textrm{CO}_2$ and $n$-pentane and use a hih electric field to gain good time resolution. They serve two functions in the end-cap system. First, they serve as the trigger chambers. Second, they also provide azimuthal coordinate measurement which the MDTs do not. They sit on the inner and middle layers of the endcap. The outermost layer's azimuthal coordinate is determined by extrapolation~\cite{ATLASPaper}.
+The thin gap chambers (TGCs) are multiwire proportional chambers where the wire to cathode distance ($1.4\.\rm mm$) is smaller than the wire-to-wire distance ($1.8\,\rm mm$). They contain a gas mixture of $\textrm{CO}_2$ and $n$-pentane and use a high electric field to gain good time resolution. They serve two functions in the end-cap system. First, they serve as the trigger chambers. Second, they also provide azimuthal coordinate measurement which the MDTs do not. They sit on the inner and middle layers of the endcap. The outermost layer's azimuthal coordinate is determined by extrapolation~\cite{ATLASPaper}.
 
 \subsection{Magnet system}
 
@@ -236,7 +233,7 @@ As mentioned previously, there are two independent magnet systems in ATLAS. The 
 
 \subsection{Trigger system}
 
-The ATLAS trigger system searches for signatures of muons, electrons, photons, hadronically decaying $\tau$ leptons, and jets in order to save these events for further analysis. The trigger system in ATLAS is designed to reduce the maximum LHC event rate of $40\,\rm MHz$ to a more reasonable rate that can be recorded. The trigger first consists of a fast, hardware based system called the Level-$1$ (L$1$) trigger. The L$1$ trigger consists of indepdendent dedicated detector sub-components that can seed regions of interest (RoIs) for further analysis downstream. For muons, the RPCs and TGCs are used, while in the calorimeter coarsely grained sections of calorimeter cells called towers are used. Once regions of interest are seeded, a software based system called the High Level Trigger (HLT) is used to reconstruct objects and integrate information from different parts of the detector. In Run $1$ of ATLAS, the HLT consisted of two separate stages: the level $2$ (L$2$) trigger and the event filter (EF). 
+The ATLAS trigger system searches for signatures of muons, electrons, photons, hadronically decaying $\tau$ leptons, and jets in order to save these events for further analysis. The trigger system in ATLAS is designed to reduce the maximum LHC event rate of $40\,\rm MHz$ to a more reasonable rate that can be recorded. The trigger first consists of a fast, hardware based system called the Level-$1$ (L$1$) trigger. The L$1$ trigger consists of independent dedicated detector sub-components that can seed regions of interest (RoIs) for further analysis downstream. For muons, the RPCs and TGCs are used, while in the calorimeter coarsely grained sections of calorimeter cells called towers are used. Once regions of interest are seeded, a software based system called the High Level Trigger (HLT) is used to reconstruct objects and integrate information from different parts of the detector. In Run $1$ of ATLAS, the HLT consisted of two separate stages: the level $2$ (L$2$) trigger and the event filter (EF). 
 
 The maximum trigger rate that the L$1$ trigger can handle is $75\,\rm kHz$. In the HLT, the rate of events written to disk is approximately $200\, \rm Hz$. Figure~\ref{fig:trigger_rates} shows the trigger rates for different L$1$ triggers in 2012 and 2015 for ATLAS~\cite{TriggerOps}. 
 
@@ -356,7 +353,7 @@ The NSW will use two new detector technologies - micromesh gaseous structure det
 
 Micromegas detectors operate using a thin metallic mesh that sits approximately $100\,\mu \rm m$ away from the readout electrodes to create the amplification region. Above this mesh, there is a drift region on the order of a few mm in length capped by a drift electrode. As a charged particle traverses the detector, it ionizes gas and the electrons drift down towards readout strips. The timing of the drift can be used to reconstruct the angle of traversal of the particle. This is illustrated in figure~\ref{fig:mm}. The micromegas used in ATLAS will be resistive micromegas, where the readout electrodes are topped with resistive strips~\cite{ResistiveMM}. This alleviates the risk of sparking in the large area detectors that ATLAS will use.
 
-In ATLAS, the micromegas drift gap will be $5\,\rm mm$ and the amplification gap will be $128\,\mu \rm m$. They are filled with the same gas mixture as the MDTs. They will be stacked in an octuplet in an XXUV-UVXX geometry, where X refers to straight strips and U and V refer to stero strips at an angle of $\pm 1.5^\circ$. This arrangement allows for measurement of the azimuthal coordinate and gives a large lever arm between the straight strips for triggering purposes. Figure~\ref{fig:mm} shows the geometry of a single micromegas detector as well as its operating principle~\cite{NSW_TDR}. 
+In ATLAS, the micromegas drift gap will be $5\,\rm mm$ and the amplification gap will be $128\,\mu \rm m$. They are filled with the same gas mixture as the MDTs. They will be stacked in an octuplet in an XXUV-UVXX geometry, where X refers to straight strips and U and V refer to stereo strips at an angle of $\pm 1.5^\circ$. This arrangement allows for measurement of the azimuthal coordinate and gives a large lever arm between the straight strips for triggering purposes. Figure~\ref{fig:mm} shows the geometry of a single micromegas detector as well as its operating principle~\cite{NSW_TDR}. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -409,7 +406,7 @@ Signal efficiencies for $WH$ production with $H\to b\bar{b}$ and $H\to WW^* \to 
 
 \section{Object Reconstruction in ATLAS}
 
-ATLAS analyses first start by requiring the presence of certain reconstructed physics objects in the event. This section will present a brief overview of the algorithms used to reconstruct electrons, muons, jets (including $b$-jets), and missing energy\footnote{Reconstruction algorithms for other objects, such as photons and $\tau$ leptons, are not detailed here as these objects are not used in the presented studies.}. The performance of object reconstruction and measurement will also be discussed as these are relevent to the analyses presented later. Figure~\ref{fig:reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. 
+ATLAS analyses first start by requiring the presence of certain reconstructed physics objects in the event. This section will present a brief overview of the algorithms used to reconstruct electrons, muons, jets (including $b$-jets), and missing energy\footnote{Reconstruction algorithms for other objects, such as photons and $\tau$ leptons, are not detailed here as these objects are not used in the presented studies.}. The performance of object reconstruction and measurement will also be discussed as these are relevant to the analyses presented later. Figure~\ref{fig:reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -536,7 +533,7 @@ In Run $1$, the multivariate $b$-tagging algorithm used a neural network and was
 As noted in figure~\ref{fig:reco_overview}, neutrinos produced in ATLAS will pass through the detector without interacting. The only way of detecting the presence of particles like neutrinos (or BSM particles that are long-lived) is to use missing transverse momentum. The basic principle of missing transverse energy is to use the momentum balance of the incoming protons to infer the presence of missing particles. The net longitudinal momentum of the incoming partons that collide is not known (since each carries an unknown fraction of the proton's momentum). However, the protons (and thus incoming partons) have no net momentum in the plane transverse to the beam line (the $x$-$y$) plane. Therefore, if there are no un-measured particles in the final state, the transverse momenta of all of the final state particles should balance. The magnitude of this imbalance is known as missing transverse momentum ($\MET$). 
 
 The basic calculation of missing transverse momentum from calorimeter cells is given in equation~\ref{eqn:met_basic}~\cite{MET7TeV}. 
-
+%
 \begin{equation}
 \label{eqn:met_basic}
 \begin{array}{c}
@@ -544,9 +541,9 @@ E^{\rm miss}_x = - \sum_{i=1}^{N_{\rm cell}} E_i \sin \theta_i \cos \phi_i \\
 E^{\rm miss}_y = - \sum_{i=1}^{N_{\rm cell}} E_i \sin \theta_i \sin \phi_i
 \end{array}
 \end{equation}
-
+%
 The $\MET$ calculation is separated into different terms based on the objects that the calorimeter clusters are associated with. This way, each cell's constribution is calibrated appropriately according to the object. This separation of terms is shown in equation~\ref{eqn:met_terms}~\cite{MET7TeV}. 
-
+%
 \begin{equation}
 \label{eqn:met_terms}
 \begin{array}{c}
@@ -554,16 +551,16 @@ E^{\rm miss, calo}_{x(y)} = E^{\textrm{miss}, e}_{x(y)} + E^{\textrm{miss}, \gam
 + E^{\textrm{miss}, \rm soft jets}_{x(y)} + E^{\textrm{miss}, \mu}_{x(y)} + E^{\textrm{miss}, \rm CellOut}_{x(y)}
 \end{array}
 \end{equation}
-
+%
 The CellOut term of the above equation corresponds to calorimeter cells with energy deposits that are not associated with other objects. The soft jets term comes from cells associated to jets with $\pT$ between $7$ and $20 \GeV$, while the jets term comes from jets with $\pT > 20 \GeV$. Because muons do not deposit significant energy in the calorimeter, the muon momentum is used for the muon term~\cite{MET7TeV}. The final $\MET$ is calculated using equation~\ref{eqn:final_met}.
-
+%
 \begin{equation}
 \label{eqn:final_met}
 \MET = \sqrt{\left(E_x^{\rm miss}\right)^2 + \left(E_y^{\rm miss}\right)^2}
 \end{equation}
-
+%
 Figure~\ref{fig:met} shows the resolution of the components of the $\MET$ under different pileup suppression techniques~\cite{MET8TeV}. 
-
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering

@@ -9,34 +9,34 @@
 \contentsline {section}{\numberline {1.4}Higgs Pair Production in the Standard Model}{15}{section.1.4}
 \contentsline {section}{\numberline {1.5}Higgs Pair Production in Theories Beyond the Standard Model}{16}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Randall-Sundrum Gravitons}{17}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Two Higgs Doublet Models}{20}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.2}Two Higgs Doublet Models}{19}{subsection.1.5.2}
 \contentsline {section}{\numberline {1.6}Conclusion}{21}{section.1.6}
 \contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{22}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{23}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Instantaneous luminosity}{24}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Evolution of machine conditions}{25}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}The ATLAS Detector}{25}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Coordinate system}{26}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Coordinate system}{25}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Inner detector}{27}{subsection.2.2.2}
-\contentsline {subsubsection}{Pixel detector}{28}{figure.caption.24}
-\contentsline {subsubsection}{Insertable B-layer}{29}{figure.caption.24}
+\contentsline {subsubsection}{Pixel detector}{27}{figure.caption.24}
+\contentsline {subsubsection}{Insertable B-layer}{28}{figure.caption.24}
 \contentsline {subsubsection}{Semiconductor Tracker (SCT)}{29}{figure.caption.24}
 \contentsline {subsubsection}{Transition radiation tracker (TRT)}{29}{figure.caption.24}
 \contentsline {subsection}{\numberline {2.2.3}Calorimeters}{29}{subsection.2.2.3}
 \contentsline {subsubsection}{Electromagnetic calorimeter}{30}{figure.caption.25}
 \contentsline {subsubsection}{Hadronic calorimeters}{31}{figure.caption.25}
-\contentsline {subsection}{\numberline {2.2.4}Muon spectrometer}{32}{subsection.2.2.4}
-\contentsline {subsubsection}{Monitored drift tubes (MDTs)}{33}{figure.caption.26}
+\contentsline {subsection}{\numberline {2.2.4}Muon spectrometer}{31}{subsection.2.2.4}
+\contentsline {subsubsection}{Monitored drift tubes (MDTs)}{32}{figure.caption.26}
 \contentsline {subsubsection}{Cathode strip chambers (CSCs)}{33}{figure.caption.26}
 \contentsline {subsubsection}{Resistive plate chambers (RPCs)}{33}{figure.caption.26}
-\contentsline {subsubsection}{Thin gap chambers (TGCs)}{34}{figure.caption.26}
+\contentsline {subsubsection}{Thin gap chambers (TGCs)}{33}{figure.caption.26}
 \contentsline {subsection}{\numberline {2.2.5}Magnet system}{34}{subsection.2.2.5}
 \contentsline {subsection}{\numberline {2.2.6}Trigger system}{34}{subsection.2.2.6}
 \contentsline {subsection}{\numberline {2.2.7}ATLAS datasets}{35}{subsection.2.2.7}
 \contentsline {subsection}{\numberline {2.2.8}Detector performance}{36}{subsection.2.2.8}
 \contentsline {section}{\numberline {2.3}The ATLAS Muon New Small Wheel Upgrade}{36}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Motivation}{37}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}NSW detector technologies}{37}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}NSW detector technologies}{38}{subsection.2.3.2}
 \contentsline {subsubsection}{Micromegas}{39}{subsection.2.3.2}
 \contentsline {subsubsection}{sTGCs}{39}{figure.caption.33}
 \contentsline {subsection}{\numberline {2.3.3}Physics Impact}{40}{subsection.2.3.3}
