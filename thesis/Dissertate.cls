@@ -40,8 +40,10 @@
 \newfontfamily{\smallcaps}[RawFeature={+c2sc,+scmp}]{EB Garamond}
 \setsansfont[Scale=MatchLowercase, BoldFont={Lato Bold}]{Lato Regular}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
-\RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
-                textfont={sf,footnotesize,singlespacing},
+\RequirePackage[%labelfont={bf,sf,footnotesize,singlespacing},
+                %textfont={sf,footnotesize,singlespacing},
+                labelfont={bf,footnotesize,singlespacing},
+                textfont={footnotesize,singlespacing},
                 justification={justified,RaggedRight},
                 singlelinecheck=false,
                 margin=0pt,

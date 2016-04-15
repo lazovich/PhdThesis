@@ -98,14 +98,14 @@
 \contentsline {subsection}{\numberline {5.4.2}Cut-based selection}{91}{subsection.5.4.2}
 \contentsline {subsubsection}{General background reduction}{91}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{92}{equation.5.4.1}
-\contentsline {subsubsection}{Higgs topological cuts}{93}{figure.caption.77}
-\contentsline {subsection}{\numberline {5.4.3}BDT-based selection}{97}{subsection.5.4.3}
-\contentsline {subsubsection}{Pre-training selection and BDT inputs}{97}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Background estimation}{99}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}General strategy}{99}{subsection.5.5.1}
+\contentsline {subsubsection}{Higgs topological cuts}{95}{figure.caption.77}
+\contentsline {subsection}{\numberline {5.4.3}BDT-based selection}{96}{subsection.5.4.3}
+\contentsline {subsubsection}{Pre-training selection and BDT inputs}{98}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Background estimation}{98}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}General strategy}{98}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{100}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}$Z/\gamma ^{\ast }\to \tau \tau $ background}{101}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{104}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{103}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{106}{subsection.5.5.5}
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{107}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{107}{subsection.5.5.7}
