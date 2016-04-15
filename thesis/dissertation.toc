@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {2.4.3}Jets}{43}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}$b$-tagging}{44}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Missing transverse energy}{46}{subsection.2.4.5}
-\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{49}{part.2}
+\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW^*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{49}{part.2}
 \contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{50}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{50}{section.3.1}
 \contentsline {section}{\numberline {3.2}The $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ signal in ATLAS}{51}{section.3.2}
