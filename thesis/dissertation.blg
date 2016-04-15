@@ -5,11 +5,6 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
-Case mismatch error between cite keys pdg and PDG
----line 8 of file chapters/chapter3.aux
- : \citation{pdg
- :              }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
@@ -34,11 +29,6 @@ You're missing a field name---line 1356 of file references.bib
  :       %primaryClass   = "hep-ex",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "collinear"
-Warning--I didn't find a database entry for "mt2"
-Warning--I didn't find a database entry for "JVE"
-Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
-Warning--I didn't find a database entry for "MassMeasurement"
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
 Warning--empty publisher in Tully
@@ -65,8 +55,11 @@ Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc
 Warning--empty journal in gg2vv
+Warning--empty journal in JVE
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
+Warning--empty journal in BtagCalib1
+Warning--there's a number but no volume in BtagCalib1
 Warning--empty note in LumiRatio
 Warning--empty note in HH_BR
 Warning--empty journal in a14tune
@@ -82,49 +75,47 @@ Warning--empty note in Qi
 Warning--empty year in Qi
 Warning--empty journal in LargeRUncert
 Warning--there's a number but no volume in LargeRUncert
-Warning--empty journal in BtagCalib1
-Warning--there's a number but no volume in BtagCalib1
 Warning--empty journal in BtagPaper
 Warning--empty note in CowanSig
-You've used 108 entries,
+You've used 112 entries,
             2481 wiz_defined-function locations,
-            1240 strings with 21835 characters,
-and the built_in function-call counts, 35944 in all, are:
-= -- 3124
-> -- 1561
-< -- 87
-+ -- 681
-- -- 453
-* -- 2690
-:= -- 5902
-add.period$ -- 400
-call.type$ -- 108
-change.case$ -- 210
-chr.to.int$ -- 96
-cite$ -- 166
-duplicate$ -- 1930
-empty$ -- 3325
-format.name$ -- 590
-if$ -- 7572
-int.to.chr$ -- 13
-int.to.str$ -- 109
-missing$ -- 89
-newline$ -- 623
-num.names$ -- 293
-pop$ -- 740
+            1258 strings with 22610 characters,
+and the built_in function-call counts, 37486 in all, are:
+= -- 3262
+> -- 1633
+< -- 90
++ -- 710
+- -- 473
+* -- 2809
+:= -- 6150
+add.period$ -- 417
+call.type$ -- 112
+change.case$ -- 218
+chr.to.int$ -- 99
+cite$ -- 171
+duplicate$ -- 2005
+empty$ -- 3466
+format.name$ -- 618
+if$ -- 7903
+int.to.chr$ -- 14
+int.to.str$ -- 113
+missing$ -- 93
+newline$ -- 648
+num.names$ -- 305
+pop$ -- 767
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 112
 quote$ -- 0
-skip$ -- 1108
+skip$ -- 1153
 stack$ -- 0
-substring$ -- 1139
-swap$ -- 245
+substring$ -- 1210
+swap$ -- 253
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 741
-warning$ -- 47
-while$ -- 260
+type$ -- 769
+warning$ -- 48
+while$ -- 271
 width$ -- 0
-write$ -- 1518
-(There were 2 error messages)
+write$ -- 1578
+(There was 1 error message)

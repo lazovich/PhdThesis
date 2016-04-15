@@ -1,4 +1,4 @@
-\begin{thebibliography}{108}
+\begin{thebibliography}{112}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -542,6 +542,30 @@ A.~Sherstnev and R.~S. Thorne.
 \newblock \emph{Nucl. Instrum. Meth.}, A 506:\penalty0 250, 2003.
 \newblock \doi{10.1016/S0168-9002(03)01368-8}.
 
+\bibitem[Ellis et~al.(1988)Ellis, Hinchliffe, Soldate, and Bij]{collinear}
+R.K. Ellis, I.~Hinchliffe, M.~Soldate, and J.J. Van~Der Bij.
+\newblock Higgs decay to τ+τ−a possible signature of intermediate mass
+  higgs bosons at high energy hadron colliders.
+\newblock \emph{Nuclear Physics B}, 297\penalty0 (2):\penalty0 221 -- 243,
+  1988.
+\newblock ISSN 0550-3213.
+\newblock \doi{http://dx.doi.org/10.1016/0550-3213(88)90019-3}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0550321388900193}.
+
+\bibitem[Gross and Vitells(2010)]{mt2}
+Eilam Gross and Ofer Vitells.
+\newblock {Transverse mass observables for charged Higgs boson searches at
+  hadron colliders}.
+\newblock \emph{Phys. Rev.}, D81:\penalty0 055010, 2010.
+\newblock \doi{10.1103/PhysRevD.81.055010}.
+
+\bibitem[Andersen et~al.(2014)]{JVE}
+J.~R. Andersen et~al.
+\newblock {Les Houches 2013: Physics at TeV Colliders: Standard Model Working
+  Group Report}.
+\newblock 2014.
+
 \bibitem[Stewart and Tackmann(2012)]{ST}
 I.~Stewart and F.~Tackmann.
 \newblock {Theory uncertainties for Higgs mass and other searches using jet
@@ -572,6 +596,22 @@ Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of data with
   Muons with 5 fb$^{-1}$ of Data from the ATLAS Detector}.
 \newblock \emph{ATLAS-CONF-2012-043}, 2012{\natexlab{b}}.
 \newblock URL \url{http://cdsweb.cern.ch/record/1435197}.
+
+\bibitem[{ATLAS Collaboration}(2014{\natexlab{a}})]{BtagCalib1}
+{ATLAS Collaboration}.
+\newblock {Calibration of $b$-tagging using dileptonic top pair events in a
+  combinatorial likelihood approach with the ATLAS experiment}.
+\newblock \penalty0 (ATLAS-CONF-2014-004), 2014{\natexlab{a}}.
+\newblock URL \url{http://cds.cern.ch/record/1664335}.
+
+\bibitem[Aad et~al.(2014{\natexlab{c}})]{HiggsMass}
+Georges Aad et~al.
+\newblock {Measurement of the Higgs boson mass from the $H\rightarrow
+  \gamma\gamma$ and $H \rightarrow ZZ^{*} \rightarrow 4\ell$ channels with the
+  ATLAS detector using 25 fb$^{-1}$ of $pp$ collision data}.
+\newblock \emph{Phys. Rev.}, D90\penalty0 (5):\penalty0 052004,
+  2014{\natexlab{c}}.
+\newblock \doi{10.1103/PhysRevD.90.052004}.
 
 \bibitem[Aad et~al.(2016{\natexlab{b}})]{HiggsSummaryRun1}
 Georges Aad et~al.
@@ -607,10 +647,10 @@ Richard~D. Ball et~al.
 \newblock {Parton distributions with LHC data}.
 \newblock \emph{Nucl. Phys. B}, 867:\penalty0 244, 2013.
 
-\bibitem[{ATLAS Collaboration}(2014{\natexlab{a}})]{a14tune}
+\bibitem[{ATLAS Collaboration}(2014{\natexlab{b}})]{a14tune}
 {ATLAS Collaboration}.
 \newblock {ATLAS Run 1 Pythia8 tunes}.
-\newblock \penalty0 (ATL-PHYS-PUB-2014-021), Nov 2014{\natexlab{a}}.
+\newblock \penalty0 (ATL-PHYS-PUB-2014-021), Nov 2014{\natexlab{b}}.
 \newblock URL \url{https://cds.cern.ch/record/1966419}.
 
 \bibitem[Bahr et~al.(2008)]{HerwigPP}
@@ -693,13 +733,6 @@ Qi~Zeng.
   in $\sqrt{s} = 13$ TeV Monte Carlo Simulations for ATLAS}.
 \newblock \penalty0 (ATL-PHYS-PUB-2015-033), Aug 2015{\natexlab{d}}.
 \newblock URL \url{https://cds.cern.ch/record/2041461}.
-
-\bibitem[{ATLAS Collaboration}(2014{\natexlab{b}})]{BtagCalib1}
-{ATLAS Collaboration}.
-\newblock {Calibration of $b$-tagging using dileptonic top pair events in a
-  combinatorial likelihood approach with the ATLAS experiment}.
-\newblock \penalty0 (ATLAS-CONF-2014-004), 2014{\natexlab{b}}.
-\newblock URL \url{http://cds.cern.ch/record/1664335}.
 
 \bibitem[{ATLAS Collaboration}(2015{\natexlab{e}})]{BtagPaper}
 {ATLAS Collaboration}.
