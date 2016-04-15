@@ -29,11 +29,6 @@ Warning--string name "pr" is undefined
 --line 505 of file references.bib
 Warning--string name "prl" is undefined
 --line 514 of file references.bib
-I was expecting a `,' or a `}'---line 546 of file references.bib
- :       
- :       author         = "Baglio, J. and Djouadi, A. and Gröber, R. and
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 You're missing a field name---line 1356 of file references.bib
  :       
  :       %primaryClass   = "hep-ex",
@@ -44,6 +39,14 @@ Warning--I didn't find a database entry for "mt2"
 Warning--I didn't find a database entry for "JVE"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "MassMeasurement"
+Warning--empty publisher in Griffiths
+Warning--empty publisher in HalzenAndMartin
+Warning--empty publisher in Tully
+Warning--empty title in Glashow2
+Warning--empty journal in Glashow2
+Warning--empty journal in Higgs1
+Warning--empty journal in Higgs2
+Warning--empty journal in Englert
 Warning--empty journal in LHCXSWG
 Warning--empty publisher in LHCReview
 Warning--empty author in Run2Tracking
@@ -51,45 +54,32 @@ Warning--empty note in TriggerOps
 Warning--empty note in Lumi_Run1
 Warning--empty note in Lumi_Run2
 Warning--empty note in ATLAS_Particles
+Warning--empty author in GSF
 Warning--empty author in ElectronReco
+Warning--empty journal in TopoClusters2
 Warning--empty author in JetCalib
 Warning--empty journal in Run1BJets
 Warning--empty author in Run2BJets
 Warning--empty author in MET8TeV
-Warning--empty note in LumiRatio
-Warning--empty note in HH_BR
-Warning--empty note in Tony
-Warning--empty year in Tony
-Warning--empty author in TrackJets
-Warning--empty author in 4bconf
-Warning--empty publisher in Tully
-Warning--empty author in HH_LHC
-Warning--empty title in HH_LHC
-Warning--empty journal in HH_LHC
-Warning--empty year in HH_LHC
-Warning--empty year in HH_LHC
-Warning--empty note in Qi
-Warning--empty year in Qi
-Warning--empty publisher in Griffiths
-Warning--empty publisher in HalzenAndMartin
-Warning--empty title in Glashow2
-Warning--empty journal in Glashow2
-Warning--empty journal in Higgs1
-Warning--empty journal in Higgs2
-Warning--empty journal in Englert
-Warning--empty author in GSF
-Warning--empty journal in TopoClusters2
 Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc
 Warning--empty journal in gg2vv
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
+Warning--empty note in LumiRatio
+Warning--empty note in HH_BR
 Warning--empty journal in a14tune
 Warning--there's a number but no volume in a14tune
 Warning--empty journal in TopPP
+Warning--empty note in Tony
+Warning--empty year in Tony
 Warning--empty journal in BoostedW
 Warning--empty author in BoostedHiggs
+Warning--empty author in TrackJets
+Warning--empty author in 4bconf
+Warning--empty note in Qi
+Warning--empty year in Qi
 Warning--empty journal in LargeRUncert
 Warning--there's a number but no volume in LargeRUncert
 Warning--empty journal in BtagCalib1
@@ -98,43 +88,43 @@ Warning--empty journal in BtagPaper
 Warning--empty note in CowanSig
 You've used 108 entries,
             2481 wiz_defined-function locations,
-            1236 strings with 21636 characters,
-and the built_in function-call counts, 35709 in all, are:
-= -- 3107
-> -- 1522
+            1240 strings with 21835 characters,
+and the built_in function-call counts, 35944 in all, are:
+= -- 3124
+> -- 1561
 < -- 87
-+ -- 669
-- -- 441
-* -- 2669
-:= -- 5839
-add.period$ -- 397
++ -- 681
+- -- 453
+* -- 2690
+:= -- 5902
+add.period$ -- 400
 call.type$ -- 108
-change.case$ -- 209
+change.case$ -- 210
 chr.to.int$ -- 96
-cite$ -- 172
-duplicate$ -- 1929
-empty$ -- 3322
-format.name$ -- 577
-if$ -- 7527
+cite$ -- 166
+duplicate$ -- 1930
+empty$ -- 3325
+format.name$ -- 590
+if$ -- 7572
 int.to.chr$ -- 13
 int.to.str$ -- 109
 missing$ -- 89
-newline$ -- 620
-num.names$ -- 290
-pop$ -- 750
+newline$ -- 623
+num.names$ -- 293
+pop$ -- 740
 preamble$ -- 1
 purify$ -- 108
 quote$ -- 0
-skip$ -- 1109
+skip$ -- 1108
 stack$ -- 0
-substring$ -- 1131
-swap$ -- 244
+substring$ -- 1139
+swap$ -- 245
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 741
-warning$ -- 52
-while$ -- 257
+warning$ -- 47
+while$ -- 260
 width$ -- 0
-write$ -- 1509
-(There were 3 error messages)
+write$ -- 1518
+(There were 2 error messages)
