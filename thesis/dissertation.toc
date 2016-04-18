@@ -51,24 +51,24 @@
 \contentsline {section}{\numberline {3.1}Introduction}{50}{section.3.1}
 \contentsline {section}{\numberline {3.2}The $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ signal in ATLAS}{51}{section.3.2}
 \contentsline {section}{\numberline {3.3}Background processes}{52}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{53}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Standard Model WW production}{52}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Top quark production}{53}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}$W$+jets background}{54}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}$Z/\gamma ^{*}$+jets background}{54}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Other (subdominant) backgrounds}{55}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{56}{section.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Subdominant backgrounds}{55}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{55}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{56}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{57}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{58}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Background reduction in same-flavor final states}{58}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{59}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{58}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{60}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{62}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{61}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction selection requirements}{63}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{64}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Transverse mass}{65}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{63}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Transverse mass}{64}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}title}{65}{subsection.3.6.2}
 \contentsline {subsubsection}{Likelihood function}{65}{subsection.3.6.2}
-\contentsline {subsubsection}{Test statistic}{68}{equation.3.6.10}
+\contentsline {subsubsection}{Test statistic}{67}{equation.3.6.10}
 \contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ channel}{69}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{69}{section.4.1}
 \contentsline {section}{\numberline {4.2}Data and simulation samples}{70}{section.4.2}
