@@ -506,7 +506,17 @@ The first family is referred to as IPxD (where the x can either be $2$ or $3$). 
 
 The next two algorithms used as input are referred to as the secondary vertex (SV) and JetFitter (JF) algorithms. The SV algorithm uses tracks inside the jet to fit for vertices that are displaced from the primary vertex. The JF algorithm attempts to reconstruct the full flight path of the $b$ by looking for multiple displaced vertices along the same line (as $B$ decays often result in subsequent $c$ decays). 
 
-In Run $1$, the multivariate $b$-tagging algorithm used a neural network and was referred to as MV$1$. The details of this algorithm and its inputs are given in reference~\cite{Run1BJets}. In Run $2$, the number of inputs was simplified and a boosted decision tree with $24$ input variables was used, referred to as MV$2$. The details of this algorithm are in reference~\cite{Run2BJets}. Figure~\ref{fig:bjets} shows the performance of each of these algorithms. 
+In Run $1$, the multivariate $b$-tagging algorithm used a neural network and was referred to as MV$1$. The details of this algorithm and its inputs are given in reference~\cite{Run1BJets}. In Run $2$, the number of inputs was simplified and a boosted decision tree with $24$ input variables was used, referred to as MV$2$. The MV2 algorithm is a boosted decision tree incorporating twenty-four input variables constructed from three lower level input algorithms described above. Figure~\ref{fig:MV2inputs} summarizes the inputs to MV2. Figure~\ref{fig:bjets} shows the performance of each of these algorithms. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.7\textwidth]{figures/MV2_inputs}
+  \caption{Summary of the inputs to the MV2 $b$-tagging algorithm}
+  \label{fig:MV2inputs}
+\end{figure}
 
 \begin{figure}[h!]
   %\vspace{20pt}
