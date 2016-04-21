@@ -716,6 +716,13 @@ Matteo Cacciari and Gavin~P. Salam.
 \newblock \emph{Phys. Lett. B}, 659:\penalty0 119, 2008.
 \newblock \doi{10.1016/j.physletb.2007.09.077}.
 
+\bibitem[{Glen Cowan, Eilam Gross}(2008)]{CowanSig}
+{Glen Cowan, Eilam Gross}.
+\newblock {Discovery significance with statistical uncertainty in the
+  background estimate}.
+\newblock 2008.
+\newblock URL \url{http://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}.
+
 \bibitem[4bc(2016)]{4bconf}
 {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$ final
   state using proton-proton collisions at $\sqrt{s} = 13$ TeV with the ATLAS
@@ -763,12 +770,5 @@ Alexander~L. Read.
 \newblock Technical Report CERN-LHCC-2015-020. LHCC-G-166, CERN, Geneva, Sep
   2015.
 \newblock URL \url{http://cds.cern.ch/record/2055248}.
-
-\bibitem[{Glen Cowan, Eilam Gross}(2008)]{CowanSig}
-{Glen Cowan, Eilam Gross}.
-\newblock {Discovery significance with statistical uncertainty in the
-  background estimate}.
-\newblock 2008.
-\newblock URL \url{http://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}.
 
 \end{thebibliography}

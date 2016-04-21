@@ -104,17 +104,17 @@
 \contentsline {section}{\numberline {5.5}Background estimation}{98}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General strategy}{98}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{100}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}$Z/\gamma ^{\ast }\to \tau \tau $ background}{101}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{103}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.3}$Z/\gamma ^{\ast }\to \tau \tau $ background}{102}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{104}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{106}{subsection.5.5.5}
-\contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{107}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{106}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{107}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{107}{subsection.5.5.7}
 \contentsline {subsubsection}{QCD multijet background}{108}{figure.caption.91}
-\contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{108}{subsection.5.5.8}
+\contentsline {subsection}{\numberline {5.5.8}Background composition in final signal region}{109}{subsection.5.5.8}
 \contentsline {section}{\numberline {5.6}Systematic uncertainties}{109}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{109}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Experimental uncertainties}{111}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{110}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Experimental uncertainties}{112}{subsection.5.6.2}
 \contentsline {section}{\numberline {5.7}Results}{113}{section.5.7}
 \contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{118}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{118}{section.6.1}
@@ -136,29 +136,31 @@
 \contentsline {subsection}{\numberline {7.4.2}Track jets and $b$-tagging}{136}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Muons}{137}{subsection.7.4.3}
 \contentsline {section}{\numberline {7.5}Event selection}{137}{section.7.5}
-\contentsline {section}{\numberline {7.6}Data-driven background estimation}{140}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Mass region definitions}{141}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Background estimation}{142}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Background shape fit}{144}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{145}{subsection.7.6.4}
+\contentsline {subsection}{\numberline {7.5.1}Mass requirements}{137}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}$b$-tagging requirements}{139}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}Selection efficiency}{140}{subsection.7.5.3}
+\contentsline {section}{\numberline {7.6}Data-driven background estimation}{142}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Mass region definitions}{142}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Background estimation}{143}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Background shape fit}{145}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{146}{subsection.7.6.4}
 \contentsline {section}{\numberline {7.7}Systematic uncertainties}{146}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Signal modeling uncertainties}{146}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Background uncertainties}{147}{subsection.7.7.2}
-\contentsline {section}{\numberline {7.8}Results}{149}{section.7.8}
-\contentsline {chapter}{\numberline {8}Combined limits from boosted and resolved searches}{151}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{151}{section.8.1}
-\contentsline {section}{\numberline {8.2}Resolved results}{152}{section.8.2}
-\contentsline {section}{\numberline {8.3}Search technique and results}{152}{section.8.3}
-\contentsline {section}{\numberline {8.4}Limit setting}{153}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Limit setting procedure}{154}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Limit setting results}{155}{subsection.8.4.2}
-\contentsline {part}{IV\hspace {1em}Looking ahead}{157}{part.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{158}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Optimization of $b$-tagging working point in $X\to HH \to b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ search}{162}{Appendix.1.A}
-\contentsline {chapter}{Appendix \numberline {B}$b$-tagging performance at high $p_{T}$}{164}{Appendix.1.B}
-\contentsline {section}{\numberline {B.1}MV2 algorithm overview}{164}{section.1.B.1}
-\contentsline {section}{\numberline {B.2}Changes in MV2 score at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{165}{section.1.B.2}
-\contentsline {section}{\numberline {B.3}Tagging efficiency by individual jet}{168}{section.1.B.3}
-\contentsline {section}{\numberline {B.4}Effect of multiple $b$-quarks inside one jet}{169}{section.1.B.4}
-\contentsline {section}{\numberline {B.5}Changes in track quality at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{170}{section.1.B.5}
-\contentsline {chapter}{References}{172}{figure.caption.147}
+\contentsline {subsection}{\numberline {7.7.1}Signal modeling uncertainties}{147}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Background uncertainties}{148}{subsection.7.7.2}
+\contentsline {section}{\numberline {7.8}Results}{150}{section.7.8}
+\contentsline {chapter}{\numberline {8}Combined limits from boosted and resolved searches}{152}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{152}{section.8.1}
+\contentsline {section}{\numberline {8.2}Resolved results}{153}{section.8.2}
+\contentsline {section}{\numberline {8.3}Search technique and results}{154}{section.8.3}
+\contentsline {section}{\numberline {8.4}Limit setting}{154}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Limit setting procedure}{155}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Limit setting results}{156}{subsection.8.4.2}
+\contentsline {part}{IV\hspace {1em}Looking ahead}{158}{part.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{159}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}$b$-tagging performance at high $p_{T}$}{163}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}MV2 algorithm overview}{163}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Changes in MV2 score at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{164}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Tagging efficiency by individual jet}{166}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Effect of multiple $b$-quarks inside one jet}{168}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Changes in track quality at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{169}{section.1.A.5}
+\contentsline {chapter}{References}{171}{figure.caption.147}

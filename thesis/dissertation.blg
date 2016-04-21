@@ -11,7 +11,6 @@ A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/chapter7.aux
 A level-1 auxiliary file: chapters/chapter8.aux
 A level-1 auxiliary file: chapters/conclusion.aux
-A level-1 auxiliary file: chapters/appendixA.aux
 A level-1 auxiliary file: chapters/appendixB.aux
 The style file: unsrtnat.bst
 A level-1 auxiliary file: endmatter/colophon.aux
@@ -70,6 +69,7 @@ Warning--empty year in Tony
 Warning--empty journal in BoostedW
 Warning--empty author in BoostedHiggs
 Warning--empty author in TrackJets
+Warning--empty note in CowanSig
 Warning--empty author in 4bconf
 Warning--empty note in Qi
 Warning--empty year in Qi
@@ -79,10 +79,9 @@ Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
 Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
-Warning--empty note in CowanSig
 You've used 115 entries,
             2481 wiz_defined-function locations,
-            1273 strings with 23205 characters,
+            1272 strings with 23183 characters,
 and the built_in function-call counts, 38161 in all, are:
 = -- 3337
 > -- 1633

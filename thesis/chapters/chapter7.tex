@@ -172,9 +172,11 @@ Summary of requirements on objects used in the $\FourBfull$ search
 
 The first requirement in the boosted selection is for $\geq 2$ large radius jets satisfying the selections outlined above. The two highest momentum large-R jets in the event are referred to as ``Higgs candidates". The leading jet is required to have $\pT > 350 \GeV$. 
 
-Track jets satisfying the object selections are matched to Higgs candidate jets via ghost association~\cite{GhostAssociation}. Each Higgs candidate must have at least $2$ track jets associated with it. These basic requirements are illustrated in figure~\ref{fig:BoostedCartoon}
+Track jets satisfying the object selections are matched to Higgs candidate jets via ghost association~\cite{GhostAssociation}. Each Higgs candidate must have at least $2$ track jets associated with it. These basic requirements are illustrated in figure~\ref{fig:BoostedCartoon}.
 
 The QCD multijet background produces less central jets than high mass resonances, so there is an additional requirement that the two Higgs candidates be close together in $\eta$. The large-R jets are required to satisfy $|\Delta\eta(JJ)| < 1.7$. 
+
+\subsection{Mass requirements}
 
 The final set of requirements ensures that the Higgs candidates are consistent with expected properties of the $125.0 \GeV$ Higgs. First, a variable ($\Xhh$) is defined to measure the consistency of both of the Higgs candidate jets with the SM Higgs mass. This is shown in equation~\ref{eqn:Xhh}. 
 
@@ -185,9 +187,42 @@ The final set of requirements ensures that the Higgs candidates are consistent w
 
 The mass values in the $\Xhh$ formula are optimized to maximize signal efficiency. The sub-leading jet typically has a lower mass due to semi-leptonic $b$ decays and final state radiation. $\Xhh$ effectively acts as a $\chi^2$ measurement of the consistency of the two Higgs candidate masses with the signal hypothesis. The denominators of each term ($0.1M$) give the uncertainty on the mass measurement for the large radius jets. Events are required to satisfy $\Xhh < 1.6$. 
 
-The last requirement applied is on the number of $b$-tagged track jets. There are two signal regions defined. The first requires exactly four $b$-tagged track jets, two in each Higgs candidate (known as the $4b$ signal region). At high resonance masses, this requirement is inefficient, so an additional signal region requiring only three $b$-tagged track jets is also defined (known as the $3b$ signal region). While this has a larger background it is also more efficient for high resonance masses. For both signal regions, threshold on MV2 score is chosen such that the algorithm is $77\%$ efficiency in finding true $b$-jets\footnote{The specific MV2 algorithm chosen is MV2c20, where the fraction of charm events used in the training is $20\%$}. Different working points were tested and this was found to be optimal. Appendix~\ref{AppendixA} has more details on this optimization. 
+Before making the requirement on $\Xhh$, the masses of the Higgs candidates are corrected for semi-leptonic $b$ decays using muons with the criteria outlined in the previous section. Any muons within a $\Delta R < 0.2$ of a $b$-tagged track jet (as described in the next section) have their four-momenta added to the four-momentum of the Higgs candidate. This correction does not affect the pre-selection requirements but does affect the $\Xhh$ requirement and the final invariant mass distribution used. 
 
-Before making the requirement on $\Xhh$, the masses of the Higgs candidates are corrected for semi-leptonic $b$ decays using muons with the criteria outlined in the previous section. Any muons within a $\Delta R < 0.2$ of a $b$-tagged track jet have their four-momenta added to the four-momentum of the Higgs candidate. This correction does not affect the pre-selection requirements but does affect the $\Xhh$ requirement and the final invariant mass distribution used. 
+\subsection{$b$-tagging requirements}
+
+The last requirement applied is on the number of $b$-tagged track jets. There are two signal regions defined. The first requires exactly four $b$-tagged track jets, two in each Higgs candidate (known as the $4b$ signal region). At high resonance masses, this requirement is inefficient, so an additional signal region requiring only three $b$-tagged track jets is also defined (known as the $3b$ signal region). While this has a larger background it is also more efficient for high resonance masses. For both signal regions, the MV2c20 algorithm, where the training sample for the algorithm has $20\%$ charm events is used. More details for this algorithm can be found in Chapter 2.  
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+   \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth,angle=270]{figures/sig_optimization_3b}
+        \caption{}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth,angle=270]{figures/sig_optimization_4b}
+        \caption{}
+    \end{subfigure}
+
+   \caption{Estimated significance as a function of signal mass for RSG $c=1$ models in the $3b$ (a) and $4b$ (b) regions for different $b$-tagging efficiency working points}
+  \label{fig:4b_sig_opt}
+\end{figure}
+
+Once the algorithm is selected, an efficiency working point must also be chosen. This working point defines the efficiency with which true $b$-jets are tagged and also fixes the overall background rejection of the algorithm. Higher efficiency working points accept more true $b$-jets but also allow for more background. Five different working points ($70\%$, $77\%$, $80\%$, $85\%$, $90\%$) are tested. With each working point, the full data driven background estimation method is run to quantify the amount of background that will be present in the final signal region. The significance is quantified using the median discovery significance for signal and background with Poisson errors, given in equation~\ref{eqn:Cowan_sig}~\cite{CowanSig}. 
+%
+\begin{equation}
+\label{eqn:Cowan_sig}
+Z = \sqrt{2\left((s+b)\ln\left(1+\frac{s}{b}\right) - s\right)}
+\end{equation}
+%
+Here, $s$ is the expected number of signal events and $b$ is the expected number of background events. This formula is derived using Poisson statistics with errors on both the signal and background. It is used because it is valid in the regime where $s$ and $b$ are of the same order. Note that in the limit where $s$ is much smaller than $b$, this equation reduces to the more well known $s/\sqrt{b}$. Figure~\ref{fig:4b_sig_opt} shows the estimated significance as a function of signal mass in RSG $c=1$ models for the $3b$ and $4b$ signal regions. The $77\%$ working point gives the best performance over a wide range of masses in the $4b$ signal region. As this is the region which contributes the most to the total discovery significance, the $77\%$ efficiency working point is chosen for the analysis. 
+
+\subsection{Selection efficiency}
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -224,9 +259,7 @@ Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficienc
   \label{fig:3bvs4b}
 \end{figure}
 
-The final discriminating variable used in the boosted analysis is $M_{2J}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/M_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. 
-
-Table~\ref{tab:4bcutflow} shows the effect of the selection requirements on signal and background simulations as well as data. 
+The final discriminating variable used in the boosted analysis is $M_{2J}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/M_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. Table~\ref{tab:4bcutflow} shows the effect of the selection requirements on signal and background simulations as well as data. 
 
 \begin{table}[h!]
 \centering
@@ -548,7 +581,7 @@ $f_{7}(x) = \frac{p_0}{x} (1-x)^{p_1 - p_2\ ln\ x}$ \\
 $f_{8}(x) = \frac{p_0}{x^2} (1-x)^{p_1 - p_2\ ln\ x}$ \\
 \hline
 \end{tabular}
-\caption{Alternate fit functions used to model the $M_{JJ}$ distribution in the QCD multijet background. In the equations, $x = M_{JJ} / \sqrt{s}$.}
+\caption{Alternate fit functions used to model the $M_{2J}$ distribution in the QCD multijet background. In the equations, $x = M_{2J} / \sqrt{s}$.}
 \label{tab:SystFunctions}
 \end{center}
 \end{table}
@@ -557,7 +590,7 @@ The uncertainties on the $\ttbar$ background are obtained by propagating the var
 
 \section{Results}
 
-Table~\ref{tab:BoostedResults} shows the observed yields in the $3$-tag and $4$-tag signal regions for the boosted analysis compared to the predicted number of background events. In the $3$-tag region, $316$ events are observed with a predicted background of $285\pm19$. In the $4$-tag region, $20$ events are observed with a predicted background of $14.6\pm 2.4$. Figure~\ref{fig:BoostedResults} shows the $M_{JJ}$ distribution in the $3$-tag and $4$-tag regions. There are some small excesses in the data, in particular in the $3$-tag region around $M_{JJ} \approx 900 \GeV$ and in the region of $1.6 < M_{JJ} < 2.0 \TeV$. The significance of these excesses will be evaluated in the next chapter in the statistical combination with the resolved results. 
+Table~\ref{tab:BoostedResults} shows the observed yields in the $3$-tag and $4$-tag signal regions for the boosted analysis compared to the predicted number of background events. In the $3$-tag region, $316$ events are observed with a predicted background of $285\pm19$. In the $4$-tag region, $20$ events are observed with a predicted background of $14.6\pm 2.4$. Figure~\ref{fig:BoostedResults} shows the $M_{2J}$ distribution in the $3$-tag and $4$-tag regions. There are some small excesses in the data, in particular in the $3$-tag region around $M_{2J} \approx 900 \GeV$ and in the region of $1.6 < M_{2J} < 2.0 \TeV$. The significance of these excesses will be evaluated in the next chapter in the statistical combination with the resolved results. 
 
 \begin{table}[!htb]
 \begin{center}
