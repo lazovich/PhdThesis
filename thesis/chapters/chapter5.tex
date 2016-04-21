@@ -345,12 +345,58 @@ Table~\ref{tab:vbf_cutflow} shows the data and estimated signal and background y
 
 Figure~\ref{fig:eventdisplay} shows an ATLAS event display of a candidate event in the final signal region. 
 
-\begin{sidewaystable}[!htbp]
+\begin{table}[!htbp]
+\centering%
+\captionsetup{justification=centering}
+%--------------------------------------------------------------------------------
+%\begin{tabular*}{1\textwidth}{ l r@{$\PM$}l d{0}d{0}d{0}d{1}d{1} p{0.001\textwidth} d{0}d{0}d{0}d{0}d{0}d{0} d{1}d{1}d{0} d{2}d{1}d{1} }
+\begin{tabular*}{0.85\textwidth}{ l r@{$\PM$}l ccccc}
+\dbline
+&\multicolumn{7}{c}{Summary}
+\\
+\clineskip\cline{2-8}
+\multicolumn{1}{p{0.165\textwidth}}{Selection}
+& \multicolumn{2}{p{0.050\textwidth}}{$\Nobs/\Nbkg\nq$}
+& \multicolumn{1}{p{0.040\textwidth}}{$\Nobs\nq\no$}
+& \multicolumn{1}{p{0.040\textwidth}}{$\Nbkg\np$}
+& \multicolumn{3}{p{0.125\textwidth}}{~~~~~~~~$N_{\rm signal}$}
+\\
+\multicolumn{2}{l}{}
+& 
+& 
+& 
+& \multicolumn{1}{l}{$\NggF\no$}
+& \multicolumn{1}{l}{$\NVBF\no$}
+& \multicolumn{1}{l}{$\NVH\no$}
+\\
+\sgline
+$\DFchan$ sample                           &$1.00 $& $0.00 $&$61434$ &$61180  $& $85   $&$32   $&$26  $    \\
+$\quad\Nbjet{\EQ}0$                        &$1.02 $& $0.01 $&$ 7818$ &$ 7700  $& $63   $&$26   $&$16  $  \\
+$\quad\pTtot{\LT}15$                       &$1.03 $& $0.01 $&$ 5787$ &$ 5630  $& $46   $&$23   $&$13  $  \\
+$\quad\mtt{\LT}\mZ{\MINUS}25\nq$           &$1.05 $& $0.02 $&$ 3129$ &$ 2970  $& $40   $&$20   $&$ 9.9$ \\
+$\quad\mjj{\GT}600$                        &$1.31 $& $0.12 $&$  131$ &$  100  $& $ 2.3 $&$ 8.2 $& $-$ \\
+$\quad\dyjj{\GT}3.6$                       &$1.33 $& $0.13 $&$  107$ &$   80  $& $ 2.1 $&$ 7.9 $& $-$ \\
+$\quad\cjv{\GT}1$                          &$1.36 $& $0.18 $&$   58$ &$   43  $& $ 1.3 $&$ 6.6 $& $-$ \\
+$\quad\olvlead{\LT}1$, $\olvsublead{\LT}1$ &$1.42 $& $0.20 $&$   51$ &$   36  $& $ 1.2 $&$ 6.4 $& $-$ \\
+$\quad{\mll, \dphill, \mTH}$               &$2.53 $& $0.71 $&$   14$ &$    5.5$& $ 0.8 $&$ 4.7 $& $-$  \\
+\sgline                                     $     $  $     $ $     $  $       $  $     $ $     $                     
+$\SFchan$ sample                           &$0.99 $& $0.01 $&$26949$ &$27190  $& $31   $&$14   $&$10.1$  \\
+$\quad\Nbjet, \pTtot, \mtt\nq$             &$1.03 $& $0.03 $&$ 1344$ &$ 1310  $& $13   $&$ 8.0 $&$ 4.0$ \\
+$\quad\mjj, \dyjj, \cjv, \olv$             &$1.39 $& $0.28 $&$   26$ &$   19  $& $ 0.4 $&$ 2.9 $&$ 0.0$ \\
+$\quad{\mll, \dphill, \mTH}$               &$1.63 $& $0.69 $&$    6$ &$    3.7$& $ 0.3 $&$ 2.2 $&$ 0.0$ \\
+\dbline                                                                                                 
+\end{tabular*}%                                                                                    
+%--------------------------------------------------------------------------                        
+         
 \caption{
   Event selection for the $\NjetGEtwo$ VBF analysis in
   the $8\TeV$ cut-based analysis~\cite{WW2015}.
 }
-\label{tab:vbf_cutflow}
+\label{tab:vbf_cutflow}                                                                                     
+\end{table}  
+
+\begin{comment}
+\begin{sidewaystable}[!htbp]
 \scalebox{0.9}
 {\small
   \centering%
@@ -411,8 +457,14 @@ $\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2
 \dbline                                                                                                 
 \end{tabular*}%                                                                                    
 %--------------------------------------------------------------------------                        
-}                                                                                                  
+}             
+\caption{
+  Event selection for the $\NjetGEtwo$ VBF analysis in
+  the $8\TeV$ cut-based analysis~\cite{WW2015}.
+}
+\label{tab:vbf_cutflow}                                                                                     
 \end{sidewaystable}  
+\end{comment}
 
 \begin{figure}[h!]
   \centering
