@@ -200,12 +200,12 @@ The last requirement applied is on the number of $b$-tagged track jets. There ar
 
    \begin{subfigure}[t]{0.5\textwidth}
         \centering
-        \includegraphics[width=0.7\textwidth,angle=270]{figures/sig_optimization_3b}
+        \includegraphics[width=0.65\textwidth,angle=270]{figures/sig_optimization_3b}
         \caption{}
     \end{subfigure}%
     \begin{subfigure}[t]{0.5\textwidth}
         \centering
-        \includegraphics[width=0.7\textwidth,angle=270]{figures/sig_optimization_4b}
+        \includegraphics[width=0.65\textwidth,angle=270]{figures/sig_optimization_4b}
         \caption{}
     \end{subfigure}
 
@@ -244,9 +244,7 @@ Here, $s$ is the expected number of signal events and $b$ is the expected number
   \label{fig:4beff}
 \end{figure}
 
-Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a function of mass for both the RSG and narrow heavy scalar resonance signal models. After $m_{X} > 1 \TeV$, the efficiency of the $4b$ requirement begins to decline. After $m_{X} > 2 \TeV$, the efficiency of requiring two track jets in each Higgs candidate begins to decline as well. Both of these behaviors illustrate the difficulty of resolving the merged decay products at high mass. More details on the degradation of the $b$-tagging efficiency at high masses are shown in appendix~\ref{AppendixB}. 
-
-Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficiency in the $3b$ vs $4b$ signal regions for the RSG model. The efficiencies shown here are relative to all prior selection requirements. 
+Figure~\ref{fig:4beff} shows the product of acceptance and efficiency as a function of mass for both the RSG and narrow heavy scalar resonance signal models. After $m_{X} > 1 \TeV$, the efficiency of the $4b$ requirement begins to decline. After $m_{X} > 2 \TeV$, the efficiency of requiring two track jets in each Higgs candidate begins to decline as well. Both of these behaviors illustrate the difficulty of resolving the merged decay products at high mass. Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficiency in the $3b$ vs $4b$ signal regions for the RSG model. The efficiencies shown here are relative to all prior selection requirements. It can be seen there that at high masses the $3b$ signal region is more efficient for signal. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -257,6 +255,18 @@ Figure~\ref{fig:3bvs4b} shows a more detailed comparison of the signal efficienc
   \includegraphics[width=0.5\textwidth]{figures/3bvs4b_eff}
   \caption{Efficiency of requiring $3$ or $4\,$ $b$-tagged track jets vs. RSG mass. The efficiency quoted is relative to the previous selection requirements (rather than an absolute efficiency). }
   \label{fig:3bvs4b}
+\end{figure}
+
+To investigate the degradation of $b$-tagging efficiency at high $\pT$, the individual jet tagging efficiencies can be compared as a function of signal mass. This is shown in figure~\ref{fig:btag_ind_jet}. The figure shows that the leading jet tagging efficiency in both calorimeter jets degrades heavily, while the sub-lead jet tagging efficiency remains relatively constant. More details on the cause of this degradation are shown in appendix~\ref{AppendixB}. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.5\textwidth]{figures/Btag_singlejet_comparison}
+  \caption{MV2c20 $b$-tagging efficiency for each of the four track jets in the boosted $4b$ selection as a function of RSG mass for $c=1$ models.}
+  \label{fig:btag_ind_jet}
 \end{figure}
 
 The final discriminating variable used in the boosted analysis is $M_{2J}$, the invariant mass of the two Higgs candidates. In order to improve the mass resolution, the four-momenta of each Higgs candidate are scaled by $m_{h}/M_{J}$. The effect of this correction is small in the boosted analysis but is done for consistency with the resolved selection. Table~\ref{tab:4bcutflow} shows the effect of the selection requirements on signal and background simulations as well as data. 
