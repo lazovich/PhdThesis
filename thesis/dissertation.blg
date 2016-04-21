@@ -77,46 +77,48 @@ Warning--empty journal in LargeRUncert
 Warning--there's a number but no volume in LargeRUncert
 Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
+Warning--empty author in HiggsProj
+Warning--empty author in ScopingDocument
 Warning--empty note in CowanSig
-You've used 113 entries,
+You've used 115 entries,
             2481 wiz_defined-function locations,
-            1263 strings with 22877 characters,
-and the built_in function-call counts, 37711 in all, are:
-= -- 3287
+            1273 strings with 23205 characters,
+and the built_in function-call counts, 38161 in all, are:
+= -- 3337
 > -- 1633
-< -- 91
-+ -- 712
+< -- 93
++ -- 716
 - -- 473
-* -- 2830
-:= -- 6180
-add.period$ -- 420
-call.type$ -- 113
-change.case$ -- 220
-chr.to.int$ -- 100
-cite$ -- 174
-duplicate$ -- 2020
-empty$ -- 3489
+* -- 2872
+:= -- 6240
+add.period$ -- 426
+call.type$ -- 115
+change.case$ -- 224
+chr.to.int$ -- 102
+cite$ -- 180
+duplicate$ -- 2050
+empty$ -- 3535
 format.name$ -- 618
-if$ -- 7952
+if$ -- 8050
 int.to.chr$ -- 14
-int.to.str$ -- 114
+int.to.str$ -- 116
 missing$ -- 93
-newline$ -- 653
+newline$ -- 663
 num.names$ -- 305
-pop$ -- 772
+pop$ -- 782
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 115
 quote$ -- 0
-skip$ -- 1161
+skip$ -- 1177
 stack$ -- 0
-substring$ -- 1213
-swap$ -- 256
-text.length$ -- 16
+substring$ -- 1219
+swap$ -- 262
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 776
-warning$ -- 49
+type$ -- 790
+warning$ -- 51
 while$ -- 271
 width$ -- 0
-write$ -- 1592
+write$ -- 1620
 (There was 1 error message)

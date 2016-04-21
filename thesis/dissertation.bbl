@@ -1,4 +1,4 @@
-\begin{thebibliography}{113}
+\begin{thebibliography}{115}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -751,6 +751,18 @@ Alexander~L. Read.
   data at $\sqrt{s}$ = 7 and 8 TeV}.
 \newblock Technical Report ATLAS-CONF-2015-044, CERN, Geneva, Sep 2015.
 \newblock URL \url{http://cds.cern.ch/record/2052552}.
+
+\bibitem[Hig(2014)]{HiggsProj}
+{Projections for measurements of Higgs boson signal strengths and coupling
+  parameters with the ATLAS detector at a HL-LHC}.
+\newblock Technical Report ATL-PHYS-PUB-2014-016, CERN, Geneva, Oct 2014.
+\newblock URL \url{http://cds.cern.ch/record/1956710}.
+
+\bibitem[Sco(2015)]{ScopingDocument}
+{ATLAS Phase-II Upgrade Scoping Document}.
+\newblock Technical Report CERN-LHCC-2015-020. LHCC-G-166, CERN, Geneva, Sep
+  2015.
+\newblock URL \url{http://cds.cern.ch/record/2055248}.
 
 \bibitem[{Glen Cowan, Eilam Gross}(2008)]{CowanSig}
 {Glen Cowan, Eilam Gross}.
