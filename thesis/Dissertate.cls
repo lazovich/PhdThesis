@@ -17,7 +17,7 @@
 %\RequirePackage[width=5.75in, letterpaper]{geometry}
 \RequirePackage[margin=1.25in, letterpaper]{geometry}
 \usepackage{ragged2e}
-\RaggedRight
+%\RaggedRight
 \RequirePackage{graphicx}
 \usepackage{fixltx2e}
 \parindent 12pt
@@ -27,7 +27,7 @@
 
 % Fonts.
 \RequirePackage{color}
-\usepackage{hyperref}
+\usepackage[breaklinks=true]{hyperref}
 \RequirePackage{url}
 \RequirePackage{amssymb}
 \usepackage{amsmath}
@@ -66,6 +66,8 @@
 \renewcommand{\cftchapfont}{\normalsize \scshape}
 \renewcommand\listfigurename{Listing of figures}
 \renewcommand\listtablename{Listing of tables}
+
+\def\@tocrmarg {2.55em}
 
 % Endmatter
 \renewcommand{\setthesection}{\arabic{chapter}.A\arabic{section}}
