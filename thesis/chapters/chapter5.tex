@@ -898,9 +898,11 @@ The total experimental uncertainties on different signal and background componen
 
 \begin{table}[t!]
 \centering
+\captionsetup{justification=centering}
+
 {\small
   \centering
-\begin{tabular*}{0.8\textwidth}{
+\begin{tabular}{
     p{0.18\textwidth} 
     c
     c
@@ -919,16 +921,16 @@ The total experimental uncertainties on different signal and background componen
 \multicolumn{1}{l}{~~~~syst.\,err.$\np$}  &
 \multicolumn{1}{l}{~~~~syst.\,err.$\np$} \\
 \multicolumn{3}{l}{$\NjetGEtwo$ VBF-enriched} \\
-\quad $\Nsig$                   & 13  & \multicolumn{1}{r}{-~~~} & 6.8 & 12  \\
-\quad $\Nbkg$                   & 9.2 & 4.7                      & 6.4 & 4.5 \\
-\qquad $\NWW$                   & 32  & \multicolumn{1}{r}{-~~~} & 14  & 28  \\
-\qquad $\Ntop$                  & 15  & 9.6                      & 7.6 & 8.5 \\
-\qquad $\Nfakes$                & 22  & \multicolumn{1}{r}{-~~~} & 12  & 19  \\
-\qquad $\NVV$                   & 20  & \multicolumn{1}{r}{-~~~} & 12  & 15  \\
-\qquad $\Ntautau$\,(DY)$\nqq$   & 40  & 25 & 31  & 2.9 \\
-\qquad $\Nll$\,(DY)$\nqq$       & 19  & 11   & 15  & \multicolumn{1}{r}{-~~~}\\
+\quad $\Nsig$                   & $13  $& $-$ & $6.8 $& $12 $ \\
+\quad $\Nbkg$                   & $9.2 $& $4.7$ & $6.4$ & $4.5 $\\
+\qquad $\NWW$                   & $32  $& $-$ & $14$  & $28$  \\
+\qquad $\Ntop$                  & $15  $& $9.6$ & $7.6 $& $8.5$ \\
+\qquad $\Nfakes$                & $22  $& $-$ & $12  $& $19$  \\
+\qquad $\NVV$                   & $20  $& $-$ & $12 $ & $15 $ \\
+\qquad $\Ntautau$\,(DY)$\nqq$   & $40  $& $25 $& $31$  & $2.9$ \\
+\qquad $\Nll$\,(DY)$\nqq$       & $19  $& $11 $  & $15$  & $-$\\
 \dbline
-\end{tabular*}
+\end{tabular}
 }
 \caption{
   Composition of the post-fit uncertainties (in $\%$) on the total signal ($\Nsig$),
@@ -942,13 +944,16 @@ The total experimental uncertainties on different signal and background componen
 
 While the combined results of all the $\HWW$ sub-analyses will be discussed in the next chapter, this section presents the results of the VBF specific analysis and interpretations. As table~\ref{tab:vbf_cutflow} shows, the final cut-based signal region contains $20$ events in data with $\mTH < 150 \GeV$, $14$ coming from the $e\mu$ channel and $6$ coming from the $ee+\mu\mu$ channel. The BDT analysis has many more candidates due to its looser selection, and the yields in each bin of $\bdt$ are shown in table~\ref{tab:vbf_bdt_yield}.
 
-\begin{sidewaystable}[!hbtp]
-\scalebox{0.8}
+\begin{table}[!hbtp]
+\centering
+\captionsetup{justification=centering}
+\scalebox{0.7}
 {\small
   \centering%
 %--------------------------------------------------------------------------------
 %\begin{tabular*}{1\textwidth}{ l r@{$\PM$}l d{0}d{0}d{0}d{1}d{1} p{0.005\textwidth} d{0}d{0}d{0}d{0}d{0}d{0} d{1}d{1}d{0} d{2}d{1}d{1} }
-\begin{tabular*}{1\textwidth}{ l r@{$\PM$}l ccccc p{0.005\textwidth} cccccc ccc ccc }
+%\begin{tabular*}{1\textwidth}{ l r@{$\PM$}l ccccc p{0.005\textwidth} cccccc ccc ccc }
+\begin{tabular}{ l r@{$\PM$}l ccccc p{0.005\textwidth} cccccc ccc ccc }
 \\
 \multicolumn{15}{l}{$\no$(a) Before the BDT classification}\\
 \dbline
@@ -989,25 +994,25 @@ While the combined results of all the $\HWW$ sub-analyses will be discussed in t
 \\
 \sgline
 %$\DFchan$ sample        &1.00 &0.00 &61434 &61180 &85   &32   &26  &&1350 &68   &51810 &2970 &847   &308  &380   & 51    &3260  &46   \\
-$\DFchan$ sample         &1.04 &0.04 &718   &689   &13   &15   &2.0 &&90   &11   &327   &42   &29    &23   &31    &2.2    &130   & 2   \\
-$\SFchan$ sample         &1.18 &0.08 &469   &397   & 6.0 & 7.7 &0.9 && 37  & 3   &132   &17   & 5.2  &1.2  &10.1  &168    & 23   & 1   \\
+$\DFchan$ sample         &$1.04 $&$0.04 $&$718   $&$689   $&$13   $&$15   $&$2.0 $&&$90   $&$11   $&$327   $&$42   $&$29    $&$23   $&$31    $&$2.2    $&$130   $&$ 2  $ \\
+$\SFchan$ sample         &$1.18 $&$0.08 $&$469   $&$397   $&$ 6.0 $&$ 7.7 $&$0.9 $&& $37  $& $3   $&$132   $&$17   $&$ 5.2  $&$1.2  $&$10.1  $&$168    $&$ 23   $&$ 1  $ \\
 \dbline
 \\
 \multicolumn{19}{l}{$\no$(b) Bins in $\bdt$}\\
 \dbline
 $\DFchan$ sample   \\
-$\quad$ Bin 0 (not used) &1.02 &0.04 &661   &650   & 8.8 & 3.0 &1.9 && 83  & 9   &313   &40   &26    &21   &28    &  2.2  &126   & 1   \\
-$\quad$ Bin 1            &0.99 &0.16 & 37   & 37   & 3.0 & 4.2 &0.1 && 5.0 & 1.0 & 17   & 3.1 & 3.3  & 1.8 & 2.6  &  $-$  &  4.0 & 0.2 \\
-$\quad$ Bin 2            &2.26 &0.63 & 14   &  6.2 & 1.2 & 4.2 &$-$ && 1.5 & 0.5 &  1.8 & 0.3 & 0.4  & 0.3 & 0.8  &  $-$  &  0.3 & 0.3 \\
-$\quad$ Bin 3            &5.41 &2.32 &  6   &  1.1 & 0.4 & 3.1 &$-$ && 0.3 & 0.2 &  0.3 & 0.1 & $-$  & $-$ & 0.1  &  $-$  &  0.1 & 0.1 \\
+$\quad$ Bin 0 (not used) &$1.02 $&$0.04 $&$661   $&$650   $&$ 8.8 $& $3.0 $&$1.9 $&& $83  $& $9   $&$313   $&$40   $&$26    $&$21   $&$28    $& $ 2.2  $&$126  $ &$ 1   $\\
+$\quad$ Bin 1            &$0.99 $&$0.16 $&$ 37   $&$ 37   $&$ 3.0 $& $4.2 $&$0.1 $&& $5.0 $& $1.0 $&$ 17   $&$ 3.1 $&$ 3.3  $&$ 1.8 $&$ 2.6  $&   $-$  &  $4.0 $&$ 0.2 $\\
+$\quad$ Bin 2            &$2.26 $&$0.63 $&$ 14   $&$  6.2 $&$ 1.2 $& $4.2 $&$-$   && $1.5 $& $0.5 $&$  1.8 $&$ 0.3 $&$ 0.4  $&$ 0.3 $&$ 0.8  $&   $-$  &  $0.3 $&$ 0.3 $\\
+$\quad$ Bin 3            &$5.41 $&$2.32 $&$  6   $&$  1.1 $&$ 0.4 $& $3.1 $&$-$   && $0.3 $& $0.2 $&$  0.3 $&$ 0.1 $& $-$    & $-$   &$ 0.1  $&   $-$  &  $0.1 $& $0.1 $\\
 \sgline
 $\SFchan$ sample   \\
-$\quad$ Bin 0 (not used) &1.91 &0.08 &396   &345   & 3.8 & 1.3 &0.8 && 33  & 2   &123   &16   & 4.1  &1.1  & 8.8  &137    & 20.5 & 0.5 \\
-$\quad$ Bin 1            &0.82 &0.14 & 53   & 45   & 1.5 & 2.2 &0.1 && 3.0 & 0.5 & 10.4 & 1.8 & 0.8  &0.2  & 0.9  & 26    &  1.7 & 0.1 \\
-$\quad$ Bin 2            &1.77 &0.49 & 14   &  7.9 & 0.6 & 2.5 &$-$ && 0.8 & 0.3 &  1.1 & 0.2 & 0.2  &$-$  & 0.3  &  4.4  &  0.3 & 0.1 \\
-$\quad$ Bin 3            &6.52 &2.87 &  6   &  0.9 & 0.2 & 1.7 &$-$ && 0.1 & 0.2 &  0.2 & $-$ & $-$  &$-$  & $-$  &  0.7  &  $-$ & $-$ \\
+$\quad$ Bin 0 (not used) &$1.91 $&$0.08 $&$396   $&$345   $& $3.8 $& $1.3 $&$0.8 $&& $33  $& $2   $&$123   $&$16   $& $4.1  $&$1.1  $& $8.8  $&$137   $ & $20.5 $& $0.5 $\\
+$\quad$ Bin 1            &$0.82 $&$0.14 $&$ 53   $&$ 45   $& $1.5 $& $2.2 $&$0.1 $&& $3.0 $& $0.5 $&$ 10.4 $&$ 1.8 $& $0.8  $&$0.2  $& $0.9  $&$ 26   $ &  $1.7 $& $0.1 $\\
+$\quad$ Bin 2            &$1.77 $&$0.49 $&$ 14   $&$  7.9 $& $0.6 $& $2.5 $&$-$   && $0.8 $& $0.3 $&$  1.1 $&$ 0.2 $& $0.2  $&$-$    & $0.3  $&$  4.4 $ &  $0.3 $& $0.1 $\\
+$\quad$ Bin 3            &$6.52 $&$2.87 $&$  6   $&$  0.9 $& $0.2 $& $1.7 $&$-$   && $0.1 $& $0.2 $&$  0.2 $&   $-$ & $-$    &$-$    &   $-$  &$  0.7 $ &  $-$ & $-$ \\
 \dbline            
-\end{tabular*}%                                                                                    
+\end{tabular}%                                                                                    
 %--------------------------------------------------------------------------                        
 }
 \caption{
@@ -1017,7 +1022,7 @@ $\quad$ Bin 3            &6.52 &2.87 &  6   &  0.9 & 0.2 & 1.7 &$-$ && 0.1 & 0.2
   The event yields in (b) are given in bins in $\bdt$ after the classification~\cite{WW2015}.
 }
 \label{tab:vbf_bdt_yield}                                                                                                 
-\end{sidewaystable}
+\end{table}
 
 Figure~\ref{fig:vbf_cb_mt}(a) shows the final distribution of data candidates compared to the expected $\mTH$ distribution for signal and background. The data are very consistent with a VBF Higgs hypothesis. Figure~\ref{fig:vbf_cb_mt}(b) shows where the data candidates fall in the two-dimensional binning of $\mTH$ and $\mjj$ used in the fit for the cut-based analysis. 
 
