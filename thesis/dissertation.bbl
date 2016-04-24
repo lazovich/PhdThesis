@@ -1,4 +1,4 @@
-\begin{thebibliography}{115}
+\begin{thebibliography}{116}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -112,6 +112,13 @@ G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
   G.~Passarino, and R.~Tanaka~(Eds.).
 \newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
 \newblock 2013.
+
+\bibitem[Djouadi(2008)]{DjouadiHiggs}
+Abdelhak Djouadi.
+\newblock {The Anatomy of electro-weak symmetry breaking. I: The Higgs boson in
+  the standard model}.
+\newblock \emph{Phys. Rept.}, 457:\penalty0 1--216, 2008.
+\newblock \doi{10.1016/j.physrep.2007.10.004}.
 
 \bibitem[Baglio et~al.(2013)Baglio, Djouadi, Gröber, Mühlleitner, Quevillon,
   and Spira]{HH_LHC}

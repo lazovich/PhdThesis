@@ -209,21 +209,35 @@ The fact that the Higgs couples more strongly to more massive particles is cruci
 %
 In this case, $N_c$ is the number of colors, $G_F$ is the Fermi constant, $m_f$ is the mass of the fermion, and $m_H$ is the mass of the Higgs. Note that the width scales with the square of the fermion mass. (This also assumes that the Higgs mass is large enough to decay with both the fermions on shell.) 
 
-The decay width to $WW$ is given in equation~\ref{eqn:HWW_width}~\cite{Tully}. 
+The decay width to $WW$, in the case where both $W$ bosons are produced on shell ($m_H \geq 2 m_{W}$), is given in equation~\ref{eqn:HWW_width}~\cite{Tully}. 
 %
 \begin{equation}
 \label{eqn:HWW_width}
 \Gamma(H\to W^+W^-) = \frac{\sqrt{2} G_F M_W^2 m_H}{16\pi}\frac{\sqrt{1-x_W}}{x_W}\left(3x_W^2 - 4x_W + 4\right)
 \end{equation}
 %
-where $m_W$ is the mass of the $W$ and $x_W  = 4M_W^2/m_H^2$. To get the branching ratio to $ZZ$, the equation is divided by $2$ to account for identical particles in the final state, and $x_W$ is replaced with $x_Z = 4M_Z^2/m_H^2$. This is shown in equation~\ref{eqn:HZZ_width}~\cite{Tully}.
+where $m_W$ is the mass of the $W$ and $x_W  = 4M_W^2/m_H^2$. To get the branching ratio to $ZZ$ (in the regime where $m_H \geq 2 m_{Z}$), the equation is divided by $2$ to account for identical particles in the final state, and $x_W$ is replaced with $x_Z = 4M_Z^2/m_H^2$. This is shown in equation~\ref{eqn:HZZ_width}~\cite{Tully}.
 %
 \begin{equation}
 \label{eqn:HZZ_width}
 \Gamma(H\to ZZ) = \frac{\sqrt{2} G_F M_Z^2 m_H}{32\pi}\frac{\sqrt{1-x_Z}}{x_Z}\left(3x_Z^2 - 4x_Z + 4\right)
 \end{equation}
 %
-These formulas can also be visualized as a function of Higgs mass. Figure~\ref{fig:branching_ratios} shows the branching ratios as a function of the Higgs mass. 
+The more general formula for Higgs branching into $WW$ or $ZZ$, taking into account the case where one or both vector bosons is off-shell, is shown in equation~\ref{eqn:HVV_width}~\cite{DjouadiHiggs}.
+%
+\begin{equation}
+\label{eqn:HVV_width}
+\Gamma(H\to V^*V^*) = \frac{1}{\pi^2} \int_{0}^{M_H^2} \frac{dq_1^2 M_V \Gamma_V}{(q_1^2-M_V^2)^2 + M_V^2\Gamma_V^2} \int_0^{(M_H - q_1)^2} \frac{dq_2^2 M_V \Gamma_V}{(q_2^2-M_V^2)^2 + M_V^2\Gamma_V^2} \Gamma_0
+\end{equation} 
+%
+Here, $q_1^2$ and $q_2^2$ are the invariant masses of the virtual gauge bosons, $M_V$ is the $W$ or $Z$ mass, and $\Gamma_V$ is the $W$ or $Z$ width. $\Gamma_0$ is the squared matrix element, which is given in equation~\ref{eqn:HVV_matel}~\cite{DjouadiHiggs}. 
+%
+\begin{equation}
+\label{eqn:HVV_matel}
+\Gamma_0 = \frac{G_F M_H^3}{8\sqrt{2}\pi}\delta_V\sqrt{\lambda(q_1^2, q_2^2, M_H^2)}\left[\lambda(q_1^2, q_2^2, M_H^2) + \frac{12 q_1^2 q_2^2}{M_H^4}\right]
+\end{equation}
+%
+The function $\lambda$ is defined as $\lambda(x,y,z) = (1 - x/z - y/z)^2 - 4xy/z^2$. The integral in the general off-shell boson case is much more difficult to interpret than the simpler on-shell branching ratios, but it can be evaluated numerically. These formulas can also be visualized as a function of Higgs mass. Figure~\ref{fig:branching_ratios} shows the branching ratios as a function of the Higgs mass. 
 %
 \begin{figure}[h!]
   %\vspace{20pt}
