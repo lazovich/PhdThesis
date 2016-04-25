@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
-A level-1 auxiliary file: chapters/introduction.aux
+A level-1 auxiliary file: chapters/introduction_v2.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
@@ -81,7 +81,7 @@ Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
 You've used 116 entries,
             2481 wiz_defined-function locations,
-            1279 strings with 23350 characters,
+            1279 strings with 23353 characters,
 and the built_in function-call counts, 38493 in all, are:
 = -- 3369
 > -- 1640
