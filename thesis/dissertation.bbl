@@ -1,4 +1,4 @@
-\begin{thebibliography}{116}
+\begin{thebibliography}{117}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -204,6 +204,12 @@ Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
 \newblock {MadGraph 5:Going Beyond}.
 \newblock \emph{JHEP}, 1106:\penalty0 128, 2011.
 \newblock \doi{10.1007/JHEP06(2011)128}.
+
+\bibitem[{Oleg Antipin, Tuomas Hapola}(2013)]{CP3Origins}
+{Oleg Antipin, Tuomas Hapola}.
+\newblock {CP3 Origins implementation of Randall-Sundrum model}.
+\newblock 2013.
+\newblock URL \url{http://cp3-origins.dk/research/units/ed-tools}.
 
 \bibitem[Evans and Bryant(2008)]{LHCPaper}
 Lyndon~R Evans and Philip Bryant.

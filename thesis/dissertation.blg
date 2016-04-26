@@ -37,6 +37,7 @@ Warning--empty journal in Higgs1
 Warning--empty journal in Higgs2
 Warning--empty journal in Englert
 Warning--empty journal in LHCXSWG
+Warning--empty note in CP3Origins
 Warning--empty publisher in LHCReview
 Warning--empty author in Run2Tracking
 Warning--empty note in TriggerOps
@@ -79,45 +80,45 @@ Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
 Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
-You've used 116 entries,
+You've used 117 entries,
             2481 wiz_defined-function locations,
-            1279 strings with 23353 characters,
-and the built_in function-call counts, 38493 in all, are:
-= -- 3369
-> -- 1640
-< -- 94
-+ -- 720
-- -- 475
-* -- 2893
-:= -- 6293
-add.period$ -- 430
-call.type$ -- 116
-change.case$ -- 226
-chr.to.int$ -- 103
-cite$ -- 181
-duplicate$ -- 2069
-empty$ -- 3570
-format.name$ -- 621
-if$ -- 8123
+            1284 strings with 23500 characters,
+and the built_in function-call counts, 38722 in all, are:
+= -- 3392
+> -- 1647
+< -- 95
++ -- 724
+- -- 477
+* -- 2906
+:= -- 6336
+add.period$ -- 434
+call.type$ -- 117
+change.case$ -- 228
+chr.to.int$ -- 104
+cite$ -- 183
+duplicate$ -- 2081
+empty$ -- 3587
+format.name$ -- 624
+if$ -- 8167
 int.to.chr$ -- 14
-int.to.str$ -- 117
+int.to.str$ -- 118
 missing$ -- 94
-newline$ -- 669
-num.names$ -- 308
-pop$ -- 788
+newline$ -- 675
+num.names$ -- 311
+pop$ -- 792
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 117
 quote$ -- 0
-skip$ -- 1188
+skip$ -- 1197
 stack$ -- 0
-substring$ -- 1236
-swap$ -- 264
+substring$ -- 1238
+swap$ -- 265
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 797
-warning$ -- 51
-while$ -- 274
+type$ -- 804
+warning$ -- 52
+while$ -- 276
 width$ -- 0
-write$ -- 1635
+write$ -- 1648
 (There was 1 error message)
