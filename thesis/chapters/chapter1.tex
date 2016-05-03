@@ -9,9 +9,9 @@ This chapter presents an overview of the Standard Model of Particle Physics and 
 
 \section{The Standard Model of Particle Physics}
 
-The Standard Model (SM) of Particle Physics is a quantum field theory describing the fundamental particles of nature and the forces that govern their interactions. Several comprehensive treatments of the SM already exist in the literature~\cite{Griffiths,HalzenAndMartin,Tully,PDG,Schwartz,Dawson} and this section will not rehash those. Rather, this section presents a brief overview of the SM particles and forces in order to define them for subsequent discussions. 
+The Standard Model (SM) of Particle Physics is a quantum field theory describing the fundamental particles of nature and the forces that govern their interactions. Several comprehensive pedagogical treatments of the SM already exist in the literature~\cite{Griffiths,HalzenAndMartin,Tully,PDG,Schwartz,Dawson} and this section will not rehash those. Rather, this section presents a brief overview of the SM particles and forces in order to define them for subsequent discussions. 
 
-The Standard Model consists of two primary categories of fundamental particles: fermions (spin $1/2$ particles) and bosons (integer spin particles). The SM also describes three forces: electromagnetism, the weak nuclear force, and the strong nuclear force. Gravity is not included in the theory and is largely irrelevant at the scales currently probed by collider experiments. Within the fermions, there are both quarks (which interact via all three forces) and the leptons. The charged leptons interact via electromagnetic and weak interactions, while neutrinos (neutral leptons) interact only via the weak force. Within the bosons, there are the $W^{\pm}$ and $Z$ bosons (the mediators of the weak force), the gluon ($g$, the mediator of the strong force), and the photon ($\gamma$), the mediator of the electromagnetic force. Finally, there is the Higgs boson, a fundamental spin-$0$ particle resulting from the Higgs mechanism of electroweak symmetry breaking.  Figure~\ref{fig:sm_particles} summarizes the fermions and bosons of the SM. 
+The Standard Model consists of two primary categories of fundamental particles: fermions (spin $1/2$ particles) and bosons (integer spin particles). The SM also describes three forces: electromagnetism, the weak nuclear force, and the strong nuclear force. Gravity is not included in the theory and is largely irrelevant at the scales currently probed by collider experiments. Within the fermions, there are both quarks (which interact via all three forces) and leptons. The charged leptons interact via electromagnetic and weak interactions, while neutrinos (neutral leptons) interact only via the weak force. Within the bosons, there are the $W^{\pm}$ and $Z$ bosons (the mediators of the weak force), the gluon ($g$, the mediator of the strong force), and the photon ($\gamma$, the mediator of the electromagnetic force). Finally, there is the Higgs boson, a fundamental spin zero particle resulting from the Higgs mechanism of electroweak symmetry breaking.  Figure~\ref{fig:sm_particles} summarizes the fermions and bosons of the SM. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -24,7 +24,7 @@ The Standard Model consists of two primary categories of fundamental particles: 
   \label{fig:sm_particles}
 \end{figure}
 
-The Standard Model coalesced into a unified theoretical framework in the 1960s through the work of Glashow, Weinberg, Salam, and others on the theory of electroweak interactions~\cite{Glashow, Weinberg, Salam, Glashow2}. This theory characterized both the electromagnetic and weak interactions as unified under a single gauge symmetry group, namely $SU(2) \times U(1)$. At low enough energy scales (on the order of the $W$ and $Z$ masses, the electroweak symmetry is broken, as evidenced by the fact that the weak bosons have mass while the photon does not. The discovery of the Higgs boson in 2012 confirmed the Higgs mechanism as the most likely candidate for this electroweak symmetry breaking~\cite{Discovery, CMSDiscovery}. The electroweak theory is then combined with the theory of quantum chromodynamics (which models the strong sector as a non-Abelian $SU(3)$ gauge group) to form the complete SM~\cite{QCDBook}. 
+The Standard Model coalesced into a unified theoretical framework in the 1960s through the work of Glashow, Weinberg, Salam, and others on the theory of electroweak interactions~\cite{Glashow, Weinberg, Salam, Glashow2}. This theory characterized both the electromagnetic and weak interactions as unified under a single gauge symmetry group, namely $SU(2) \times U(1)$. At low enough energy scales (on the order of the $W$ and $Z$ masses), the electroweak symmetry is broken, as evidenced by the fact that the weak bosons have mass while the photon does not. The discovery of the Higgs boson in 2012 confirmed the Higgs mechanism as the most likely candidate for this electroweak symmetry breaking~\cite{Discovery, CMSDiscovery}. The complete SM consists of this electroweak theory combined with the theory of quantum chromodynamics (which models the strong sector as a non-Abelian $SU(3)$ gauge group)~\cite{QCDBook}. 
 
 \section{Electroweak Symmetry Breaking and the Higgs}
 
@@ -38,14 +38,14 @@ The mechanism works by introducing a Lagrangian for the newly introduced field t
 %\phiH = \left( \begin{array}{c} \phi^+ \\ \phi^0  \end{array}\right) = \left( \begin{array}{c} \phi_1^+ + i\phi_2^+ \\ \phi_1^0 + i \phi_2^0 \end{array}\right) 
 \end{equation}
 %
-The minimal potential of a self-interacting Higgs that still respects the SM symmetry is given in equation~\ref{eqn:potential}.
+The simplest potential of a self-interacting Higgs that still respects the SM symmetry is given in equation~\ref{eqn:potential}.
 %
 \begin{equation}
 \label{eqn:potential}
 V(\phiH) = \mu^2 \phiH^{\dagger}\phiH + \lambda(\phiH^\dagger\phiH)^2
 \end{equation}
 %
-If the $\mu^2$ term of this potential is positive, then the potential has a minimum at $\phiH = 0$ and the SM symmetry is preserved. However, if instead $\mu^2 < 0$, then the minimum is at a finite value of $\phiH$, namely
+If the $\mu^2$ term of this potential is positive, then the potential has a minimum at $\phiH = 0$ and the electroweak symmetry is preserved. However, if instead $\mu^2 < 0$, then the minimum is at a finite value of $\phiH$, namely
 %
 \begin{equation}
 \phiH_{\rm min} = \frac{1}{\sqrt{2}} \left(\begin{array}{c} 0 \\ v\end{array} \right)
@@ -69,7 +69,7 @@ where the covariant derivative is defined as
 D_\mu = \partial_\mu + \frac{ig}{2}\tau^aW_\mu^a + ig'YB_\mu
 \end{equation}
 %
-and $W^1, W^2, W^3$ and $B$ are the $SU(2)$ and $U(1)$ gauge fields of the electroweak theory, respectively. $g$ and $g'$ are the corresponding coupling constants. With the scalar Lagrangian in place, the physical gauge fields can then be written as 
+and $W^1, W^2, W^3$ and $B$ are the $SU(2)$ and $U(1)$ gauge fields of the electroweak theory, respectively. $g$ and $g'$ are the corresponding coupling constants. The Pauli matrices are represented with $\tau$. With the scalar Lagrangian in place, the physical gauge fields can then be written as 
 %
 \begin{equation}
 \label{eqn:Weq}
@@ -100,25 +100,28 @@ The fermion masses also arise through a coupling with the Higgs via the Yukawa i
 %
 \begin{equation}
 \label{eqn:higgs-fermions}
-g_{Hf\bar{f}} = \frac{m_f}{v}
+g_{hf\bar{f}} = \frac{m_f}{v}
 \end{equation} 
 %
 The full Lagrangian of Higgs interactions can be written as 
 %
 \begin{equation}
-\mathcal{L}_{\rm Higgs} = -g_{Hf\bar{f}}\bar{f}fH + \frac{g_{HHH}}{6}H^3 + \frac{g_{HHHH}}{24}H^4 + \delta_V V_\mu V^\mu\left(g_{HVV} H + \frac{g_{HHVV}}{2}H^2\right)
+\label{eqn:Higgs_L}
+\mathcal{L}_{\rm Higgs} = -g_{hf\bar{f}}\bar{f}fh + \frac{g_{hhh}}{6}h^3 + \frac{g_{hhhh}}{24}h^4 + \delta_V V_\mu V^\mu\left(g_{hVV} H + \frac{g_{hhVV}}{2}h^2\right)
 \end{equation}
 %
 with 
 %
 \begin{equation}
 \begin{array}{cc}
-g_{HVV} = \frac{2m_V^2}{v} & g_{HHVV} = \frac{2m_V^2}{v^2} \\ 
-g_{HHH} = \frac{3m_H^2}{v} & g_{HHHH} = \frac{3m_H^2}{v^2}
+g_{hVV} = \frac{2m_V^2}{v} & g_{hhVV} = \frac{2m_V^2}{v^2} \\ 
+g_{hhh} = \frac{3m_h^2}{v} & g_{hhHH} = \frac{3m_h^2}{v^2}
 \end{array}
 \end{equation}
 %
-Here, $V$ refers to the $W^{\pm}$ and $Z$, and $\delta_{W} = 1$ while $\delta_Z = 1/2$. Phenomenologically, there are a few features of this Lagrangian that are useful to note. First, note that the Higgs mass is a free parameter of the theory that must be determined experimentally. Second, note that the coupling of the Higgs to the vector bosons and fermions scales with the masses of these particles, a fact that is important when considering both the production and decays of the particle. Also note that the branching ratio of the Higgs to $W$ bosons will be twice that of the branching ratio to $Z$ if the Higgs mass is large enough to produce the particles on shell because of the extra symmetry factor associated with the $W$ coupling. Finally, note the presence of the cubic and quartic Higgs self interaction terms, which can lead to final states with multiple Higgs bosons produced. 
+The last term of the Lagrangigan appears twice, once for $W$ bosons and once for $Z$ bosons. $V$ refers to the $W^{\pm}$ and $Z$, and $\delta_{W} = 1$ while $\delta_Z = 1/2$. Phenomenologically, there are a few features of this Lagrangian that are useful to note. First, note that the Higgs mass is a free parameter of the theory that must be determined experimentally. Second, note that the coupling of the Higgs to the vector bosons and fermions scales as a function of the masses of these particles, a fact that is important when considering both the production and decays of the Higgs. Finally, note the presence of the cubic and quartic Higgs self interaction terms, which can lead to final states with multiple Higgs bosons produced. 
+
+%Also note that the branching ratio of the Higgs to $W$ bosons will be twice that of the branching ratio to $Z$ if the Higgs mass is large enough to produce the particles on shell because of the extra symmetry factor associated with the $W$ coupling. 
 
 \section{Higgs Boson Production and Decay}
 
@@ -159,8 +162,8 @@ The Higgs is produced by four main production modes at the Large Hadron Collider
   \label{fig:production_modes}
 \end{figure}
 
-In gluon-gluon fusion, gluons from the incoming protons fuse via a top-quark loop to produce a Higgs. The top quark is the dominant contribution in the loop due to its heavy mass and the fact that the Higgs-fermion coupling constant scales with fermion mass. In vector boson fusion, the incoming quarks each radiate a $W$ or $Z$ boson which fuse to produce the Higgs. This production mode results in a final state with a Higgs boson and two additional jets which tend to be forward because they carry the longitudinal momentum of the incoming partons. The Higgs can also be produced in associated with a $W$ or $Z$ boson. The $W/Z$ is produced normally and then radiates a Higgs (this mode is also sometimes known as ``Higgs-strahlung"). Finally, the Higgs can be produced in association with two top quarks. Each incoming gluon splits into a $\ttbar$ pair, and one of the top pairs combines to create a Higgs. Figure~\ref{fig:Higgs_xsec} shows the production cross section for a $125 \GeV$ Higgs boson in each of these modes at a $pp$ collider as a function of center of mass energy. 
-
+In gluon-gluon fusion, gluons from the incoming protons fuse via a top-quark loop to produce a Higgs. The top quark is the dominant contribution in the loop due to its heavy mass and the fact that the Higgs-fermion coupling constant scales with fermion mass. In vector boson fusion, the incoming quarks each radiate a $W$ or $Z$ boson which fuse to produce the Higgs. This production mode results in a final state with a Higgs boson and two additional jets which tend to be forward because they carry the longitudinal momentum of the incoming partons. The Higgs can also be produced in associated with a $W$ or $Z$ boson. The $W/Z$ is produced normally and then radiates a Higgs\footnote{This mode is also sometimes known as ``Higgs-strahlung".}. Finally, the Higgs can be produced in association with two top quarks. Each incoming gluon splits into a $\ttbar$ pair, and one of the top pairs combines to create a Higgs. Figure~\ref{fig:Higgs_xsec} shows the production cross section for a $125 \GeV$ Higgs boson in each of these modes at a $pp$ collider as a function of center of mass energy. 
+%
 \begin{figure}[h!]
   %\vspace{20pt}
   \centering
@@ -171,8 +174,8 @@ In gluon-gluon fusion, gluons from the incoming protons fuse via a top-quark loo
   \caption{Higgs production cross sections as a function of center of mass energy ($\sqrt{s}$) at a $pp$ collider~\cite{LHCXSWG}.}
   \label{fig:Higgs_xsec}
 \end{figure}
-
-In figure~\ref{fig:Higgs_xsec}, note that gluon fusion has the largest cross section, while VBF is the second largest at approximately a factor of $10$ smaller. The figure also includes the less commonly studied $b\bar{b}H$ and $tH$ modes. While the $b\bar{b}H$ mode has a larger cross section than $\ttbar H$, it also has larger backgrounds and is thus less sensitive. The $tH$ mode is not as sensitive as $t\bar{t}H$ due to its lower cross section. At $\sqrt{s} = 8 \TeV$, ggF production of a $125 \GeV$ Higgs has a cross section of $19.47 \pb$, while VBF has a cross section of $1.601 \pb$~\cite{LHCXSWG}. The cross sections of all of the main Higgs production modes at this center of mass energy, as well as their uncertainties from varying the renormalization and factorization scales and PDFs, are summarized in table~\ref{tab:Higgs_xsec} for a $125 \GeV$ Higgs.
+%
+In figure~\ref{fig:Higgs_xsec}, note that gluon fusion has the largest cross section, while VBF is the second largest at approximately a factor of $10$ smaller. The figure also includes the less commonly studied $b\bar{b}H$ and $tH$ modes. While the $b\bar{b}H$ mode has a larger cross section than $\ttbar H$, it also has larger backgrounds and is thus less sensitive. The $tH$ mode is not as sensitive as $t\bar{t}H$ due to its lower cross section. At $\sqrt{s} = 8 \TeV$, ggF production of a $125 \GeV$ Higgs has a cross section of $19.47^{+1.54}_{-1.67}\pb$, while VBF has a cross section of $1.601^{+0.036}_{-0.035} \pb$~\cite{LHCXSWG}. The cross sections of all of the main Higgs production modes at this center of mass energy, as well as their uncertainties from varying the QCD renormalization and factorization scales and PDFs, are summarized in table~\ref{tab:Higgs_xsec} for a $125 \GeV$ Higgs. The relative uncertainty of the gluon fusion mode is larger than the relative uncertainty in the vector boson fusion mode due to the fact that gluon fusion production happens through a loop. 
 
 \begin{table}[h!]
 \centering
@@ -200,7 +203,7 @@ Production cross sections for a $125 \GeV$ Higgs boson at $\sqrt{s} = 8 \TeV$ wi
 
 \subsection{Higgs branching ratios}
 
-The fact that the Higgs couples more strongly to more massive particles is crucial for understanding its branching ratios. The width for Higgs decays to fermions is given in equation~\ref{eqn:Hff_width}~\cite{Tully}.
+The fact that the Higgs couples more strongly to more massive particles is crucial for understanding its branching ratios. The width for Higgs decays to fermions is given by equation~\ref{eqn:Hff_width}~\cite{Tully}.
 %
 \begin{equation}
 \label{eqn:Hff_width}
@@ -237,7 +240,7 @@ Here, $q_1^2$ and $q_2^2$ are the invariant masses of the virtual gauge bosons, 
 \Gamma_0 = \frac{G_F M_H^3}{8\sqrt{2}\pi}\delta_V\sqrt{\lambda(q_1^2, q_2^2, M_H^2)}\left[\lambda(q_1^2, q_2^2, M_H^2) + \frac{12 q_1^2 q_2^2}{M_H^4}\right]
 \end{equation}
 %
-The function $\lambda$ is defined as $\lambda(x,y,z) = (1 - x/z - y/z)^2 - 4xy/z^2$. The integral in the general off-shell boson case is much more difficult to interpret than the simpler on-shell branching ratios, but it can be evaluated numerically. These formulas can also be visualized as a function of Higgs mass. Figure~\ref{fig:branching_ratios} shows the branching ratios as a function of the Higgs mass. 
+The function $\lambda$ is defined as $\lambda(x,y,z) = (1 - x/z - y/z)^2 - 4xy/z^2$. The integral in the general off-shell boson case is much more difficult to interpret than the simpler on-shell branching ratios, but it can be evaluated numerically. These branching ratio formulas can also be visualized as a function of Higgs mass, as shown in figure~\ref{fig:branching_ratios}. 
 %
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -249,7 +252,7 @@ The function $\lambda$ is defined as $\lambda(x,y,z) = (1 - x/z - y/z)^2 - 4xy/z
   \label{fig:branching_ratios}
 \end{figure}
 %
-There are a few interesting features to note in this figure. First, note that at high Higgs masses, once on-shell production of both $W$ and $Z$ bosons is possible, these two decays are the dominant ones due to the large masses of the $W/Z$. Also note that the branching ratio to $W$s is twice that of $Z$s at these large masses due to the $\delta_V$ symmetry factor noted previously. At $125 \GeV$, the Higgs is accessible through many different decay modes. The largest branching ratio is the decay $H\to b\bar{b}$ at 58.24\%~\cite{LHCXSWG}. This branching is larger than the $WW$/$ZZ$ decays because one of the two bosons must be produced off-shell for $m_H = 125 \GeV$. The second largest branching ratio is to $WW^*$ at $21.37$ \% (before taking into account the branching ratios of the $W$). Table~\ref{tab:Higgs_BR} summarizes the branching ratios for a $125 \GeV$ Higgs. Note that there is in fact a Higgs branching ratio to $\gamma\gamma$ even though photons are massless. This decay happens through a loop (the largest contributions to the loop are top and $W$) which suppresses the branching ratio. 
+There are a few interesting features to note in this figure. First, note that at high Higgs masses, once on-shell production of both $W$ and $Z$ bosons is possible, these two decays are dominant due to the large masses of the $W/Z$. Also note that the branching ratio to $W$s is twice that of $Z$s at these large masses due to the fact that there are two charged $W$ bosons ($W^\pm$) and only one $Z$ boson\footnote{In the Higgs Lagrangian, this extra symmetry factor is quantified by the $\delta_V$ noted in equation~\ref{eqn:Higgs_L}.}. At $125 \GeV$, the Higgs is accessible through many different decay modes. The largest branching ratio is the decay $H\to b\bar{b}$ at $58.24$\%~\cite{LHCXSWG}. This branching is larger than the $WW$/$ZZ$ decays because one of the two bosons must be produced off-shell for $m_h = 125 \GeV$. The second largest branching ratio is to $WW^*$ at $21.37$ \% (before taking into account the branching ratios of the $W$). Table~\ref{tab:Higgs_BR} summarizes the theoretical branching ratios for a Higgs with a mass of $125 \GeV$. Note that there is a Higgs branching ratio to $\gamma\gamma$ even though photons are massless. This decay happens through a loop, which suppresses the branching ratio\footnote{The largest contributions to the loop are the top quark and $W$ boson.}. 
 
 \begin{table}[h!]
 \centering
@@ -272,12 +275,12 @@ $\mu\mu$ & $0.02176$ & $+1.23/-1.23$ \\ \hline
 \end{tabular}
 
 \caption{
-Branching ratios for a $125 \GeV$ Higgs boson, quoted as a percentage of the total width of the Higgs. Uncertainties shown are relative to the branching ratio value~\cite{LHCXSWG}. 
+Theoretical branching ratios for a $125 \GeV$ Higgs boson, quoted as a percentage of the total width of the Higgs. Uncertainties shown are relative to the branching ratio value~\cite{LHCXSWG}. 
 }
 \label{tab:Higgs_BR}
 \end{table}
 
-Note that the branching ratios alone do not tell the full story of which Higgs channels are the most sensitive. For example, a $H\to b\bar{b}$ search in gluon fusion production is incredibly difficult due to the large QCD dijet background at the LHC. However, in associated production of the Higgs, where a $W$ or $Z$ gives additional final state particles that can be used to reduce background, a search for $H\to b\bar{b}$ can be sensitive. The combinations of production and decay modes that are most commonly studied are summarized in table~\ref{tab:sensitive_channels}~\cite{Tully}.
+Note that the branching ratios alone do not tell the full story of which Higgs channels are the most sensitive. For example, the $H\to b\bar{b}$ channel in gluon fusion production is incredibly difficult to observe due to the large QCD dijet background at the LHC. However, in associated production of the Higgs, where a $W$ or $Z$ gives additional final state particles that can be used to reduce background, a search for $H\to b\bar{b}$ can be sensitive. The combinations of production and decay modes that are most commonly studied at the LHC are summarized in table~\ref{tab:sensitive_channels}~\cite{Tully}.
 
 \begin{table}[h!]
 \centering
@@ -320,13 +323,13 @@ The Standard Model also allows for processes that produce two Higgs bosons in th
         \includegraphics[width=0.7\textwidth]{figures/HH_lambda}
         \caption{}
     \end{subfigure}
-   \caption{The two leading diagrams for Standard Model di-Higgs production at the LHC: (a) box diagram, (b) Higgs self coupling}
+   \caption{The two leading diagrams for Standard Model di-Higgs production at the LHC: (a) box diagram, (b) Higgs self coupling.}
   \label{fig:diHiggs}
 \end{figure}
 %
 The two diagrams in figure~\ref{fig:diHiggs} interfere destructively with one another, resulting in a low overall cross section for di-Higgs production at the LHC. Nevertheless, Higgs pair production is quite interesting to study because it gives direct access to the $\lambda$ parameter of the Higgs potential, also known as the Higgs self coupling. The diagram in figure~\ref{fig:diHiggs}(b) is sensitive to this coupling through the triple Higgs vertex.  
 
-One can substitute the gluon fusion production of diagram~\ref{fig:diHiggs}(b) with any of the other production modes previously discussed. These other modes do not suffer from interference with the box diagram in figure~\ref{fig:diHiggs}(a) due to the presence of additional particles in the final state. They still have a lower cross section than the gluon fusion mode, however. The cross sections for di-Higgs production in the different modes, as well as their uncertainties, are shown in table~\ref{tab:diHiggs_xsec}~\cite{HH_LHC}. These are shown for $\sqrt{s} = 14 \TeV$ as the higher center of mass energy is more sensitive to this process. Note that the scale of cross section quoted is now in $\fb$ rather than $\pb$.
+One can substitute the gluon fusion production of diagram~\ref{fig:diHiggs}(b) with any of the other production modes previously discussed. These other modes do not suffer from interference with the box diagram in figure~\ref{fig:diHiggs}(a) due to the presence of additional particles in the final state. They still have a lower cross section than the gluon fusion mode, however. The cross sections for di-Higgs production in the different modes, as well as their uncertainties, are shown in table~\ref{tab:diHiggs_xsec}~\cite{HH_LHC}. These are shown for $\sqrt{s} = 14 \TeV$ as this is the expected center of mass energy for the High Luminosity LHC and this energy is more sensitive to di-Higgs production. Note that the scale of cross section quoted is now in $\fb$ rather than $\pb$.
 \begin{table}[h!]
 \centering
 \captionsetup{justification=centering}
@@ -350,7 +353,7 @@ Production cross sections for pair production of a $125 \GeV$ Higgs boson at $\s
 
 \section{Higgs Pair Production in Theories Beyond the Standard Model}
 
-The Standard Model Higgs pair production cross section is rather small, and datasets on the scale of the full lifetime of the LHC will be required to obtain sensitive measurements of the Higgs self-coupling. However, the discovery of the Higgs also gives particle physicists a new tool that can be exploited in the search for new physics beyond the Standard Model. In particular, Higgs pair production is a promising channel in the search for new physics. The cross section for di-Higgs production can be altered through both resonant and non-resonant production of Higgs pairs. In non-resonant production, di-Higgs production vertices can arise from the presence of a new strong sector and additional colored particles~\cite{HH_NewPhys,AnomalousHHVertex,CompositeDiHiggs}. Figure~\ref{fig:HH_nonres} shows examples of the types of vertices that can arise. In the resonant case, new heavy particle can decay to Higgs pairs. Such new particles can include heavy Higgs bosons arising in two Higgs doublet models (2HDM) or Higgs portal models as well as heavy gravitons in Randall-Sundrum theories~\cite{HH_NewPhys,RSG1,RSG_LHC,RSG_LHC2,HH_2HDM,2HDM2,2HDM3,HiggsPortal}. Figure~\ref{fig:HH_res} shows a generic diagram for a heavy resonance decaying to two Higgs bosons. In the 2HDM, $X$ corresponds to the heavy CP-even scalar $H$. In the Randall-Sundrum model, $X$ corresponds to a heavy spin-2 graviton $G$. 
+The Higgs pair production cross section in the Standard Model is rather small, and datasets on the scale of the full $3000 \ifb$ expected from the High Luminosity LHC will be required to obtain sensitive measurements of the Higgs self-coupling~\cite{HH_LHC}. However, the discovery of the Higgs also gives particle physicists a new tool that can be exploited in the search for new physics beyond the Standard Model. In particular, Higgs pair production is a promising channel in the search for new physics. The cross section for di-Higgs production can be altered through both resonant and non-resonant production of Higgs pairs. In non-resonant production, di-Higgs production vertices can arise from the presence of a new strong sector and additional colored particles~\cite{HH_NewPhys,AnomalousHHVertex,CompositeDiHiggs}. Figure~\ref{fig:HH_nonres} shows examples of the types of vertices that can arise. In the resonant case, new heavy particle can decay to Higgs pairs. Such new particles can include heavy Higgs bosons arising in two Higgs doublet models (2HDM) or Higgs portal models as well as heavy gravitons in Randall-Sundrum theories~\cite{HH_NewPhys,RSG1,RSG_LHC,RSG_LHC2,HH_2HDM,2HDM2,2HDM3,HiggsPortal}. Figure~\ref{fig:HH_res} shows a generic diagram for a heavy resonance decaying to two Higgs bosons. In the 2HDM, $X$ corresponds to the heavy CP-even scalar $H$. In the Randall-Sundrum model, $X$ corresponds to a heavy spin-$2$ graviton $\Gkk$. 
 %
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -359,7 +362,7 @@ The Standard Model Higgs pair production cross section is rather small, and data
 
   \includegraphics[width=0.4\textwidth]{figures/HH_nonres1}
   \includegraphics[width=0.4\textwidth]{figures/HH_nonres2}
-   \caption{Diagrams with new vertices for non-resonant Higgs pair production arising in composite Higgs models}
+   \caption{Diagrams with new vertices for non-resonant Higgs pair production arising in composite Higgs models.}
   \label{fig:HH_nonres}
 \end{figure}
 %
@@ -371,7 +374,7 @@ The next sections provide more detail on the phenomenology of resonant Higgs pro
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.4\textwidth]{figures/Generic_res}
-   \caption{Generic Feynman diagram for resonant Higgs pair production in BSM theories}
+   \caption{Generic Feynman diagram for resonant Higgs pair production in BSM theories.}
   \label{fig:HH_res}
 \end{figure}
 %
@@ -386,11 +389,11 @@ The Randall-Sundrum model is a proposed solution to the hierarchy problem that p
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.7\textwidth]{figures/G_BR}
-   \caption{Branching ratios for a spin-2 Randall-Sundrum graviton as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph,CP3Origins}}
+   \caption{Branching ratios for a spin-2 Randall-Sundrum graviton as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph,CP3Origins}.}
   \label{fig:G_BR}
 \end{figure}
 
-These models have two free parameters - the mass of the graviton and a curvature parameter $k$. Typically, rather than $k$, the theory is parameterized using $c \equiv k/\bar{M_{\rm pl}}$, where $\bar{M_{\rm pl}}$ is the reduced Planck mass. The cross section for production of the RSG decreases as a function of mass and is strongly dependent on the gluon PDF. The increase in center of mass energy from $8$ to $13 \TeV$ in LHC Run 2 greatly increases the cross section at higher mass. Figure~\ref{fig:G_xsec} shows the cross section as a function of graviton mass at $\sqrt{s} = 13 \TeV$ for RSG models with $c=1.0$ and $c=2.0$. 
+Randall-Sundrum models have two free parameters - the mass of the graviton and a curvature parameter $k$. Typically, rather than $k$, the theory is parameterized using $c \equiv k/\bar{M}_{\rm pl}$, where $\bar{M}_{\rm pl}$ is the reduced Planck mass. The cross section for production of the RSG decreases as a function of mass and is strongly dependent on the gluon PDF. The increase in center of mass energy from $8$ to $13 \TeV$ in LHC Run 2 greatly increases the cross section at higher mass. Figure~\ref{fig:G_xsec} shows the cross section as a function of graviton mass at $\sqrt{s} = 13 \TeV$ for RSG models with $c=1.0$ and $c=2.0$. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -398,11 +401,11 @@ These models have two free parameters - the mass of the graviton and a curvature
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.7\textwidth]{figures/RSG_xsec}
-   \caption{$\sigma \times \textrm{BR}(HH)$ for RSG as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph,CP3Origins}}
+   \caption{$\sigma \times \textrm{BR}(HH)$ for Randall-Sundrum gravitons as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph,CP3Origins}.}
   \label{fig:G_xsec}
 \end{figure}
 
-Another interesting feature of the theory is that the width of the graviton increases with both $c$ and $m_G$. Figure~\ref{fig:G_width} shows the graviton width for both $c=1.0$ and $c=2.0$ as a function of mass. In $c=1.0$, the width starts at $8.365 \GeV$ for a mass of $300 \GeV$ and increases to $187.2 \GeV$ at a mass of $3 \TeV$. SImilarly, with $c=2.0$, the width starts at $33.46 \GeV$ for $m_G = 300 \GeV$ and increases to $748.8 \GeV$ at a mass of $3 \TeV$. 
+Another interesting feature of the theory is that the width of the graviton increases with both $c$ and $m_{\Gkk}$. Figure~\ref{fig:G_width} shows the graviton width for both $c=1.0$ and $c=2.0$ as a function of mass. In $c=1.0$, the width starts at $8.365 \GeV$ for a mass of $300 \GeV$ and increases to $187.2 \GeV$ at a mass of $3 \TeV$. Similarly, with $c=2.0$, the width starts at $33.46 \GeV$ for $m_G = 300 \GeV$ and increases to $748.8 \GeV$ at a mass of $3 \TeV$. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -410,17 +413,17 @@ Another interesting feature of the theory is that the width of the graviton incr
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.7\textwidth]{figures/RSG_width}
-   \caption{RSG width as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph,CP3Origins}}
+   \caption{Randall-Sundrum graviton width as a function of mass computed in MadGraph with the CP3-Origins implementation~\cite{RSG_LHC,MadGraph,CP3Origins}}
   \label{fig:G_width}
 \end{figure}
 
 \subsection{Two Higgs Doublet Models}
 
-In Two Higgs Doublet Models (2HDM), a second complex scalar doublet is added to SM~\cite{HH_2HDM,2HDM2,2HDM3}. In this case, all four degrees of freedom in the second doublet correspond to new particles, meaning that there are five total scalars from the two Higgs doublets - $h$ (light CP-even Higgs), $H$ (heavy CP-even Higgs), $A$ (heavy CP-odd Higgs), and $H^{\pm}$ (charged Higgs). The model is parameterized by two main parameters. The first, $\tan{\beta} \equiv \frac{v_2}{v_1}$, the the ratio of the vacuum expectation values of the two Higgs doublets (where $v_1$ corresponds to the $v$ in the SM Higgs model described above). The second parameter is $\alpha$, a mixing angle between the heavy and light Higgs fields. Models are also often parameterized with $\cos(\beta - \alpha)$ rather than $\alpha$ directly. The limit where $\cos(\beta - \alpha) = 0$ is called the alignment limit, and it is in this limit that the light Higgs $h$ has the same couplings as a Standard Model Higgs. 
+In Two Higgs Doublet Models (2HDM), a second complex scalar doublet is added to the Standard Model~\cite{HH_2HDM,2HDM2,2HDM3}. In this case, all four degrees of freedom in the second doublet correspond to new particles, meaning that there are five total scalars from the two Higgs doublets - $h$ (light CP-even Higgs), $H$ (heavy CP-even Higgs), $A$ (heavy CP-odd Higgs), and $H^{\pm}$ (charged Higgs). The model is parameterized by two main parameters. The first, $\tan{\beta} \equiv \frac{v_2}{v_1}$, is the ratio of the vacuum expectation values of the two Higgs doublets (where $v_1$ corresponds to the $v$ in the SM Higgs model described above). The second parameter is $\alpha$, a mixing angle between the heavy and light Higgs fields. Models are also often parameterized with $\cos(\beta - \alpha)$ rather than $\alpha$ directly. The limit where $\cos(\beta - \alpha) = 0$ is called the alignment limit, and in this limit the light Higgs $h$ has the same couplings as a Standard Model Higgs. 
 
 2HDM models are usually separated into two main types - Type I and Type II. In Type I models, the charged fermions only couple to the second Higgs doublet, leading to a fermiophobic light Higgs. In Type II models, up-type quarks couple to the first doublet while down-type quarks couple to the second doublet. One specific realization of a Type II 2HDM is the Minimal Supersymmetric Standard Model (MSSM).
 
-Resonant di-Higgs production in this model can proceed through decays of the heavy CP-even Higgs $H\to hh$. The branching ratio for $H\to hh$ depends on the model type as well as the values of $\tan{\beta}$ and $\cos{\beta - \alpha}$. Figure~\ref{fig:H_BR} shows the branching ratios as a function of the mass of the heavy scalar $H$ for both Type I and Type II models. Depending on the type of model $hh$ can be a substantial fraction of the decays of $H$. 
+Resonant di-Higgs production in 2HDM models can proceed through decays of the heavy CP-even Higgs $H\to hh$. The branching ratio for $H\to hh$ depends on the model type as well as the values of $\tan{\beta}$ and $\cos{\beta - \alpha}$. Figure~\ref{fig:H_BR} shows the branching ratios as a function of the mass of the heavy scalar $H$ for both Type I and Type II models. Depending on the type of model $hh$ can be a substantial fraction of the decays of $H$. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -429,13 +432,13 @@ Resonant di-Higgs production in this model can proceed through decays of the hea
 
   \includegraphics[width=0.45\textwidth]{figures/H_BR_type1}
   \includegraphics[width=0.45\textwidth]{figures/H_BR_type2}
-   \caption{Branching ratios for heavy Higgs $H$ in Type I (left) and Type II (right) 2HDM models with $\tan{\beta} = 1.5$ and $\cos(\beta - \alpha) = 0.1 (0.01)$ for Type I (Type II). ~\cite{2HDM3}}
+   \caption{Branching ratios for heavy Higgs $H$ in Type I (left) and Type II (right) 2HDM models with $\tan{\beta} = 1.5$ and $\cos(\beta - \alpha) = 0.1 (0.01)$ for Type I (Type II)~\cite{2HDM3}.}
   \label{fig:H_BR}
 \end{figure}
 
 \section{Conclusion}
 
-Studying the Higgs sector is essential for understanding the details of how mass arises in the Standard Model and how the electroweak symmetry is broken. The discovery of the Higgs boson also opens the door for its use as a tool to search for new physics, and Higgs pair production is an ideal candidate for this study. Even if no BSM physics is found in Higgs pair production, searches for Higgs pairs will put constraints on the Higgs self coupling and thus further knowledge of the Standard Model and the details of the Higgs potential. 
+Studying the Higgs sector is essential for understanding the details of how mass arises in the Standard Model and how the electroweak symmetry is broken. The discovery of the Higgs boson also opens the door for its use as a tool to search for new physics, and Higgs pair production is an ideal candidate for this study. Even if no BSM physics is found in Higgs pair production, searches for Higgs pairs will put constraints on the Higgs self coupling and thus improve knowledge of the Standard Model and the details of the Higgs potential. 
 
 % For an example of a full page figure, see Fig.~\ref{fig:myFullPageFigure}.
 
