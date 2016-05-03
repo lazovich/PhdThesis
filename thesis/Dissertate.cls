@@ -50,6 +50,7 @@
                 figurewithin=chapter,
                 tablewithin=chapter]{caption}
 \renewcommand{\thefootnote}{\arabic{footnote}}
+\usepackage[bottom]{footmisc}
 
 % Headings and headers.
 \RequirePackage{fancyhdr}
