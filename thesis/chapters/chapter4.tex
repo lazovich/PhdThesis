@@ -7,7 +7,7 @@ The real voyage of discovery consists not in seeking new landscapes, but in havi
 
 \section{Introduction}
 
-This chapter presents the results of the search for the Higgs boson in $4.8 \ifb$ collected at $\sqrt{s} = 7 \TeV$ and $5.8 \ifb$ at $\sqrt{s} = 8 \TeV$. The results of three searches at $\sqrt{s} = 8 \TeV$ in the \HWWfull, $H\to \gamma \gamma$, and $H\to ZZ \to 4\ell$ channels are combined with results of searches at $\sqrt{s} = 7 \TeV$ in the same search channels (as well as the $H\to\tau\tau$ production and associated production searches for $H\to b\bar{b}$). The results of this combination are a $5.9 \sigma$ detection of a new particle consistent with a Higgs boson. Rather than going into detail for all of the different Higgs decay searches, this chapter will discuss the three most sensitive channels and in particular focus on \HWWfull. While the focus is on $WW^*$, some of the $ZZ^*$ and $\gamma\gamma$ results are shown for completeness. The results not discussed here can be found in the ATLAS Higgs discovery publication~\cite{Discovery}.
+This chapter presents the results of the search for the Higgs boson in $4.8 \ifb$ collected at $\sqrt{s} = 7 \TeV$ and $5.8 \ifb$ at $\sqrt{s} = 8 \TeV$. The results of three searches at $\sqrt{s} = 8 \TeV$ in the \HWWfull, $H\to \gamma \gamma$, and $H\to ZZ \to 4\ell$ channels are shown. These results at $8 \TeV$ are combined with the results of searches at $\sqrt{s} = 7 \TeV$ in the same channels along with $H\to\tau\tau$ production and associated production searches for $H\to b\bar{b}$. The results of this combination are a $5.9 \sigma$ detection of a new particle consistent with a Higgs boson produced via gluon fusion. Rather than going into detail for all of the different Higgs decay searches, this chapter will discuss the three most sensitive channels and in particular focus on \HWWfull. While the focus is on $WW^*$, some of the $ZZ^*$ and $\gamma\gamma$ results are shown for completeness. The results not discussed here can be found in the ATLAS Higgs discovery publication~\cite{Discovery}.
 
 
 \section{Data and simulation samples}
@@ -47,15 +47,15 @@ Monte carlo generators used to model signal and background for the Higgs search~
 
 \section{$H\to WW \to e\nu\mu\nu$ search}
 
-The $H\to WW \to e\nu\mu\nu$ search is unique compared to the $ZZ$ and $\gamma\gamma$ channels. The Higgs mass cannot be fully reconstructed due to the presence of neutrinos in the final state, so the transverse mass $\mT$ is used as the final discriminating variable. Compared to the other channels, there are more backgrounds here as well, as discussed in chapter 3. The same flavor final states are excluded from the $8 \TeV$ dataset due to high pileup conditions\footnote{The less sensitive $7 \TeV$ search result includes both different flavor and same flavor final states.}. These final states are later included in results with the full Run 1 dataset, as discussed in chapters 5 and 6.  
+The $H\to WW \to e\nu\mu\nu$ search is unique compared to the $ZZ$ and $\gamma\gamma$ channels. The Higgs mass cannot be fully reconstructed due to the presence of neutrinos in the final state, so the transverse mass $\mT$ is used as the final discriminating variable. This channel also has a wider variety of backgrounds compared to other channels, as discussed in chapter 3. The same flavor final states are excluded from the $8 \TeV$ dataset due to high pileup conditions\footnote{The less sensitive $7 \TeV$ search result includes both different flavor and same flavor final states.}. These final states are later included in results with the full Run 1 dataset, as discussed in chapters 5 and 6.  
 
 \subsection{Event selection}
 
-The analysis requires to opposite charge isolated leptons, with the leading (sub-leading) lepton required to have $\pT > 25 (15) \GeV$. The events are separated into different signal regions depending on which flavor of lepton is leading ($e\mu$ for leading electron, $\mu e$ for leading muon). Strict lepton quality cuts are applied to the sample to reduce backgrounds from fake leptons.
+The analysis requires to opposite charge isolated leptons, with the leading (sub-leading) lepton required to have $\pT > 25 (15) \GeV$. The events are separated into different signal regions depending on which flavor of lepton is leading ($e\mu$ for leading electron, $\mu e$ for leading muon). Strict lepton quality cuts are applied to the sample to reduce backgrounds from mis-reconstructed leptons.
 
-Jets are reconstructed with the anti-$k_{T}$ algorithm with a radius parameter $R = 0.4$. The jets are required to have $\pT > 25 \GeV$ and $|eta| < 4.5$, with jets in the tracking volume required to have a jet vertex fraction of $0.5$ and jets in the forward region required to have $\pT > 30 \GeV$. The analysis is separated into three different signal regions based on jet multiplicity: $\Njet = 0, 1, \geq 2$. 
+Jets are reconstructed with the anti-$k_{T}$ algorithm with a radius parameter $R = 0.4$. The jets are required to have $\pT > 25 \GeV$ and $|\eta| < 4.5$, with jets in the tracking volume required to have a jet vertex fraction of $0.5$ and jets in the forward region required to have $\pT > 30 \GeV$. The analysis is separated into three different signal regions based on jet multiplicity: $\Njet = 0, 1, \geq 2$. 
 
-To indicate the presence of neutrinos in the event, a requirement of $\METrel > 25 \GeV$ is made\footnote{For the definition of $\METrel$, see chapter 3}. This requirement significantly reduces the QCD multijet and $\ZDY$ + jets backgrounds. Figure~\ref{fig:disc_njet} shows the distribution of $\Njet$ in data and simulation after applying these ``pre-selection" requirements. 
+To indicate the presence of neutrinos in the event, a requirement of $\METrel > 25 \GeV$ is made\footnote{For the definition of $\METrel$, see section~\ref{sec:HWW_presel}.}. This requirement significantly reduces the QCD multijet and $\ZDY$ + jets backgrounds. Figure~\ref{fig:disc_njet} shows the distribution of $\Njet$ in data and simulation after applying these ``pre-selection" requirements. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -63,19 +63,19 @@ To indicate the presence of neutrinos in the event, a requirement of $\METrel > 
   \captionsetup{justification=centering}
   %\hspace*{-32pt}
   \includegraphics[width=0.6\textwidth]{figures/disc_njet}
-  \caption{Jet multiplicity distribution in data and MC after applying lepton, jet, and $\METrel$ selections. The $WW$ and top backgrounds have been normalized using control samples, and the hashed band indicates the total uncertainty on the prediction.~\cite{Discovery} }
+  \caption{Jet multiplicity distribution in data and MC after applying lepton, jet, and $\METrel$ selections. The $WW$ and top backgrounds have been normalized using control samples, and the hashed band indicates the total uncertainty on the prediction~\cite{Discovery}.}
   \label{fig:disc_njet}
 \end{figure}
 
-Additional selections are applied to require the dilepton topology to correspond to that of a SM Higgs. The requirements are presented here - more detailed discussion on the motivation for each requirement is saved for Chapter 5. In all of the jet multiplicity channels, the dilepton system is required to have a small gap in azimuthal angle, $\dphill < 1.8$. Similarly, the $\mll$ is required to be less than $50 \GeV$ in the lower jet multiplicity channels and less than $80 \GeV$ in the $\Njet \geq 2$ channel.  In the $\Njet = 0$ channel, the magnitude of the dilepton $\pT$, $\pTll$, is required to be greater than $30 \GeV$. 
+Additional selections are applied to require the dilepton topology to correspond to that of a Standard Model Higgs boson. The requirements are presented here - more detailed discussion on the motivation for each requirement is saved for Chapter 5. In all of the jet multiplicity channels, the dilepton system is required to have a small gap in azimuthal angle, $\dphill < 1.8$. Similarly, the dilepton invariant mass, $\mll$, is required to be less than $50 \GeV$ in the lower jet multiplicity channels and less than $80 \GeV$ in the $\Njet \geq 2$ channel.  In the $\Njet = 0$ channel, the magnitude of the dilepton $\pT$, $\pTll$, is required to be greater than $30 \GeV$. 
 
-In the higher jet multiplicity channels ($\Njet \geq 1$), the top background is a more important component and must be reduced. The total transverse momentum $\pTtot$ is thus required to be less than $30 \GeV$. Additionally, the di-$\tau$ invariant mass $m_{\tau\tau}$ (dilepton mass computed under the assumption that the neutrinos from the $\tau$ decay are emitted collinear to the charged leptons) is used to reject $Z\to\tau\tau$ events by requiring $|m_{\tau\tau} - m_{Z}| > 25 \GeV$. These variables are also discussed in more detail in Chapter 5. 
+In the higher jet multiplicity channels ($\Njet \geq 1$), the top background is a larger fraction of the total background and must be reduced more carefully. The total transverse momentum $\pTtot$ is thus required to be less than $30 \GeV$. Additionally, the di-$\tau$ invariant mass $m_{\tau\tau}$ (dilepton mass computed under the assumption that the neutrinos from the $\tau$ decay are emitted collinear to the charged leptons~\cite{collinear}) is used to reject $Z\to\tau\tau$ events by requiring $|m_{\tau\tau} - m_{Z}| > 25 \GeV$. These variables are also discussed in more detail in Chapter 5. 
 
 In the $\Njet \geq 2$ channel, requirements are made to isolate the VBF contribution to Higgs production. The kinematics of the two leading jets are used to make these requirements. In particular, the event must have $\dyjj > 3.8$ and $\mjj > 500 \GeV$, along with a veto on having any additional jets with rapidity between the to leading jets. 
 
 \subsection{Background estimation}
 
-The details of the background estimation techniques used in the \HWWfull analysis are discussed in section~\ref{sec:HWWbkg}. As that section refers to a later iteration of the analysis, a general discussion is given here for completeness. The dominant backgrounds are SM $WW$ production and top (both pair and single) production, and these backgrounds have their normalizations estimated from dedicated control regions while their shapes are taken from simulation. 
+The details of the background estimation techniques used in the \HWWfull analysis are discussed in section~\ref{sec:HWWbkg}. The dominant backgrounds are SM $WW$ production and top (both pair and single) production, and these backgrounds have their normalizations estimated from dedicated control regions while their shapes are taken from simulation. 
 
 The control sample for the Standard Model $WW$ background is defined by making the same requirements as the signal region with the $\mll$ requirement inverted (now requiring $\mll > 80 \GeV$) and removing the $\dphill$ requirement. This creates a control sample that is $70$\% ($40$\%) pure in the $0$($1$)-jet region. The correction to the pure MC-based background estimate is quantified by defining a normalization factor $\beta$ which is the ratio of the data yield to the MC yield ($N_{\rm data}/N_{\rm MC}$) in this control sample. Table~\ref{tab:disc_NF} shows the $WW$ normalization factors in the $\Njet = 0$ and $\Njet = 1$ bins (the $\Njet \geq 2$ estimate is taken directly from MC). 
 
@@ -118,7 +118,7 @@ The top background estimate is also computed separately in each jet multiplicity
     \end{subfigure}
 
 
-   \caption{Comparison of $\mTH$ between data and simulation in the $\Njet = 0$ $WW$ (a) and $\Njet = 1$ top (b) control samples~\cite{Discovery}}
+   \caption{Comparison of $\mTH$ between data and simulation in the $\Njet = 0$ $WW$ (a) and $\Njet = 1$ top (b) control samples~\cite{Discovery}.}
   \label{fig:disc_mt_cr}
 \end{figure}
 
@@ -128,7 +128,7 @@ The $W$+jets background estimate is taken entirely from data using a control sam
 
 \subsection{Systematic uncertainties}
 
-The systematic uncertainties that have the largest impact on the analysis are the theoretical uncertainties associated with the signal cross section, and these are shared with the $ZZ^*$ and $\gamma\gamma$ channels. The uncertainties resulting from variations of the QCD scale are $+7\%/-8\%$ on the final singal yield. Those coming from variations of the parton distribution function (PDF) used in the simulation add a $\pm 8\%$ uncertainty on the yield. The uncertainties on the branching ratios of the Higgs are $\pm 5\%$. 
+The systematic uncertainties that have the largest impact on the analysis are the theoretical uncertainties associated with the signal cross section. These are shared with the $ZZ^*$ and $\gamma\gamma$ channels. The uncertainties resulting from variations of the QCD scale are $+7\%/-8\%$ on the final signal yield. Those coming from variations of the parton distribution function (PDF) used in the simulation add a $\pm 8\%$ uncertainty on the yield. The uncertainties on the branching ratios of the Higgs are $\pm 5\%$. 
 
 The main experimental uncertainties come from variations of the jet energy scale (JES), jet energy resolution, pile-up, $\MET$, $b$-tagging efficiency, $W$+jets background estimate, and integrated luminosity. For more details, see reference~\cite{Discovery}.  
 
@@ -157,7 +157,7 @@ Observed in data & $185$ & $38$ & $0$ \\ \hline
 \end{tabular}
 
 \caption{
-Data and expected yields for signal and background in the final \HWWfull signal region. Uncertainties shown are both statistical and systematic.~\cite{Discovery}
+Data and expected yields for signal and background in the final \HWWfull signal region. Uncertainties shown are both statistical and systematic~\cite{Discovery}.
 }
 \label{tab:disc_ww_results}
 \end{table}
@@ -177,7 +177,7 @@ Figure~\ref{fig:disc_mt} shows the $\mT$ distribution in the $\Njet \leq 1$ chan
 
 \section{$H\to\gamma\gamma$ search}
 
-The $H\to\gamma\gamma$ search is in essence a search for a peaked excess above the falling SM diphoton mass spectrum, with $m_{\gamma\gamma}$ as the ultimate discriminating variable. Events are selected by requiring two isolated photons, with the leading (sub-leading) photon required to have $E_{T} > 40 (30) \GeV$. In the $8 \TeV$ data, the photons are required to pass cut-based identification criteria consistent with a photon in the electromagnetic calorimeter and little leakage in the hadronic calorimeter. 
+The $H\to\gamma\gamma$ search is a search for a peaked excess above the falling SM diphoton mass spectrum, with $m_{\gamma\gamma}$ as the ultimate discriminating variable. Events are selected by requiring two isolated photons, with the leading (sub-leading) photon required to have $E_{T} > 40 (30) \GeV$. In the $8 \TeV$ data, the photons are required to pass identification criteria consistent with a photonic shower in the electromagnetic calorimeter and little leakage in the hadronic calorimeter. 
 
 The main challenges for this analysis are accurate mass reconstruction and background estimation. In order to accurately reconstruct the invariant mass of the di-photon system, both the energy and direction of the photons must be measured well. Therefore, the identification of the primary vertex of the hard interaction is particularly important, and is done using a multivariate likelihood which combines information about the photon direction and vertex position. The background is modeled with a falling spectrum in $m_{\gamma\gamma}$ that is parameterized by different functions depending on the category of the event.
 
@@ -221,7 +221,7 @@ Figure~\ref{fig:disc_zz_result} shows the $m_{4\ell}$ spectrum measured in the $
 
 The statistical interpretation of the combined results is undertaken as described in section~\ref{sec:ww_stats}, with a hypothesis test based on a likelihood ratio parameterized by the Higgs signal strength $\mu$. The null hypothesis corresponds to $\mu = 0$, while the SM Higgs corresponds to $\mu = 1$. 
 
-Table~\ref{tab:discovery_summary} summarizes the properties of the individual channels as well as the significances of the excesses seen. The most significant observed local excess comes from the $\gamma\gamma$ channel. Figure~\ref{fig:disc_p0_comp} shows a comparison of the observed local $p_0$ values as a function of hypothesized mass for the three different search channels. Both the $ZZ^*$ and $\gamma\gamma$ channels have very peaked excesses, while the $WW^*$ excess can be seen as very broad because the $\mT$ distribution does not provide detailed information about the true Higgs mass. 
+Table~\ref{tab:discovery_summary} summarizes the properties of the individual channels as well as the significances of the excesses seen. The most significant observed local excess comes from the $\gamma\gamma$ channel. Figure~\ref{fig:disc_p0_comp} shows a comparison of the observed local $p_0$ values as a function of hypothesized mass for the three different search channels. Both the $ZZ^*$ and $\gamma\gamma$ channels have very peaked excesses, while the $WW^*$ excess can be seen as very broad because the $\mT$ distribution does not provide detailed information about the true Higgs mass. Figure~\ref{fig:discovery_combined} shows the combined exclusion limit, $p_0$, and signal strength. The highest local excess comes at a value of $126.5 \GeV$ and corresponds to a $6.0\sigma$ observed excess. 
 
 \begin{table}[h!]
 \centering
@@ -253,8 +253,6 @@ Summary of the expected and observed significance and measured signal strengths 
   \caption{Local $p_0$ distribution as a function of hypothesized Higgs mass for the $H\to ZZ^* \to 4\ell$ (a), $H\to\gamma\gamma$ (b), and $H\to WW^*\to \ell\nu\ell\nu$ (c) channels. Dashed curves show expected results, while solid curves show observed. Red curves are from $7 \TeV$ data, blue curves from $8\TeV$, and black curved combined~\cite{Discovery}.}
   \label{fig:disc_p0_comp}
 \end{figure}
-
-Figure~\ref{fig:discovery_combined} shows the combined exclusion limit, $p_0$, and signal strength. The highest local excess comes at a value of $126.5 \GeV$ and corresponds to a $6.0\sigma$ observed excess. 
 
 \begin{figure}[h!]
   %\vspace{20pt}

@@ -454,6 +454,17 @@ Aaron~James Armbruster.
 \newblock \emph{Eur. Phys. J.}, C 71:\penalty0 1554, 2011.
 \newblock \doi{10.1140/epjc/s10052-011-1554-0}.
 
+\bibitem[Ellis et~al.(1988)Ellis, Hinchliffe, Soldate, and Bij]{collinear}
+R.K. Ellis, I.~Hinchliffe, M.~Soldate, and J.J. Van~Der Bij.
+\newblock Higgs decay to τ+τ−a possible signature of intermediate mass
+  higgs bosons at high energy hadron colliders.
+\newblock \emph{Nuclear Physics B}, 297\penalty0 (2):\penalty0 221 -- 243,
+  1988.
+\newblock ISSN 0550-3213.
+\newblock \doi{http://dx.doi.org/10.1016/0550-3213(88)90019-3}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0550321388900193}.
+
 \bibitem[{ATLAS Collaboration}(2011{\natexlab{b}})]{Higgs2011}
 {ATLAS Collaboration}.
 \newblock {Limits on the production of the Standard Model Higgs Boson in $pp$
@@ -554,17 +565,6 @@ A.~Sherstnev and R.~S. Thorne.
 \newblock {\sc Geant4}, a simulation toolkit.
 \newblock \emph{Nucl. Instrum. Meth.}, A 506:\penalty0 250, 2003.
 \newblock \doi{10.1016/S0168-9002(03)01368-8}.
-
-\bibitem[Ellis et~al.(1988)Ellis, Hinchliffe, Soldate, and Bij]{collinear}
-R.K. Ellis, I.~Hinchliffe, M.~Soldate, and J.J. Van~Der Bij.
-\newblock Higgs decay to τ+τ−a possible signature of intermediate mass
-  higgs bosons at high energy hadron colliders.
-\newblock \emph{Nuclear Physics B}, 297\penalty0 (2):\penalty0 221 -- 243,
-  1988.
-\newblock ISSN 0550-3213.
-\newblock \doi{http://dx.doi.org/10.1016/0550-3213(88)90019-3}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/0550321388900193}.
 
 \bibitem[Gross and Vitells(2010)]{mt2}
 Eilam Gross and Ofer Vitells.
