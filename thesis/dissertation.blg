@@ -54,6 +54,7 @@ Warning--empty note in Lumi_Run2
 Warning--empty note in ATLAS_Particles
 Warning--empty author in GSF
 Warning--empty author in ElectronReco
+Warning--empty journal in MuonRecoRun2
 Warning--empty journal in TopoClusters2
 Warning--empty author in JetCalib
 Warning--empty journal in Run1BJets
@@ -88,45 +89,45 @@ Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
 Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
-You've used 131 entries,
+You've used 132 entries,
             2481 wiz_defined-function locations,
-            1386 strings with 26132 characters,
-and the built_in function-call counts, 44059 in all, are:
-= -- 3847
-> -- 1919
-< -- 101
-+ -- 830
-- -- 555
-* -- 3334
-:= -- 7218
-add.period$ -- 491
-call.type$ -- 131
-change.case$ -- 255
+            1389 strings with 26265 characters,
+and the built_in function-call counts, 44355 in all, are:
+= -- 3871
+> -- 1934
+< -- 102
++ -- 837
+- -- 559
+* -- 3350
+:= -- 7265
+add.period$ -- 494
+call.type$ -- 132
+change.case$ -- 257
 chr.to.int$ -- 118
-cite$ -- 199
-duplicate$ -- 2347
-empty$ -- 4072
-format.name$ -- 724
-if$ -- 9297
-int.to.chr$ -- 14
-int.to.str$ -- 132
-missing$ -- 109
-newline$ -- 760
-num.names$ -- 353
-pop$ -- 884
+cite$ -- 201
+duplicate$ -- 2365
+empty$ -- 4100
+format.name$ -- 730
+if$ -- 9360
+int.to.chr$ -- 15
+int.to.str$ -- 133
+missing$ -- 110
+newline$ -- 765
+num.names$ -- 356
+pop$ -- 895
 preamble$ -- 1
-purify$ -- 131
+purify$ -- 132
 quote$ -- 0
-skip$ -- 1346
+skip$ -- 1357
 stack$ -- 0
-substring$ -- 1455
-swap$ -- 291
+substring$ -- 1457
+swap$ -- 293
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 899
-warning$ -- 54
-while$ -- 317
+type$ -- 906
+warning$ -- 55
+while$ -- 319
 width$ -- 0
-write$ -- 1857
+write$ -- 1868
 (There was 1 error message)

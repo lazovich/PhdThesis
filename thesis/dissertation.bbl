@@ -1,4 +1,4 @@
-\begin{thebibliography}{131}
+\begin{thebibliography}{132}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -445,6 +445,12 @@ Georges Aad et~al.
   2014{\natexlab{b}}.
 \newblock \doi{10.1140/epjc/s10052-014-3130-x}.
 
+\bibitem[Aad et~al.(2016{\natexlab{a}})]{MuonRecoRun2}
+Georges Aad et~al.
+\newblock {Muon reconstruction performance of the ATLAS detector in
+  proton--proton collision data at $\sqrt{s}$=13 TeV}.
+\newblock 2016{\natexlab{a}}.
+
 \bibitem[Lampl et~al.(2008)Lampl, Laplace, Lelas, Loch, Ma, Menke, Rajagopalan,
   Rousseau, Snyder, and Unal]{TopoClusters}
 W~Lampl, S~Laplace, D~Lelas, P~Loch, H~Ma, S~Menke, S~Rajagopalan, D~Rousseau,
@@ -454,11 +460,11 @@ W~Lampl, S~Laplace, D~Lelas, P~Loch, H~Ma, S~Menke, S~Rajagopalan, D~Rousseau,
   Geneva, Apr 2008.
 \newblock URL \url{https://cds.cern.ch/record/1099735}.
 
-\bibitem[Aad et~al.(2016{\natexlab{a}})]{TopoClusters2}
+\bibitem[Aad et~al.(2016{\natexlab{b}})]{TopoClusters2}
 Georges Aad et~al.
 \newblock {Topological cell clustering in the ATLAS calorimeters and its
   performance in LHC Run 1}.
-\newblock 2016{\natexlab{a}}.
+\newblock 2016{\natexlab{b}}.
 
 \bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{AntiKt}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
@@ -727,13 +733,13 @@ Georges Aad et~al.
   2014{\natexlab{c}}.
 \newblock \doi{10.1103/PhysRevD.90.052004}.
 
-\bibitem[Aad et~al.(2016{\natexlab{b}})]{HiggsSummaryRun1}
+\bibitem[Aad et~al.(2016{\natexlab{c}})]{HiggsSummaryRun1}
 Georges Aad et~al.
 \newblock {Measurements of the Higgs boson production and decay rates and
   coupling strengths using pp collision data at $\sqrt{s}=7$ and 8 TeV in the
   ATLAS experiment}.
 \newblock \emph{Eur. Phys. J.}, C76\penalty0 (1):\penalty0 6,
-  2016{\natexlab{b}}.
+  2016{\natexlab{c}}.
 \newblock \doi{10.1140/epjc/s10052-015-3769-y}.
 
 \bibitem[{W.J. Stirling}(2013)]{LumiRatio}
