@@ -242,7 +242,7 @@ Figure~\ref{fig:Zjetseventdisplay} shows an event display of a $\ZDY$ + jets eve
   \label{fig:Zjetseventdisplay}
 \end{figure}
 
-Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO\mu\mu$ events (where there are no real neutrinos) as a function of the number of the average number of interactions. Under 2011 LHC conditions, this RMS was approximately 9 \GeV, while under 2012 running conditions the resolution worsened to 12 \GeV. The increase in pileup dilutes the $\MET$ variable's ability to reduce the $\ZDY$ background. 
+Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO\mu\mu$ events (where there are no real neutrinos) as a function of the number of the average number of interactions. Under 2011 LHC conditions, this RMS was approximately 9 \GeV, while under 2012 running conditions the resolution worsened to 12 \GeV. The increase in pileup dilutes the ability of the $\MET$ variable to reduce the $\ZDY$ background. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -257,7 +257,7 @@ Figure~\ref{fig:METResolution} shows the RMS of the $\MET$ distribution in $Z\TO
 
 \subsection{Track-based definitions of missing transverse momentum}
 
-Because the increasing number of secondary proton-proton interactions degrades calorimeter-based $\MET$ resolution, a new variable using only contributions from the primary interaction vertex is necessary to further reduce the $\ZDY$ background. While it is not possible to associate calorimeter energy deposits with a particular vertex, individual charged particle tracks in the Inner Detector are associated to unique vertices. Thus, two track-based definitions of \met, using only tracks coming from the primary vertex in the event, are used in the analysis. The simplest variable, $\MPT$, is the vectorial sum of the $\pt$ of all of the tracks from the primary vertex and the selected leptons (excluding the tracks associated with the selected leptons to avoid double counting). Equation~\ref{eqn:MPT} defines $\MPT$.
+Because the increasing number of secondary proton-proton interactions degrades calorimeter-based $\MET$ resolution, a new variable using only contributions from the primary interaction vertex is necessary to further reduce the $\ZDY$ background. While it is not possible to associate calorimeter energy deposits with a particular vertex, individual charged particle tracks in the Inner Detector are associated to unique vertices. Thus, two track-based definitions of missing transverse momentum, using only tracks coming from the primary vertex in the event, are used in the analysis. These variables are not intended to substitute $\MET$, as they only account for charged particles and do not measure neutrals. However, the track-based variables serve as a confirmation that any measured momentum imbalance is coming from real particles and not detector effects. The simplest variable, $\MPT$, is the vectorial sum of the $\pt$ of all of the tracks from the primary vertex and the selected leptons (excluding the tracks associated with the selected leptons to avoid double counting). Equation~\ref{eqn:MPT} defines $\MPT$.
 %
 \begin{equation}
 \vMPT = -\raisebox{-3.0pt}{\bigg(}%
@@ -268,7 +268,7 @@ Because the increasing number of secondary proton-proton interactions degrades c
 \label{eqn:MPT}
 \end{equation} 
 %
-To further improve the resolution on the missing transverse momentum, the variable $\MPTj$ is used as defined in equation~\ref{eqn:MPTj}. For selected leptons and jets, the nominal $\pT$ measurements are used. Tracks are used to estimate the soft component of the missing transverse momentum instead of calorimeter measurements. 
+To further improve the resolution on the missing transverse momentum, the variable $\MPTj$ is used as defined in equation~\ref{eqn:MPTj}. For selected leptons and jets, the nominal $\pT$ measurements are used, as the calorimeter information improves the $\pT$ resolution of the objects by taking into account the presence of neutral particles in showers. The soft component of the missing transverse momentum, which is more susceptible to spurious contributions from pileup interactions, is estimated using tracks instead of calorimeter measurements. 
 %
 \begin{equation}
 \vMPTj = -\raisebox{-3.0pt}{\bigg(}%
@@ -297,7 +297,7 @@ Figure~\ref{fig:METResolution2}a shows the difference between the true and recon
 
 \subsection{Distinguishing $\ZDY$ +jets and $\HWW$ topologies}
 
-In addition to measuring missing transverse momentum, another variable can be constructed to exploit kinematic and topological differences between the $\ZDY$ background and $\HWW$ signal. Because there are no real neutrinos in the final state (in the case of $Z/\gamma^{*} \TO ee,\mu\mu$ decays), the dilepton system will be balanced with the jets produced in the hard scatter. A new variable, $\frecoil$, is constructed to estimate the balance between the dilepton system and recoiling jets and is defined in equation~\ref{eqn:frecoil}. The transverse plane is divided into four sections, or quadrants, with one quadrant centered on the dilepton vector. The numerator of $\frecoil$ is the magnitude of the vectorial sum of the $\pt$ of jets in the quadrant opposite the dilepton system, weighted by each jet's Jet Vertex Fraction (JVF, described in chapter 2). The denominator is the magnitude of the dilepton $\pt$. 
+In addition to measuring missing transverse momentum, another variable can be constructed to exploit kinematic and topological differences between the $\ZDY$ background and $\HWW$ signal. Because there are no real neutrinos in the final state (in the case of $Z/\gamma^{*} \TO ee,\mu\mu$ decays), the dilepton system will be balanced with the jets produced in the hard scatter. A new variable, $\frecoil$, is constructed to estimate the balance between the dilepton system and recoiling jets and is defined in equation~\ref{eqn:frecoil}. The transverse plane is divided into four sections, or quadrants, with one quadrant centered on the dilepton vector. The numerator of $\frecoil$ is the magnitude of the vectorial sum of the $\pt$ of jets in the quadrant opposite the dilepton system, weighted the Jet Vertex Fraction (JVF, described in chapter 2) of each jet. The denominator is the magnitude of the dilepton $\pt$. 
 %
 \begin{equation}
 \frecoil = \raisebox{-3pt}{\bigg|} \sum_{{\rm jets\,}j{\rm\,in\,}\wedge}
