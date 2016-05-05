@@ -5,11 +5,11 @@ The enthusiasm and motivation to explore particle physics at the high-energy fro
 
 \chapter{The ATLAS detector and the Large Hadron Collider}
 
-This chapter presents an overview of the experimental systems used to conduct the measurements presented in this thesis. First, a brief overview of the accelerator, the Large Hadron Collider, will be given. In this section, the accelerator conditions relevant to data-taking are presented as well. Next, an overview of the ATLAS experiment is given. The basics of each sub-detector's role are summarized, as well as the details of the datasets accumulated. Then, a brief interlude on the ATLAS Muon New Small Wheel upgrade is presented. While this new detector does not have a direct impact on any of the datasets recorded so far, it will have an impact on future analyses and the work done on it is briefly summarized here. Finally, an overview of object reconstruction in ATLAS is given. While the details of all of the algorithms will not be presented in detail, aspects of the reconstruction performance  are shown as these are relevant to the results presented later in this thesis. 
+This chapter presents an overview of the experimental systems used to conduct the measurements in this thesis. First, a brief overview of the accelerator, the Large Hadron Collider, will be given. In this section, the accelerator conditions relevant to data-taking are presented as well. Next, an overview of the ATLAS experiment is given. The basics of each sub-detector's role are summarized, as well as the details of the datasets accumulated. Then, a brief interlude on the ATLAS Muon New Small Wheel upgrade is presented. While this new detector does not have a direct impact on any of the datasets recorded so far, it will have an impact on future analyses and the work done on it is briefly summarized here. Finally, an overview of object reconstruction in ATLAS is given. While the details of all of the algorithms will not be presented in detail, aspects of the reconstruction performance  are shown as these are relevant to the results presented later in this thesis. 
 
 \section{The Large Hadron Collider}
 
-The Large Hadron Collider (LHC) is a proton-proton collider at the CERN laboratory in Geneva, Switzerland~\cite{LHCPaper}. It is designed for a maximum collision center of mass energy of $\sqrt{s} = 14 \TeV$ and has a circumference of $26.7$ kilometers. Four main experiments are located at the interaction points (IP) of the accelerator: ATLAS (A Toroidal LHC ApparatuS), CMS (the Compact Muon Solenoid), ALICE (A Large Ion Collider Experiment), and LHC$b$~\cite{ATLASPaper, CMSPaper, LHCbPaper, ALICEPaper}. The results presented in this thesis were all completed with the ATLAS detector. Figure~\ref{fig:LHC} shows a schematic of the LHC ring and its experiments.  
+The Large Hadron Collider (LHC) is a proton-proton collider at the CERN laboratory in Geneva, Switzerland~\cite{LHCPaper}. It was designed for a maximum collision center of mass energy of $\sqrt{s} = 14 \TeV$ and has a circumference of $26.7$ kilometers. Four main experiments are located at the interaction points (IP) of the accelerator: ATLAS (A Toroidal LHC ApparatuS), CMS (the Compact Muon Solenoid), ALICE (A Large Ion Collider Experiment), and LHC$b$~\cite{ATLASPaper, CMSPaper, LHCbPaper, ALICEPaper}. Figure~\ref{fig:LHC} shows a schematic of the LHC ring and its experiments.  
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -17,7 +17,7 @@ The Large Hadron Collider (LHC) is a proton-proton collider at the CERN laborato
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.7\textwidth]{figures/LHC}
-   \caption{A schematic view of the LHC ring~\cite{LHCReview}.}
+   \caption{A schematic view of the LHC ring~\cite{LHCReview}. Four main experiments are located at interaction points along the ring. ATLAS and CMS are general purpose experiments, while ALICE is dedicated to heavy ion collisions and LHC$b$ is dedicated to studying $B$ physics.}
   \label{fig:LHC}
 \end{figure}
 
@@ -73,7 +73,7 @@ Evolution of LHC machine conditions~\cite{LHC_2011_2012,LHC_2015}.
 
 \section{The ATLAS Detector}
 
-The ATLAS detector is a multi-purpose particle detector experiment at the LHC's Point $1$~\cite{ATLASPaper}. It has nearly $4\pi$ coverage in solid angle around the interaction point. It consists of an inner detector for measuring charged particles, electromagnetic and hadronic calorimeters, and a muon spectrometer. Figure~\ref{fig:ATLAS_overview} gives an overview of the detector.
+The ATLAS detector is the multi-purpose particle detector experiment located at the LHC's Point $1$~\cite{ATLASPaper}. It has nearly $4\pi$ coverage in solid angle around the interaction point. It consists of an inner detector for measuring charged particles, electromagnetic and hadronic calorimeters, and a muon spectrometer. Figure~\ref{fig:ATLAS_overview} gives an overview of the detector.
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -81,13 +81,13 @@ The ATLAS detector is a multi-purpose particle detector experiment at the LHC's 
   \captionsetup{justification=centering}
 
   \includegraphics[width=\textwidth]{figures/ATLAS}
-   \caption{A full diagram of the ATLAS detector~\cite{ATLASPaper}}
+   \caption{A full diagram of the ATLAS detector~\cite{ATLASPaper}.}
   \label{fig:ATLAS_overview}
 \end{figure}
 
 \subsection{Coordinate system}
 
-Before defining the properties of the individual detectors, it is important to establish the coordinate system used. Figure~\ref{fig:coord} shows a schematic of the coordinate system. The azimuthal plane (perpendicular to the beam line) is defined as the $x$-$y$ plane. The angle in this plane is referred to as $\phi$. The angle relative to the beam axis is referred to as $\theta$. Rather than using $\theta$ directly as a coordinate, the experiment often uses the pseudorapidity $\eta$. $\eta$ is defined in equation~\ref{eqn:eta}. 
+Before defining the properties of the individual detectors, it is important to establish the coordinate system used. Figure~\ref{fig:coord} shows a schematic of the coordinate system. The azimuthal plane (perpendicular to the beam line) is defined as the $x$-$y$ plane. The angle in this plane is referred to as $\phi$. The angle relative to the beam axis is referred to as $\theta$. Rather than using $\theta$ directly as a coordinate, the experiment often uses the pseudorapidity $\eta$, defined in equation~\ref{eqn:eta}. 
 
 \begin{equation}
 \label{eqn:eta}
@@ -102,13 +102,13 @@ Pseudorapidity is the massless approximation of rapidity, the angle used to para
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.8\textwidth]{figures/ATLAS_coord}
-   \caption{The ATLAS coordinate system.}
+   \caption{The ATLAS coordinate system. The $z$ direction corresponds to the beam axis, while $x$ and $y$ define the transverse plane. $\theta$ is the angle relative to the beam axis and $\phi$ is the azimuthal angle. $\eta$, the pseudorapidity, approaches infinity at small angles relative to the beam axis.}
   \label{fig:coord}
 \end{figure}
 
 \subsection{Inner detector}
 
-The ATLAS Inner Detector (ID) system is built for precision tracking of charged particles. It covers the range $|\eta| < 2.5$. In this range, approximately $1000$ particles are generated every bunch crossing in the detector. This requires having fine granularity to achieve the resolutions required for good momentum measurement and vertex reconstruction. 
+The ATLAS Inner Detector (ID) system is built for precision tracking of charged particles. It covers the range $|\eta| < 2.5$. In this range, approximately $1000$ particles are generated every bunch crossing in the detector~\cite{ATLASPaper}. This requires having fine granularity to achieve the resolutions required for good momentum measurement and vertex reconstruction. 
 
 The ID consists of three sub-components: the pixel detector, semiconductor tracker (SCT), and transition radiation tracker (TRT). It is surrounded by a solenoid providing a $2$ $\rm T$ axial magnetic field which bends particles in the transverse plane to allow for momentum measurement. Figure~\ref{fig:ID} shows the layout of each of these components. 
 
@@ -139,7 +139,7 @@ The semiconductor tracker (SCT) consists of silicon microstrips and comprises th
 
 \subsubsection{Transition radiation tracker (TRT)}
 
-The transition radiation tracker (TRT) serves two purposes. First, it consists of $4 \rm mm$ diameter straw tubes filled with a $70/27/3$\% gas mixture of xenon, carbon dioxide, and oxygen to provide tracking of charged particles. Particles typically have $36$ TRT straw tube hits per track. The material in between the straws is designed to induce transition radiation which can be useful for particle identification. As particles pass between media with different dielectric constants, they emit transition radiation that can cause additional showers in the TRT. In particular it is useful for discrimination between electrons and pions or other charged hadrons, as the amount of transition radiation is proportional to the Lorentz factor of the particle.
+The transition radiation tracker (TRT) serves two purposes. First, it consists of $4\,\rm mm$ diameter straw tubes filled with a $70/27/3$\% gas mixture of xenon, carbon dioxide, and oxygen to provide tracking of charged particles. Particles typically have $36$ TRT straw tube hits per track. The material in between the straws is designed to induce transition radiation which can be useful for particle identification. As particles pass between media with different dielectric constants, they emit transition radiation that can cause additional showers in the TRT. In particular it is useful for discrimination between electrons and pions or other charged hadrons, as the amount of transition radiation is proportional to the Lorentz factor of the particle.
 
 \subsection{Calorimeters}
 
@@ -161,7 +161,7 @@ Both the electromagnetic and hadronic calorimeters are sampling calorimeters. Th
 
 The electromagnetic calorimeter (EM calorimeter) use liquid Argon (LAr) as its active material and lead as its passive material. It is arranged in an accordion geometry to increase the absorption area while still allowing it to have no azimuthal cracks (complete symmetry in $\phi$). The EM calorimeter is divided into a barrel portion that extends to $|\eta| < 1.475$ and an endcap portion going from $1.375 < |\eta| < 3.2$. The region where these two units overlap is called the ``transition region". 
 
-In order to provide good containment the calorimeter depth must be optimized. Typically, for electromagnetic calorimeters the depth is measured in radiation lengths. In general, the intensity of a particle beam attenuates exponentially in distance with a constant equal to the radiation length. That is, $I(x) = I_0 e^{-x/X_0}$, where $I$ is the intensity, $x$ is the distance traveled, and $X_0$ is the radiation length. The ATLAS EM calorimeter is designed to have $>22$ radiation lengths in the barrel and $> 24$ in the endcap~\cite{ATLASPaper}. 
+In order to provide good containment the calorimeter depth must be optimized. Typically, for electromagnetic calorimeters the depth is measured in radiation lengths. In general, the intensity of a particle beam attenuates exponentially in distance with an attenuation constant equal to the radiation length. That is, $I(x) = I_0 e^{-x/X_0}$, where $I$ is the intensity, $x$ is the distance traveled, and $X_0$ is the radiation length. The ATLAS EM calorimeter is designed to have $>22$ radiation lengths in the barrel and $> 24$ in the endcap~\cite{ATLASPaper}. 
 
 \subsubsection{Hadronic calorimeters}
 
@@ -193,7 +193,7 @@ The muon spectrometer is dedicated to measuring the momentum and position of muo
 
 \subsubsection{Monitored drift tubes (MDTs)}
 
-The monitored drift tubes (MDTs) are aluminum $3\,\rm cm$ diameter tubes filled with a $93/7$ \% mixture of Argon and $\textrm{CO}_2$, with trace amounts of water. As a charged particle traverses the tube, it ionizes the gas and the ions drift to a wire at the center of the tube. The radial distance of traversal of the particle in the tube is determined by the drift time of the electrons, allowing for fine position resolution. The tubes have an average resolution of $80\,\mu\textrm{m}$ per tube and a maximum drift time of approximately $700 \rm ns$. The tubes are oriented so that they give precision measurement in $\eta$ and run along $\phi$. They cover $|\eta| < 2.7$, except in the innermost layer of the endcap where they only go to $|\eta| < 2.0$~\cite{ATLASPaper}.
+The monitored drift tubes (MDTs) are aluminum $3\,\rm cm$ diameter tubes filled with a $93/7$ \% mixture of Argon and $\textrm{CO}_2$, with trace amounts of water. As a charged particle traverses the tube, it ionizes the gas and the ions drift to a wire at the center of the tube. The radial distance of traversal of the particle in the tube is determined by the drift time of the electrons, allowing for fine position resolution. The tubes have an average resolution of $80\,\mu\textrm{m}$ per tube and a maximum drift time of approximately $700\,\rm ns$. The tubes are oriented so that they give precision measurement in $\eta$ and run along $\phi$. They cover $|\eta| < 2.7$, except in the innermost layer of the endcap where they only go to $|\eta| < 2.0$~\cite{ATLASPaper}.
 
 \subsubsection{Cathode strip chambers (CSCs)}
 
@@ -201,11 +201,11 @@ The cathode strip chambers cover a narrow window of the innermost endcap region 
 
 \subsubsection{Resistive plate chambers (RPCs)}
 
-The resistive plate chambers (RPCs) are gaseous electrode-plate detectors covering the region $|\eta| < 1.05$. They consist of two resistive plates separated by a distance of $2\,\rm mm$. The gas mixture used is a $94.7/5/0.3$\% mixture of $\textrm{C}_2\textrm{H}_2\textrm{F}_4$, $\textrm{Iso-C}_4\textrm{H}_10$, and $\textrm{SF}_6$. It has readout strips with a pitch of $23$-$35\, \rm mm$ for both $\eta$ and $\phi$ measurement and thus provides measurement of the azimuthal coordinate in the barrel. The thin gas gap allows for a quick response time which makes it ideal for use in the trigger. There are three layers of RPCs which are referred to as the three trigger stations. They allow for both a low $p_{T}$ and high $p_{T}$ trigger. The coincidence of hits in the innermost chambers allows for triggering of muons between $6$ and $9 \GeV$, while the outermost layer allows the trigger to select high momentum tracks in the range of $9$ to $35\GeV$~\cite{ATLASPaper}.
+The resistive plate chambers (RPCs) are gaseous electrode-plate detectors covering the region $|\eta| < 1.05$. They consist of two resistive plates separated by a distance of $2\,\rm mm$. The gas mixture used is a $94.7/5/0.3$\% mixture of $\textrm{C}_2\textrm{H}_2\textrm{F}_4$, $\textrm{Iso-C}_4\textrm{H}_10$, and $\textrm{SF}_6$. It has readout strips with a pitch of $23$-$35\, \rm mm$ for both $\eta$ and $\phi$ measurement and thus provides measurement of the azimuthal coordinate in the barrel. The thin gas gap allows for a quick response time which makes it ideal for use in the trigger. Signals in the RPC have a width of approximately $5\, \rm ns$. There are three layers of RPCs which are referred to as the three trigger stations. They allow for programmable thresholds in both a low $p_{T}$ and high $p_{T}$ trigger. The coincidence of hits in the innermost chambers allows for setting muon trigger thresholds between $6$ and $9 \GeV$, while the outermost layer allows the trigger to set trigger thresholds in the range of $9$ to $40\GeV$~\cite{ATLASPaper}.
 
 \subsubsection{Thin gap chambers (TGCs)}
 
-The thin gap chambers (TGCs) are multiwire proportional chambers where the wire to cathode distance ($1.4\.\rm mm$) is smaller than the wire-to-wire distance ($1.8\,\rm mm$). They contain a gas mixture of $\textrm{CO}_2$ and $n$-pentane and use a high electric field to gain good time resolution. They serve two functions in the end-cap system. First, they serve as the trigger chambers. Second, they also provide azimuthal coordinate measurement. They sit on the inner and middle layers of the endcap. The outermost layer's azimuthal coordinate is determined by extrapolation~\cite{ATLASPaper}.
+The thin gap chambers (TGCs) are multiwire proportional chambers where the wire to cathode distance ($1.4\.\rm mm$) is smaller than the wire-to-wire distance ($1.8\,\rm mm$). They contain a gas mixture of $\textrm{CO}_2$ and $n$-pentane and use a high electric field to gain good time resolution. They serve two functions in the end-cap system. First, they serve as the trigger chambers. Second, they also provide azimuthal coordinate measurement. They sit on the inner and middle layers of the endcap. The outermost layer's azimuthal coordinate is determined by extrapolation~\cite{ATLASPaper}. As with the RPCs, the TGCs also are capable of triggering with programmable thresholds in the same $\pT$ range specified for the RPCs above. 
 
 \subsection{Magnet system}
 
@@ -235,7 +235,7 @@ As mentioned previously, there are two independent magnet systems in ATLAS. The 
 
 The ATLAS trigger system searches for signatures of muons, electrons, photons, hadronically decaying $\tau$ leptons, and jets in order to save these events for further analysis. The trigger system in ATLAS is designed to reduce the maximum LHC event rate of $40\,\rm MHz$ to a more reasonable rate that can be recorded. The trigger first consists of a fast, hardware based system called the Level-$1$ (L$1$) trigger. The L$1$ trigger consists of independent dedicated detector sub-components that can seed regions of interest (RoIs) for further analysis downstream. For muons, the RPCs and TGCs are used, while in the calorimeter coarsely grained sections of calorimeter cells called towers are used. Once regions of interest are seeded, a software based system called the High Level Trigger (HLT) is used to reconstruct objects and integrate information from different parts of the detector. In Run $1$ of ATLAS, the HLT consisted of two separate stages: the level $2$ (L$2$) trigger and the event filter (EF). 
 
-The maximum trigger rate that the L$1$ trigger can handle is $75\,\rm kHz$. In the HLT, the rate of events written to disk is approximately $200\, \rm Hz$. Figure~\ref{fig:trigger_rates} shows the trigger rates for different L$1$ triggers in 2012 and 2015 for ATLAS~\cite{TriggerOps}. 
+The maximum trigger rate that the L$1$ trigger can handle is $75\,\rm kHz$. In the HLT, the rate of events written to disk is approximately $400\, \rm Hz$. Figure~\ref{fig:trigger_rates} shows the trigger rates for different L$1$ triggers in 2012 and 2015 for ATLAS~\cite{TriggerOps}. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -260,7 +260,7 @@ The maximum trigger rate that the L$1$ trigger can handle is $75\,\rm kHz$. In t
 
 \subsection{ATLAS datasets}
 
-ATLAS has collected data at center of mass energies of $7$, $8$, and $13 \TeV$. Figure~\ref{fig:lumis} shows the integrated luminosity as a function of time for each of the three collected datasets. At $\sqrt{s} = 7 \TeV$, ATLAS recorded $5.08\ifb$. Increased instantaneous luminosity in 2012 led to a larger dataset of $21.3 \ifb$ recorded at $\sqrt{s} = 8 \TeV$. After Long Shutdown $1$ (LS$1$) of the LHC and a restart in 2015, ATLAS recorded $3.9\ifb$ of data at $\sqrt{s} = 13 \TeV$~\cite{Lumi_Run1, Lumi_Run2}.
+ATLAS has collected data at center of mass energies of $7$, $8$, and $13 \TeV$. Figure~\ref{fig:lumis} shows the integrated luminosity as a function of time for each of the three datasets. In the 2011 dataset with $\sqrt{s} = 7 \TeV$, ATLAS recorded $5.08\ifb$. Increased instantaneous luminosity in 2012 led to a larger dataset of $21.3 \ifb$ recorded at $\sqrt{s} = 8 \TeV$. After Long Shutdown $1$ (LS$1$) of the LHC and a restart in 2015, ATLAS recorded $3.9\ifb$ of data at $\sqrt{s} = 13 \TeV$~\cite{Lumi_Run1, Lumi_Run2}. The data recorded by ATLAS can only be used for analysis if the required sub-detectors were in a stable state when the data was being taken. The fraction of recorded ATLAS data that was labeled as being good for physics analysis was $90\%$, $95\%$, and $82\%$ in the $7$, $8$, and $13$ \TeV data respectively. Thus, the Run 1 results presented in this thesis use $4.6 \ifb$ at $\sqrt{s} = 7 \TeV$ and $20.3 \ifb$ at $\sqrt{s} = 8 \TeV$\footnote{The analyses combined in the Higgs discovery (presented in chapter 4) use between $4.6$ and $4.8 \ifb$ at $7 \TeV$ depending on which detectors are required to be in a stable state.  The discovery also only uses the $5.8\ifb$ of $8 \TeV$ data that was available at the time of the analysis.}. The Run 2 results use $3.2 \ifb$ at $\sqrt{s} = 13 \TeV$. 
 
 \begin{figure}[h!]
   %\vspace{20pt}

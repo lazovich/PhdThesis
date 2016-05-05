@@ -28,6 +28,12 @@ You're missing a field name---line 1356 of file references.bib
  :       %primaryClass   = "hep-ex",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--string name "plb" is undefined
+--line 1610 of file references.bib
+Warning--I'm ignoring Higgs8TeV's extra "year" field
+--line 1626 of file references.bib
+Warning--string name "prl" is undefined
+--line 1638 of file references.bib
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
 Warning--empty publisher in Tully
@@ -37,6 +43,8 @@ Warning--empty journal in Higgs1
 Warning--empty journal in Higgs2
 Warning--empty journal in Englert
 Warning--empty journal in LHCXSWG
+Warning--empty journal in MasterIntegrals
+Warning--empty journal in HiggsVBFNNLO
 Warning--empty note in CP3Origins
 Warning--empty publisher in LHCReview
 Warning--empty author in Run2Tracking
@@ -80,45 +88,45 @@ Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
 Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
-You've used 120 entries,
+You've used 131 entries,
             2481 wiz_defined-function locations,
-            1310 strings with 24147 characters,
-and the built_in function-call counts, 39917 in all, are:
-= -- 3503
-> -- 1696
-< -- 97
-+ -- 744
-- -- 491
-* -- 3001
-:= -- 6530
-add.period$ -- 450
-call.type$ -- 120
-change.case$ -- 233
-chr.to.int$ -- 107
-cite$ -- 186
-duplicate$ -- 2138
-empty$ -- 3697
-format.name$ -- 643
-if$ -- 8425
+            1386 strings with 26132 characters,
+and the built_in function-call counts, 44059 in all, are:
+= -- 3847
+> -- 1919
+< -- 101
++ -- 830
+- -- 555
+* -- 3334
+:= -- 7218
+add.period$ -- 491
+call.type$ -- 131
+change.case$ -- 255
+chr.to.int$ -- 118
+cite$ -- 199
+duplicate$ -- 2347
+empty$ -- 4072
+format.name$ -- 724
+if$ -- 9297
 int.to.chr$ -- 14
-int.to.str$ -- 121
-missing$ -- 98
-newline$ -- 697
-num.names$ -- 320
-pop$ -- 811
+int.to.str$ -- 132
+missing$ -- 109
+newline$ -- 760
+num.names$ -- 353
+pop$ -- 884
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 131
 quote$ -- 0
-skip$ -- 1229
+skip$ -- 1346
 stack$ -- 0
-substring$ -- 1298
-swap$ -- 271
+substring$ -- 1455
+swap$ -- 291
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 822
-warning$ -- 52
-while$ -- 284
+type$ -- 899
+warning$ -- 54
+while$ -- 317
 width$ -- 0
-write$ -- 1700
+write$ -- 1857
 (There was 1 error message)

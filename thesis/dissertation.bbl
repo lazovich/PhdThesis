@@ -1,4 +1,4 @@
-\begin{thebibliography}{120}
+\begin{thebibliography}{131}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -112,6 +112,66 @@ G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
   G.~Passarino, and R.~Tanaka~(Eds.).
 \newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
 \newblock 2013.
+
+\bibitem[Anastasiou and Melnikov(2002)]{HiggsNNLOQCD}
+Charalampos Anastasiou and Kirill Melnikov.
+\newblock {Higgs boson production at hadron colliders in NNLO QCD}.
+\newblock \emph{Nucl. Phys.}, B 646:\penalty0 220, 2002.
+\newblock \doi{10.1016/S0550-3213(02)00837-4}.
+
+\bibitem[Spira et~al.(1995)Spira, Djouadi, Graudenz, and Zerwas]{HiggsLHC}
+M.~Spira, A.~Djouadi, D.~Graudenz, and P.~M. Zerwas.
+\newblock {Higgs boson production at the LHC}.
+\newblock \emph{Nucl. Phys.}, B~453:\penalty0 17, 1995.
+\newblock \doi{10.1016/0550-3213(95)00379-7}.
+
+\bibitem[Degrassi and Maltoni(2004)]{HiggsEWCorr}
+Giuseppe Degrassi and Fabio Maltoni.
+\newblock {Two-loop electroweak corrections to Higgs production at hadron
+  colliders}.
+\newblock \emph{Phys.~Lett.}, B~600:\penalty0 255, 2004.
+
+\bibitem[Aglietti et~al.(2004)Aglietti, Bonciani, Degrassi, and
+  Vicini]{MasterIntegrals}
+U.~Aglietti, R.~Bonciani, G.~Degrassi, and A.~Vicini.
+\newblock {Master integrals for the two-loop light fermion contributions to gg
+  $\rightarrow$ H and H $\rightarrow$ gamma gamma}.
+\newblock 600:\penalty0 57, 2004.
+\newblock \doi{10.1016/j.physletb.2004.09.001}.
+
+\bibitem[de~Florian and Grazzini(2012)]{Higgs8TeV}
+D.~de~Florian and M.~Grazzini.
+\newblock {Higgs production at the LHC: updated cross sections at $\sqrt{s} =
+  8$~TeV}.
+\newblock \emph{Phys.~Lett.}, B~718:\penalty0 117, 2012.
+
+\bibitem[{P.~Bolzoni, F.~Maltoni, S.-O.~Moch, and M.~Zaro}(2010)]{HiggsVBFNNLO}
+{P.~Bolzoni, F.~Maltoni, S.-O.~Moch, and M.~Zaro}.
+\newblock {Higgs production via vector-boson fusion at NNLO in QCD}.
+\newblock 105:\penalty0 011801, 2010.
+\newblock \doi{10.1103/PhysRevLett.105.011801}.
+
+\bibitem[Han et~al.(1992)Han, Valencia, and Willenbrock]{StructureFunction}
+Tao Han, G.~Valencia, and S.~Willenbrock.
+\newblock {Structure function approach to vector boson scattering in p p
+  collisions}.
+\newblock \emph{Phys.Rev.Lett.}, 69:\penalty0 3274--3277, 1992.
+\newblock \doi{10.1103/PhysRevLett.69.3274}.
+
+\bibitem[Ciccolini et~al.(2008)Ciccolini, Denner, and Dittmaier]{HiggsVBFEW}
+Mariano Ciccolini, Ansgar Denner, and Stefan Dittmaier.
+\newblock {Electroweak and QCD corrections to Higgs production via vector-boson
+  fusion at the LHC}.
+\newblock \emph{Phys.~Rev.}, D 77:\penalty0 013002, 2008.
+\newblock \doi{10.1103/PhysRevD.77.013002}.
+
+\bibitem[Catani et~al.(2003)Catani, de~Florian, Grazzini, and
+  Nason]{HiggsResumm}
+S.~Catani, D.~de~Florian, M.~Grazzini, and P.~Nason.
+\newblock {Soft-gluon re-summation for Higgs boson production at hadron
+  colliders}.
+\newblock \emph{JHEP}, 0307:\penalty0 028, 2003.
+\newblock \doi{10.1088/1126-6708/2003/07/028}.
 
 \bibitem[Djouadi(2008)]{DjouadiHiggs}
 Abdelhak Djouadi.
@@ -559,6 +619,20 @@ A.~Sherstnev and R.~S. Thorne.
 \newblock {Parton distributions for the LHC}.
 \newblock \emph{Eur. Phys. J}, C 55:\penalty0 553, 2009.
 \newblock \doi{10.1140/epjc/s10052-008-0610-x}.
+
+\bibitem[Bredenstein et~al.(2006)Bredenstein, Denner, Dittmaier, and
+  Weber]{prophecy4f}
+A.~Bredenstein, Ansgar Denner, S.~Dittmaier, and M.~M. Weber.
+\newblock {Precise predictions for the Higgs-boson decay $H\rightarrow WW/ZZ
+  \rightarrow 4$ leptons}.
+\newblock \emph{Phys. Rev.}, D74:\penalty0 013004, 2006.
+
+\bibitem[Djouadi et~al.(1998)Djouadi, Kalinowski, and Spira]{hdecay}
+A.~Djouadi, J.~Kalinowski, and M.~Spira.
+\newblock {HDECAY: A program for Higgs boson decays in the standard model and
+  its supersymmetric extension}.
+\newblock \emph{Comput. Phys. Commun.}, 108:\penalty0 56, 1998.
+\newblock \doi{10.1016/S0010-4655(97)00123-9}.
 
 \bibitem[{S.~Agostinelli et al.}(2003)]{geant4}
 {S.~Agostinelli et al.}
