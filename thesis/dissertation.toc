@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.5}Higgs Pair Production in Theories Beyond the Standard Model}{17}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Randall-Sundrum Gravitons}{18}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Two Higgs Doublet Models}{20}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Conclusion}{21}{section.1.6}
+\contentsline {section}{\numberline {1.6}Conclusion}{22}{section.1.6}
 \contentsline {chapter}{\numberline {2}The ATLAS detector and the Large Hadron Collider}{23}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{24}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Instantaneous luminosity}{25}{subsection.2.1.1}

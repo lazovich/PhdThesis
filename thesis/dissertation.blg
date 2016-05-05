@@ -89,45 +89,45 @@ Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
 Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
-You've used 132 entries,
+You've used 133 entries,
             2481 wiz_defined-function locations,
-            1389 strings with 26265 characters,
-and the built_in function-call counts, 44355 in all, are:
-= -- 3871
-> -- 1934
-< -- 102
-+ -- 837
-- -- 559
-* -- 3350
-:= -- 7265
-add.period$ -- 494
-call.type$ -- 132
-change.case$ -- 257
+            1394 strings with 26422 characters,
+and the built_in function-call counts, 44707 in all, are:
+= -- 3903
+> -- 1949
+< -- 103
++ -- 844
+- -- 563
+* -- 3376
+:= -- 7322
+add.period$ -- 498
+call.type$ -- 133
+change.case$ -- 259
 chr.to.int$ -- 118
-cite$ -- 201
-duplicate$ -- 2365
-empty$ -- 4100
-format.name$ -- 730
-if$ -- 9360
-int.to.chr$ -- 15
-int.to.str$ -- 133
-missing$ -- 110
-newline$ -- 765
-num.names$ -- 356
-pop$ -- 895
+cite$ -- 202
+duplicate$ -- 2384
+empty$ -- 4133
+format.name$ -- 736
+if$ -- 9436
+int.to.chr$ -- 16
+int.to.str$ -- 134
+missing$ -- 111
+newline$ -- 771
+num.names$ -- 359
+pop$ -- 901
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 133
 quote$ -- 0
-skip$ -- 1357
+skip$ -- 1366
 stack$ -- 0
-substring$ -- 1457
-swap$ -- 293
+substring$ -- 1468
+swap$ -- 297
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 906
+type$ -- 913
 warning$ -- 55
-while$ -- 319
+while$ -- 322
 width$ -- 0
-write$ -- 1868
+write$ -- 1883
 (There was 1 error message)

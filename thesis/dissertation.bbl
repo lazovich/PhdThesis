@@ -1,4 +1,4 @@
-\begin{thebibliography}{132}
+\begin{thebibliography}{133}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -271,6 +271,13 @@ Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
 \newblock 2013.
 \newblock URL \url{http://cp3-origins.dk/research/units/ed-tools}.
 
+\bibitem[Aad et~al.(2015{\natexlab{a}})]{HiggsNewPhysics}
+Georges Aad et~al.
+\newblock {Constraints on new phenomena via Higgs boson couplings and invisible
+  decays with the ATLAS detector}.
+\newblock \emph{JHEP}, 11:\penalty0 206, 2015{\natexlab{a}}.
+\newblock \doi{10.1007/JHEP11(2015)206}.
+
 \bibitem[Evans and Bryant(2008)]{LHCPaper}
 Lyndon~R Evans and Philip Bryant.
 \newblock {LHC Machine}.
@@ -478,10 +485,10 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock Technical Report ATLAS-CONF-2015-037, CERN, Geneva, Aug 2015.
 \newblock URL \url{http://cds.cern.ch/record/2044941}.
 
-\bibitem[Aad et~al.(2015)]{Run1BJets}
+\bibitem[Aad et~al.(2015{\natexlab{b}})]{Run1BJets}
 Georges Aad et~al.
 \newblock {Performance of $b$-Jet Identification in the ATLAS Experiment}.
-\newblock 2015.
+\newblock 2015{\natexlab{b}}.
 
 \bibitem[Run(2015{\natexlab{b}})]{Run2BJets}
 {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
