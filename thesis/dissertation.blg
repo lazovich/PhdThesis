@@ -13,7 +13,6 @@ A level-1 auxiliary file: chapters/chapter8.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/appendixB.aux
 The style file: unsrtnat.bst
-A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
 Warning--string name "pr" is undefined
 --line 461 of file references.bib
@@ -91,7 +90,7 @@ Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
 You've used 133 entries,
             2481 wiz_defined-function locations,
-            1394 strings with 26422 characters,
+            1393 strings with 26400 characters,
 and the built_in function-call counts, 44707 in all, are:
 = -- 3903
 > -- 1949
