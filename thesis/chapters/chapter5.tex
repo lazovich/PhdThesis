@@ -256,7 +256,17 @@ This section discusses the variables used to distinguish VBF production of the H
 \label{sec:vbf_presel}
 Both the cut-based and BDT analyses have a common pre-selection that is applied before the signal region requirements. The requirements on leptons are common to all $\Njet$ bins. The analysis requires two oppositely charged leptons, with the leading lepton required to have $\pT > 22$ \GeV\,while the subleading lepton must have $\pT > 10$ \GeV. Next, to remove low mass $\ZDY$ events, a requirement on the dilepton mass $\mll > 10\, (12)$ \GeV\,is applied in the different (same) flavor channel. In the same flavor channels, there is an additional veto placed on the region around the Z peak, requiring that $|\mll - \mZ| > 15$ \GeV. 
 
-There are also requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, where $\ZDY$+jets production is one of the dominant backgrounds. The BDT analysis requires $\MPTj > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must select more tightly on these variables to have maximal sensitivity and thus requires $\MPTj > 50 \GeV$ and $\MET > 55 \GeV$. 
+There are also requirements on the amount of missing transverse momentum in the event. These are only applied in the same flavor channels, where $\ZDY$+jets production is one of the dominant backgrounds. The BDT analysis requires $\MPTj > 40 \GeV$ and $\MET > 45 \GeV$. The cut-based analysis must select more tightly on these variables to have maximal sensitivity and thus requires $\MPTj > 50 \GeV$ and $\MET > 55 \GeV$. Figure~\ref{fig:VBF_cb_met} shows the distributions of both $\MET$ and $\MPTj$ compared between data and simulation in the same flavor channels. Both variables are modeled fairly well in the bulk of the distribution, with some mis-modeling arising in the tails. Additionally, it is interesting to note that the $\ZDY\to \ell\ell$ backgrounds tends to have lower values of both variables compared to the VBF signal, as expected.
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.49\textwidth]{figures/VBF_cb_met}
+  \includegraphics[width=0.49\textwidth]{figures/VBF_cb_trackmet}
+
+  \caption{Comparisons between data and Monte Carlo simulation for the calorimeter-based $\MET$ (left) and the track-based $\MPTj$ (right) in the same flavor VBF $\HWW$ analysis channels. Both distributions are shown after the pre-selection cuts on $\mll$. The bottom panel shows the ratio between the data and the number of events expected from combining the signal and background. The hashed and orange bands include both statistical and systematic uncertainties.}
+  \label{fig:VBF_cb_met}
+\end{figure}
 
 Finally, because this analysis is focused on VBF Higgs production, a requirement on the jet multiplicity is placed, with $\Njet \geq 2$. Additionally, the analysis requires that there are no jets identified as b-quarks in the event, or $\Nbjet = 0$. Figure~\ref{fig:njets} shows the jet multiplicity distributions in data and Monte Carlo simulation for both $\Njet$ and $\Nbjet$. The $\Njet$ variable is seen to be very well modeled for $\Njet \leq 7$, with some discrepancies appearing at very high jet multiplicities (where events are a small fraction of the total sample). Similarly, the $\Nbjet$ variable is modeled very well for $\Nbjet \leq 2$, with some discrepancies at higher values. 
 
@@ -266,7 +276,7 @@ Finally, because this analysis is focused on VBF Higgs production, a requirement
   \includegraphics[width=0.49\textwidth]{figures/VBF_cb_njets}
   \includegraphics[width=0.49\textwidth]{figures/VBF_cb_nb}
 
-  \caption{Comparisons between data and Monte Carlo simulation for the jet multiplicity $\Njet$ (left) and the number of $b$-tagged jets $\Nbjet$ (right). $\Njet$ is shown after the pre-selection cuts on $\mll$ and $\Nbjet$ is shown after the requirement that $\Njet \geq 2$. The bottom panel shows the ratio between the data and the number of events expected from combining the signal and background. In the $\Nbjet$ distribution, the top background is normalized using the procedures described in section~\ref{sec:topnf}. The hashed and orange bands include both statistical and systematic uncertainties.}
+  \caption{Comparisons between data and Monte Carlo simulation for the jet multiplicity $\Njet$ (left) and the number of $b$-tagged jets $\Nbjet$ (right) in the VBF $\HWW$ analysis. $\Njet$ is shown after the pre-selection cuts on $\mll$ and $\Nbjet$ is shown after the requirement that $\Njet \geq 2$. The bottom panel shows the ratio between the data and the number of events expected from combining the signal and background. In the $\Nbjet$ distribution, the top background is normalized using the procedures described in section~\ref{sec:topnf}. The hashed and orange bands include both statistical and systematic uncertainties.}
   \label{fig:njets}
 \end{figure}
 
