@@ -261,7 +261,7 @@ There are also requirements on the amount of missing transverse momentum in the 
 Finally, because this analysis is focused on VBF Higgs production, a requirement on the jet multiplicity is placed, with $\Njet \geq 2$. Additionally, the analysis requires that there are no jets identified as b-quarks in the event, or $\Nbjet = 0$. 
 
 \subsection{Analysis variable definitions and cut-based selection}
-
+\label{sec:vbf_cb_def}
 The cut-based selection places sequential requirements on variables reconstructed from the VBF jets in order to increase the signal to background ratio. This section defines the variables that are used in the cut-based selection and details the requirements that are placed on these variables. 
 
 \subsubsection{General background reduction}
@@ -527,15 +527,42 @@ $\quad{\mll, \dphill, \mTH}$               &1.63 &0.69 &    6 &    3.7 & 0.3 & 2
 
 
 \subsection{BDT-based selection}
-
+\label{sec:vbf_bdt_def}
 The boosted decision tree based analysis uses many of the variables defined in the cut-based selection as inputs to the BDT. The output BDT score ($\bdt$) is used as the final discriminant rather than $\mTH$\footnote{For the final discriminant analysis, the $\bdt$ distribution is divided into four bins, with boundaries at $[-1, -0.48, -0.3, 0.78, 1]$.}. The BDT is trained with the VBF $\HWW$ simulation as the signal samples and all other processes as background, including ggF $\HWW$ production. While the BDT based analysis is ultimately treated as a separate result, it has significant overlap with the cut-based selection. 
 
 \subsubsection{Pre-training selection and BDT inputs}
-Before training, the common pre-selection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to define the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations.
+Before training, the common pre-selection cuts described in section~\ref{sec:vbf_presel} are applied. Additionally, the central jet veto and outside lepton veto described in section~\ref{sec:vbf_topocuts} are applied. The BDT has eight input variables, six of which are also variables that are used in the cut-based analysis. The six shared variables are $\pTtot$, $\mjj$, $\dyjj$, $\mll$, $\dphill$, and $\mTH$. The seventh variable input in the BDT is a combination of the variables used to define the OLV in the cut-based analysis. The BDT uses as input the sum of lepton centralities, or $\sum\olv = \olvlead + \olvsublead$. The final BDT input variable, $\mlj$, is constructed to account for the correlations between the jets and leptons in the event. It is the sum of the invariant masses of all four possible lepton-jet combinations. Table~\ref{tab:vbfcuts} summarizes the cuts applied for the cut-based and analyses, as well as which variables are used as input to the BDT.
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Category & Selection & Cut-based value & BDT-based value \\ \hline
+\multirow{10}{*}{Pre-selection} & Leptons & \multicolumn{2}{c|}{$2$ oppositely charged} \\ \cline{2-4}
+& Leading lepton $\pT$ & \multicolumn{2}{c|}{ $> 22 \GeV$} \\ \cline{2-4}
+& Subleading lepton $\pT$ & \multicolumn{2}{c|}{ $> 10 \GeV$} \\ \cline{2-4}
+& $\mll$ & \multicolumn{2}{c|}{ \specialcell{$>10\,(12) \GeV$ for $e\mu/\mu e$ ($ee/\mu\mu$) \\ $|\mll - m_{Z}| > 15 \GeV$ for $ee/\mu\mu$}} \\ \cline{2-4}
+& \specialcell{$\MET$  \\($ee/\mu\mu$ only)} & $> 55 \GeV$ & $> 45 \GeV$  \\ \cline{2-4}
+& \specialcell{$\MPTj$  \\($ee/\mu\mu$ only)} & $> 50 \GeV$ & $> 40 \GeV$ \\ \cline{2-4}
+& $b$-veto & \multicolumn{2}{c|}{$\Nbjet = 0$} \\ \hline
+Bkg. rejection & $\pTtot$ & $< 15 \GeV$ & Input \\ \hline
+\multirow{5}{*}{VBF topology} & $\mjj$ & $> 600 \GeV$ & Input \\ \cline{2-4}
+& $\dyjj$ & $> 3.6$ & Input \\ \cline{2-4}
+& CJV and OLV & \multicolumn{2}{c|}{applied} \\ \cline{2-4}
+& $\sum \olv$ & - & Input \\ \cline{2-4}
+& $\mlj$ & - & Input \\ \hline
+\multirow{5}{*}{Higgs topology} & $\mll$ & $ < 50 \GeV$ & Input \\ \cline{2-4}
+& $\dphill$ & $< 1.8$ & Input \\ \cline{2-4}
+& $\mTH$ & \specialcell{Three bins with boundaries\\ at $80$ and $130 \GeV$} & Input \\ \hline
+\end{tabular}
+\caption{Summary of selections for the cut-based and BDT signal regions. ``Input" denotes variables used as input to the BDT algorithm. Definitions and explanations of the variables can be found in sections~\ref{sec:vbf_cb_def} and~\ref{sec:vbf_bdt_def}.}
+\label{tab:vbfcuts}
+\end{table}
 
 Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for the $\mlj$ variable, as well as showing its discriminating power. Figure~\ref{fig:vbf_bdt_htopo} shows the distributions of the Higgs topological variables that are shared between the cut-based and BDT analyses. Figure~\ref{fig:vbf_bdt_vbftopo} shows the distributions of the VBF topological variables shared between the cut-based and BDT analyses. In both cases, the VBF yield has been scaled by a factor of 50 to better show the shape difference compared to the backgrounds. 
 
-%Table~\ref{tab:vbfcuts} summarizes the cuts applied for the cut-based and analyses, as well as which variables are used as input to the BDT. 
+ 
 
 \begin{figure}[h!]
   \centering
@@ -588,7 +615,7 @@ Figure~\ref{fig:vbfvars}d shows the agreement between data and simulation for th
 \section{Background estimation}
 \label{sec:HWWbkg}
 
-This section describes the procedures used to estimate backgrounds for the VBF analysis in both the cut-based and BDT analyses. 
+This section describes the procedures used to estimate backgrounds for the VBF analysis in both the cut-based and BDT analyses. First, the general strategy is presented. Then, specific procedures for each background in both signal regions are shown. 
 
 \subsection{General strategy}
 
