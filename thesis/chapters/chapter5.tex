@@ -855,7 +855,7 @@ Top & $26$ \\ \hline
 QCD $WW$ & $37$ \\ \hline
 $\ZDY \to \tau\tau$ & $6.1$ \\ \hline
 \end{tabular}
-\caption{Systematic uncertainties for various processes in the cut-based VBF analysis, given in units of \% change in yield. Values are given for the low $\mjj$ signal region.}
+\caption{Theoretical systematic uncertainties for various processes in the cut-based VBF analysis, given in units of \% change in yield. Values are given for the low $\mjj$ signal region.}
 \label{tab:vbf_cb_theosys}
 \end{table}
 
@@ -886,6 +886,25 @@ In this analysis, the theoretical uncertainties are the most dominant after stat
 The jet energy scale uncertainty is split into several independent components, including jet-flavor dependent calorimeter response uncertainties, uncertainties on modeling of pile-up interactions, uncertainties on extrapolation from the central to forward detector regions, and MC non-closure~\cite{atlas_jets}. The uncertainty on energy scale for jets used in this analysis ranges from $1\%$ to $7\%$ depending on the jet $\pT$ and $\eta$. The jet energy resolution varies from $5\%$ to $20\%$, with uncertainties ranging from $2\%$ to $40\%$ (the largest uncertainties occurring at the selection threshold).
 
 The b-tagging efficiency is independently measured in data samples enriched in dileptonic decays of $\ttbar$ events or in events where a muon is reconstructed in the vicinity of a jet~\cite{btag-calib,btag-muons}. The efficiencies and their uncertainties are binned in $\pT$ and decomposed into uncorrelated components using an eigenvector method~\cite{BtagCalib1}. Uncertainties on the efficiency range from $1\%$ to $7.8\%$. The uncertainty on the rate of misidentification of $c$-jets as $b$-jets ranges from $6$-$14$\%, while the uncertainty on the rate of light jet mis-tagging ranges from $9$-$19\%$ depending on $\pT$ and $\eta$. These efficiency uncertainties are applied to each individual jet in the event. 
+
+Table~\ref{tab:vbf_exptsys} shows the effect of the experimental uncertainties on the VBF signal yield. The largest experimental uncertainty is the jet energy scale and resolution. Object uncertainties associated with $\MPTj$, electrons, and muons also make a small contribution, as well as the uncertainty on the trigger efficiency.
+
+\begin{table}[h!]
+\centering
+\captionsetup{justification=centering}
+\begin{tabular}{|c|c|}
+\hline
+Uncertainty source & \specialcell{Impact on \\signal yield (\%)}  \\ \hline
+Jet energy scale and resolution & $5.4$ \\ \hline
+Luminosity & $2.8$ \\ \hline
+$\MPTj$ scale and resolution & $1.2$ \\ \hline
+Electron uncertainties & $1.0$ \\ \hline
+Muon uncertainties & $0.9$ \\ \hline
+Trigger efficiency & $0.4$ \\ \hline
+\end{tabular}
+\caption{Experimental systematic uncertainties (expressed as \% of the estimated yield) for the VBF signal~\cite{WW2015}.}
+\label{tab:vbf_exptsys}
+\end{table}
 
 The total experimental uncertainties on different signal and background components are summarized in table~\ref{tab:vbf_totsyst}. They are compared to the level of other statistical and systematic uncertainties as well. Overall, the experimental uncertainties are sub-dominant compared to the statistical and theoretical uncertainties.
 
@@ -935,7 +954,7 @@ The total experimental uncertainties on different signal and background componen
 
 \section{Results}
 
-While the combined results of all the $\HWW$ sub-analyses will be discussed in the next chapter, this section presents the results of the VBF specific analysis and interpretations. As table~\ref{tab:vbf_cutflow_summary} shows, the final cut-based signal region contains $20$ events in data with $\mTH < 150 \GeV$, $14$ coming from the $e\mu$ channel and $6$ coming from the $ee+\mu\mu$ channel. The BDT analysis has many more candidates due to its looser selection, and the yields in each bin of $\bdt$ are shown in table~\ref{tab:vbf_bdt_yield}.
+While the combined results of all the $\HWW$ sub-analyses will be discussed in the next chapter, this section presents the results of the VBF specific analysis and interpretations. As table~\ref{tab:vbf_cutflow_summary} shows, the final cut-based signal region contains $20$ events in data with $\mTH < 150 \GeV$, $14$ coming from the $e\mu$ channel and $6$ coming from the $ee+\mu\mu$ channel. The BDT analysis has many more candidates due to its looser selection, and the yields in each bin of $\bdt$ are shown in table~\ref{tab:vbf_bdt_yield}. Most of the information about the VBF signal comes from bins $2$ and $3$ which have significantly better signal to background ratios than bin $1$. Additionally, the same-flavor channels contribute roughly the same sensitivity as the different flavor channels, highlighting the gain from adding these channels post-discovery with the techniques discussed in chapter 3. 
 
 \begin{table}[!hbtp]
 \centering
@@ -1017,7 +1036,7 @@ $\quad$ Bin 3            &$6.52 $&$2.87 $&$  6   $&$  0.9 $& $0.2 $& $1.7 $&$-$ 
 \label{tab:vbf_bdt_yield}                                                                                                 
 \end{table}
 
-Figure~\ref{fig:vbf_cb_mt}(a) shows the final distribution of data candidates compared to the expected $\mTH$ distribution for signal and background. The data are very consistent with a VBF Higgs hypothesis. Figure~\ref{fig:vbf_cb_mt}(b) shows where the data candidates fall in the two-dimensional binning of $\mTH$ and $\mjj$ used in the fit for the cut-based analysis. 
+Figure~\ref{fig:vbf_cb_mt}(a) shows the final distribution of data candidates compared to the expected $\mTH$ distribution for signal and background in the cut-based signal region. The data are very consistent with a VBF Higgs hypothesis. Figure~\ref{fig:vbf_cb_mt}(b) shows where the data candidates fall in the two-dimensional binning of $\mTH$ and $\mjj$ used in the fit for the cut-based analysis. 
 %
 \begin{figure}[h!]
   \centering
