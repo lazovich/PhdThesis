@@ -118,10 +118,10 @@
 \contentsline {section}{\numberline {6.1}Introduction}{125}{section.6.1}
 \contentsline {section}{\numberline {6.2}Results of dedication gluon fusion $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ analysis}{126}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Results in same flavor ($ee/\mu \mu $) final states}{126}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Combined gluon fusion results}{127}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Signal strength measurements in ggF and VBF production}{128}{section.6.3}
-\contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{133}{section.6.4}
-\contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{133}{section.6.5}
+\contentsline {subsection}{\numberline {6.2.2}Combined gluon fusion results}{128}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Signal strength measurements in ggF and VBF production}{129}{section.6.3}
+\contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{132}{section.6.4}
+\contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{134}{section.6.5}
 \contentsline {section}{\numberline {6.6}Conclusion}{135}{section.6.6}
 \contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{137}{part.3}
 \contentsline {chapter}{\numberline {7}Search for Higgs pair production in boosted $b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ final states}{138}{chapter.7}
@@ -161,4 +161,4 @@
 \contentsline {section}{\numberline {A.1}Changes in MV2 score at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{173}{section.1.A.1}
 \contentsline {section}{\numberline {A.2}Effect of multiple $b$-quarks inside one jet}{175}{section.1.A.2}
 \contentsline {section}{\numberline {A.3}Changes in track quality at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{177}{section.1.A.3}
-\contentsline {chapter}{References}{180}{figure.caption.156}
+\contentsline {chapter}{References}{180}{figure.caption.157}
