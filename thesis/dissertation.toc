@@ -98,7 +98,7 @@
 \contentsline {subsubsection}{General background reduction}{98}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{98}{equation.5.4.1}
 \contentsline {subsubsection}{Higgs topological cuts}{101}{figure.caption.82}
-\contentsline {subsection}{\numberline {5.4.3}BDT-based selection}{103}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.3}BDT-based selection}{102}{subsection.5.4.3}
 \contentsline {subsubsection}{Pre-training selection and BDT inputs}{104}{subsection.5.4.3}
 \contentsline {section}{\numberline {5.5}Background estimation}{104}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}General strategy}{105}{subsection.5.5.1}
