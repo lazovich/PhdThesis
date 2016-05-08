@@ -245,7 +245,7 @@ Identification of $b$-jets is done using the MV1 algorithm and is limited to the
 
 \subsection{Overlap removal}
 
-There are some cases where reconstructed objects will overlap and one will have to be chosen (for example, an electron and a jet in the calorimeter). First, the case of lepton overlap is dealt with. If an electron candidate extends into the muon spectrometer, it is removed. If a muon and electron are within $\Delta R < 0.1$ of each other, the electron is removed and the muon is kept. If two electron candidates overlap within the same radius, then the higher $E_{T}$ electron is kept. Next, the overlap between leptons and jets is considered. If an electron and jet are within $\Delta R < 0.3$ of one another, the electron is kept and the jet is removed. However, if a muon and jet overlap within $\Delta R < 0.3$, the jet is kept (as it is likely that the muon is the result of a semileptonic decay inside the jet). Once the overlap removal is complete, the final set of objects used in the analysis is defined. 
+There are some cases where reconstructed objects will overlap and one will have to be chosen (for example, an electron and a jet in the calorimeter). First, the case of lepton overlap is dealt with. If an electron candidate extends into the muon spectrometer, it is removed. If a muon and electron are within $\Delta R < 0.1$ of each other, the electron is removed and the muon is kept. If two electron candidates overlap within the same radius, then the higher $E_{T}$ electron is kept. Next, the overlap between leptons and jets is considered. If an electron and jet are within $\Delta R < 0.3$ of one another, the electron is kept and the jet is removed. However, if a muon and jet overlap within $\Delta R < 0.3$, the jet is kept (as it is likely that the muon is the result of a semileptonic decay inside the jet\footnote{Electrons can also result from semileptonic decays inside a jet. However, these electrons are more difficult to reconstruct than muons. When electrons overlap with jets, the electron is kept because every electron candidate will also be reconstructed as a jet by the anti-$k_{T}$ algorithm.}). Once the overlap removal is complete, the final set of objects used in the analysis is defined. 
 
 \section{Analysis selection}
 
@@ -910,7 +910,7 @@ Top & $26$ \\ \hline
 QCD $WW$ & $37$ \\ \hline
 $\ZDY \to \tau\tau$ & $6.1$ \\ \hline
 \end{tabular}
-\caption{Theoretical systematic uncertainties for various processes in the cut-based VBF analysis, given in units of \% change in yield. Values are given for the low $\mjj$ signal region.}
+\caption{Theoretical systematic uncertainties for various processes in the cut-based VBF analysis, given in units of percent change in yield. Values are given for the low $\mjj$ signal region. The systematic shown for the $WW$ background is relevant only to $WW$ diagrams where the final state jets are the result of QCD vertices.}
 \label{tab:vbf_cb_theosys}
 \end{table}
 

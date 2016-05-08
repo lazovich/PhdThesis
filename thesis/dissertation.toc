@@ -58,14 +58,14 @@
 \contentsline {subsection}{\numberline {3.3.5}Subdominant backgrounds}{58}{subsection.3.3.5}
 \contentsline {section}{\numberline {3.4}Shared signal region selection requirements}{59}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Event pre-selection}{59}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{60}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Lepton correlations in $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ }{61}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.2}Jet multiplicity}{61}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Lepton correlations in $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ }{62}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Background reduction in same-flavor final states}{62}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Pileup and $E_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}^{\rm miss}$ resolution}{63}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{64}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{66}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction selection requirements}{66}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{67}{section.3.6}
+\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{68}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Transverse mass}{68}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Statistical treatment}{69}{subsection.3.6.2}
 \contentsline {subsubsection}{Likelihood function}{69}{subsection.3.6.2}
