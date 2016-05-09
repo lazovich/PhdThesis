@@ -27,7 +27,7 @@ The degradation of $b$-tagging at high $\pT$ was studied in particular in the co
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.5\textwidth]{figures/TrackJetPt}
-  \caption{$\pT$ of the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models}
+  \caption{$\pT$ of the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models.}
   \label{fig:TrackJetPt}
 \end{figure}
 
@@ -49,7 +49,7 @@ Figure~\ref{fig:TrackJetMV2} shows the MV2c20 algorithm score for the leading an
         \caption{}
     \end{subfigure}
 
-   \caption{MV2c20 score for the leading track jet (a) and subleading track jet (b) of the leading calorimeter jet for different signal masses in RSG $c=1$ models}
+   \caption{MV2c20 score for the leading track jet (a) and subleading track jet (b) of the leading calorimeter jet for different signal masses in RSG $c=1$ models.}
   \label{fig:TrackJetMV2}
 \end{figure}
 
@@ -61,7 +61,7 @@ To understand what is causing this change in the MV2c20 score, the same comparis
   \captionsetup{justification=centering}
 
   \includegraphics[width=0.5\textwidth]{figures/LeadTrackJet_IP3D}
-  \caption{IP3D log-likehood ratio ($\log(p_b/p_u))$) of the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models}
+  \caption{IP3D log-likehood ratio ($\log(p_b/p_u))$) of the leading track jet in the leading calorimeter jet for different signal masses in RSG $c=1$ models.}
   \label{fig:TrackJetIP3D}
 \end{figure}
 %
@@ -169,11 +169,22 @@ Another hypothesis for the degradation of the $b$-tagging efficiency is a decrea
         \caption{}
     \end{subfigure}
 
-   \caption{Track fit $\chi^2/n_{\rm DOF}$ (a) and number of pixel detector hits (b) for the leading track of the leading track jet in different mass RSG $c=1$ samples}
+   \caption{Track fit $\chi^2/n_{\rm DOF}$ (a) and number of pixel detector hits (b) for the leading track of the leading track jet in different mass RSG $c=1$ samples.}
   \label{fig:LeadTrack}
 \end{figure}
 %
-In both cases, the figure shows that in higher mass samples, the quality of the leading track inside of the track jet degrades substantially. The fit quality is lessened and the tracks have less hits in the pixel detector. This is likely due to the fact that at higher $\pT$, the $B$-hadron will sometimes live long enough to miss the IBL and first pixel layer, thus decreasing the number of hits on the track. 
+In both cases, the figure shows that in higher mass samples, the quality of the leading track inside of the track jet degrades substantially. The fit quality is lessened and the tracks have less hits in the pixel detector. This is likely due to the fact that at higher $\pT$, the $B$-hadron will sometimes live long enough to miss the IBL and first pixel layer, thus decreasing the number of hits on the track. Figure~\ref{fig:b_decay_dist} shows the distance traveled in the transverse plane by $B$-hadrons for three different masses of gravitons. At higher masses, a larger fraction of $B$-hadrons decay within the IBL and first pixel layer. 
+
+\begin{figure}[h!]
+  %\vspace{20pt}
+  \centering
+  \captionsetup{justification=centering}
+
+  \includegraphics[width=0.5\textwidth]{figures/B_decay_dist}
+  \caption{Distance traveled (in the transverse plane) by $B$-hadrons before decay for different signal masses in RSG $c=1$ models. Vertical lines denote where the IBL and first pixel layers begin. }
+  \label{fig:b_decay_dist}
+\end{figure}
+
 
 To check whether this is the cause for the shift in the MV2 score and the higher difficulty in reconstructing secondary vertices, jets whose leading track have at least four pixel hits are compared with those whose tracks have less than four pixel hits. The results for the MV2 score and SV1 mass are shown in figure~\ref{fig:Nph_MV2}. 
 %

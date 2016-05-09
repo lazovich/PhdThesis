@@ -143,16 +143,16 @@
 \contentsline {section}{\numberline {7.6}Data-driven background estimation}{151}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Mass region definitions}{152}{subsection.7.6.1}
 \contentsline {subsection}{\numberline {7.6.2}Background estimation}{153}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Background shape fit}{154}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{155}{subsection.7.6.4}
-\contentsline {section}{\numberline {7.7}Systematic uncertainties}{157}{section.7.7}
+\contentsline {subsection}{\numberline {7.6.3}Background shape fit}{155}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Validation of background estimate}{156}{subsection.7.6.4}
+\contentsline {section}{\numberline {7.7}Systematic uncertainties}{156}{section.7.7}
 \contentsline {subsection}{\numberline {7.7.1}Signal modeling uncertainties}{157}{subsection.7.7.1}
 \contentsline {subsection}{\numberline {7.7.2}Background uncertainties}{158}{subsection.7.7.2}
-\contentsline {section}{\numberline {7.8}Results}{160}{section.7.8}
+\contentsline {section}{\numberline {7.8}Results}{159}{section.7.8}
 \contentsline {chapter}{\numberline {8}Combined limits from boosted and resolved searches}{162}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{162}{section.8.1}
 \contentsline {section}{\numberline {8.2}Resolved results}{163}{section.8.2}
-\contentsline {section}{\numberline {8.3}Search technique and results}{163}{section.8.3}
+\contentsline {section}{\numberline {8.3}Statistical technique and results}{163}{section.8.3}
 \contentsline {section}{\numberline {8.4}Limit setting}{164}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Limit setting procedure}{164}{subsection.8.4.1}
 \contentsline {subsection}{\numberline {8.4.2}Limit setting results}{165}{subsection.8.4.2}
@@ -162,4 +162,4 @@
 \contentsline {section}{\numberline {A.1}Changes in MV2 score at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{173}{section.1.A.1}
 \contentsline {section}{\numberline {A.2}Effect of multiple $b$-quarks inside one jet}{175}{section.1.A.2}
 \contentsline {section}{\numberline {A.3}Changes in track quality at high $p_{\textrm {\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \sc t}}$}{177}{section.1.A.3}
-\contentsline {chapter}{References}{180}{figure.caption.157}
+\contentsline {chapter}{References}{180}{figure.caption.158}
