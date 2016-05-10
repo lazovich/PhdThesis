@@ -87,33 +87,33 @@
 \contentsline {section}{\numberline {5.2}Data and simulation samples}{87}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Triggers}{88}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Monte Carlo samples}{89}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Object selection}{91}{section.5.3}
+\contentsline {section}{\numberline {5.3}Object selection}{90}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Muons}{92}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Electrons}{93}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Jets}{94}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Jets}{93}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Overlap removal}{94}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Analysis selection}{95}{section.5.4}
+\contentsline {section}{\numberline {5.4}Analysis selection}{94}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Pre-selection}{95}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Analysis variable definitions and cut-based selection}{97}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Analysis variable definitions and cut-based selection}{95}{subsection.5.4.2}
 \contentsline {subsubsection}{General background reduction}{97}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF topological cuts}{97}{equation.5.4.1}
 \contentsline {subsubsection}{Higgs topological cuts}{100}{figure.caption.82}
 \contentsline {subsection}{\numberline {5.4.3}BDT-based selection}{101}{subsection.5.4.3}
 \contentsline {subsubsection}{Pre-training selection and BDT inputs}{103}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Background estimation}{103}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}General strategy}{104}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.5}Background estimation}{104}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}General strategy}{105}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Top background}{106}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}$Z/\gamma ^{\ast }\to \tau \tau $ background}{107}{subsection.5.5.3}
 \contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{110}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{112}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{111}{subsection.5.5.5}
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{112}{subsection.5.5.6}
 \contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{113}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{113}{subsection.5.5.7}
-\contentsline {subsubsection}{QCD multijet background}{115}{figure.caption.98}
+\contentsline {subsubsection}{QCD multijet background}{114}{figure.caption.98}
 \contentsline {subsection}{\numberline {5.5.8}Background composition in signal region}{115}{subsection.5.5.8}
 \contentsline {section}{\numberline {5.6}Systematic uncertainties}{115}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Theoretical uncertainties}{116}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Experimental uncertainties}{117}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.2}Experimental uncertainties}{118}{subsection.5.6.2}
 \contentsline {section}{\numberline {5.7}Results}{119}{section.5.7}
 \contentsline {chapter}{\numberline {6}Combined Run 1 $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ results}{124}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{124}{section.6.1}
