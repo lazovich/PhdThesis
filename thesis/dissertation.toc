@@ -73,15 +73,15 @@
 \contentsline {chapter}{\numberline {4}The discovery of the Higgs boson and the role of the $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ channel}{72}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{72}{section.4.1}
 \contentsline {section}{\numberline {4.2}Data and simulation samples}{73}{section.4.2}
-\contentsline {section}{\numberline {4.3}$H\to WW \to e\nu \mu \nu $ search}{73}{section.4.3}
+\contentsline {section}{\numberline {4.3}$H\to WW^* \to e\nu \mu \nu $ search}{73}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Event selection}{74}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Background estimation}{75}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Systematic uncertainties}{77}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Results}{78}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}$H\to \gamma \gamma $ search}{79}{section.4.4}
-\contentsline {section}{\numberline {4.5}$H\to ZZ \to 4\ell $ search}{79}{section.4.5}
+\contentsline {section}{\numberline {4.5}$H\to ZZ^* \to 4\ell $ search}{79}{section.4.5}
 \contentsline {section}{\numberline {4.6}Combined results}{81}{section.4.6}
-\contentsline {section}{\numberline {4.7}Conclusion}{82}{section.4.7}
+\contentsline {section}{\numberline {4.7}Conclusion}{85}{section.4.7}
 \contentsline {chapter}{\numberline {5}Evidence for Vector Boson Fusion production of $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $}{86}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{86}{section.5.1}
 \contentsline {section}{\numberline {5.2}Data and simulation samples}{87}{section.5.2}
