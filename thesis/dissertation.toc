@@ -65,7 +65,7 @@
 \contentsline {subsection}{\numberline {3.5.2}Track-based definitions of missing transverse momentum}{63}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Distinguishing $Z/\gamma ^{\ast }$ +jets and $H{\tmspace +\thinmuskip {.1667em}{\rightarrow }\tmspace +\thinmuskip {.1667em}}WW^\ast $ topologies}{65}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}Optimizing background reduction selection requirements}{65}{subsection.3.5.4}
-\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{67}{section.3.6}
+\contentsline {section}{\numberline {3.6}Parameters of interest and statistical treatment}{66}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Transverse mass}{67}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Statistical treatment}{68}{subsection.3.6.2}
 \contentsline {subsubsection}{Likelihood function}{68}{subsection.3.6.2}
