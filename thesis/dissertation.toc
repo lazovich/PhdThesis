@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {2.4.3}Jets}{45}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}$b$-tagging}{47}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Missing transverse energy}{49}{subsection.2.4.5}
-\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW^*$ in LHC Run 1 at $\sqrt {s} = 7$ and 8 TeV}{52}{part.2}
+\contentsline {part}{II\hspace {1em}Observation and measurement of Higgs boson decays to $WW^*$ in LHC Run 1 at $\sqrt {s} = 7$ and $8$ TeV}{52}{part.2}
 \contentsline {chapter}{\numberline {3}$H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ Analysis Strategy}{53}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{53}{section.3.1}
 \contentsline {section}{\numberline {3.2}The $H\rightarrow WW^{*}\rightarrow \ell \nu \ell \nu $ signal in ATLAS}{54}{section.3.2}
@@ -124,7 +124,7 @@
 \contentsline {section}{\numberline {6.4}Measurement of Higgs couplings to vector bosons and fermions}{132}{section.6.4}
 \contentsline {section}{\numberline {6.5}Higgs production cross section measurement}{134}{section.6.5}
 \contentsline {section}{\numberline {6.6}Conclusion}{135}{section.6.6}
-\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s}$ = 13 TeV}{137}{part.3}
+\contentsline {part}{III\hspace {1em}Search for Higgs pair production in the $HH\rightarrow b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ channel in LHC Run 2 at $\sqrt {s} = 13$ TeV}{137}{part.3}
 \contentsline {chapter}{\numberline {7}Search for Higgs pair production in boosted $b\mathaccentV {bar}016{b}b\mathaccentV {bar}016{b}$ final states}{138}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{138}{section.7.1}
 \contentsline {section}{\numberline {7.2}Motivation}{139}{section.7.2}
