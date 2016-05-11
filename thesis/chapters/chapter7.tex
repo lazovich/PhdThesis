@@ -63,7 +63,7 @@ Figure~\ref{fig:bb_dr} shows the minimum $\Delta R$ between truth level $B$ deca
 
 \subsection{Signal models}
 
-While the resonance search is by its nature generic (as it is a simple search for a peak in the $4b$ invariant mass spectrum), there are two signal models that the selection requirements have been optimized for. The first is  Randall-Sundrum (RSG) model, where a tower of massive spin-$2$ Kaluza-Klein gravitons is predicted. The second is a heavy narrow scalar resonance, the so-called ``heavy Higgs". This type of resonance arises, for example, in the two Higgs doublet model (2HDM). More details about the physics of these models and their motivation is given in chapter 1. 
+While the resonance search is by its nature generic (as it is a simple search for a peak in the $4b$ invariant mass spectrum), there are two signal models that the selection requirements have been optimized for. The first is the Randall-Sundrum (RSG) model, where a tower of massive spin-$2$ Kaluza-Klein gravitons is predicted. The second is a heavy narrow scalar resonance, the so-called ``heavy Higgs". This type of resonance arises, for example, in the two Higgs doublet model (2HDM). More details about the physics of these models and their motivation is given in chapter 1. 
 
 Signal graviton ($\Gkk$) events are generated at leading order (LO) with \MADGRAPH 5 v$2.2.2$~\cite{MG5aMCatNLO}. The PDF set used is the \NNPDF 2.3 LO set~\cite{nnpdf}. For modeling parton shower and hadronization in jets, \PYTHIA $8.186$ is used with the A$14$ tune~\cite{pythia8,a14tune}. The free parameters in the RSG model are the graviton mass and the coupling constant $c \equiv k/\bar{M}_{\rm Pl}$\footnote{$k$ is the curvature constant for the warped extra dimension and $\bar{M}_{\rm Pl}$ is the Planck mass divided by $8\pi$}. Both the production cross section and width of the graviton are proportional to $c^2$. Samples are generated at both $c = 1$ and $c = 2$ for a variety of mass points between $300 \GeV$ and $3 \TeV$. 
 
@@ -79,7 +79,7 @@ The $Z$+jets background is simulated with \PYTHIA $8.186$ and the \NNPDF 2.3 LO 
 
 \subsection{Data sample and trigger}
 
-This analysis is done on $3.2 \ifb$ of data taken in $2015$ at $\sqrt{s} = 13 \TeV$. The details of the machine conditions during this time can be found in Chapter 2. Only data which was taken during stable beam conditions with all detectors functioning is used. Events must pass a trigger which requires a single large radius ($R=1.0$) jet with $\pT > 360 \GeV$ to be reconstructed in the HLT. Figure~\ref{fig:trig_eff_4b} shows the trigger efficiency for various trigger options as a function of graviton mass. Above $m_{\Gkk} > 1 \TeV$, the single large radius jet trigger is $99\%$ efficient for events passing the signal selection. 
+This analysis is done on $3.2 \ifb$ of data taken in $2015$ at $\sqrt{s} = 13 \TeV$. The details of the machine conditions during this time can be found in Chapter 2. Only data which was taken during stable beam conditions with all detectors functioning are used. Events must pass a trigger which requires a single large radius ($R=1.0$) jet with $\pT > 360 \GeV$ to be reconstructed in the HLT. Figure~\ref{fig:trig_eff_4b} shows the trigger efficiency for various trigger options as a function of graviton mass. Above $m_{\Gkk} > 1 \TeV$, the single large radius jet trigger is $99\%$ efficient for events passing the signal selection. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -98,7 +98,7 @@ The boosted selection first begins by defining a unique set of objects that can 
 
 \subsection{Large radius ($R = 1.0$)\, jets}
 
-The first step towards reconstructing the final state is to define objects that can be used to measure the kinematics of the Higgs bosons. In the boosted selection anti-$k_{T}$ jets with a radius parameter of $1.0$ are used. These jets are much larger in angular size than the typical $R=0.4$ jets and are intended to encompass all of the products of the Higgs decay\footnote{This is in contrast to the resolved selection, which uses two $R=0.4$ anti-$k_{T}$ jets for each Higgs candidate.}. The jets are built from clusters in the calorimeter calibrated with local calibration weighting~\cite{JetCalib}. 
+The first step towards reconstructing the final state is to define objects that can be used to measure the kinematics of the Higgs bosons. In the boosted selection, anti-$k_{T}$ jets with a radius parameter of $1.0$ are used. These jets are much larger in angular size than the typical $R=0.4$ jets and are intended to encompass all of the products of the Higgs decay\footnote{This is in contrast to the resolved selection, which uses two $R=0.4$ anti-$k_{T}$ jets for each Higgs candidate.}. The jets are built from clusters in the calorimeter calibrated with local calibration weighting~\cite{JetCalib}. 
 
 Because of the large extent of these jets, great care must be taken to remove potential contributions of calorimeter clusters from pile-up. This is done using a technique called jet trimming~\cite{Trimming}. With trimming, the constituents of the large radius jet are re-clustered with a smaller radius using the $k_{T}$ algorithm. Then, these so-called subjets are removed from the larger jet if $p_{T}^{\rm subjet}/p_{T}^{\rm jet} < f_{\rm cut}$. In this analysis, the subjet radius is $R = 0.2$ and $f_{\rm cut} = 0.05$. Trimming has been shown to improve the mass resolution of large radius jets. Figure~\ref{fig:trimming} shows the effect of trimming on the large radius jet mass ($\MJ$). Because the large radius jet fully contains the Higgs decay products, its invariant mass should correspond to the $125 \GeV$ mass of the Higgs. The trimming algorithm brings the jet mass much closer to the expected Higgs mass and improves the mass resolution. 
 
@@ -192,7 +192,7 @@ Before making the requirement on $\Xhh$, the masses of the Higgs candidates are 
 
 \subsection{$b$-tagging requirements}
 
-The last requirement applied is on the number of $b$-tagged track jets. There are two signal regions defined. The first requires exactly four $b$-tagged track jets, two in each Higgs candidate (known as the $4b$ signal region). At high resonance masses, this requirement is inefficient, so an additional signal region requiring only three $b$-tagged track jets is also defined (known as the $3b$ signal region). While this has a larger background it is also more efficient for high resonance masses. For both signal regions, the MV2c20 algorithm, where the training sample for the algorithm has $20\%$ charm events is used. More details for this algorithm can be found in Chapter 2.  
+The last requirement applied is on the number of $b$-tagged track jets. There are two signal regions defined. The first requires exactly four $b$-tagged track jets, two in each Higgs candidate (known as the $4b$ signal region). At high resonance masses, this requirement is inefficient, so an additional signal region requiring only three $b$-tagged track jets is also defined (known as the $3b$ signal region). While this has a larger background it is also more efficient for high resonance masses. For both signal regions, the MV2c20 algorithm, where the training sample for the algorithm has $20\%$ charm events, is used. More details for this algorithm can be found in Chapter 2.  
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -429,7 +429,7 @@ Parameters derived for exponential fit to background $M_{2J}$ shape in the $3b$ 
 
 \subsection{Validation of background estimate}
 
-The background estimate can be validated by using the method to estimate the number of events in the control mass region rather than the signal mass region. Figure~\ref{fig:4b_control} shows the $M_{2J}$ distribution in the $3b$ and $4b$ control regions, comparing data and background estimates. In both cases, both the background shape and normalization are consistent with the data, indicating good agreement. The ratio of data to the background estimates is also fit to a line in the figure to test for any shape difference. The slope of the line is within $1\sigma$ (from the fit uncertainties) of flat, further indicating that the data is consistent with the background estimate in the control region. 
+The background estimate can be validated by using the method to estimate the number of events in the control mass region rather than the signal mass region. Figure~\ref{fig:4b_control} shows the $M_{2J}$ distribution in the $3b$ and $4b$ control regions, comparing data and background estimates. In both cases, both the background shape and normalization are consistent with the data, indicating good agreement. The ratio of data to the background estimates is also fit to a line in the figure to test for any shape difference. The slope of the line is within $1\sigma$ (from the fit uncertainties) of flat, further indicating that the data are consistent with the background estimate in the control region. 
 
 \begin{figure}[h!]
   %\vspace{20pt}
@@ -451,7 +451,7 @@ The background estimate can be validated by using the method to estimate the num
   \label{fig:4b_control}
 \end{figure}
 
-Table~\ref{tab:4b_control} shows the yields in data and background estimates in the $3$-tag and $4$-tag sideband and control regions. Again, here, it can be seen that the total number of predicted background events from the data-driven method is consistent with the number of data events in the region. 
+Table~\ref{tab:4b_control} shows the yields in data and background estimates in the $3$-tag and $4$-tag sideband and control regions. Here, it can again be seen that the total number of predicted background events from the data-driven method is consistent with the number of data events in the region. 
 
 \begin{table}[!ht]
 \captionsetup{justification=centering}
@@ -496,11 +496,11 @@ The systematic uncertainties in this analysis can be divided into two broad cate
 
 \subsection{Signal modeling uncertainties}
 
-The signal modeling uncertainty has three main components: theoretical uncertainty on the acceptance, experimental uncertainties on the large-$R$ jets, and experimental uncertainties on the track jets related to $b$-tagging. In this analysis the experimental uncertainties are the most significant. 
+The signal modeling uncertainty has three main components: theoretical uncertainty on the acceptance, experimental uncertainties on the large-$R$ jets, and experimental uncertainties on the track jets related to $b$-tagging. In this analysis, the experimental uncertainties are the most significant. 
 
 The first uncertainty on signal modeling is the theoretical uncertainty on the acceptance. As explained in section~\ref{sec:theory_uncert_WW}, there are four components to this uncertainty. The first is related to missing higher order terms from the matrix element calculations which is estimated by varying the QCD renormalization and factorization scales. The second is uncertainty due to the PDF set used. The third is a generator uncertainty which is estimated by modifying the generator used to model the underlying event and hadronization. Finally, there is an uncertainty associated with the modeling of the initial state and final state radiation (ISR/FSR). The total theoretical uncertainty on the signal yield is $3\%$, and this is dominated by the ISR/FSR modeling.
 
-There are uncertainties on the large-$R$ jets in both the jet energy scale (JES) and jet energy resolution (JER) as well as the jet mass scale (JMS) and jet mass resolution (JMR). These are evaluated using $\sqrt{s} = 8 \TeV$ data from Run $1$ of ATLAS and extrapolated to the Run $2$ beam and detector conditions using MC\footnote{The uncertainties are correspondingly larger due to the uncertainty of this extrapolation.}. The details of these uncertainties can be found in reference~\cite{LargeRUncert}. 
+There are uncertainties on the large-$R$ jets in both the jet energy scale (JES) and jet energy resolution (JER), as well as the jet mass scale (JMS) and jet mass resolution (JMR). These are evaluated using $\sqrt{s} = 8 \TeV$ data from Run $1$ of ATLAS and extrapolated to the Run $2$ beam and detector conditions using MC\footnote{The uncertainties are correspondingly larger due to the uncertainty of this extrapolation.}. The details of these uncertainties can be found in reference~\cite{LargeRUncert}. 
 
 Uncertainties on the track jets are related to the $b$-tagging efficiency. The total uncertainty on the signal yield due to $b$-tagging is evaluated by propagating variations of the $b$-tagging efficiency through the boosted selection requirements. The uncertainties are calculated jet-by-jet and parameterized as a function of $b$-jet $\pT$ and $\eta$~\cite{BtagCalib1}. For high $\pT$ $b$-jets (with $\pT > 300 \GeV$), the uncertainties are extrapolated using MC simulation from the lower $\pT$ $b$-jets~\cite{Run1BJets}. 
 
