@@ -137,7 +137,7 @@
 \contentsline {subsection}{\numberline {7.4.2}Track jets and $b$-tagging}{144}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Muons}{145}{subsection.7.4.3}
 \contentsline {section}{\numberline {7.5}Event selection}{145}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Mass requirements}{145}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.1}Mass requirements}{146}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}$b$-tagging requirements}{147}{subsection.7.5.2}
 \contentsline {subsection}{\numberline {7.5.3}Selection efficiency}{148}{subsection.7.5.3}
 \contentsline {section}{\numberline {7.6}Data-driven background estimation}{150}{section.7.6}
