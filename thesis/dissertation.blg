@@ -14,38 +14,13 @@ A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/appendixB.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-Warning--string name "pr" is undefined
---line 461 of file references.bib
-Warning--string name "prl" is undefined
---line 497 of file references.bib
-Warning--string name "pr" is undefined
---line 505 of file references.bib
-Warning--string name "prl" is undefined
---line 514 of file references.bib
-You're missing a field name---line 1356 of file references.bib
- :       
- :       %primaryClass   = "hep-ex",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--string name "plb" is undefined
---line 1610 of file references.bib
 Warning--I'm ignoring Higgs8TeV's extra "year" field
---line 1626 of file references.bib
-Warning--string name "prl" is undefined
---line 1638 of file references.bib
+--line 1642 of file references.bib
 Warning--empty publisher in Griffiths
 Warning--empty publisher in HalzenAndMartin
 Warning--empty publisher in Tully
-Warning--empty title in Glashow2
-Warning--empty journal in Glashow2
-Warning--empty journal in Higgs1
-Warning--empty journal in Higgs2
-Warning--empty journal in Englert
 Warning--empty journal in LHCXSWG
-Warning--empty journal in MasterIntegrals
-Warning--empty journal in HiggsVBFNNLO
 Warning--empty note in CP3Origins
-Warning--empty publisher in LHCReview
 Warning--empty author in Run2Tracking
 Warning--empty note in TriggerOps
 Warning--empty note in Lumi_Run1
@@ -54,16 +29,17 @@ Warning--empty note in ATLAS_Particles
 Warning--empty author in GSF
 Warning--empty author in ElectronReco
 Warning--empty journal in MuonRecoRun2
+Warning--there's a number but no volume in MuonRecoRun2
 Warning--empty journal in TopoClusters2
+Warning--there's a number but no volume in TopoClusters2
 Warning--empty author in JetCalib
-Warning--empty journal in Run1BJets
 Warning--empty author in Run2BJets
 Warning--empty author in MET8TeV
 Warning--empty journal in ArmbrusterThesis
 Warning--there's a number but no volume in MuonTrigger2012
 Warning--empty journal in acermc
-Warning--empty journal in gg2vv
 Warning--empty journal in JVE
+Warning--there's a number but no volume in JVE
 Warning--empty author in atlas_jets
 Warning--empty author in btag-calib
 Warning--empty journal in BtagCalib1
@@ -72,7 +48,6 @@ Warning--empty note in LumiRatio
 Warning--empty note in HH_BR
 Warning--empty journal in a14tune
 Warning--there's a number but no volume in a14tune
-Warning--empty journal in TopPP
 Warning--empty note in Tony
 Warning--empty year in Tony
 Warning--empty journal in BoostedW
@@ -84,49 +59,48 @@ Warning--empty note in Qi
 Warning--empty year in Qi
 Warning--empty journal in LargeRUncert
 Warning--there's a number but no volume in LargeRUncert
-Warning--empty journal in BtagPaper
 Warning--empty author in ATLASCMSHiggs
 Warning--empty author in HiggsProj
 Warning--empty author in ScopingDocument
-You've used 133 entries,
+You've used 132 entries,
             2481 wiz_defined-function locations,
-            1393 strings with 26400 characters,
-and the built_in function-call counts, 44707 in all, are:
-= -- 3903
-> -- 1949
-< -- 103
-+ -- 844
-- -- 563
-* -- 3376
-:= -- 7322
-add.period$ -- 498
-call.type$ -- 133
-change.case$ -- 259
-chr.to.int$ -- 118
-cite$ -- 202
-duplicate$ -- 2384
-empty$ -- 4133
-format.name$ -- 736
-if$ -- 9436
-int.to.chr$ -- 16
-int.to.str$ -- 134
-missing$ -- 111
-newline$ -- 771
-num.names$ -- 359
-pop$ -- 901
+            1417 strings with 27173 characters,
+and the built_in function-call counts, 44999 in all, are:
+= -- 3978
+> -- 1964
+< -- 100
++ -- 845
+- -- 568
+* -- 3490
+:= -- 7397
+add.period$ -- 513
+call.type$ -- 132
+change.case$ -- 258
+chr.to.int$ -- 119
+cite$ -- 192
+duplicate$ -- 2347
+empty$ -- 4116
+format.name$ -- 739
+if$ -- 9486
+int.to.chr$ -- 14
+int.to.str$ -- 133
+missing$ -- 108
+newline$ -- 785
+num.names$ -- 354
+pop$ -- 830
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 132
 quote$ -- 0
-skip$ -- 1366
+skip$ -- 1328
 stack$ -- 0
-substring$ -- 1468
+substring$ -- 1552
 swap$ -- 297
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 913
-warning$ -- 55
-while$ -- 322
+type$ -- 906
+warning$ -- 46
+while$ -- 323
 width$ -- 0
-write$ -- 1883
-(There was 1 error message)
+write$ -- 1928
+(There were 47 warnings)

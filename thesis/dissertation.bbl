@@ -1,4 +1,4 @@
-\begin{thebibliography}{133}
+\begin{thebibliography}{132}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,8 +26,8 @@ David Griffiths.
 
 \bibitem[Halzen and Martin(1984)]{HalzenAndMartin}
 F.~Halzen and Alan~D. Martin.
-\newblock \emph{{QUARKS AND LEPTONS: AN INTRODUCTORY COURSE IN MODERN PARTICLE
-  PHYSICS}}.
+\newblock \emph{{Quarks and leptons: an introductory course in modern particle
+  physics}}.
 \newblock 1984.
 \newblock ISBN 0471887412, 9780471887416.
 
@@ -74,9 +74,12 @@ A.~Salam.
 \newblock \emph{Elementary Particle Theory}.
 \newblock Almqvist and Wiksell, Stockholm, 1968.
 
-\bibitem[S.L.~Glashow and Maiani(1970)]{Glashow2}
-J.~Iliopoulos S.L.~Glashow and L.~Maiani.
-\newblock D2:\penalty0 1285, 1970.
+\bibitem[Glashow et~al.(1970)Glashow, Iliopoulos, and Maiani]{Glashow2}
+S.~L. Glashow, J.~Iliopoulos, and L.~Maiani.
+\newblock Weak interactions with lepton-hadron symmetry.
+\newblock \emph{Phys. Rev. D}, 2:\penalty0 1285--1292, Oct 1970.
+\newblock \doi{10.1103/PhysRevD.2.1285}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevD.2.1285}.
 
 \bibitem[Ellis et~al.(1996)Ellis, Stirling, and Webber]{QCDBook}
 R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
@@ -84,20 +87,23 @@ R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
 \newblock \emph{Camb. Monogr. Part. Phys. Nucl. Phys. Cosmol.}, 8:\penalty0
   1--435, 1996.
 
-\bibitem[{P.~W.~Higgs}(1964)]{Higgs1}
-{P.~W.~Higgs}.
-\newblock Broken symmetries and the masses of gauge bosons.
-\newblock 13:\penalty0 508, 1964.
+\bibitem[Higgs(1964)]{Higgs1}
+Peter~W. Higgs.
+\newblock {Broken symmetries and the masses of gauge bosons}.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 508, 1964.
+\newblock \doi{10.1103/PhysRevLett.13.508}.
 
-\bibitem[{P.~W.~Higgs}(1966)]{Higgs2}
-{P.~W.~Higgs}.
-\newblock Spontaneous symmetry breakdown without massless bosons.
-\newblock 145:\penalty0 1156, 1966.
+\bibitem[Higgs(1966)]{Higgs2}
+Peter~W. Higgs.
+\newblock {Spontaneous symmetry breakdown without massless bosons}.
+\newblock \emph{Phys. Rev.}, 145:\penalty0 1156, 1966.
+\newblock \doi{10.1103/PhysRev.145.1156}.
 
-\bibitem[{F.~Englert and R.~Brout}(1964)]{Englert}
-{F.~Englert and R.~Brout}.
-\newblock Broken symmetry and the mass of gauge vector mesons.
-\newblock 13:\penalty0 321, 1964.
+\bibitem[Englert and Brout(1964)]{Englert}
+F.~Englert and R.~Brout.
+\newblock {Broken symmetry and the mass of gauge vector mesons}.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 321--323, 1964.
+\newblock \doi{10.1103/PhysRevLett.13.321}.
 
 \bibitem[Guralnik et~al.(1964)Guralnik, Hagen, and Kibble]{Guralnik}
 G.~S. Guralnik, C.~R. Hagen, and T.~W.~.B. Kibble.
@@ -134,10 +140,9 @@ Giuseppe Degrassi and Fabio Maltoni.
 \bibitem[Aglietti et~al.(2004)Aglietti, Bonciani, Degrassi, and
   Vicini]{MasterIntegrals}
 U.~Aglietti, R.~Bonciani, G.~Degrassi, and A.~Vicini.
-\newblock {Master integrals for the two-loop light fermion contributions to gg
-  $\rightarrow$ H and H $\rightarrow$ gamma gamma}.
-\newblock 600:\penalty0 57, 2004.
-\newblock \doi{10.1016/j.physletb.2004.09.001}.
+\newblock {Two-loop light fermion contribution to Higgs production and decays}.
+\newblock \emph{Phys.~Lett.}, B 595:\penalty0 432, 2004.
+\newblock \doi{10.1016/j.physletb.2004.06.063}.
 
 \bibitem[de~Florian and Grazzini(2012)]{Higgs8TeV}
 D.~de~Florian and M.~Grazzini.
@@ -145,11 +150,13 @@ D.~de~Florian and M.~Grazzini.
   8$~TeV}.
 \newblock \emph{Phys.~Lett.}, B~718:\penalty0 117, 2012.
 
-\bibitem[{P.~Bolzoni, F.~Maltoni, S.-O.~Moch, and M.~Zaro}(2010)]{HiggsVBFNNLO}
-{P.~Bolzoni, F.~Maltoni, S.-O.~Moch, and M.~Zaro}.
-\newblock {Higgs production via vector-boson fusion at NNLO in QCD}.
-\newblock 105:\penalty0 011801, 2010.
+\bibitem[Bolzoni et~al.(2010)Bolzoni, Maltoni, Moch, and Zaro]{HiggsVBFNNLO}
+Paolo Bolzoni, Fabio Maltoni, Sven-Olaf Moch, and Marco Zaro.
+\newblock {Higgs Boson Production via Vector-Boson Fusion at
+  Next-to-Next-to-Leading Order in QCD}.
+\newblock \emph{Phys. Rev. Lett.}, 105:\penalty0 011801, Jul 2010.
 \newblock \doi{10.1103/PhysRevLett.105.011801}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.105.011801}.
 
 \bibitem[Han et~al.(1992)Han, Valencia, and Willenbrock]{StructureFunction}
 Tao Han, G.~Valencia, and S.~Willenbrock.
@@ -271,11 +278,11 @@ Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
 \newblock 2013.
 \newblock URL \url{http://cp3-origins.dk/research/units/ed-tools}.
 
-\bibitem[Aad et~al.(2015{\natexlab{a}})]{HiggsNewPhysics}
+\bibitem[Aad et~al.(2015)]{HiggsNewPhysics}
 Georges Aad et~al.
 \newblock {Constraints on new phenomena via Higgs boson couplings and invisible
   decays with the ATLAS detector}.
-\newblock \emph{JHEP}, 11:\penalty0 206, 2015{\natexlab{a}}.
+\newblock \emph{JHEP}, 11:\penalty0 206, 2015.
 \newblock \doi{10.1007/JHEP11(2015)206}.
 
 \bibitem[Evans and Bryant(2008)]{LHCPaper}
@@ -294,7 +301,7 @@ Lyndon~R Evans and Philip Bryant.
 
 \bibitem[{CMS Collaboration}(2008)]{CMSPaper}
 {CMS Collaboration}.
-\newblock The cms experiment at the cern lhc.
+\newblock {The CMS experiment at the CERN LHC}.
 \newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08004,
   2008.
 \newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
@@ -307,19 +314,17 @@ LHCb Collaoration.
 
 \bibitem[{ALICE Collaboration}(2008)]{ALICEPaper}
 {ALICE Collaboration}.
-\newblock The alice experiment at the cern lhc.
+\newblock {The ALICE experiment at the CERN LHC}.
 \newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08002,
   2008.
 \newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08002}.
 
-\bibitem[Evans({2011})]{LHCReview}
+\bibitem[Evans(2011)]{LHCReview}
 Lyndon Evans.
 \newblock {The Large Hadron Collider}.
-\newblock In {Holstein, BR and Haxton, WC and Jawahery, A}, editor,
-  \emph{{ANNUAL REVIEW OF NUCLEAR AND PARTICLE SCIENCE, VOL 61}}, volume~{61}
-  of \emph{{Annual Review of Nuclear and Particle Science}}, pages {435--466}.
-  {2011}.
-\newblock \doi{{10.1146/annurev-nucl-102010-130438}}.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
+  (1):\penalty0 435--466, 2011.
+\newblock \doi{10.1146/annurev-nucl-102010-130438}.
 
 \bibitem[{ATLAS Collaboration}(2011{\natexlab{a}})]{lumi-paper}
 {ATLAS Collaboration}.
@@ -456,7 +461,9 @@ Georges Aad et~al.
 Georges Aad et~al.
 \newblock {Muon reconstruction performance of the ATLAS detector in
   proton--proton collision data at $\sqrt{s}$=13 TeV}.
-\newblock 2016{\natexlab{a}}.
+\newblock \penalty0 (arXiv:1603.05598. CERN-EP-2016-033), Mar
+  2016{\natexlab{a}}.
+\newblock URL \url{https://cds.cern.ch/record/2139897}.
 
 \bibitem[Lampl et~al.(2008)Lampl, Laplace, Lelas, Loch, Ma, Menke, Rajagopalan,
   Rousseau, Snyder, and Unal]{TopoClusters}
@@ -471,7 +478,9 @@ W~Lampl, S~Laplace, D~Lelas, P~Loch, H~Ma, S~Menke, S~Rajagopalan, D~Rousseau,
 Georges Aad et~al.
 \newblock {Topological cell clustering in the ATLAS calorimeters and its
   performance in LHC Run 1}.
-\newblock 2016{\natexlab{b}}.
+\newblock \penalty0 (arXiv:1603.02934. CERN-PH-EP-2015-304), Mar
+  2016{\natexlab{b}}.
+\newblock URL \url{http://cds.cern.ch/record/2138166}.
 
 \bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{AntiKt}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
@@ -485,10 +494,12 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock Technical Report ATLAS-CONF-2015-037, CERN, Geneva, Aug 2015.
 \newblock URL \url{http://cds.cern.ch/record/2044941}.
 
-\bibitem[Aad et~al.(2015{\natexlab{b}})]{Run1BJets}
-Georges Aad et~al.
-\newblock {Performance of $b$-Jet Identification in the ATLAS Experiment}.
-\newblock 2015{\natexlab{b}}.
+\bibitem[Collaboration(2016)]{Run1BJets}
+ATLAS Collaboration.
+\newblock {Performance of b-jet identification in the ATLAS experiment}.
+\newblock \emph{Journal of Instrumentation}, 11\penalty0 (04):\penalty0 P04008,
+  2016.
+\newblock URL \url{http://stacks.iop.org/1748-0221/11/i=04/a=P04008}.
 
 \bibitem[Run(2015{\natexlab{b}})]{Run2BJets}
 {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
@@ -582,8 +593,8 @@ ATLAS Collaboration.
 
 \bibitem[collaboration(2015)]{ElectronTrigger2012}
 ATLAS collaboration.
-\newblock {Electron trigger performance in 2012 ATLAS data}, 2015.
-\newblock ATLAS-COM-DAQ-2015-091.
+\newblock {Electron trigger performance in 2012 ATLAS data}, Jul 2015.
+\newblock URL \url{https://cds.cern.ch/record/2032463}.
 
 \bibitem[Nason(2004)]{powheg1}
 Paolo Nason.
@@ -599,9 +610,13 @@ Paolo Nason.
 
 \bibitem[Kauer and Passarino(2012)]{gg2vv}
 Nikolas Kauer and Giampiero Passarino.
-\newblock {Inadequacy of zero-width approximation for a light Higgs boson
-  signal}.
-\newblock 2012.
+\newblock Inadequacy of zero-width approximation for a light higgs boson
+  signal.
+\newblock \emph{Journal of High Energy Physics}, 2012\penalty0 (8):\penalty0
+  1--27, 2012.
+\newblock ISSN 1029-8479.
+\newblock \doi{10.1007/JHEP08(2012)116}.
+\newblock URL \url{http://dx.doi.org/10.1007/JHEP08(2012)116}.
 
 \bibitem[Gleisberg et~al.(2009)Gleisberg, Hoeche, Krauss, Schonherr, Schumann,
   et~al.]{sherpa}
@@ -691,7 +706,8 @@ Eilam Gross and Ofer Vitells.
 J.~R. Andersen et~al.
 \newblock {Les Houches 2013: Physics at TeV Colliders: Standard Model Working
   Group Report}.
-\newblock 2014.
+\newblock \penalty0 (arXiv:1405.1067), May 2014.
+\newblock URL \url{https://cds.cern.ch/record/1699963}.
 
 \bibitem[Stewart and Tackmann(2012)]{ST}
 I.~Stewart and F.~Tackmann.
@@ -708,14 +724,16 @@ I.~Stewart and F.~Tackmann.
 \newblock \doi{10.1140/epjc/s10052-011-1630-5}.
 
 \bibitem[atl(2013)]{atlas_jets}
-Jet energy scale and its systematic uncertainty in proton-proton collisions at
-  $\sqrt{s}=7$~tev with atlas 2011 data.
-\newblock \emph{ATLAS-CONF-2013-004}, 2013.
+{Jet energy scale and its systematic uncertainty in proton-proton collisions at
+  sqrt(s)=7 TeV with ATLAS 2011 data}.
+\newblock Technical Report ATLAS-CONF-2013-004, CERN, Geneva, Jan 2013.
+\newblock URL \url{https://cds.cern.ch/record/1509552}.
 
 \bibitem[bta(2011)]{btag-calib}
-Calibrating the $b$-tag efficiency and mistag rate in 35 pb$^{-1}$ of data with
-  the atlas detector.
-\newblock \emph{ATLAS-CONF-2011-089}, 2011.
+{Calibrating the b-Tag Efficiency and Mistag Rate in 35 $pb^{-1}$ of Data with
+  the ATLAS Detector}.
+\newblock Technical Report ATLAS-CONF-2011-089, CERN, Geneva, Jun 2011.
+\newblock URL \url{https://cds.cern.ch/record/1356198}.
 
 \bibitem[{ATLAS Collaboration}(2012{\natexlab{b}})]{btag-muons}
 {ATLAS Collaboration}.
@@ -804,11 +822,16 @@ Peter~Zeiler Skands.
 \newblock \emph{Phys. Rev. D}, 82:\penalty0 074018, 2010.
 \newblock \doi{10.1103/PhysRevD.82.074018}.
 
-\bibitem[Czakon and Mitov(2011)]{TopPP}
-Michal Czakon and Alexander Mitov.
-\newblock {Top++: A Program for the Calculation of the Top-Pair Cross-Section
-  at Hadron Colliders}.
-\newblock 2011.
+\bibitem[Czakon and Mitov(2014)]{TopPP}
+Michał Czakon and Alexander Mitov.
+\newblock Top++: A program for the calculation of the top-pair cross-section at
+  hadron colliders.
+\newblock \emph{Computer Physics Communications}, 185\penalty0 (11):\penalty0
+  2930 -- 2938, 2014.
+\newblock ISSN 0010-4655.
+\newblock \doi{http://dx.doi.org/10.1016/j.cpc.2014.06.021}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0010465514002264}.
 
 \bibitem[Tong()]{Tony}
 Baojia~(Tony) Tong.
@@ -867,11 +890,6 @@ Qi~Zeng.
   in $\sqrt{s} = 13$ TeV Monte Carlo Simulations for ATLAS}.
 \newblock \penalty0 (ATL-PHYS-PUB-2015-033), Aug 2015{\natexlab{d}}.
 \newblock URL \url{https://cds.cern.ch/record/2041461}.
-
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{e}})]{BtagPaper}
-{ATLAS Collaboration}.
-\newblock {Performance of $b$-Jet Identification in the ATLAS Experiment}.
-\newblock 2015{\natexlab{e}}.
 
 \bibitem[Read(2002)]{CLS}
 Alexander~L. Read.
