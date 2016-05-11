@@ -107,7 +107,7 @@
 \contentsline {subsection}{\numberline {5.5.4}$Z/\gamma ^{\ast }\to \ell \ell $ background}{110}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}$WW$ and other diboson backgrounds}{111}{subsection.5.5.5}
 \contentsline {subsection}{\numberline {5.5.6}Higgs production via gluon-gluon fusion}{112}{subsection.5.5.6}
-\contentsline {subsection}{\numberline {5.5.7}Backgrounds with misidentified leptons}{113}{subsection.5.5.7}
+\contentsline {subsection}{\numberline {5.5.7}Backgrounds with mis-identified leptons}{113}{subsection.5.5.7}
 \contentsline {subsubsection}{$W$+jets background}{113}{subsection.5.5.7}
 \contentsline {subsubsection}{QCD multijet background}{114}{figure.caption.98}
 \contentsline {subsection}{\numberline {5.5.8}Background composition in signal region}{115}{subsection.5.5.8}
